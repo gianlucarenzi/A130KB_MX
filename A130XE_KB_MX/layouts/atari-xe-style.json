@@ -1,0 +1,210 @@
+[
+  {
+    "backcolor": "#d4d4d4",
+    "name": "ATARI XE STYLE",
+    "author": "Gianluca Renzi",
+    "notes": "The first spacebar is 9U\nAs alternative a spacebar 6U can be used and two more 1.5U keys around it to fill the gap. Those keys can be used as an additional Delete Back Space key and ATARI Logo Inverse Key",
+    "radii": "20px",
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-E1xx",
+    "pcb": true,
+    "css": ".reverse {background: black; padding: 0.1em;}"
+  },
+  [
+    {
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx",
+      "a": 7
+    },
+    "ESC",
+    {
+      "a": 5,
+      "f": 5
+    },
+    "!\n1",
+    "\"\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "&\n6",
+    {
+      "fa": [
+        9
+      ]
+    },
+    "'\n7",
+    {
+      "f": 5
+    },
+    "@\n8",
+    {
+      "f": 5
+    },
+    "(\n9",
+    {
+      "f": 5
+    },
+    ")\n0",
+    {
+      "f": 2,
+      "f2": 5
+    },
+    "CLEAR\n<",
+    "INSERT\n>",
+    {
+      "f": 1
+    },
+    "DELETE\nSPACE\n\n\n\n\nBACK",
+    {
+      "a": 7,
+      "f": 2
+    },
+    "BREAK"
+  ],
+  [
+    {
+      "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
+      "a": 4,
+      "f": 3,
+      "w": 1.5
+    },
+    "<span class='reverse'>CLR\n\nSET\n\n\n\n\n\n\n\nTAB",
+    {
+      "t": "#000000",
+      "a": 7,
+      "f": 6
+    },
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    {
+      "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
+      "a": 4,
+      "f": 4
+    },
+    "<span class='reverse'>🡹<span>\n\n_\n\n\n\n\n\n\n\n-",
+    "<span class='reverse'>🡻<span>\n\n|\n\n\n\n\n\n\n\n=",
+    {
+      "t": "#000000",
+      "a": 7,
+      "f": 3,
+      "w": 1.5
+    },
+    "RETURN"
+  ],
+  [
+    {
+      "t": "#cccccc",
+      "w": 1.75
+    },
+    "<span class='reverse'>CONTROL<span>",
+    {
+      "t": "#000000",
+      "f": 6
+    },
+    "A",
+    "S",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    {
+      "a": 5,
+      "f": 5
+    },
+    ":\n;",
+    {
+      "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
+      "a": 4,
+      "f": 4
+    },
+    "<span class='reverse'>🡸<span>\n\n\\\n\n\n\n\n\n\n\n+",
+    "<span class='reverse'>🡺<span>\n\n^\n\n\n\n\n\n\n\n*",
+    {
+      "t": "#000000",
+      "a": 5,
+      "f": 3,
+      "w": 1.25
+    },
+    "CAPS\nLOWR"
+  ],
+  [
+    {
+      "a": 7,
+      "w": 2.25
+    },
+    "SHIFT",
+    {
+      "f": 6
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "a": 5,
+      "f": 5
+    },
+    "[\n,",
+    "]\n.",
+    "?\n/",
+    {
+      "a": 7,
+      "f": 3,
+      "w": 1.75
+    },
+    "SHIFT",
+    {
+      "f": 9
+    },
+    "<i class='kb kb-logo-atari'></i>"
+  ],
+  [
+    {
+      "x": 2.75,
+      "f": 3,
+      "w": 9
+    },
+    ""
+  ],
+  [
+    {
+      "x": 1.25,
+      "a": 5,
+      "w": 1.5
+    },
+    "DELETE\nSPACE\n\n\n\n\nBACK",
+    {
+      "a": 7,
+      "w": 1.5
+    },
+    "",
+    {
+      "w": 6
+    },
+    "",
+    {
+      "w": 1.5
+    },
+    "",
+    {
+      "w": 1.5
+    },
+    "ATARI"
+  ]
+]

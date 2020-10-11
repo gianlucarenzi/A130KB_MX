@@ -1,0 +1,4134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="840px"
+   height="354px"
+   viewBox="0 0 840 354"
+   version="1.1"
+   id="svg1366"
+   sodipodi:docname="atari-xe-style.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata1370">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="1018"
+     id="namedview1368"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:zoom="2.8993071"
+     inkscape:cx="718.8771"
+     inkscape:cy="294.24827"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-nodes="false"
+     inkscape:snap-others="false"
+     inkscape:snap-global="false">
+    <sodipodi:guide
+       position="-162.10526,323.64372"
+       orientation="1,0"
+       id="guide5112"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="318.03021,261.44815"
+       orientation="0,1"
+       id="guide12234"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <style
+     type="text/css"
+     id="style710">
+    .keycap .border { stroke: black; stroke-width: 2; }
+    .keycap .inner.border { stroke: rgba(0,0,0,.1); }
+    </style>
+  <defs
+     id="defs738">
+    <linearGradient
+       id="DCS">
+      <stop
+         offset="0%"
+         stop-color="black"
+         stop-opacity="0"
+         id="stop712" />
+      <stop
+         offset="40%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop714" />
+      <stop
+         offset="60%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop716" />
+      <stop
+         offset="100%"
+         stop-color="black"
+         stop-opacity="0"
+         id="stop718" />
+    </linearGradient>
+    <linearGradient
+       id="SPACE"
+       x1="0%"
+       x2="0%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop721" />
+      <stop
+         offset="20%"
+         stop-color="black"
+         stop-opacity="0.0"
+         id="stop723" />
+      <stop
+         offset="40%"
+         stop-color="black"
+         stop-opacity="0.0"
+         id="stop725" />
+      <stop
+         offset="100%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop727" />
+    </linearGradient>
+    <radialGradient
+       id="DSA">
+      <stop
+         offset="0%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop730" />
+      <stop
+         offset="10%"
+         stop-color="black"
+         stop-opacity="0.1"
+         id="stop732" />
+      <stop
+         offset="100%"
+         stop-color="black"
+         stop-opacity="0"
+         id="stop734" />
+    </radialGradient>
+    <radialGradient
+       id="SA"
+       xlink:href="#DSA" />
+    <symbol
+       id="UpArrow_Inv">
+      <title
+         id="title9092">Up Arrow</title>
+      <rect
+         x="0.5"
+         y="0.5"
+         width="71"
+         height="71"
+         ry="6"
+         style="stroke:white"
+         id="rect9094" />
+      <path
+         d="M 36,9 58,31 58,46 42,30 42,62 30,62 30,30 14,46 14,31 z"
+         style="fill:white;stroke:none"
+         id="path9096" />
+    </symbol>
+    <symbol
+       id="DownArrow_Inv">
+      <title
+         id="title9140">Down Arrow</title>
+      <rect
+         x="0.5"
+         y="0.5"
+         width="71"
+         height="71"
+         ry="6"
+         style="stroke:white"
+         id="rect9142" />
+      <path
+         d="M 36,63 14,41 14,26 30,42 30,10 42,10 42,42 58,26 58,41 z"
+         style="fill:white;stroke:none"
+         id="path9144" />
+    </symbol>
+    <symbol
+       id="LeftArrow_Inv">
+      <title
+         id="title9116">Left Arrow</title>
+      <rect
+         x="0.5"
+         y="0.5"
+         width="71"
+         height="71"
+         ry="6"
+         style="stroke:white"
+         id="rect9118" />
+      <path
+         d="m 9,36 22,-22 15,0 -16,16 32,0 0,12 -32,0 16,16 -15,0 z"
+         style="fill:white;stroke:none"
+         id="path9120" />
+    </symbol>
+    <symbol
+       id="RightArrow_Inv">
+      <title
+         id="title9068">Right Arrow</title>
+      <rect
+         x="0.5"
+         y="0.5"
+         width="71"
+         height="71"
+         ry="6"
+         style="stroke:white"
+         id="rect9070" />
+      <path
+         d="M 63,36 41,58 26,58 42,42 10,42 10,30 42,30 26,14 41,14 z"
+         style="fill:white;stroke:none"
+         id="path9072" />
+    </symbol>
+  </defs>
+  <g
+     transform="translate(10,10)"
+     id="g1364">
+    <rect
+       width="820"
+       height="334"
+       rx="6"
+       id="rect740"
+       stroke-width="1"
+       stroke="#ddd"
+       fill="#d4d4d4" />
+    <g
+       transform="translate(5,5)"
+       id="g1362">
+      <g
+         class="  keycap"
+         id="g750">
+        <!-- Outer Border -->
+        <rect
+           x="1"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect742"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="1"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect744"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="7"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect746"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="7"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect748"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g760">
+        <!-- Outer Border -->
+        <rect
+           x="55"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect752"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="55"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect754"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="61"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect756"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="61"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect758"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g770">
+        <!-- Outer Border -->
+        <rect
+           x="109"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect762"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="109"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect764"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="115"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect766"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="115"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect768"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g780">
+        <!-- Outer Border -->
+        <rect
+           x="163"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect772"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="163"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect774"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="169"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect776"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="169"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect778"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g790">
+        <!-- Outer Border -->
+        <rect
+           x="217"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect782"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="217"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect784"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="223"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect786"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="223"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect788"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g800">
+        <!-- Outer Border -->
+        <rect
+           x="271"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect792"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="271"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect794"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="277"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect796"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="277"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect798"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g810">
+        <!-- Outer Border -->
+        <rect
+           x="325"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect802"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="325"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect804"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="331"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect806"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="331"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect808"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g820">
+        <!-- Outer Border -->
+        <rect
+           x="379"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect812"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="379"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect814"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="385"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect816"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="385"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect818"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g830">
+        <!-- Outer Border -->
+        <rect
+           x="433"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect822"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="433"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect824"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="439"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect826"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="439"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect828"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g840">
+        <!-- Outer Border -->
+        <rect
+           x="487"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect832"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="487"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect834"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="493"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect836"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="493"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect838"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g850">
+        <!-- Outer Border -->
+        <rect
+           x="541"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect842"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="541"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect844"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="547"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect846"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="547"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect848"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g860">
+        <!-- Outer Border -->
+        <rect
+           x="595"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect852"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="595"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect854"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="601"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect856"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="601"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect858"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g870">
+        <!-- Outer Border -->
+        <rect
+           x="649"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect862"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="649"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect864"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="655"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect866"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="655"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect868"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g880">
+        <!-- Outer Border -->
+        <rect
+           x="703"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect872"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="703"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect874"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="709"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect876"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="709"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect878"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g890">
+        <!-- Outer Border -->
+        <rect
+           x="757"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect882"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="757"
+           y="1"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect884"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="763"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect886"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="763"
+           y="4"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect888"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g900">
+        <!-- Outer Border -->
+        <rect
+           x="1"
+           y="55"
+           width="79"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect892"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="1"
+           y="55"
+           width="79"
+           height="52"
+           rx="5"
+           id="rect894"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="7"
+           y="58"
+           width="67"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect896"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="7"
+           y="58"
+           width="67"
+           height="40"
+           rx="5"
+           id="rect898"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g910">
+        <!-- Outer Border -->
+        <rect
+           x="82"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect902"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="82"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect904"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="88"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect906"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="88"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect908"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g920">
+        <!-- Outer Border -->
+        <rect
+           x="136"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect912"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="136"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect914"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="142"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect916"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="142"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect918"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g930">
+        <!-- Outer Border -->
+        <rect
+           x="190"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect922"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="190"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect924"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="196"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect926"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="196"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect928"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g940">
+        <!-- Outer Border -->
+        <rect
+           x="244"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect932"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="244"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect934"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="250"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect936"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="250"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect938"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g950">
+        <!-- Outer Border -->
+        <rect
+           x="298"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect942"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="298"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect944"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="304"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect946"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="304"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect948"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g960">
+        <!-- Outer Border -->
+        <rect
+           x="352"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect952"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="352"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect954"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="358"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect956"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="358"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect958"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g970">
+        <!-- Outer Border -->
+        <rect
+           x="406"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect962"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="406"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect964"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="412"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect966"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="412"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect968"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g980">
+        <!-- Outer Border -->
+        <rect
+           x="460"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect972"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="460"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect974"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="466"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect976"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="466"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect978"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g990">
+        <!-- Outer Border -->
+        <rect
+           x="514"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect982"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="514"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect984"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="520"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect986"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="520"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect988"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1000">
+        <!-- Outer Border -->
+        <rect
+           x="568"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect992"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="568"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect994"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="574"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect996"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="574"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect998"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1010">
+        <!-- Outer Border -->
+        <rect
+           x="622"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1002"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="622"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1004"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="628"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1006"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="628"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1008"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1020">
+        <!-- Outer Border -->
+        <rect
+           x="676"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1012"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="676"
+           y="55"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1014"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="682"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1016"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="682"
+           y="58"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1018"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1030">
+        <!-- Outer Border -->
+        <rect
+           x="730"
+           y="55"
+           width="79"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1022"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="730"
+           y="55"
+           width="79"
+           height="52"
+           rx="5"
+           id="rect1024"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="736"
+           y="58"
+           width="67"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1026"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="736"
+           y="58"
+           width="67"
+           height="40"
+           rx="5"
+           id="rect1028"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1040">
+        <!-- Outer Border -->
+        <rect
+           x="1"
+           y="109"
+           width="92.5"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1032"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="1"
+           y="109"
+           width="92.5"
+           height="52"
+           rx="5"
+           id="rect1034"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="7"
+           y="112"
+           width="80.5"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1036"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="7"
+           y="112"
+           width="80.5"
+           height="40"
+           rx="5"
+           id="rect1038"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1050">
+        <!-- Outer Border -->
+        <rect
+           x="95.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1042"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="95.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1044"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="101.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1046"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="101.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1048"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1060">
+        <!-- Outer Border -->
+        <rect
+           x="149.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1052"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="149.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1054"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="155.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1056"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="155.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1058"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1070">
+        <!-- Outer Border -->
+        <rect
+           x="203.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1062"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="203.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1064"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="209.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1066"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="209.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1068"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1080">
+        <!-- Outer Border -->
+        <rect
+           x="257.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1072"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="257.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1074"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="263.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1076"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="263.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1078"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1090">
+        <!-- Outer Border -->
+        <rect
+           x="311.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1082"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="311.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1084"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="317.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1086"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="317.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1088"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1100">
+        <!-- Outer Border -->
+        <rect
+           x="365.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1092"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="365.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1094"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="371.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1096"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="371.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1098"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1110">
+        <!-- Outer Border -->
+        <rect
+           x="419.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1102"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="419.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1104"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="425.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1106"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="425.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1108"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1120">
+        <!-- Outer Border -->
+        <rect
+           x="473.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1112"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="473.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1114"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="479.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1116"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="479.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1118"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1130">
+        <!-- Outer Border -->
+        <rect
+           x="527.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1122"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="527.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1124"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="533.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1126"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="533.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1128"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1140">
+        <!-- Outer Border -->
+        <rect
+           x="581.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1132"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="581.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1134"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="587.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1136"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="587.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1138"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1150">
+        <!-- Outer Border -->
+        <rect
+           x="635.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1142"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="635.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1144"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="641.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1146"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="641.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1148"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1160">
+        <!-- Outer Border -->
+        <rect
+           x="689.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1152"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="689.5"
+           y="109"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1154"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="695.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1156"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="695.5"
+           y="112"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1158"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1170">
+        <!-- Outer Border -->
+        <rect
+           x="743.5"
+           y="109"
+           width="65.5"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1162"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="743.5"
+           y="109"
+           width="65.5"
+           height="52"
+           rx="5"
+           id="rect1164"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="749.5"
+           y="112"
+           width="53.5"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1166"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="749.5"
+           y="112"
+           width="53.5"
+           height="40"
+           rx="5"
+           id="rect1168"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1180">
+        <!-- Outer Border -->
+        <rect
+           x="1"
+           y="163"
+           width="119.5"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1172"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="1"
+           y="163"
+           width="119.5"
+           height="52"
+           rx="5"
+           id="rect1174"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="7"
+           y="166"
+           width="107.5"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1176"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="7"
+           y="166"
+           width="107.5"
+           height="40"
+           rx="5"
+           id="rect1178"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1190">
+        <!-- Outer Border -->
+        <rect
+           x="122.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1182"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="122.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1184"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="128.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1186"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="128.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1188"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1200">
+        <!-- Outer Border -->
+        <rect
+           x="176.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1192"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="176.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1194"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="182.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1196"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="182.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1198"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1210">
+        <!-- Outer Border -->
+        <rect
+           x="230.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1202"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="230.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1204"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="236.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1206"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="236.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1208"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1220">
+        <!-- Outer Border -->
+        <rect
+           x="284.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1212"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="284.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1214"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="290.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1216"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="290.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1218"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1230">
+        <!-- Outer Border -->
+        <rect
+           x="338.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1222"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="338.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1224"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="344.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1226"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="344.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1228"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1240">
+        <!-- Outer Border -->
+        <rect
+           x="392.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1232"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="392.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1234"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="398.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1236"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="398.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1238"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1250">
+        <!-- Outer Border -->
+        <rect
+           x="446.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1242"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="446.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1244"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="452.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1246"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="452.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1248"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1260">
+        <!-- Outer Border -->
+        <rect
+           x="500.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1252"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="500.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1254"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="506.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1256"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="506.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1258"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1270">
+        <!-- Outer Border -->
+        <rect
+           x="554.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1262"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="554.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1264"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="560.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1266"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="560.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1268"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1280">
+        <!-- Outer Border -->
+        <rect
+           x="608.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1272"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="608.5"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1274"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="614.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1276"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="614.5"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1278"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1290">
+        <!-- Outer Border -->
+        <rect
+           x="662.5"
+           y="163"
+           width="92.5"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1282"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="662.5"
+           y="163"
+           width="92.5"
+           height="52"
+           rx="5"
+           id="rect1284"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="668.5"
+           y="166"
+           width="80.5"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1286"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="668.5"
+           y="166"
+           width="80.5"
+           height="40"
+           rx="5"
+           id="rect1288"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1300">
+        <!-- Outer Border -->
+        <rect
+           x="757"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1292"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="757"
+           y="163"
+           width="52"
+           height="52"
+           rx="5"
+           id="rect1294"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="763"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1296"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="763"
+           y="166"
+           width="40"
+           height="40"
+           rx="5"
+           id="rect1298"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1310">
+        <!-- Outer Border -->
+        <rect
+           x="149.5"
+           y="217"
+           width="484"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1302"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="149.5"
+           y="217"
+           width="484"
+           height="52"
+           rx="5"
+           id="rect1304"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="155.5"
+           y="220"
+           width="472"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1306"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="155.5"
+           y="220"
+           width="472"
+           height="40"
+           rx="5"
+           id="rect1308"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1320">
+        <!-- Outer Border -->
+        <rect
+           x="68.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1312"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="68.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           id="rect1314"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="74.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1316"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="74.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           id="rect1318"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1330">
+        <!-- Outer Border -->
+        <rect
+           x="149.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1322"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="149.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           id="rect1324"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="155.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1326"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="155.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           id="rect1328"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1340">
+        <!-- Outer Border -->
+        <rect
+           x="230.5"
+           y="271"
+           width="322"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1332"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="230.5"
+           y="271"
+           width="322"
+           height="52"
+           rx="5"
+           id="rect1334"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="236.5"
+           y="274"
+           width="310"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1336"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="236.5"
+           y="274"
+           width="310"
+           height="40"
+           rx="5"
+           id="rect1338"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1350">
+        <!-- Outer Border -->
+        <rect
+           x="554.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1342"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="554.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           id="rect1344"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="560.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1346"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="560.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           id="rect1348"
+           fill="#fcfcfc" />
+      </g>
+      <g
+         class="  keycap"
+         id="g1360">
+        <!-- Outer Border -->
+        <rect
+           x="635.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           class="outer border"
+           id="rect1352"
+           fill="#cccccc" />
+        <!-- Outer Fill -->
+        <rect
+           x="635.5"
+           y="271"
+           width="79"
+           height="52"
+           rx="5"
+           id="rect1354"
+           fill="#cccccc" />
+        <!-- Inner Border -->
+        <rect
+           x="641.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           class="inner border"
+           id="rect1356"
+           fill="#fcfcfc" />
+        <!-- Inner Fill -->
+        <rect
+           x="641.5"
+           y="274"
+           width="67"
+           height="40"
+           rx="5"
+           id="rect1358"
+           fill="#fcfcfc" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layout ROW"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="-59.172241"
+       y="56.825928"
+       id="text5078"><tspan
+         sodipodi:role="line"
+         id="tspan5076"
+         x="-59.172241"
+         y="56.825928">R1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="-59.803833"
+       y="107.83807"
+       id="text5094"><tspan
+         sodipodi:role="line"
+         id="tspan5092"
+         x="-59.803833"
+         y="107.83807">R2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="-61.002213"
+       y="160.55063"
+       id="text5098"><tspan
+         sodipodi:role="line"
+         id="tspan5096"
+         x="-61.002213"
+         y="160.55063">R3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="-60.702606"
+       y="216.09718"
+       id="text5102"><tspan
+         sodipodi:role="line"
+         id="tspan5100"
+         x="-60.702606"
+         y="216.09718">R4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="-59.164146"
+       y="269.94333"
+       id="text5106"><tspan
+         sodipodi:role="line"
+         id="tspan5104"
+         x="-59.164146"
+         y="269.94333">R4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="-60.832176"
+       y="323.78946"
+       id="text5110"><tspan
+         sodipodi:role="line"
+         id="tspan5108"
+         x="-60.832176"
+         y="323.78946">R4</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5217"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion5219"
+         style="text-align:justify;text-anchor:start"><rect
+           id="rect5221"
+           width="78.21862"
+           height="334.97977"
+           x="-181.94331"
+           y="-14.987854"
+           style="text-align:justify;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara5223"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.32876682px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92465758"
+       x="760.67438"
+       y="97.233772"
+       id="text5894"><tspan
+         sodipodi:role="line"
+         id="tspan5892"
+         x="760.67438"
+         y="97.233772"
+         style="font-size:12.32876682px;stroke-width:0.92465758">RETURN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="772.87976"
+       y="141.36243"
+       id="text5894-7"><tspan
+         sodipodi:role="line"
+         id="tspan5892-0"
+         x="772.87976"
+         y="141.36243">CAPS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="770.71021"
+       y="160.78833"
+       id="text5894-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan5892-0-4"
+         x="770.71021"
+         y="160.78833">LOWR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="705.02063"
+       y="207.35118"
+       id="text5894-7-6-7"><tspan
+         sodipodi:role="line"
+         id="tspan5892-0-4-6"
+         x="705.02063"
+         y="207.35118">SHIFT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="57.733398"
+       y="206.66136"
+       id="text5894-7-6-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan5892-0-4-6-4"
+         x="57.733398"
+         y="206.66136">SHIFT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="673.20081"
+       y="314.50485"
+       id="text5894-5"><tspan
+         sodipodi:role="line"
+         id="tspan5892-7"
+         x="673.20081"
+         y="314.50485">ATARI</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12175"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion12177"><rect
+           id="rect12179"
+           width="33.801178"
+           height="38.629921"
+           x="104.16282"
+           y="295.3653" /></flowRegion><flowPara
+         id="flowPara12181"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="545.33398"
+       y="-129.87418"
+       id="text12238"><tspan
+         sodipodi:role="line"
+         id="tspan12236"
+         x="545.33398"
+         y="-117.33062" /></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layout Sizes"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="71.716599"
+       y="121.34413"
+       id="text5117"><tspan
+         sodipodi:role="line"
+         id="tspan5115"
+         x="71.716599"
+         y="121.34413"
+         style="font-size:10.66666698px;fill:#ff0000">1.50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="85.674889"
+       y="176.23909"
+       id="text5117-9"><tspan
+         sodipodi:role="line"
+         id="tspan5115-3"
+         x="85.674889"
+         y="176.23909"
+         style="font-size:10.66666698px;fill:#ff0000">1.75</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="111.74776"
+       y="230.08525"
+       id="text5117-6"><tspan
+         sodipodi:role="line"
+         id="tspan5115-2"
+         x="111.74776"
+         y="230.08525"
+         style="font-size:10.66666698px;fill:#ff0000">2.25</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="626.13641"
+       y="283.36459"
+       id="text5117-1"><tspan
+         sodipodi:role="line"
+         id="tspan5115-25"
+         x="626.13641"
+         y="283.36459"
+         style="font-size:10.66666698px;fill:#ff0000">9.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="705.18909"
+       y="337.77756"
+       id="text5117-3"><tspan
+         sodipodi:role="line"
+         id="tspan5115-9"
+         x="705.18909"
+         y="337.77756"
+         style="font-size:10.66666698px;fill:#ff0000">1.50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="624.13647"
+       y="337.21075"
+       id="text5117-18"><tspan
+         sodipodi:role="line"
+         id="tspan5115-8"
+         x="624.13647"
+         y="337.21075"
+         style="font-size:10.66666698px;fill:#ff0000">1.50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="547.9502"
+       y="335.77756"
+       id="text5117-7"><tspan
+         sodipodi:role="line"
+         id="tspan5115-0"
+         x="547.9502"
+         y="335.77756"
+         style="font-size:10.66666698px;fill:#ff0000">6.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="139.25385"
+       y="338.64395"
+       id="text5117-5"><tspan
+         sodipodi:role="line"
+         id="tspan5115-27"
+         x="139.25385"
+         y="338.64395"
+         style="font-size:10.66666698px;fill:#ff0000">1.50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="220.27408"
+       y="337.51035"
+       id="text5117-91"><tspan
+         sodipodi:role="line"
+         id="tspan5115-96"
+         x="220.27408"
+         y="337.51035"
+         style="font-size:10.66666698px;fill:#ff0000">1.50</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="745.99878"
+       y="228.95164"
+       id="text5117-36"><tspan
+         sodipodi:role="line"
+         id="tspan5115-84"
+         x="745.99878"
+         y="228.95164"
+         style="font-size:10.66666698px;fill:#ff0000">1.75</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="800.41174"
+       y="175.10548"
+       id="text5117-66"><tspan
+         sodipodi:role="line"
+         id="tspan5115-7"
+         x="800.41174"
+         y="175.10548"
+         style="font-size:10.66666698px;fill:#ff0000">1.25</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="800.41174"
+       y="121.25932"
+       id="text5117-2"><tspan
+         sodipodi:role="line"
+         id="tspan5115-74"
+         x="800.41174"
+         y="121.25932"
+         style="font-size:10.66666698px;fill:#ff0000">1.50</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Legend QWERTY"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="28.402443"
+       y="45.918327"
+       id="text5228"><tspan
+         sodipodi:role="line"
+         id="tspan5226"
+         x="28.402443"
+         y="45.918327"
+         style="font-size:13.33333302px">ESC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="222.22531"
+       y="-87.493011"
+       id="text5232-4"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan5230-4"
+         x="222.22531"
+         y="-49.862335"
+         style="font-size:21.33333397px" /></text>
+    <g
+       id="g5442">
+      <text
+         id="text5232"
+         y="101.83806"
+         x="113.89474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.83806"
+           x="113.89474"
+           id="tspan5230"
+           sodipodi:role="line">Q</tspan></text>
+      <text
+         id="text5232-3"
+         y="101.81873"
+         x="168.58969"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="168.58969"
+           id="tspan5230-8"
+           sodipodi:role="line">W</tspan></text>
+      <text
+         id="text5232-3-7"
+         y="101.81873"
+         x="224.13625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="224.13625"
+           id="tspan5230-8-5"
+           sodipodi:role="line">E</tspan></text>
+      <text
+         id="text5232-3-7-3"
+         y="101.81873"
+         x="278.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="278.13623"
+           id="tspan5230-8-5-8"
+           sodipodi:role="line">R</tspan></text>
+      <text
+         id="text5232-3-7-3-7"
+         y="101.81873"
+         x="332.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="332.13623"
+           id="tspan5230-8-5-8-2"
+           sodipodi:role="line">T</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2"
+         y="101.81873"
+         x="386.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="386.13623"
+           id="tspan5230-8-5-8-2-7"
+           sodipodi:role="line">Y</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9"
+         y="101.81873"
+         x="438.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="438.13623"
+           id="tspan5230-8-5-8-2-7-6"
+           sodipodi:role="line">U</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6"
+         y="101.55153"
+         x="497.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.55153"
+           x="497.367"
+           id="tspan5230-8-5-8-2-7-6-4"
+           sodipodi:role="line">I</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2"
+         y="101.55153"
+         x="547.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.55153"
+           x="547.367"
+           id="tspan5230-8-5-8-2-7-6-4-1"
+           sodipodi:role="line">O</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4"
+         y="101.55153"
+         x="601.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.55153"
+           x="601.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-7"
+           sodipodi:role="line">P</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8"
+         y="91.078781"
+         x="667.99512"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:26.66666603px"
+           y="91.078781"
+           x="667.99512"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6"
+           sodipodi:role="line">_</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1"
+         y="88.92083"
+         x="724.72449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="88.92083"
+           x="724.72449"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9"
+           sodipodi:role="line"> |</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1-8"
+         y="145.53105"
+         x="678.42603"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="145.53105"
+           x="678.42603"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9-9"
+           sodipodi:role="line"> \</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-0"
+         y="145.53105"
+         x="736.44733"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="145.53105"
+           x="736.44733"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9-9-8"
+           sodipodi:role="line">^</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05"
+         y="163.95528"
+         x="670.86798"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="163.95528"
+           x="670.86798"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9-9-0"
+           sodipodi:role="line">+</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05-5"
+         y="174.26146"
+         x="726.77679"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:26.66666603px"
+           y="174.26146"
+           x="726.77679"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9-9-0-0"
+           sodipodi:role="line">*</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05-5-8"
+         y="109.13767"
+         x="711.65515"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="109.13767"
+           x="711.65515"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9-9-0-0-6"
+           sodipodi:role="line">=</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05-5-8-2"
+         y="110.52797"
+         x="658.6825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:26.66666603px"
+           y="110.52797"
+           x="658.6825"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-6-9-9-0-0-6-5"
+           sodipodi:role="line">-</tspan></text>
+    </g>
+    <g
+       transform="translate(13.51381,53.136084)"
+       id="g5442-3">
+      <text
+         id="text5232-8"
+         y="101.83806"
+         x="115.89474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.83806"
+           x="115.89474"
+           id="tspan5230-0"
+           sodipodi:role="line">A</tspan></text>
+      <text
+         id="text5232-3-3"
+         y="101.81873"
+         x="170.58969"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="170.58969"
+           id="tspan5230-8-9"
+           sodipodi:role="line">S</tspan></text>
+      <text
+         id="text5232-3-7-2"
+         y="101.81873"
+         x="222.13625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="222.13625"
+           id="tspan5230-8-5-3"
+           sodipodi:role="line">D</tspan></text>
+      <text
+         id="text5232-3-7-3-3"
+         y="101.81873"
+         x="278.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="278.13623"
+           id="tspan5230-8-5-8-4"
+           sodipodi:role="line">F</tspan></text>
+      <text
+         id="text5232-3-7-3-7-6"
+         y="101.81873"
+         x="330.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="330.13623"
+           id="tspan5230-8-5-8-2-4"
+           sodipodi:role="line">G</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-8"
+         y="101.81873"
+         x="384.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="384.13623"
+           id="tspan5230-8-5-8-2-7-1"
+           sodipodi:role="line">H</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-1"
+         y="101.81873"
+         x="440.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="440.13623"
+           id="tspan5230-8-5-8-2-7-6-6"
+           sodipodi:role="line">J</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-6"
+         y="101.55153"
+         x="493.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.55153"
+           x="493.367"
+           id="tspan5230-8-5-8-2-7-6-4-9"
+           sodipodi:role="line">K</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-3"
+         y="101.55153"
+         x="547.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.55153"
+           x="547.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-1"
+           sodipodi:role="line">L</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-3"
+         y="101.55153"
+         x="601.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="139.18221"
+           x="601.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-3"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       transform="translate(40.72029,106.98224)"
+       id="g5442-3-0">
+      <text
+         id="text5232-8-9"
+         y="101.83806"
+         x="115.89474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.83806"
+           x="115.89474"
+           id="tspan5230-0-1"
+           sodipodi:role="line">Z</tspan></text>
+      <text
+         id="text5232-3-3-6"
+         y="101.81873"
+         x="168.58969"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="168.58969"
+           id="tspan5230-8-9-3"
+           sodipodi:role="line">X</tspan></text>
+      <text
+         id="text5232-3-7-2-4"
+         y="101.81873"
+         x="222.13625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="222.13625"
+           id="tspan5230-8-5-3-0"
+           sodipodi:role="line">C</tspan></text>
+      <text
+         id="text5232-3-7-3-3-0"
+         y="101.81873"
+         x="276.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="276.13623"
+           id="tspan5230-8-5-8-4-0"
+           sodipodi:role="line">V</tspan></text>
+      <text
+         id="text5232-3-7-3-7-6-4"
+         y="101.81873"
+         x="330.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="330.13623"
+           id="tspan5230-8-5-8-2-4-6"
+           sodipodi:role="line">B</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-8-0"
+         y="101.81873"
+         x="384.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="384.13623"
+           id="tspan5230-8-5-8-2-7-1-4"
+           sodipodi:role="line">N</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-1-1"
+         y="101.81873"
+         x="438.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="438.13623"
+           id="tspan5230-8-5-8-2-7-6-6-9"
+           sodipodi:role="line">M</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-6-8"
+         y="101.55153"
+         x="497.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="139.18221"
+           x="497.367"
+           id="tspan5230-8-5-8-2-7-6-4-9-4"
+           sodipodi:role="line" /></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-3-5"
+         y="101.55153"
+         x="547.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="139.18221"
+           x="547.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-1-2"
+           sodipodi:role="line" /></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-3-1"
+         y="101.55153"
+         x="601.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="139.18221"
+           x="601.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-3-9"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       transform="translate(-20.041911,-64.060792)"
+       id="g5442-4">
+      <text
+         id="text5232-36"
+         y="101.83806"
+         x="113.89474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.83806"
+           x="113.89474"
+           id="tspan5230-7"
+           sodipodi:role="line">!</tspan></text>
+      <text
+         id="text5232-3-37"
+         y="101.81873"
+         x="166.58969"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="101.81873"
+           x="166.58969"
+           id="tspan5230-8-8"
+           sodipodi:role="line">&quot;</tspan></text>
+      <text
+         id="text5232-3-7-0"
+         y="97.818733"
+         x="220.13625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="97.818733"
+           x="220.13625"
+           id="tspan5230-8-5-0"
+           sodipodi:role="line">#</tspan></text>
+      <text
+         id="text5232-3-7-3-2"
+         y="99.818733"
+         x="274.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="99.818733"
+           x="274.13623"
+           id="tspan5230-8-5-8-22"
+           sodipodi:role="line">$</tspan></text>
+      <text
+         id="text5232-3-7-3-7-5"
+         y="97.818733"
+         x="324.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="97.818733"
+           x="324.13623"
+           id="tspan5230-8-5-8-2-6"
+           sodipodi:role="line">%</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-85"
+         y="105.1863"
+         x="436.76718"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:24px"
+           y="105.1863"
+           x="436.76718"
+           id="tspan5230-8-5-8-2-7-2"
+           sodipodi:role="line">'</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-2"
+         y="99.379852"
+         x="488.4744"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="99.379852"
+           x="488.4744"
+           id="tspan5230-8-5-8-2-7-6-7"
+           sodipodi:role="line">@</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-0"
+         y="98.283203"
+         x="543.51019"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="98.283203"
+           x="543.51019"
+           id="tspan5230-8-5-8-2-7-6-4-6"
+           sodipodi:role="line">(</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-2"
+         y="98.039307"
+         x="601.2663"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="98.039307"
+           x="601.2663"
+           id="tspan5230-8-5-8-2-7-6-4-1-4"
+           sodipodi:role="line">)</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9"
+         y="96.223061"
+         x="643.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="96.223061"
+           x="643.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-37"
+           sodipodi:role="line">CLEAR</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9-5"
+         y="96.223061"
+         x="696.74146"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="96.223061"
+           x="696.74146"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-37-7"
+           sodipodi:role="line">INSERT</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9-5-7"
+         y="94.223061"
+         x="750.14081"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="94.223061"
+           x="750.14081"
+           sodipodi:role="line"
+           id="tspan5723">DELETE</tspan></text>
+      <text
+         id="text5232-3-7-3-7-5-2"
+         y="98.078049"
+         x="380.6059"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="98.078049"
+           x="380.6059"
+           id="tspan5230-8-5-8-2-6-5"
+           sodipodi:role="line">&amp;</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5970"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="translate(20.041911,64.060792)"><flowRegion
+           id="flowRegion5972"><rect
+             id="rect5974"
+             width="21.459984"
+             height="22.827688"
+             x="730.09888"
+             y="30.162268" /></flowRegion><flowPara
+           id="flowPara5976"></flowPara></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="123.58437"
+         y="363.29196"
+         id="text12185"><tspan
+           sodipodi:role="line"
+           id="tspan12183"
+           x="123.58437"
+           y="363.29196"
+           style="font-size:10.66666698px">DELETE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         x="128.36063"
+         y="377.04483"
+         id="text12185-3"><tspan
+           sodipodi:role="line"
+           x="128.36063"
+           y="377.04483"
+           style="font-size:10.66666698px"
+           id="tspan12205">BACK</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="125.44545"
+         y="390.35297"
+         id="text12211"><tspan
+           sodipodi:role="line"
+           id="tspan12209"
+           x="125.44545"
+           y="390.35297"
+           style="font-size:10.66666698px">SPACE</tspan></text>
+    </g>
+    <g
+       transform="translate(-19.582863,-45.233103)"
+       id="g5442-4-0">
+      <text
+         id="text5232-36-1"
+         y="101.83806"
+         x="110.26599"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.83806"
+           x="110.26599"
+           id="tspan5230-7-1"
+           sodipodi:role="line">1</tspan></text>
+      <text
+         id="text5232-3-37-8"
+         y="101.81873"
+         x="165.61414"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.81873"
+           x="165.61414"
+           id="tspan5230-8-8-0"
+           sodipodi:role="line">2</tspan></text>
+      <text
+         id="text5232-3-7-0-5"
+         y="101.81873"
+         x="218.13625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.81873"
+           x="218.13625"
+           id="tspan5230-8-5-0-5"
+           sodipodi:role="line">3</tspan></text>
+      <text
+         id="text5232-3-7-3-2-0"
+         y="101.81873"
+         x="272.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.81873"
+           x="272.13623"
+           id="tspan5230-8-5-8-22-7"
+           sodipodi:role="line">4</tspan></text>
+      <text
+         id="text5232-3-7-3-7-5-7"
+         y="101.81873"
+         x="326.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.81873"
+           x="326.13623"
+           id="tspan5230-8-5-8-2-6-3"
+           sodipodi:role="line">5</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-85-9"
+         y="101.81873"
+         x="380.13623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.81873"
+           x="380.13623"
+           id="tspan5230-8-5-8-2-7-2-9"
+           sodipodi:role="line">6</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-2-0"
+         y="101.81873"
+         x="434.23923"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.81873"
+           x="434.23923"
+           id="tspan5230-8-5-8-2-7-6-7-6"
+           sodipodi:role="line">7</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-0-0"
+         y="101.70467"
+         x="489.11282"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.70467"
+           x="489.11282"
+           id="tspan5230-8-5-8-2-7-6-4-6-7"
+           sodipodi:role="line">8</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-2-8"
+         y="101.50263"
+         x="541.46478"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.50263"
+           x="541.46478"
+           id="tspan5230-8-5-8-2-7-6-4-1-4-2"
+           sodipodi:role="line">9</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9-6"
+         y="94.223061"
+         x="589.367"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="131.85374"
+           x="589.367"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-37-1"
+           sodipodi:role="line" /></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9-5-0"
+         y="99.775154"
+         x="703.0672"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="99.775154"
+           x="703.0672"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-37-7-0"
+           sodipodi:role="line">&gt;</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9-5-7-5"
+         y="98.223061"
+         x="750.14081"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="98.223061"
+           x="750.14081"
+           sodipodi:role="line"
+           id="tspan5723-0">SPACE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="752.41364"
+         y="86.502731"
+         id="text5818"><tspan
+           sodipodi:role="line"
+           id="tspan5816"
+           x="752.41364"
+           y="86.502731">BACK</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-4-9-5-0-3"
+         y="99.536964"
+         x="648.99939"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:21.33333397px"
+           y="99.536964"
+           x="648.99939"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-37-7-0-4"
+           sodipodi:role="line">&lt;</tspan></text>
+      <text
+         id="text5232-3-7-3-7-2-9-6-2-2-8-7"
+         y="101.33041"
+         x="596.91687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:18.66666603px"
+           y="101.33041"
+           x="596.91687"
+           id="tspan5230-8-5-8-2-7-6-4-1-4-2-0"
+           sodipodi:role="line">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="800.90314"
+         y="88.358612"
+         id="text5818-2"><tspan
+           sodipodi:role="line"
+           id="tspan5816-5"
+           x="800.90314"
+           y="88.358612"
+           style="font-size:10.66666698px">BREAK</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12107"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion12109"><rect
+           id="rect12111"
+           width="7.5880198"
+           height="29.66226"
+           x="93.125702"
+           y="22.196585" /></flowRegion><flowPara
+         id="flowPara12113"></flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="REVERSECTRL"
+     style="display:inline">
+    <path
+       style="fill:#000000;stroke-width:0.172455"
+       d="m 29.220609,146.55061 v -7.50179 h 34.059862 34.059862 v 7.50179 7.5018 H 63.280471 29.220609 Z"
+       id="path6004"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#f9f9f9"
+       id="rect6016"
+       width="30.08503"
+       height="11.762739"
+       x="24.876596"
+       y="79.138"
+       ry="5.8813696" />
+    <path
+       style="fill:#000000;stroke-width:0.10286643"
+       d="m 23.486316,85.847155 v -6.465266 h 14.06103 14.06103 v 6.465266 6.465274 h -14.06103 -14.06103 z"
+       id="path6004-3"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="CTRL"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="31.166922"
+       y="151.47575"
+       id="text5980"><tspan
+         sodipodi:role="line"
+         id="tspan5978"
+         x="31.166922"
+         y="151.47575"
+         style="fill:#f9f9f9">CONTROL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="54.961624"
+       y="90.900742"
+       id="text6008"><tspan
+         sodipodi:role="line"
+         id="tspan6006"
+         x="54.961624"
+         y="90.900742"
+         style="text-align:center;text-anchor:middle"><tspan
+   style="fill:#f2f2f2"
+   id="tspan6049">CLR</tspan>   SET</tspan><tspan
+         sodipodi:role="line"
+         x="54.961624"
+         y="107.56741"
+         id="tspan6012"
+         style="text-align:center;text-anchor:middle">TAB</tspan></text>
+  </g>
+  <use
+     id="use11622"
+     style="fill:#000000;stroke:#000000"
+     xlink:href="#UpArrow_Inv"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="matrix(0.25,0,0,0.25,644.0075,73.976949)" />
+  <use
+     id="use11664"
+     style="fill:#000000;stroke:#000000"
+     xlink:href="#DownArrow_Inv"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="matrix(0.25,0,0,0.25,697.88556,73.976949)" />
+  <use
+     id="use11706"
+     style="fill:#000000;stroke:#000000"
+     xlink:href="#LeftArrow_Inv"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="matrix(0.25,0,0,0.25,657.38556,128.25139)" />
+  <use
+     id="use11748"
+     style="fill:#000000;stroke:#000000"
+     xlink:href="#RightArrow_Inv"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="matrix(0.25,0,0,0.25,711.47694,128.08666)" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="620.25659"
+     y="140.69444"
+     id="text11926"><tspan
+       sodipodi:role="line"
+       id="tspan11924"
+       x="620.25659"
+       y="140.69444"
+       style="font-size:16px">:</tspan><tspan
+       sodipodi:role="line"
+       x="620.25659"
+       y="164.02777"
+       id="tspan11928"
+       style="font-size:16px">;</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="650.04602"
+     y="195.80621"
+     id="text11926-0"><tspan
+       sodipodi:role="line"
+       x="650.04602"
+       y="195.80621"
+       id="tspan11928-2"
+       style="font-size:16px;text-align:center;text-anchor:middle">?</tspan><tspan
+       sodipodi:role="line"
+       x="650.04602"
+       y="215.80621"
+       style="font-size:16px;text-align:center;text-anchor:middle"
+       id="tspan12005">/</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="593.35895"
+     y="195.07454"
+     id="text11926-0-1"><tspan
+       sodipodi:role="line"
+       x="593.35895"
+       y="195.07454"
+       id="tspan11928-2-8"
+       style="font-size:16px">]</tspan><tspan
+       sodipodi:role="line"
+       x="593.35895"
+       y="215.07454"
+       style="font-size:16px"
+       id="tspan11999">.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="539.17957"
+     y="195.22856"
+     id="text11926-0-1-0"><tspan
+       sodipodi:role="line"
+       x="539.17957"
+       y="195.22856"
+       id="tspan11928-2-8-9"
+       style="font-size:16px">[</tspan><tspan
+       sodipodi:role="line"
+       x="539.17957"
+       y="215.22856"
+       style="font-size:16px"
+       id="tspan11995">,</tspan></text>
+  <path
+     style="fill:#000000;stroke-width:0.0285857"
+     d="m 783.16955,208.98761 v -3.03908 l 0.19774,-0.0345 c 0.52762,-0.0921 1.45089,-0.38621 2.20457,-0.70238 1.6313,-0.68431 3.21268,-1.79311 4.40792,-3.09063 2.11486,-2.29589 3.34564,-5.393 3.61898,-9.10676 0.0269,-0.36503 0.20545,-5.11261 0.20545,-5.46179 v -0.13057 h 0.99256 0.99255 l 0.0223,1.94547 c 0.0122,1.07 0.0134,2.29064 0.002,2.71251 -0.15427,6.00798 -1.46013,10.84056 -3.87026,14.32255 -1.67472,2.41953 -3.90316,4.17306 -6.46425,5.0866 -0.66603,0.23759 -1.56123,0.45451 -2.1416,0.51895 l -0.16847,0.0187 z m 11.01552,3.02666 c 0,-0.004 0.0861,-0.13277 0.19139,-0.28478 1.18404,-1.70979 2.00343,-4.98665 2.38531,-9.53926 0.058,-0.69074 0.11614,-1.57819 0.18108,-2.76081 0.0222,-0.40495 0.0379,-2.55093 0.0461,-6.31057 l 0.0125,-5.69695 h 1.22851 1.22853 v 4.8323 c 0,5.17619 0.0186,6.101 0.16265,8.16539 0.38371,5.50002 1.28237,9.37558 2.6231,11.3123 l 0.20131,0.29079 h -4.13033 c -2.27169,0 -4.13034,-0.003 -4.13034,-0.009 z m 18.4715,-0.0601 c -1.77732,-0.29931 -3.61115,-1.11806 -5.18371,-2.31439 -3.65027,-2.77695 -5.94288,-7.54092 -6.67874,-13.87822 -0.22567,-1.94351 -0.28984,-3.51364 -0.26132,-6.39427 l 0.0193,-1.94546 h 0.98855 0.98854 l 0.0174,0.25799 c 0.0101,0.14191 0.0502,1.23701 0.0902,2.43359 0.04,1.19657 0.0866,2.40151 0.10354,2.67764 0.31559,5.15651 2.48567,9.15081 6.23958,11.48477 1.18612,0.73746 2.59934,1.32754 3.83132,1.59974 l 0.3581,0.0791 v 3.03398 3.03397 l -0.066,-0.002 c -0.0362,-7.5e-4 -0.2373,-0.031 -0.44678,-0.0663 z"
+     id="path12105"
+     inkscape:connector-curvature="0" />
+</svg>
