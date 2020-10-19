@@ -21,10 +21,10 @@
       )
     )
     (boundary
-      (path pcb 0  369000 -159000  339000 -159000  339000 -155000  319000 -155000
-            319000 -159000  89000 -159000  89000 -155000  69000 -155000
-            69000 -159000  51000 -159000  51000 -161000  39000 -161000  39000 -30000
-            369000 -30000  369000 -159000)
+      (path pcb 0  377000 -214000  347000 -214000  347000 -210000  327000 -210000
+            327000 -214000  97000 -214000  97000 -210000  77000 -210000
+            77000 -214000  59000 -214000  59000 -216000  47000 -216000  47000 -85000
+            377000 -85000  377000 -214000)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -36,103 +36,160 @@
   )
   (placement
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB
-      (place SW66 90500 -35000 front 0 (PN K_F2))
-      (place SW9 315000 -35000 front 0 (PN KS_OPTION))
-      (place SW11 235870 -85970 front 0 (PN K_I))
-      (place SW12 178700 -85950 front 0 (PN K_T))
-      (place SW13 183500 -105000 front 0 (PN K_G))
-      (place SW15 193000 -124050 front 0 (PN K_B))
-      (place SW16 240620 -105020 front 0 (PN K_K))
-      (place SW18 150150 -66900 front 0 (PN K_4))
-      (place SW22 231100 -124050 front 0 (PN K_M))
-      (place SW26 273950 -85950 front 0 (PN K_P))
-      (place SW27 140600 -85950 front 0 (PN K_E))
-      (place SW28 145390 -105020 front 0 (PN K_D))
-      (place SW29 257000 -35000 front 0 (PN KS_START))
-      (place SW31 278750 -105000 front 0 (PN K_comdot))
-      (place SW32 154900 -124050 front 0 (PN K_C))
-      (place SW33 269200 -124050 front 0 (PN K_dot))
-      (place SW34 112040 -66920 front 0 (PN K_2))
-      (place SW36 121550 -85950 front 0 (PN K_W))
-      (place SW41 312050 -85950 front 0 (PN K_equal))
-      (place SW43 107250 -105000 front 0 (PN K_A))
-      (place SW44 288250 -124050 front 0 (PN K_slash))
-      (place SW45 316850 -105000 front 0 (PN K_asterisk))
-      (place SW46 116800 -124050 front 0 (PN K_Z))
-      (place SW47 340600 -124000 front 0 (PN K_ATARI))
-      (place SW48 73900 -66900 front 0 (PN K_ESC))
-      (place SW55 340650 -66900 front 0 (PN K_BRK))
-      (place SW56 321600 -66900 front 0 (PN K_DEL))
-      (place SW58 283500 -66900 front 0 (PN K_LT))
-      (place SW60 245400 -66900 front 0 (PN K_9))
-      (place SW64 278750 -143100 front 0 (PN K_SPACE_2))
-      (place SW68 128500 -35000 front 0 (PN K_F4))
+      (place SW1 352000 -90000 front 0 (PN KS_RESET))
+      (place SW2 196250 -121900 front 0 (PN K_6))
+      (place SW3 224800 -140950 front 0 (PN K_U))
+      (place SW4 205750 -140950 front 0 (PN K_Y))
+      (place SW5 210550 -160000 front 0 (PN K_H))
+      (place SW6 220050 -179100 front 0 (PN K_N))
+      (place SW7 236000 -90000 front 0 (PN KS_HELP))
+      (place SW8 229600 -160000 front 0 (PN K_J))
+      (place SW10 177200 -121900 front 0 (PN K_5))
+      (place SW17 294000 -90000 front 0 (PN KS_SELECT))
+      (place SW19 262900 -140950 front 0 (PN K_O))
+      (place SW20 167650 -140950 front 0 (PN K_R))
+      (place SW21 172450 -160000 front 0 (PN K_F))
+      (place SW23 181950 -179050 front 0 (PN K_V))
+      (place SW24 267700 -160000 front 0 (PN K_L))
+      (place SW25 139100 -121920 front 0 (PN K_3))
+      (place SW30 258150 -179050 front 0 (PN K_comma))
+      (place SW35 301000 -140950 front 0 (PN K_minus))
+      (place SW37 134350 -160000 front 0 (PN K_S))
+      (place SW38 143850 -179050 front 0 (PN K_X))
+      (place SW39 305750 -160050 front 0 (PN K_plus))
+      (place SW40 101000 -121900 front 0 (PN K_1))
+      (place SW42 110550 -140950 front 0 (PN K_Q))
+      (place SW57 310550 -121900 front 0 (PN K_GT))
+      (place SW59 272450 -121900 front 0 (PN K_0))
+      (place SW61 234350 -121900 front 0 (PN K_8))
+      (place SW62 215300 -121900 front 0 (PN K_7))
+      (place SW63 141500 -198100 front 0 (PN K_SPACE_1))
+      (place SW65 79500 -90000 front 0 (PN K_F1))
+      (place SW67 117500 -90000 front 0 (PN K_F3))
     )
-    (component Button_Switch_Keyboard:SW_Cherry_MX1A_6.25u_PCB
-      (place SW14 202540 -143256 front 0 (PN K_SPACE))
-    )
-    (component LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder
-      (place D1 46262.5 -155750 front 0 (PN LED_Small))
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical
-      (place J1 290600 -146000 back 90 (PN "34 pin RIBBON KEYBOARD CABLE"))
+    (component MountingHole:MountingHole_3.7mm
+      (place H1 52000 -90000 front 0 (PN MountingHole))
+      (place H3 372000 -209000 front 0 (PN MountingHole))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB::1
-      (place SW1 344000 -35000 front 0 (PN KS_RESET))
-      (place SW2 188250 -66900 front 0 (PN K_6))
-      (place SW3 216800 -85950 front 0 (PN K_U))
-      (place SW4 197750 -85950 front 0 (PN K_Y))
-      (place SW5 202550 -105000 front 0 (PN K_H))
-      (place SW6 212050 -124100 front 0 (PN K_N))
-      (place SW7 228000 -35000 front 0 (PN KS_HELP))
-      (place SW8 221600 -105000 front 0 (PN K_J))
-      (place SW10 169200 -66900 front 0 (PN K_5))
-      (place SW17 286000 -35000 front 0 (PN KS_SELECT))
-      (place SW19 254900 -85950 front 0 (PN K_O))
-      (place SW20 159650 -85950 front 0 (PN K_R))
-      (place SW21 164450 -105000 front 0 (PN K_F))
-      (place SW23 173950 -124050 front 0 (PN K_V))
-      (place SW24 259700 -105000 front 0 (PN K_L))
-      (place SW25 131100 -66920 front 0 (PN K_3))
-      (place SW30 250150 -124050 front 0 (PN K_comma))
-      (place SW35 293000 -85950 front 0 (PN K_minus))
-      (place SW37 126350 -105000 front 0 (PN K_S))
-      (place SW38 135850 -124050 front 0 (PN K_X))
-      (place SW39 297750 -105050 front 0 (PN K_plus))
-      (place SW40 93000 -66900 front 0 (PN K_1))
-      (place SW42 102550 -85950 front 0 (PN K_Q))
-      (place SW57 302550 -66900 front 0 (PN K_GT))
-      (place SW59 264450 -66900 front 0 (PN K_0))
-      (place SW61 226350 -66900 front 0 (PN K_8))
-      (place SW62 207300 -66900 front 0 (PN K_7))
-      (place SW63 126350 -143100 front 0 (PN K_SPACE_1))
-      (place SW65 71500 -35000 front 0 (PN K_F1))
-      (place SW67 109500 -35000 front 0 (PN K_F3))
+      (place SW66 98500 -90000 front 0 (PN K_F2))
+      (place SW9 323000 -90000 front 0 (PN KS_OPTION))
+      (place SW11 243870 -140970 front 0 (PN K_I))
+      (place SW12 186700 -140950 front 0 (PN K_T))
+      (place SW13 191500 -160000 front 0 (PN K_G))
+      (place SW15 201000 -179050 front 0 (PN K_B))
+      (place SW16 248620 -160020 front 0 (PN K_K))
+      (place SW18 158150 -121900 front 0 (PN K_4))
+      (place SW22 239100 -179050 front 0 (PN K_M))
+      (place SW26 281950 -140950 front 0 (PN K_P))
+      (place SW27 148600 -140950 front 0 (PN K_E))
+      (place SW28 153390 -160020 front 0 (PN K_D))
+      (place SW29 265000 -90000 front 0 (PN KS_START))
+      (place SW31 286750 -160000 front 0 (PN K_comdot))
+      (place SW32 162900 -179050 front 0 (PN K_C))
+      (place SW33 277200 -179050 front 0 (PN K_dot))
+      (place SW34 120040 -121920 front 0 (PN K_2))
+      (place SW36 129550 -140950 front 0 (PN K_W))
+      (place SW41 320050 -140950 front 0 (PN K_equal))
+      (place SW43 115250 -160000 front 0 (PN K_A))
+      (place SW44 296250 -179050 front 0 (PN K_slash))
+      (place SW45 324850 -160000 front 0 (PN K_asterisk))
+      (place SW46 124800 -179050 front 0 (PN K_Z))
+      (place SW47 348600 -179000 front 0 (PN K_ATARI))
+      (place SW48 81900 -121900 front 0 (PN K_ESC))
+      (place SW55 348650 -121900 front 0 (PN K_BRK))
+      (place SW56 329600 -121900 front 0 (PN K_DEL))
+      (place SW58 291500 -121900 front 0 (PN K_LT))
+      (place SW60 253400 -121900 front 0 (PN K_9))
+      (place SW64 284340 -198100 front 0 (PN K_SPACE_2))
+      (place SW68 136500 -90000 front 0 (PN K_F4))
+    )
+    (component Button_Switch_Keyboard:SW_Cherry_MX1A_6.25u_PCB
+      (place SW14 212900 -198100 front 0 (PN K_SPACE))
+    )
+    (component LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+      (place D1 54262.5 -210750 front 0 (PN LED_Small))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical
+      (place J1 298600 -201000 back 90 (PN "34 pin RIBBON KEYBOARD CABLE"))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB
-      (place SW49 336000 -86000 front 0 (PN K_RETURN))
+      (place SW49 344000 -141000 front 0 (PN K_RETURN))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB::1
-      (place SW50 78790 -85920 front 0 (PN K_TAB))
+      (place SW50 86790 -140920 front 0 (PN K_TAB))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.25u_PCB
-      (place SW51 338250 -105000 front 0 (PN K_CAPS))
+      (place SW51 346250 -160000 front 0 (PN K_CAPS))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.75u_PCB
-      (place SW52 81040 -104920 front 0 (PN K_CTRL))
+      (place SW52 89040 -159920 front 0 (PN K_CTRL))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_2.25u_PCB
-      (place SW53 86000 -124000 front 0 (PN K_LSHIFT))
+      (place SW53 94000 -179000 front 0 (PN K_LSHIFT))
     )
     (component Button_Switch_Keyboard:SW_Cherry_MX1A_1.75u_PCB::1
-      (place SW54 314500 -124000 front 0 (PN K_RSHIFT))
+      (place SW54 322500 -179000 front 0 (PN K_RSHIFT))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
-      (place J2 108900 -146400 front 0 (PN Conn_01x02_Male))
+      (place J2 116900 -201400 front 0 (PN Conn_01x02_Male))
+    )
+    (component MountingHole:MountingHole_3.7mm::1
+      (place H2 372000 -90000 front 0 (PN MountingHole))
+      (place H4 52000 -203000 front 0 (PN MountingHole))
+    )
+    (component RetroBitLab:atari_ready_14mm_rev
+      (place G*** 61500 -180000 front 90 (PN LOGO))
     )
   )
   (library
     (image Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB
+      (outline (path signal 120  -9525 -12065  -9525 1905))
+      (outline (path signal 120  4445 -12065  -9525 -12065))
+      (outline (path signal 120  4445 1905  4445 -12065))
+      (outline (path signal 120  -9525 1905  4445 1905))
+      (outline (path signal 150  -12065 -14605  -12065 4445))
+      (outline (path signal 150  6985 -14605  -12065 -14605))
+      (outline (path signal 150  6985 4445  6985 -14605))
+      (outline (path signal 150  -12065 4445  6985 4445))
+      (outline (path signal 50  -9140 1520  4060 1520))
+      (outline (path signal 50  4060 1520  4060 -11680))
+      (outline (path signal 50  4060 -11680  -9140 -11680))
+      (outline (path signal 50  -9140 -11680  -9140 1520))
+      (outline (path signal 150  -8890 -11430  -8890 1270))
+      (outline (path signal 150  3810 -11430  -8890 -11430))
+      (outline (path signal 150  3810 1270  3810 -11430))
+      (outline (path signal 150  -8890 1270  3810 1270))
+      (pin Round[A]Pad_2200_um 2 -6350 -2540)
+      (pin Round[A]Pad_2200_um 1 0 0)
+      (keepout "" (circle F.Cu 1700 2540 -5080))
+      (keepout "" (circle B.Cu 1700 2540 -5080))
+      (keepout "" (circle F.Cu 1700 -7620 -5080))
+      (keepout "" (circle B.Cu 1700 -7620 -5080))
+      (keepout "" (circle F.Cu 4000 -2540 -5080))
+      (keepout "" (circle B.Cu 4000 -2540 -5080))
+    )
+    (image MountingHole:MountingHole_3.7mm
+      (outline (path signal 50  3950 0  3869.14 -795.129  3629.88 -1557.71  3242.02 -2256.51
+            2721.42 -2862.93  2089.41 -3352.14  1371.86 -3704.12  598.14 -3904.45
+            -200.064 -3944.93  -990.078 -3823.91  -1739.56 -3546.33  -2417.82 -3123.56
+            -2997.09 -2572.92  -3453.67 -1916.94  -3768.85 -1182.48  -3929.73 -399.615
+            -3929.73 399.615  -3768.85 1182.48  -3453.67 1916.94  -2997.09 2572.92
+            -2417.82 3123.56  -1739.56 3546.33  -990.078 3823.91  -200.064 3944.93
+            598.14 3904.45  1371.86 3704.12  2089.41 3352.14  2721.42 2862.93
+            3242.02 2256.51  3629.88 1557.71  3869.14 795.129  3950 0))
+      (outline (path signal 150  3700 0  3619.15 -769.273  3380.12 -1504.93  2993.36 -2174.8
+            2475.78 -2749.64  1850 -3204.29  1143.36 -3518.91  386.755 -3679.73
+            -386.755 -3679.73  -1143.36 -3518.91  -1850 -3204.29  -2475.78 -2749.64
+            -2993.36 -2174.8  -3380.12 -1504.93  -3619.15 -769.273  -3700 0
+            -3619.15 769.273  -3380.12 1504.93  -2993.36 2174.8  -2475.78 2749.64
+            -1850 3204.29  -1143.36 3518.91  -386.755 3679.73  386.755 3679.73
+            1143.36 3518.91  1850 3204.29  2475.78 2749.64  2993.36 2174.8
+            3380.12 1504.93  3619.15 769.273  3700 0))
+      (keepout "" (circle F.Cu 3700))
+      (keepout "" (circle B.Cu 3700))
+    )
+    (image Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB::1
       (outline (path signal 150  -8890 1270  3810 1270))
       (outline (path signal 150  3810 1270  3810 -11430))
       (outline (path signal 150  3810 -11430  -8890 -11430))
@@ -260,32 +317,6 @@
       (pin Oval[A]Pad_1700x1700_um 32 2540 -38100)
       (pin Oval[A]Pad_1700x1700_um 33 0 -40640)
       (pin Oval[A]Pad_1700x1700_um 34 2540 -40640)
-    )
-    (image Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB::1
-      (outline (path signal 120  -9525 -12065  -9525 1905))
-      (outline (path signal 120  4445 -12065  -9525 -12065))
-      (outline (path signal 120  4445 1905  4445 -12065))
-      (outline (path signal 120  -9525 1905  4445 1905))
-      (outline (path signal 150  -12065 -14605  -12065 4445))
-      (outline (path signal 150  6985 -14605  -12065 -14605))
-      (outline (path signal 150  6985 4445  6985 -14605))
-      (outline (path signal 150  -12065 4445  6985 4445))
-      (outline (path signal 50  -9140 1520  4060 1520))
-      (outline (path signal 50  4060 1520  4060 -11680))
-      (outline (path signal 50  4060 -11680  -9140 -11680))
-      (outline (path signal 50  -9140 -11680  -9140 1520))
-      (outline (path signal 150  -8890 -11430  -8890 1270))
-      (outline (path signal 150  3810 -11430  -8890 -11430))
-      (outline (path signal 150  3810 1270  3810 -11430))
-      (outline (path signal 150  -8890 1270  3810 1270))
-      (pin Round[A]Pad_2200_um 2 -6350 -2540)
-      (pin Round[A]Pad_2200_um 1 0 0)
-      (keepout "" (circle F.Cu 1700 2540 -5080))
-      (keepout "" (circle B.Cu 1700 2540 -5080))
-      (keepout "" (circle F.Cu 1700 -7620 -5080))
-      (keepout "" (circle B.Cu 1700 -7620 -5080))
-      (keepout "" (circle F.Cu 4000 -2540 -5080))
-      (keepout "" (circle B.Cu 4000 -2540 -5080))
     )
     (image Button_Switch_Keyboard:SW_Cherry_MX1A_1.50u_PCB
       (outline (path signal 150  -8890 1270  3810 1270))
@@ -470,6 +501,28 @@
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
     )
+    (image MountingHole:MountingHole_3.7mm::1
+      (outline (path signal 150  3700 0  3619.15 -769.273  3380.12 -1504.93  2993.36 -2174.8
+            2475.78 -2749.64  1850 -3204.29  1143.36 -3518.91  386.755 -3679.73
+            -386.755 -3679.73  -1143.36 -3518.91  -1850 -3204.29  -2475.78 -2749.64
+            -2993.36 -2174.8  -3380.12 -1504.93  -3619.15 -769.273  -3700 0
+            -3619.15 769.273  -3380.12 1504.93  -2993.36 2174.8  -2475.78 2749.64
+            -1850 3204.29  -1143.36 3518.91  -386.755 3679.73  386.755 3679.73
+            1143.36 3518.91  1850 3204.29  2475.78 2749.64  2993.36 2174.8
+            3380.12 1504.93  3619.15 769.273  3700 0))
+      (outline (path signal 50  3950 0  3869.14 -795.129  3629.88 -1557.71  3242.02 -2256.51
+            2721.42 -2862.93  2089.41 -3352.14  1371.86 -3704.12  598.14 -3904.45
+            -200.064 -3944.93  -990.078 -3823.91  -1739.56 -3546.33  -2417.82 -3123.56
+            -2997.09 -2572.92  -3453.67 -1916.94  -3768.85 -1182.48  -3929.73 -399.615
+            -3929.73 399.615  -3768.85 1182.48  -3453.67 1916.94  -2997.09 2572.92
+            -2417.82 3123.56  -1739.56 3546.33  -990.078 3823.91  -200.064 3944.93
+            598.14 3904.45  1371.86 3704.12  2089.41 3352.14  2721.42 2862.93
+            3242.02 2256.51  3629.88 1557.71  3869.14 795.129  3950 0))
+      (keepout "" (circle F.Cu 3700))
+      (keepout "" (circle B.Cu 3700))
+    )
+    (image RetroBitLab:atari_ready_14mm_rev
+    )
     (padstack Round[A]Pad_2200_um
       (shape (circle F.Cu 2200))
       (shape (circle B.Cu 2200))
@@ -507,7 +560,7 @@
   )
   (network
     (net GND
-      (pins D1-1 J1-3 SW1-2 SW9-2 SW17-2 SW29-2)
+      (pins SW1-2 D1-1 J1-3 SW9-2 SW17-2 SW29-2)
     )
     (net "Net-(D1-Pad2)"
       (pins D1-2 J1-2)
@@ -576,7 +629,7 @@
       (pins J1-23 SW9-1)
     )
     (net RESET
-      (pins J1-24 SW1-1)
+      (pins SW1-1 J1-24)
     )
     (net "Net-(J1-Pad25)"
       (pins J1-25)
@@ -644,304 +697,5 @@
     )
   )
   (wiring
-    (wire (path B.Cu 300  293140 -146000  291798 -144658  287389 -144658  279304 -136572
-            279304 -110204  280313 -109194  280313 -83464.2  274514 -77665.3
-            274514 -69779.2  281707 -62586.5)(net GND)(type protect))
-    (wire (path B.Cu 300  281707 -37597.1  281650 -37540)(net GND)(type protect))
-    (wire (path F.Cu 300  44775 -155750  49732.9 -150792  203193 -150792  204175 -149810
-            265996 -149810  271756 -144050  275540 -144050  276141 -144650
-            291790 -144650  293140 -146000)(net GND)(type protect))
-    (wire (path F.Cu 300  47750 -155750  52107.6 -151392  205947 -151392  206929 -150410
-            270155 -150410  270430 -150685  287155 -150685  289300 -148540)(net "Net-(D1-Pad2)")(type protect))
-    (wire (path F.Cu 300  290600 -148540  289300 -148540)(net "Net-(D1-Pad2)")(type protect))
-    (wire (path F.Cu 300  196190 -145718  268832 -145718)(net IN_6)(type protect))
-    (wire (path F.Cu 300  120000 -145640  196112 -145640  196190 -145718  196190 -145796)(net IN_6)(type protect))
-    (wire (path B.Cu 300  272400 -145640  272322 -145718  268832 -145718)(net IN_6)(type protect))
-    (wire (path F.Cu 300  272400 -145640  287223 -145640)(net IN_6)(type protect))
-    (wire (path B.Cu 300  293140 -148540  291793 -149887  290094 -149887  287223 -147016
-            287223 -145640)(net IN_6)(type protect))
-    (wire (path B.Cu 300  215250 -107540  217750 -105040  217750 -88920.6  218408 -88262.2
-            218408 -74802.6  217369 -73763.5  217369 -69824.3)(net IN_6)(type protect))
-    (wire (path B.Cu 300  196200 -107540  195585 -107540  191425 -111700  191425 -124692
-            193813 -127080  193813 -143419  196190 -145796)(net IN_6)(type protect))
-    (wire (path F.Cu 300  215250 -107540  196200 -107540)(net IN_6)(type protect))
-    (wire (path B.Cu 300  221650 -39095.6  222500 -39945.6)(net IN_6)(type protect))
-    (wire (path B.Cu 300  221650 -37540  221650 -39095.6)(net IN_6)(type protect))
-    (wire (path B.Cu 300  222500 -39945.6  222500 -57500  225000 -60000  225000 -62193.3)(net IN_6)(type protect))
-    (wire (path B.Cu 300  217369 -69824.3  225000 -62193.3)(net IN_6)(type protect))
-    (wire (path B.Cu 300  295680 -146000  295680 -144700)(net OUT_3)(type protect))
-    (wire (path B.Cu 300  288250 -124050  288250 -137270  295680 -144700)(net OUT_3)(type protect))
-    (wire (path F.Cu 300  340600 -124000  334584 -124000  333032 -125551  313679 -125551
-            312037 -123909  288391 -123909  288250 -124050)(net OUT_3)(type protect))
-    (wire (path F.Cu 300  108900 -148940  110200 -148940  117618 -141523  127049 -141523
-            128838 -143311  202485 -143311  202540 -143256)(net OUT_3)(type protect))
-    (wire (path F.Cu 300  269200 -124050  288250 -124050)(net OUT_3)(type protect))
-    (wire (path B.Cu 300  212050 -124100  211113 -124100  206157 -129056  206157 -139639
-            202540 -143256)(net OUT_3)(type protect))
-    (wire (path F.Cu 300  231100 -124050  212100 -124050  212050 -124100)(net OUT_3)(type protect))
-    (wire (path F.Cu 300  250150 -124050  231100 -124050)(net OUT_3)(type protect))
-    (wire (path F.Cu 300  269200 -124050  250150 -124050)(net OUT_3)(type protect))
-    (wire (path B.Cu 300  262892 -66491.5  262892 -67544.9  265263 -69916.6  265263 -81217.5
-            274358 -90312  274358 -103928  278703 -108273  278703 -122233
-            278442 -122494  278442 -139084  289846 -150487  293733 -150487
-            295680 -148540)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  278442 -122494  278442 -122494  312994 -122494  314500 -124000)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  278442 -122494  194556 -122494  193000 -124050  173950 -124050)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  154900 -124050  173950 -124050)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  135850 -124050  154900 -124050)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  116800 -124050  135850 -124050)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  86000 -124000  86099.4 -124099  116751 -124099  116800 -124050)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  229100 -33900  233400 -33900)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  228000 -35000  229100 -33900)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  240600 -41100  240600 -57100)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  233400 -33900  240600 -41100)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  240600 -57100  245500 -62000)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  258400 -62000  262892 -66491.5)(net OUT_5)(type protect))
-    (wire (path B.Cu 300  245500 -62000  258400 -62000)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  128500 -35000  109500 -35000  109500 -38000  110000 -38500)(net OUT_5)(type protect))
-    (wire (path F.Cu 300  297750 -105010  316840 -105010  316850 -105000)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  278750 -105000  297740 -105000  297750 -105010)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  297750 -105050  297750 -105010)(net OUT_7)(type protect))
-    (wire (path B.Cu 300  298220 -144700  298220 -105520  297750 -105050)(net OUT_7)(type protect))
-    (wire (path B.Cu 300  298220 -146000  298220 -144700)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  259700 -105000  240640 -105000  240620 -105020)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  278750 -105000  259700 -105000)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  240620 -105020  221620 -105020  221600 -105000)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  81040 -104920  82558.9 -103401  220001 -103401  221600 -105000)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  71500 -35000  90500 -35000)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  90500 -36555.6  91000 -37055.6)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  90500 -35000  90500 -36555.6)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  91000 -40666  88000 -43666)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  91000 -37055.6  91000 -40666)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  88000 -43666  88000 -54000  84000 -58000  62500 -58000  57000 -63500
-            57000 -97000  65000 -105000)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  65080 -104920  81040 -104920)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  65000 -105000  65080 -104920)(net OUT_7)(type protect))
-    (wire (path F.Cu 300  247248 -151285  295475 -151285  298220 -148540)(net IN_2)(type protect))
-    (wire (path B.Cu 300  224750 -126590  225207 -127047  225207 -129244  247248 -151285)(net IN_2)(type protect))
-    (wire (path B.Cu 300  162850 -69440  163307 -69896.8  163307 -79446.8  172350 -88490)(net IN_2)(type protect))
-    (wire (path F.Cu 300  186650 -126590  194375 -126590  195947 -125018  208927 -125018
-            210498 -126590  224750 -126590)(net IN_2)(type protect))
-    (wire (path B.Cu 300  229520 -88510  220457 -79446.9  220457 -69896.9  220000 -69440)(net IN_2)(type protect))
-    (wire (path B.Cu 300  230215 -107560  230215 -89205  229520 -88510)(net IN_2)(type protect))
-    (wire (path B.Cu 300  172350 -88490  172807 -88946.8  172807 -103197  177150 -107540)(net IN_2)(type protect))
-    (wire (path B.Cu 300  186650 -126590  177607 -117547  177607 -107997  177150 -107540)(net IN_2)(type protect))
-    (wire (path B.Cu 300  224750 -126590  224750 -113025  230215 -107560  234270 -107560)(net IN_2)(type protect))
-    (wire (path B.Cu 300  167600 -126590  158557 -117547  158557 -107997  158100 -107540)(net IN_7)(type protect))
-    (wire (path B.Cu 300  143800 -69440  144257 -69896.8  144257 -79446.8  153300 -88490)(net IN_7)(type protect))
-    (wire (path F.Cu 300  239050 -69440  226350 -69440  224767 -67856.6  209063 -67856.6
-            208466 -68453.4  202927 -68453.4  202318 -67844.6  200005 -67844.6
-            199367 -68483.3  187293 -68483.3  186667 -67856.6  170963 -67856.6
-            170366 -68453.4  168213 -68453.4  167617 -67856.6  152260 -67856.6
-            150677 -69440  143800 -69440)(net IN_7)(type protect))
-    (wire (path B.Cu 300  253350 -107540  249007 -103197  249007 -88946.9  248550 -88490)(net IN_7)(type protect))
-    (wire (path B.Cu 300  253080 -122465  253407 -122138  253407 -107597  253350 -107540)(net IN_7)(type protect))
-    (wire (path F.Cu 300  265754 -136766  290862 -136766  300095 -146000  300760 -146000)(net IN_7)(type protect))
-    (wire (path B.Cu 300  239050 -69440  239507 -69896.8  239507 -79446.8  248550 -88490)(net IN_7)(type protect))
-    (wire (path B.Cu 300  265754 -136766  253080 -124092  253080 -122465  247925 -122465
-            243800 -126590)(net IN_7)(type protect))
-    (wire (path F.Cu 300  153300 -90045.6  154100 -90845.6)(net IN_7)(type protect))
-    (wire (path F.Cu 300  153300 -88490  153300 -90045.6)(net IN_7)(type protect))
-    (wire (path F.Cu 300  154100 -90845.6  154100 -99300  156450 -99300  158500 -101350
-            158500 -101500)(net IN_7)(type protect))
-    (wire (path B.Cu 300  158500 -107140  158100 -107540)(net IN_7)(type protect))
-    (wire (path B.Cu 300  158500 -101500  158500 -107140)(net IN_7)(type protect))
-    (wire (path B.Cu 300  263693 -132551  263680 -132564)(net IN_5)(type protect))
-    (wire (path B.Cu 300  262850 -126590  263693 -127433  263693 -132551  271060 -132551
-            289597 -151088  298212 -151088  300760 -148540)(net IN_5)(type protect))
-    (wire (path F.Cu 300  263680 -132564  165376 -132564  159402 -126590  148550 -126590)(net IN_5)(type protect))
-    (wire (path B.Cu 300  124750 -69460  125207 -69916.8  125207 -79446.8  134250 -88490)(net IN_5)(type protect))
-    (wire (path B.Cu 300  268295 -107540  262850 -112985  262850 -126590)(net IN_5)(type protect))
-    (wire (path B.Cu 300  267600 -88490  258557 -79446.9  258557 -69896.9  258100 -69440)(net IN_5)(type protect))
-    (wire (path B.Cu 300  268295 -107540  268295 -89185  267600 -88490)(net IN_5)(type protect))
-    (wire (path B.Cu 300  134250 -88490  134707 -88946.8  134707 -103227  139040 -107560)(net IN_5)(type protect))
-    (wire (path B.Cu 300  148550 -126590  139497 -117537  139497 -108017  139040 -107560)(net IN_5)(type protect))
-    (wire (path B.Cu 300  268295 -107540  272400 -107540)(net IN_5)(type protect))
-    (wire (path F.Cu 300  303300 -146000  299010 -141710  297271 -141710)(net IN_1)(type protect))
-    (wire (path B.Cu 300  291400 -107590  291857 -108047  291857 -115198  297271 -120613
-            297271 -141710)(net IN_1)(type protect))
-    (wire (path B.Cu 300  287345 -107590  291400 -107590)(net IN_1)(type protect))
-    (wire (path B.Cu 300  281900 -126590  281900 -113035  287345 -107590)(net IN_1)(type protect))
-    (wire (path F.Cu 300  129500 -126590  140630 -126590  142213 -125007  151702 -125007
-            152296 -125600  160669 -125600  161263 -125007  171099 -125007
-            171747 -125654  174886 -125654  175533 -125007  187607 -125007
-            188225 -125625  194067 -125625  195274 -124418  210024 -124418
-            211271 -125665  221885 -125665  222550 -125000  228243 -125000
-            228897 -125654  232036 -125654  232683 -125007  247299 -125007
-            247947 -125654  251086 -125654  251733 -125007  267785 -125007
-            269368 -126590  281900 -126590)(net IN_1)(type protect))
-    (wire (path B.Cu 300  129500 -126590  120457 -117547  120457 -107997  120000 -107540)(net IN_1)(type protect))
-    (wire (path B.Cu 300  287345 -107590  287345 -89185  286650 -88490)(net IN_1)(type protect))
-    (wire (path B.Cu 300  105690 -69460  106147 -69916.8  106147 -79436.8  115200 -88490
-            115657 -88946.8  115657 -103197  120000 -107540)(net IN_1)(type protect))
-    (wire (path B.Cu 300  277150 -69440  277607 -69896.8  277607 -79446.8  286650 -88490)(net IN_1)(type protect))
-    (wire (path B.Cu 300  303300 -148540  300134 -151706  287978 -151706  281145 -144874
-            274787 -144874  266998 -137085  266998 -136414  266500 -135916
-            265829 -135916  254659 -124746  254659 -109116  254951 -108824
-            254951 -86000.8  254900 -85950)(net OUT_6)(type protect))
-    (wire (path F.Cu 300  237424 -85950  237424 -85265.8  236544 -84386.3  218364 -84386.3
-            216800 -85950)(net OUT_6)(type protect))
-    (wire (path F.Cu 300  235870 -85970  237404 -85970  237424 -85950  254900 -85950)(net OUT_6)(type protect))
-    (wire (path F.Cu 300  273950 -85950  254900 -85950)(net OUT_6)(type protect))
-    (wire (path F.Cu 300  293000 -85950  273950 -85950)(net OUT_6)(type protect))
-    (wire (path F.Cu 300  312050 -85950  293000 -85950)(net OUT_6)(type protect))
-    (wire (path F.Cu 300  336000 -86000  335950 -85950  312050 -85950)(net OUT_6)(type protect))
-    (wire (path B.Cu 300  305840 -144700  298940 -137800  298940 -106882  299328 -106494
-            299328 -103646  298836 -103154  298836 -88275.3  298941 -88170
-            298941 -79524.9  302550 -75916.2  302550 -66900)(net OUT_1)(type protect))
-    (wire (path B.Cu 300  305840 -146000  305840 -144700)(net OUT_1)(type protect))
-    (wire (path F.Cu 300  207300 -66900  226350 -66900)(net OUT_1)(type protect))
-    (wire (path B.Cu 300  283500 -66900  302550 -66900)(net OUT_1)(type protect))
-    (wire (path F.Cu 300  245400 -66900  264450 -66900)(net OUT_1)(type protect))
-    (wire (path F.Cu 300  226350 -66900  245400 -66900)(net OUT_1)(type protect))
-    (wire (path F.Cu 300  321600 -66900  302550 -66900)(net OUT_1)(type protect))
-    (wire (path F.Cu 300  340650 -66900  321600 -66900)(net OUT_1)(type protect))
-    (wire (path F.Cu 300  283500 -66900  264450 -66900)(net OUT_1)(type protect))
-    (wire (path B.Cu 300  188250 -66900  191121 -66900  212012 -87791.2  212012 -89617.3
-            211800 -89828.9  211800 -119307  244813 -152320  302060 -152320
-            305840 -148540)(net OUT_4)(type protect))
-    (wire (path F.Cu 300  169200 -66900  188250 -66900)(net OUT_4)(type protect))
-    (wire (path F.Cu 300  150150 -66900  169200 -66900)(net OUT_4)(type protect))
-    (wire (path F.Cu 300  131100 -66920  150130 -66920  150150 -66900)(net OUT_4)(type protect))
-    (wire (path F.Cu 300  112040 -66920  131100 -66920)(net OUT_4)(type protect))
-    (wire (path F.Cu 300  93000 -66900  93020 -66920  112040 -66920)(net OUT_4)(type protect))
-    (wire (path F.Cu 300  73900 -66900  93000 -66900)(net OUT_4)(type protect))
-    (wire (path B.Cu 300  299724 -102642  302204 -105122  302204 -138524  302204 -138524
-            308380 -144700)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  197750 -85950  214442 -102642  299724 -102642)(net OUT_2)(type protect))
-    (wire (path B.Cu 300  308380 -146000  308380 -144700)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  178700 -85950  197750 -85950)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  159650 -85950  178700 -85950)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  140600 -85950  159650 -85950)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  121550 -85950  140600 -85950)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  121550 -85950  102550 -85950)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  78790 -85920  102520 -85920  102550 -85950)(net OUT_2)(type protect))
-    (wire (path F.Cu 300  308380 -148540  311586 -151746  330893 -151746  332566 -150072
-            332566 -147670)(net IN_3)(type protect))
-    (wire (path B.Cu 300  331900 -107540  331957 -107597  331957 -126640  331672 -126925
-            331672 -130098  332566 -130992  332566 -147670)(net IN_3)(type protect))
-    (wire (path B.Cu 300  331900 -107540  329707 -105347  329707 -88597.1  329650 -88540)(net IN_3)(type protect))
-    (wire (path F.Cu 300  315250 -69440  302718 -69440  298590 -65311.6  71678.4 -65311.6
-            67550 -69440)(net IN_3)(type protect))
-    (wire (path B.Cu 300  329650 -88540  315707 -74596.9  315707 -69896.9  315250 -69440)(net IN_3)(type protect))
-    (wire (path B.Cu 300  72440 -88460  68006.9 -84026.9  68006.9 -69896.9  67550 -69440)(net IN_3)(type protect))
-    (wire (path F.Cu 300  85250 -36440  87440 -36440)(net IN_3)(type protect))
-    (wire (path F.Cu 300  84150 -37540  85250 -36440)(net IN_3)(type protect))
-    (wire (path B.Cu 300  87440 -36440  88440 -36440)(net IN_3)(type protect))
-    (wire (path B.Cu 300  89540 -37540  103150 -37540)(net IN_3)(type protect))
-    (wire (path B.Cu 300  88440 -36440  89540 -37540)(net IN_3)(type protect))
-    (wire (path B.Cu 300  84150 -37540  84150 -38150  85000 -39000  85000 -43000  71500 -56500
-            71500 -60500)(net IN_3)(type protect))
-    (wire (path F.Cu 300  71500 -65133.2  71678.4 -65311.6)(net IN_3)(type protect))
-    (wire (path F.Cu 300  71500 -60500  71500 -65133.2)(net IN_3)(type protect))
-    (wire (path F.Cu 300  304990 -124759  302517 -127232  296344 -127232)(net IN_0)(type protect))
-    (wire (path B.Cu 300  296344 -135257  296344 -127232)(net IN_0)(type protect))
-    (wire (path F.Cu 300  296344 -135257  300177 -135257  310920 -146000)(net IN_0)(type protect))
-    (wire (path F.Cu 300  110450 -126590  121188 -126590  129855 -135257  296344 -135257)(net IN_0)(type protect))
-    (wire (path B.Cu 300  298091 -87817.8  296657 -86383.7  296657 -69896.9  296200 -69440)(net IN_0)(type protect))
-    (wire (path F.Cu 300  305700 -88490  298763 -88490  298091 -87817.8)(net IN_0)(type protect))
-    (wire (path F.Cu 300  334250 -126540  312381 -126540  310600 -124759  304990 -124759)(net IN_0)(type protect))
-    (wire (path B.Cu 300  310500 -107540  310570 -107610  310570 -112893  304990 -118472
-            304990 -124759)(net IN_0)(type protect))
-    (wire (path B.Cu 300  86650 -69440  87106.8 -69896.8  87106.8 -79396.8  96200 -88490
-            96656.8 -88946.8  96656.8 -103297  100900 -107540)(net IN_0)(type protect))
-    (wire (path B.Cu 300  310500 -107540  306157 -103197  306157 -88946.9  305700 -88490)(net IN_0)(type protect))
-    (wire (path B.Cu 300  110450 -126590  101357 -117497  101357 -107997  100900 -107540)(net IN_0)(type protect))
-    (wire (path B.Cu 300  338250 -105000  338250 -125229  335275 -128204  335275 -146384
-            331568 -150091  331293 -150091)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  310920 -148540  313513 -151133  330251 -151133  331293 -150091)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  202550 -105000  217869 -105000  219420 -106550  227364 -106550
-            227905 -106010  238762 -106010  239354 -106601  246364 -106601
-            246975 -105990  257842 -105990  258441 -106589  265431 -106589
-            266030 -105990  276892 -105990  277510 -106608  284462 -106608
-            285030 -106040  294585 -106040  295171 -106626  303600 -106626
-            304269 -105957  315435 -105957  316098 -106619  330614 -106619
-            332234 -105000  338250 -105000)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  183500 -105000  202550 -105000)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  164450 -105000  183500 -105000)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  145390 -105020  164430 -105020  164450 -105000)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  126350 -105000  126370 -105020  145390 -105020)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  107250 -105000  126350 -105000)(net OUT_0)(type protect))
-    (wire (path F.Cu 300  205700 -126640  206157 -127097  206157 -129293  208572 -131708
-            299168 -131708  313460 -146000)(net IN_4)(type protect))
-    (wire (path F.Cu 300  210450 -88490  201527 -88490)(net IN_4)(type protect))
-    (wire (path B.Cu 300  191400 -88490  201527 -88490)(net IN_4)(type protect))
-    (wire (path B.Cu 300  191400 -88490  182357 -79446.9  182357 -69896.9  181900 -69440)(net IN_4)(type protect))
-    (wire (path B.Cu 300  205700 -126640  210507 -121833  210507 -88547.1  210450 -88490)(net IN_4)(type protect))
-    (wire (path F.Cu 300  200950 -69440  181900 -69440)(net IN_4)(type protect))
-    (wire (path B.Cu 300  69000 -32000  116610 -32000)(net IN_4)(type protect))
-    (wire (path B.Cu 300  66250 -34750  69000 -32000)(net IN_4)(type protect))
-    (wire (path B.Cu 300  65150 -37540  66250 -36440)(net IN_4)(type protect))
-    (wire (path B.Cu 300  116610 -32000  122150 -37540)(net IN_4)(type protect))
-    (wire (path B.Cu 300  66250 -36440  66250 -34750)(net IN_4)(type protect))
-    (wire (path B.Cu 300  122150 -37540  123960 -37540  124500 -37000  152500 -37000)(net IN_4)(type protect))
-    (wire (path B.Cu 300  181900 -66400  181900 -69440)(net IN_4)(type protect))
-    (wire (path B.Cu 300  152500 -37000  181900 -66400)(net IN_4)(type protect))
-    (wire (path F.Cu 300  307030 -120082  346455 -120082)(net RSC)(type protect))
-    (wire (path B.Cu 300  313460 -148540  317083 -152163  332284 -152163  346455 -137992
-            346455 -120082)(net RSC)(type protect))
-    (wire (path F.Cu 300  79650 -126540  86107.7 -120082  307030 -120082)(net RSC)(type protect))
-    (wire (path B.Cu 300  307435 -120487  317663 -110258  317663 -106977  318441 -106199
-            318441 -78333.9  312633 -72525.9  312633 -69864.3  314623 -67874
-            316471 -67874  318037 -69440  334300 -69440)(net RSC)(type protect))
-    (wire (path B.Cu 300  307435 -120487  307435 -125825  308150 -126540)(net RSC)(type protect))
-    (wire (path B.Cu 300  307435 -120487  307030 -120082)(net RSC)(type protect))
-    (wire (path B.Cu 300  79650 -126540  75146.9 -122037  75146.9 -107917  74690 -107460)(net RSC)(type protect))
-    (wire (path B.Cu 300  259400 -35000  260959 -33440.9)(net START)(type protect))
-    (wire (path B.Cu 300  306394 -73334.6  302517 -77211.3  302517 -92278.9  303117 -92879.2
-            303117 -131817  316000 -144700)(net START)(type protect))
-    (wire (path B.Cu 300  316000 -146000  316000 -144700)(net START)(type protect))
-    (wire (path B.Cu 300  257000 -35000  259400 -35000)(net START)(type protect))
-    (wire (path B.Cu 300  260959 -33440.9  266441 -33440.9  268500 -35500  268500 -49500
-            273500 -54500  302894 -54500  306394 -58000  306394 -73334.6)(net START)(type protect))
-    (wire (path B.Cu 300  335891 -70418.7  335608 -70702.3  335608 -78488.1  342176 -85056.5
-            342176 -126727  340813 -128090  340813 -141784  331655 -150942
-            324983 -150942  324306 -150266)(net SELECT)(type protect))
-    (wire (path F.Cu 300  324306 -150266  317726 -150266  316000 -148540)(net SELECT)(type protect))
-    (wire (path B.Cu 300  335891 -53500  335891 -70418.7)(net SELECT)(type protect))
-    (wire (path B.Cu 300  335782 -53391.2  335891 -53500)(net SELECT)(type protect))
-    (wire (path B.Cu 300  335391 -53391.2  335782 -53391.2)(net SELECT)(type protect))
-    (wire (path F.Cu 300  320000 -38000  335391 -53391.2)(net SELECT)(type protect))
-    (wire (path F.Cu 300  314500 -38000  320000 -38000)(net SELECT)(type protect))
-    (wire (path F.Cu 300  286000 -35000  311500 -35000  314500 -38000)(net SELECT)(type protect))
-    (wire (path B.Cu 300  318540 -146000  318540 -144700)(net OPTION)(type protect))
-    (wire (path B.Cu 300  318000 -63648.2  303117 -78531.1  303117 -91730  303718 -92330.4
-            303718 -129877  318540 -144700)(net OPTION)(type protect))
-    (wire (path B.Cu 300  314910 -35090  314910 -37410)(net OPTION)(type protect))
-    (wire (path B.Cu 300  315000 -35000  314910 -35090)(net OPTION)(type protect))
-    (wire (path B.Cu 300  314910 -37410  315500 -38000  315500 -58500)(net OPTION)(type protect))
-    (wire (path B.Cu 300  318000 -61000  318000 -63648.2)(net OPTION)(type protect))
-    (wire (path B.Cu 300  315500 -58500  318000 -61000)(net OPTION)(type protect))
-    (wire (path B.Cu 300  345600 -137890  331948 -151542  321542 -151542  318540 -148540)(net RESET)(type protect))
-    (wire (path F.Cu 300  344000 -35000  344000 -37500  344500 -38000  344500 -117000)(net RESET)(type protect))
-    (wire (path B.Cu 300  344500 -117000  344500 -126500)(net RESET)(type protect))
-    (wire (path B.Cu 300  345600 -127600  345600 -137890)(net RESET)(type protect))
-    (wire (path B.Cu 300  344500 -126500  345600 -127600)(net RESET)(type protect))
-    (wire (path F.Cu 300  278750 -143100  271707 -143100  269998 -144809  201553 -144809
-            200980 -144236  127486 -144236  126350 -143100)(net "Net-(J2-Pad1)")(type protect))
-    (wire (path B.Cu 300  108900 -146400  110200 -146400  113500 -143100  126350 -143100)(net "Net-(J2-Pad1)")(type protect))
-    (via "Via[0-1]_800:400_um"  268832 -145718 (net IN_6)(type protect))
-    (via "Via[0-1]_800:400_um"  287223 -145640 (net IN_6)(type protect))
-    (via "Via[0-1]_800:400_um"  278442 -122494 (net OUT_5)(type protect))
-    (via "Via[0-1]_800:400_um"  247248 -151285 (net IN_2)(type protect))
-    (via "Via[0-1]_800:400_um"  265754 -136766 (net IN_7)(type protect))
-    (via "Via[0-1]_800:400_um"  158500 -101500 (net IN_7)(type protect))
-    (via "Via[0-1]_800:400_um"  263680 -132564 (net IN_5)(type protect))
-    (via "Via[0-1]_800:400_um"  297271 -141710 (net IN_1)(type protect))
-    (via "Via[0-1]_800:400_um"  299724 -102642 (net OUT_2)(type protect))
-    (via "Via[0-1]_800:400_um"  332566 -147670 (net IN_3)(type protect))
-    (via "Via[0-1]_800:400_um"  87440 -36440 (net IN_3)(type protect))
-    (via "Via[0-1]_800:400_um"  71500 -60500 (net IN_3)(type protect))
-    (via "Via[0-1]_800:400_um"  296344 -127232 (net IN_0)(type protect))
-    (via "Via[0-1]_800:400_um"  296344 -135257 (net IN_0)(type protect))
-    (via "Via[0-1]_800:400_um"  298091 -87817.8 (net IN_0)(type protect))
-    (via "Via[0-1]_800:400_um"  304990 -124759 (net IN_0)(type protect))
-    (via "Via[0-1]_800:400_um"  331293 -150091 (net OUT_0)(type protect))
-    (via "Via[0-1]_800:400_um"  201527 -88490 (net IN_4)(type protect))
-    (via "Via[0-1]_800:400_um"  346455 -120082 (net RSC)(type protect))
-    (via "Via[0-1]_800:400_um"  307030 -120082 (net RSC)(type protect))
-    (via "Via[0-1]_800:400_um"  324306 -150266 (net SELECT)(type protect))
-    (via "Via[0-1]_800:400_um"  335391 -53391.2 (net SELECT)(type protect))
-    (via "Via[0-1]_800:400_um"  344500 -117000 (net RESET)(type protect))
   )
 )
