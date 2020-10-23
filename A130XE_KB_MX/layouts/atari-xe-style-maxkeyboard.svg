@@ -14,7 +14,7 @@
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-xe-style-maxkeyboard.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
   <metadata
      id="metadata1370">
     <rdf:RDF>
@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1989"
-     inkscape:window-height="1194"
+     inkscape:window-width="1680"
+     inkscape:window-height="1006"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="4.1002396"
-     inkscape:cx="900.67994"
-     inkscape:cy="216.57939"
-     inkscape:window-x="329"
-     inkscape:window-y="68"
+     inkscape:zoom="1.4496536"
+     inkscape:cx="498.08223"
+     inkscape:cy="206.49591"
+     inkscape:window-x="62"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g5442"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -3373,13 +3373,13 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="113.89474"
-         y="101.83806"
+         x="114.91918"
+         y="101.59417"
          id="text5232"><tspan
            sodipodi:role="line"
            id="tspan5230"
-           x="113.89474"
-           y="101.83806"
+           x="114.91918"
+           y="101.59417"
            style="font-size:21.33333397px">Q</tspan></text>
       <text
          xml:space="preserve"
@@ -3439,23 +3439,23 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="438.13623"
+         x="440.13623"
          y="101.81873"
          id="text5232-3-7-3-7-2-9"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6"
-           x="438.13623"
+           x="440.13623"
            y="101.81873"
            style="font-size:21.33333397px">U</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="497.367"
+         x="499.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4"
-           x="497.367"
+           x="499.367"
            y="101.55153"
            style="font-size:21.33333397px">I</tspan></text>
       <text
@@ -3472,12 +3472,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="601.367"
+         x="603.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-2-4"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-7"
-           x="601.367"
+           x="603.367"
            y="101.55153"
            style="font-size:21.33333397px">P</tspan></text>
       <text
@@ -3702,56 +3702,56 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="168.58969"
+         x="169.12636"
          y="101.81873"
          id="text5232-3-3-6"><tspan
            sodipodi:role="line"
            id="tspan5230-8-9-3"
-           x="168.58969"
+           x="169.12636"
            y="101.81873"
            style="font-size:21.33333397px">X</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="222.13625"
+         x="224.13625"
          y="101.81873"
          id="text5232-3-7-2-4"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-3-0"
-           x="222.13625"
+           x="224.13625"
            y="101.81873"
            style="font-size:21.33333397px">C</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="276.13623"
+         x="276.91678"
          y="101.81873"
          id="text5232-3-7-3-3-0"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-4-0"
-           x="276.13623"
+           x="276.91678"
            y="101.81873"
            style="font-size:21.33333397px">V</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="330.13623"
+         x="332.13623"
          y="101.81873"
          id="text5232-3-7-3-7-6-4"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-4-6"
-           x="330.13623"
+           x="332.13623"
            y="101.81873"
            style="font-size:21.33333397px">B</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="384.13623"
+         x="386.13623"
          y="101.81873"
          id="text5232-3-7-3-7-2-8-0"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-1-4"
-           x="384.13623"
+           x="386.13623"
            y="101.81873"
            style="font-size:21.33333397px">N</tspan></text>
       <text
@@ -3926,12 +3926,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="750.14081"
+         x="747.11633"
          y="94.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-7"><tspan
            id="tspan5723"
            sodipodi:role="line"
-           x="750.14081"
+           x="747.11633"
            y="94.223061"
            style="font-size:8px">DELETE</tspan></text>
       <text
@@ -4084,12 +4084,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="750.14081"
+         x="749.89691"
          y="98.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-7-5"><tspan
            id="tspan5723-0"
            sodipodi:role="line"
-           x="750.14081"
+           x="749.89691"
            y="98.223061"
            style="font-size:8px">SPACE</tspan></text>
       <text
