@@ -247,15 +247,13 @@
       "t": "#000000",
       "w": 1.25
     },
-    "<span class='whiteback'>CONTROL<span>",
+    "<span class='whiteback'>CTRL<span>",
     {
       "t": "#cccccc",
-      "f": 9,
       "w": 1.25
     },
-    "<i class='kb kb-logo-atari'></i>",
+    "META",
     {
-      "f": 2,
       "w": 1.25
     },
     "ALT",
@@ -283,7 +281,7 @@
       "t": "000000",
       "w": 1.25
     },
-    "<span class='whiteback'>CONTROL<span>",
+    "<span class='whiteback'>CTRL<span>",
     {
       "x": 0.25,
       "t": "#cccccc",
