@@ -14,7 +14,7 @@
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-800-xl-style-maxkeyboard.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata1370">
     <rdf:RDF>
@@ -43,13 +43,13 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="609.89896"
+     inkscape:zoom="2.2649515"
+     inkscape:cx="671.48279"
      inkscape:cy="173.04162"
      inkscape:window-x="41"
      inkscape:window-y="5"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g2340"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -5006,7 +5006,7 @@
            transform="matrix(0.25,0,0,0.25,1354.6775,188.34206)" />
       </g>
       <g
-         transform="translate(-652.95297,-105.15853)"
+         transform="translate(-706.95297,-105.15853)"
          id="g18080">
         <use
            id="use11706"
@@ -5028,7 +5028,7 @@
            transform="matrix(0.26415094,0,0,0.26415094,1364.2838,232.14128)" />
       </g>
       <g
-         transform="translate(-660.13426,-105.41501)"
+         transform="translate(-606.13426,-105.41501)"
          id="g18084">
         <use
            id="use11748"
