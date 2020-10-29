@@ -6,7 +6,7 @@
     "switchMount": "cherry",
     "switchBrand": "cherry",
     "switchType": "MX1A-E1Nx",
-    "css": ".whiteback {background: white; padding: 0.1em;}",
+    "css": ".whiteback {background: black; padding: 0.1em;}",
     "pcb": true
   },
   [
@@ -76,7 +76,7 @@
     "&\n7",
     "*\n8",
     "(\n9",
-    ")\n9",
+    ")\n0",
     "_\n-",
     "+\n=",
     {
@@ -106,16 +106,35 @@
     },
     "/",
     "*",
-    "-"
+    "-",
+    {
+      "x": 1,
+      "t": "#000000",
+      "sm": "",
+      "sb": "",
+      "st": "",
+      "a": 5
+    },
+    "¬\n`",
+    {
+      "x": 0.5
+    },
+    "\"\n2",
+    "£\n3"
   ],
   [
     {
+      "t": "#cccccc",
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx",
       "a": 4,
       "f": 3,
       "w": 1.5
     },
     "<span class='whiteback'>CLR</span>\n\nSET\n\n\n\n\n\n\n\nTAB",
     {
+      "t": "#333333",
       "a": 7,
       "f": 4
     },
@@ -160,12 +179,28 @@
     {
       "h": 2
     },
-    "+"
+    "+",
+    {
+      "x": 3,
+      "t": "#000000",
+      "sm": "",
+      "sb": "",
+      "st": "",
+      "a": 5,
+      "f": 3,
+      "w": 1.5,
+      "w2": 1.25,
+      "h2": 2,
+      "x2": 0.25
+    },
+    "RETURN"
   ],
   [
     {
-      "a": 5,
-      "f": 3,
+      "t": "#333333",
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx",
       "w": 1.75
     },
     "CAPS\nLOWR",
@@ -201,6 +236,28 @@
   ],
   [
     {
+      "y": -0.75,
+      "x": 23.5,
+      "t": "#000000\n\n\n\n\n\n#cccccc",
+      "sm": "",
+      "sb": "",
+      "st": "",
+      "a": 5
+    },
+    "@\n'",
+    {
+      "t": "#000000\n\n\n\n\n\n#FFFFFF"
+    },
+    "~\n#"
+  ],
+  [
+    {
+      "y": -0.25,
+      "t": "#333333",
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx",
+      "a": 7,
       "w": 2.25
     },
     "SHIFT",
@@ -242,10 +299,36 @@
   ],
   [
     {
+      "y": -0.75,
+      "x": 23.5,
+      "f": 3,
+      "w": 1.25
+    },
+    "SHIFT",
+    {
+      "t": "#000000",
+      "sm": "",
+      "sb": "",
+      "st": "",
+      "a": 5,
+      "f": 4
+    },
+    "|\n\\"
+  ],
+  [
+    {
+      "y": -0.25,
+      "t": "#cccccc",
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx",
+      "a": 7,
+      "f": 2,
       "w": 1.25
     },
     "<span class='whiteback'>CTRL<span>",
     {
+      "t": "#333333",
       "w": 1.25
     },
     "META",
@@ -274,11 +357,13 @@
     },
     "MENU",
     {
+      "t": "#cccccc",
       "w": 1.25
     },
     "<span class='whiteback'>CTRL<span>",
     {
       "x": 0.25,
+      "t": "#333333",
       "f": 5
     },
     "←",
