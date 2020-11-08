@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1375.4578"
-   height="464.60858"
-   viewBox="0 0 1375.4578 464.60858"
+   width="1091.2346"
+   height="459.90628"
+   viewBox="0 0 1091.2347 459.90628"
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-800-xl-style-maxkeyboard.svg"
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,13 +43,13 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="2.2649515"
-     inkscape:cx="671.48279"
-     inkscape:cy="173.04162"
-     inkscape:window-x="41"
-     inkscape:window-y="5"
+     inkscape:zoom="0.90686535"
+     inkscape:cx="523.50086"
+     inkscape:cy="140.33257"
+     inkscape:window-x="1696"
+     inkscape:window-y="103"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g2340"
+     inkscape:current-layer="layer3"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -61,7 +61,7 @@
        inkscape:locked="false"
        id="guide5112"
        orientation="1,0"
-       position="-102.69215,305.22407" />
+       position="-102.69215,305.45964" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -71,77 +71,6 @@
     </style>
   <defs
      id="defs738">
-    <linearGradient
-       id="DCS">
-      <stop
-         offset="0%"
-         stop-color="black"
-         stop-opacity="0"
-         id="stop712" />
-      <stop
-         offset="40%"
-         stop-color="black"
-         stop-opacity="0.1"
-         id="stop714" />
-      <stop
-         offset="60%"
-         stop-color="black"
-         stop-opacity="0.1"
-         id="stop716" />
-      <stop
-         offset="100%"
-         stop-color="black"
-         stop-opacity="0"
-         id="stop718" />
-    </linearGradient>
-    <linearGradient
-       id="SPACE"
-       x1="0"
-       x2="0"
-       y1="0"
-       y2="1">
-      <stop
-         offset="0%"
-         stop-color="black"
-         stop-opacity="0.1"
-         id="stop721" />
-      <stop
-         offset="20%"
-         stop-color="black"
-         stop-opacity="0.0"
-         id="stop723" />
-      <stop
-         offset="40%"
-         stop-color="black"
-         stop-opacity="0.0"
-         id="stop725" />
-      <stop
-         offset="100%"
-         stop-color="black"
-         stop-opacity="0.1"
-         id="stop727" />
-    </linearGradient>
-    <radialGradient
-       id="DSA">
-      <stop
-         offset="0%"
-         stop-color="black"
-         stop-opacity="0.1"
-         id="stop730" />
-      <stop
-         offset="10%"
-         stop-color="black"
-         stop-opacity="0.1"
-         id="stop732" />
-      <stop
-         offset="100%"
-         stop-color="black"
-         stop-opacity="0"
-         id="stop734" />
-    </radialGradient>
-    <radialGradient
-       id="SA"
-       xlink:href="#DSA" />
     <symbol
        id="UpArrow_Inv">
       <title
@@ -214,27 +143,6 @@
          id="path9072"
          inkscape:connector-curvature="0" />
     </symbol>
-    <radialGradient
-       id="DSA-3">
-      <stop
-         id="stop3999"
-         stop-opacity="0.1"
-         stop-color="black"
-         offset="0%" />
-      <stop
-         id="stop4001"
-         stop-opacity="0.1"
-         stop-color="black"
-         offset="10%" />
-      <stop
-         id="stop4003"
-         stop-opacity="0"
-         stop-color="black"
-         offset="100%" />
-    </radialGradient>
-    <radialGradient
-       xlink:href="#DSA-3"
-       id="SA-6" />
     <symbol
        id="UpArrow">
       <title
@@ -278,30 +186,29 @@
   </defs>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="ATARI800"
-     style="display:inline"
-     transform="translate(2.3366787,137.83327)">
+     id="layer7"
+     inkscape:label="ATARI800XL"
+     style="display:inline">
     <g
-       transform="translate(66.621086,-80.938699)"
-       id="g816">
+       transform="translate(68.958,51.956281)"
+       id="g716-1">
       <rect
-         style="fill:#c9ba9b;stroke:#dddddd;stroke-width:1"
+         style="fill:#202020;stroke:#dddddd;stroke-width:1"
          y="0"
          x="0"
-         width="1306"
+         width="955"
          height="361"
          rx="6"
          id="rect32" />
       <g
          transform="translate(5,5)"
-         id="g814">
+         id="g714-1">
         <g
            class="  keycap"
            id="g42">
           <!-- Outer Border -->
           <rect
-             style="fill:#a86b2c;stroke:#000000;stroke-width:2"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
              x="1"
              y="1"
              width="52"
@@ -311,7 +218,7 @@
              id="rect34" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#a86b2c"
+             style="fill:#999999"
              x="1"
              y="1"
              width="52"
@@ -320,7 +227,7 @@
              id="rect36" />
           <!-- Inner Border -->
           <rect
-             style="fill:#c78646;stroke-width:2"
+             style="fill:#bcbcbc;stroke-width:2"
              x="7"
              y="4"
              width="40"
@@ -330,7 +237,7 @@
              id="rect38" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#c78646"
+             style="fill:#bcbcbc"
              x="7"
              y="4"
              width="40"
@@ -343,7 +250,7 @@
            id="g52">
           <!-- Outer Border -->
           <rect
-             style="fill:#a86b2c;stroke:#000000;stroke-width:2"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
              x="55"
              y="1"
              width="52"
@@ -353,7 +260,7 @@
              id="rect44" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#a86b2c"
+             style="fill:#999999"
              x="55"
              y="1"
              width="52"
@@ -362,7 +269,7 @@
              id="rect46" />
           <!-- Inner Border -->
           <rect
-             style="fill:#c78646;stroke-width:2"
+             style="fill:#bcbcbc;stroke-width:2"
              x="61"
              y="4"
              width="40"
@@ -372,7 +279,7 @@
              id="rect48" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#c78646"
+             style="fill:#bcbcbc"
              x="61"
              y="4"
              width="40"
@@ -385,7 +292,7 @@
            id="g62">
           <!-- Outer Border -->
           <rect
-             style="fill:#a86b2c;stroke:#000000;stroke-width:2"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
              x="109"
              y="1"
              width="52"
@@ -395,7 +302,7 @@
              id="rect54" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#a86b2c"
+             style="fill:#999999"
              x="109"
              y="1"
              width="52"
@@ -404,7 +311,7 @@
              id="rect56" />
           <!-- Inner Border -->
           <rect
-             style="fill:#c78646;stroke-width:2"
+             style="fill:#bcbcbc;stroke-width:2"
              x="115"
              y="4"
              width="40"
@@ -414,7 +321,7 @@
              id="rect58" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#c78646"
+             style="fill:#bcbcbc"
              x="115"
              y="4"
              width="40"
@@ -427,7 +334,7 @@
            id="g72">
           <!-- Outer Border -->
           <rect
-             style="fill:#a86b2c;stroke:#000000;stroke-width:2"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
              x="163"
              y="1"
              width="52"
@@ -437,7 +344,7 @@
              id="rect64" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#a86b2c"
+             style="fill:#999999"
              x="163"
              y="1"
              width="52"
@@ -446,7 +353,7 @@
              id="rect66" />
           <!-- Inner Border -->
           <rect
-             style="fill:#c78646;stroke-width:2"
+             style="fill:#bcbcbc;stroke-width:2"
              x="169"
              y="4"
              width="40"
@@ -456,7 +363,7 @@
              id="rect68" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#c78646"
+             style="fill:#bcbcbc"
              x="169"
              y="4"
              width="40"
@@ -472,7 +379,7 @@
              style="fill:#333333;stroke:#000000;stroke-width:2"
              x="1"
              y="82"
-             width="52"
+             width="65.5"
              height="52"
              rx="5"
              class="outer border"
@@ -482,7 +389,7 @@
              style="fill:#333333"
              x="1"
              y="82"
-             width="52"
+             width="65.5"
              height="52"
              rx="5"
              id="rect76" />
@@ -491,7 +398,7 @@
              style="fill:#3d3d3d;stroke-width:2"
              x="7"
              y="85"
-             width="40"
+             width="53.5"
              height="40"
              rx="5"
              class="inner border"
@@ -501,7 +408,7 @@
              style="fill:#3d3d3d"
              x="7"
              y="85"
-             width="40"
+             width="53.5"
              height="40"
              rx="5"
              id="rect80" />
@@ -512,7 +419,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="55"
+             x="68.5"
              y="82"
              width="52"
              height="52"
@@ -522,7 +429,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="55"
+             x="68.5"
              y="82"
              width="52"
              height="52"
@@ -531,7 +438,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="61"
+             x="74.5"
              y="85"
              width="40"
              height="40"
@@ -541,7 +448,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="61"
+             x="74.5"
              y="85"
              width="40"
              height="40"
@@ -554,7 +461,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="109"
+             x="122.5"
              y="82"
              width="52"
              height="52"
@@ -564,7 +471,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="109"
+             x="122.5"
              y="82"
              width="52"
              height="52"
@@ -573,7 +480,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="115"
+             x="128.5"
              y="85"
              width="40"
              height="40"
@@ -583,7 +490,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="115"
+             x="128.5"
              y="85"
              width="40"
              height="40"
@@ -596,7 +503,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="163"
+             x="176.5"
              y="82"
              width="52"
              height="52"
@@ -606,7 +513,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="163"
+             x="176.5"
              y="82"
              width="52"
              height="52"
@@ -615,7 +522,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="169"
+             x="182.5"
              y="85"
              width="40"
              height="40"
@@ -625,7 +532,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="169"
+             x="182.5"
              y="85"
              width="40"
              height="40"
@@ -638,7 +545,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="217"
+             x="230.5"
              y="82"
              width="52"
              height="52"
@@ -648,7 +555,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="217"
+             x="230.5"
              y="82"
              width="52"
              height="52"
@@ -657,7 +564,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="223"
+             x="236.5"
              y="85"
              width="40"
              height="40"
@@ -667,7 +574,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="223"
+             x="236.5"
              y="85"
              width="40"
              height="40"
@@ -680,7 +587,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="271"
+             x="284.5"
              y="82"
              width="52"
              height="52"
@@ -690,7 +597,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="271"
+             x="284.5"
              y="82"
              width="52"
              height="52"
@@ -699,7 +606,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="277"
+             x="290.5"
              y="85"
              width="40"
              height="40"
@@ -709,7 +616,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="277"
+             x="290.5"
              y="85"
              width="40"
              height="40"
@@ -722,7 +629,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="325"
+             x="338.5"
              y="82"
              width="52"
              height="52"
@@ -732,7 +639,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="325"
+             x="338.5"
              y="82"
              width="52"
              height="52"
@@ -741,7 +648,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="331"
+             x="344.5"
              y="85"
              width="40"
              height="40"
@@ -751,7 +658,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="331"
+             x="344.5"
              y="85"
              width="40"
              height="40"
@@ -764,7 +671,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="379"
+             x="392.5"
              y="82"
              width="52"
              height="52"
@@ -774,7 +681,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="379"
+             x="392.5"
              y="82"
              width="52"
              height="52"
@@ -783,7 +690,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="385"
+             x="398.5"
              y="85"
              width="40"
              height="40"
@@ -793,7 +700,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="385"
+             x="398.5"
              y="85"
              width="40"
              height="40"
@@ -806,7 +713,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="433"
+             x="446.5"
              y="82"
              width="52"
              height="52"
@@ -816,7 +723,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="433"
+             x="446.5"
              y="82"
              width="52"
              height="52"
@@ -825,7 +732,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="439"
+             x="452.5"
              y="85"
              width="40"
              height="40"
@@ -835,7 +742,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="439"
+             x="452.5"
              y="85"
              width="40"
              height="40"
@@ -848,7 +755,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="487"
+             x="500.5"
              y="82"
              width="52"
              height="52"
@@ -858,7 +765,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="487"
+             x="500.5"
              y="82"
              width="52"
              height="52"
@@ -867,7 +774,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="493"
+             x="506.5"
              y="85"
              width="40"
              height="40"
@@ -877,7 +784,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="493"
+             x="506.5"
              y="85"
              width="40"
              height="40"
@@ -890,7 +797,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="541"
+             x="554.5"
              y="82"
              width="52"
              height="52"
@@ -900,7 +807,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="541"
+             x="554.5"
              y="82"
              width="52"
              height="52"
@@ -909,7 +816,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="547"
+             x="560.5"
              y="85"
              width="40"
              height="40"
@@ -919,7 +826,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="547"
+             x="560.5"
              y="85"
              width="40"
              height="40"
@@ -932,7 +839,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="595"
+             x="608.5"
              y="82"
              width="52"
              height="52"
@@ -942,7 +849,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="595"
+             x="608.5"
              y="82"
              width="52"
              height="52"
@@ -951,7 +858,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="601"
+             x="614.5"
              y="85"
              width="40"
              height="40"
@@ -961,7 +868,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="601"
+             x="614.5"
              y="85"
              width="40"
              height="40"
@@ -974,7 +881,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="649"
+             x="662.5"
              y="82"
              width="52"
              height="52"
@@ -984,7 +891,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="649"
+             x="662.5"
              y="82"
              width="52"
              height="52"
@@ -993,7 +900,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="655"
+             x="668.5"
              y="85"
              width="40"
              height="40"
@@ -1003,7 +910,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="655"
+             x="668.5"
              y="85"
              width="40"
              height="40"
@@ -1016,7 +923,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="703"
+             x="716.5"
              y="82"
              width="52"
              height="52"
@@ -1026,7 +933,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="703"
+             x="716.5"
              y="82"
              width="52"
              height="52"
@@ -1035,7 +942,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="709"
+             x="722.5"
              y="85"
              width="40"
              height="40"
@@ -1045,7 +952,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="709"
+             x="722.5"
              y="85"
              width="40"
              height="40"
@@ -1058,7 +965,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="757"
+             x="770.5"
              y="82"
              width="52"
              height="52"
@@ -1068,7 +975,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="757"
+             x="770.5"
              y="82"
              width="52"
              height="52"
@@ -1077,7 +984,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="763"
+             x="776.5"
              y="85"
              width="40"
              height="40"
@@ -1087,7 +994,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="763"
+             x="776.5"
              y="85"
              width="40"
              height="40"
@@ -1099,39 +1006,39 @@
            id="g232">
           <!-- Outer Border -->
           <rect
-             style="fill:#7f5b39;stroke:#000000;stroke-width:2"
-             x="865"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
+             x="892"
              y="82"
-             width="79"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
              id="rect224" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#7f5b39"
-             x="865"
+             style="fill:#999999"
+             x="892"
              y="82"
-             width="79"
+             width="52"
              height="52"
              rx="5"
              id="rect226" />
           <!-- Inner Border -->
           <rect
-             style="fill:#96704d;stroke-width:2"
-             x="871"
+             style="fill:#bcbcbc;stroke-width:2"
+             x="898"
              y="85"
-             width="67"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
              id="rect228" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#96704d"
-             x="871"
+             style="fill:#bcbcbc"
+             x="898"
              y="85"
-             width="67"
+             width="40"
              height="40"
              rx="5"
              id="rect230" />
@@ -1141,39 +1048,39 @@
            id="g242">
           <!-- Outer Border -->
           <rect
-             style="fill:#7f5b39;stroke:#000000;stroke-width:2"
-             x="959.5"
-             y="82"
-             width="52"
+             style="fill:#333333;stroke:#000000;stroke-width:2"
+             x="1"
+             y="136"
+             width="92.5"
              height="52"
              rx="5"
              class="outer border"
              id="rect234" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#7f5b39"
-             x="959.5"
-             y="82"
-             width="52"
+             style="fill:#333333"
+             x="1"
+             y="136"
+             width="92.5"
              height="52"
              rx="5"
              id="rect236" />
           <!-- Inner Border -->
           <rect
-             style="fill:#96704d;stroke-width:2"
-             x="965.5"
-             y="85"
-             width="40"
+             style="fill:#3d3d3d;stroke-width:2"
+             x="7"
+             y="139"
+             width="80.5"
              height="40"
              rx="5"
              class="inner border"
              id="rect238" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#96704d"
-             x="965.5"
-             y="85"
-             width="40"
+             style="fill:#3d3d3d"
+             x="7"
+             y="139"
+             width="80.5"
              height="40"
              rx="5"
              id="rect240" />
@@ -1184,9 +1091,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1040.5"
-             y="82"
-             width="65.5"
+             x="95.5"
+             y="136"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -1194,18 +1101,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="1040.5"
-             y="82"
-             width="65.5"
+             x="95.5"
+             y="136"
+             width="52"
              height="52"
              rx="5"
              id="rect246" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="1046.5"
-             y="85"
-             width="53.5"
+             x="101.5"
+             y="139"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -1213,9 +1120,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="1046.5"
-             y="85"
-             width="53.5"
+             x="101.5"
+             y="139"
+             width="40"
              height="40"
              rx="5"
              id="rect250" />
@@ -1226,9 +1133,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1"
+             x="149.5"
              y="136"
-             width="79"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -1236,18 +1143,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="1"
+             x="149.5"
              y="136"
-             width="79"
+             width="52"
              height="52"
              rx="5"
              id="rect256" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="7"
+             x="155.5"
              y="139"
-             width="67"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -1255,9 +1162,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="7"
+             x="155.5"
              y="139"
-             width="67"
+             width="40"
              height="40"
              rx="5"
              id="rect260" />
@@ -1268,7 +1175,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="82"
+             x="203.5"
              y="136"
              width="52"
              height="52"
@@ -1278,7 +1185,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="82"
+             x="203.5"
              y="136"
              width="52"
              height="52"
@@ -1287,7 +1194,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="88"
+             x="209.5"
              y="139"
              width="40"
              height="40"
@@ -1297,7 +1204,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="88"
+             x="209.5"
              y="139"
              width="40"
              height="40"
@@ -1310,7 +1217,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="136"
+             x="257.5"
              y="136"
              width="52"
              height="52"
@@ -1320,7 +1227,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="136"
+             x="257.5"
              y="136"
              width="52"
              height="52"
@@ -1329,7 +1236,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="142"
+             x="263.5"
              y="139"
              width="40"
              height="40"
@@ -1339,7 +1246,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="142"
+             x="263.5"
              y="139"
              width="40"
              height="40"
@@ -1352,7 +1259,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="190"
+             x="311.5"
              y="136"
              width="52"
              height="52"
@@ -1362,7 +1269,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="190"
+             x="311.5"
              y="136"
              width="52"
              height="52"
@@ -1371,7 +1278,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="196"
+             x="317.5"
              y="139"
              width="40"
              height="40"
@@ -1381,7 +1288,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="196"
+             x="317.5"
              y="139"
              width="40"
              height="40"
@@ -1394,7 +1301,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="244"
+             x="365.5"
              y="136"
              width="52"
              height="52"
@@ -1404,7 +1311,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="244"
+             x="365.5"
              y="136"
              width="52"
              height="52"
@@ -1413,7 +1320,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="250"
+             x="371.5"
              y="139"
              width="40"
              height="40"
@@ -1423,7 +1330,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="250"
+             x="371.5"
              y="139"
              width="40"
              height="40"
@@ -1436,7 +1343,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="298"
+             x="419.5"
              y="136"
              width="52"
              height="52"
@@ -1446,7 +1353,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="298"
+             x="419.5"
              y="136"
              width="52"
              height="52"
@@ -1455,7 +1362,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="304"
+             x="425.5"
              y="139"
              width="40"
              height="40"
@@ -1465,7 +1372,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="304"
+             x="425.5"
              y="139"
              width="40"
              height="40"
@@ -1478,7 +1385,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="352"
+             x="473.5"
              y="136"
              width="52"
              height="52"
@@ -1488,7 +1395,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="352"
+             x="473.5"
              y="136"
              width="52"
              height="52"
@@ -1497,7 +1404,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="358"
+             x="479.5"
              y="139"
              width="40"
              height="40"
@@ -1507,7 +1414,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="358"
+             x="479.5"
              y="139"
              width="40"
              height="40"
@@ -1520,7 +1427,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="406"
+             x="527.5"
              y="136"
              width="52"
              height="52"
@@ -1530,7 +1437,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="406"
+             x="527.5"
              y="136"
              width="52"
              height="52"
@@ -1539,7 +1446,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="412"
+             x="533.5"
              y="139"
              width="40"
              height="40"
@@ -1549,7 +1456,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="412"
+             x="533.5"
              y="139"
              width="40"
              height="40"
@@ -1562,7 +1469,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="460"
+             x="581.5"
              y="136"
              width="52"
              height="52"
@@ -1572,7 +1479,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="460"
+             x="581.5"
              y="136"
              width="52"
              height="52"
@@ -1581,7 +1488,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="466"
+             x="587.5"
              y="139"
              width="40"
              height="40"
@@ -1591,7 +1498,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="466"
+             x="587.5"
              y="139"
              width="40"
              height="40"
@@ -1604,7 +1511,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="514"
+             x="635.5"
              y="136"
              width="52"
              height="52"
@@ -1614,7 +1521,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="514"
+             x="635.5"
              y="136"
              width="52"
              height="52"
@@ -1623,7 +1530,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="520"
+             x="641.5"
              y="139"
              width="40"
              height="40"
@@ -1633,7 +1540,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="520"
+             x="641.5"
              y="139"
              width="40"
              height="40"
@@ -1646,7 +1553,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="568"
+             x="689.5"
              y="136"
              width="52"
              height="52"
@@ -1656,7 +1563,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="568"
+             x="689.5"
              y="136"
              width="52"
              height="52"
@@ -1665,7 +1572,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="574"
+             x="695.5"
              y="139"
              width="40"
              height="40"
@@ -1675,7 +1582,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="574"
+             x="695.5"
              y="139"
              width="40"
              height="40"
@@ -1688,9 +1595,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="622"
+             x="743.5"
              y="136"
-             width="52"
+             width="79"
              height="52"
              rx="5"
              class="outer border"
@@ -1698,18 +1605,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="622"
+             x="743.5"
              y="136"
-             width="52"
+             width="79"
              height="52"
              rx="5"
              id="rect366" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="628"
+             x="749.5"
              y="139"
-             width="40"
+             width="67"
              height="40"
              rx="5"
              class="inner border"
@@ -1717,9 +1624,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="628"
+             x="749.5"
              y="139"
-             width="40"
+             width="67"
              height="40"
              rx="5"
              id="rect370" />
@@ -1729,8 +1636,8 @@
            id="g382">
           <!-- Outer Border -->
           <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="676"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
+             x="892"
              y="136"
              width="52"
              height="52"
@@ -1739,8 +1646,8 @@
              id="rect374" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#333333"
-             x="676"
+             style="fill:#999999"
+             x="892"
              y="136"
              width="52"
              height="52"
@@ -1748,8 +1655,8 @@
              id="rect376" />
           <!-- Inner Border -->
           <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="682"
+             style="fill:#bcbcbc;stroke-width:2"
+             x="898"
              y="139"
              width="40"
              height="40"
@@ -1758,8 +1665,8 @@
              id="rect378" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#3d3d3d"
-             x="682"
+             style="fill:#bcbcbc"
+             x="898"
              y="139"
              width="40"
              height="40"
@@ -1772,9 +1679,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="730"
-             y="136"
-             width="79"
+             x="1"
+             y="190"
+             width="106"
              height="52"
              rx="5"
              class="outer border"
@@ -1782,18 +1689,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="730"
-             y="136"
-             width="79"
+             x="1"
+             y="190"
+             width="106"
              height="52"
              rx="5"
              id="rect386" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="736"
-             y="139"
-             width="67"
+             x="7"
+             y="193"
+             width="94"
              height="40"
              rx="5"
              class="inner border"
@@ -1801,9 +1708,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="736"
-             y="139"
-             width="67"
+             x="7"
+             y="193"
+             width="94"
              height="40"
              rx="5"
              id="rect390" />
@@ -1813,39 +1720,39 @@
            id="g402">
           <!-- Outer Border -->
           <rect
-             style="fill:#a86b2c;stroke:#000000;stroke-width:2"
-             x="865"
-             y="136"
-             width="79"
+             style="fill:#333333;stroke:#000000;stroke-width:2"
+             x="109"
+             y="190"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
              id="rect394" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#a86b2c"
-             x="865"
-             y="136"
-             width="79"
+             style="fill:#333333"
+             x="109"
+             y="190"
+             width="52"
              height="52"
              rx="5"
              id="rect396" />
           <!-- Inner Border -->
           <rect
-             style="fill:#c78646;stroke-width:2"
-             x="871"
-             y="139"
-             width="67"
+             style="fill:#3d3d3d;stroke-width:2"
+             x="115"
+             y="193"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
              id="rect398" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#c78646"
-             x="871"
-             y="139"
-             width="67"
+             style="fill:#3d3d3d"
+             x="115"
+             y="193"
+             width="40"
              height="40"
              rx="5"
              id="rect400" />
@@ -1855,9 +1762,9 @@
            id="g412">
           <!-- Outer Border -->
           <rect
-             style="fill:#a86b2c;stroke:#000000;stroke-width:2"
-             x="959.5"
-             y="136"
+             style="fill:#333333;stroke:#000000;stroke-width:2"
+             x="163"
+             y="190"
              width="52"
              height="52"
              rx="5"
@@ -1865,18 +1772,18 @@
              id="rect404" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#a86b2c"
-             x="959.5"
-             y="136"
+             style="fill:#333333"
+             x="163"
+             y="190"
              width="52"
              height="52"
              rx="5"
              id="rect406" />
           <!-- Inner Border -->
           <rect
-             style="fill:#c78646;stroke-width:2"
-             x="965.5"
-             y="139"
+             style="fill:#3d3d3d;stroke-width:2"
+             x="169"
+             y="193"
              width="40"
              height="40"
              rx="5"
@@ -1884,9 +1791,9 @@
              id="rect408" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#c78646"
-             x="965.5"
-             y="139"
+             style="fill:#3d3d3d"
+             x="169"
+             y="193"
              width="40"
              height="40"
              rx="5"
@@ -1898,9 +1805,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1202.5"
-             y="136"
-             width="92.5"
+             x="217"
+             y="190"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -1908,18 +1815,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="1202.5"
-             y="136"
-             width="92.5"
+             x="217"
+             y="190"
+             width="52"
              height="52"
              rx="5"
              id="rect416" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="1208.5"
-             y="139"
-             width="80.5"
+             x="223"
+             y="193"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -1927,9 +1834,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="1208.5"
-             y="139"
-             width="80.5"
+             x="223"
+             y="193"
+             width="40"
              height="40"
              rx="5"
              id="rect420" />
@@ -1940,9 +1847,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="14.5"
+             x="271"
              y="190"
-             width="79"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -1950,18 +1857,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="14.5"
+             x="271"
              y="190"
-             width="79"
+             width="52"
              height="52"
              rx="5"
              id="rect426" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="20.5"
+             x="277"
              y="193"
-             width="67"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -1969,9 +1876,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="20.5"
+             x="277"
              y="193"
-             width="67"
+             width="40"
              height="40"
              rx="5"
              id="rect430" />
@@ -1982,7 +1889,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="95.5"
+             x="325"
              y="190"
              width="52"
              height="52"
@@ -1992,7 +1899,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="95.5"
+             x="325"
              y="190"
              width="52"
              height="52"
@@ -2001,7 +1908,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="101.5"
+             x="331"
              y="193"
              width="40"
              height="40"
@@ -2011,7 +1918,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="101.5"
+             x="331"
              y="193"
              width="40"
              height="40"
@@ -2024,7 +1931,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="149.5"
+             x="379"
              y="190"
              width="52"
              height="52"
@@ -2034,7 +1941,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="149.5"
+             x="379"
              y="190"
              width="52"
              height="52"
@@ -2043,7 +1950,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="155.5"
+             x="385"
              y="193"
              width="40"
              height="40"
@@ -2053,7 +1960,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="155.5"
+             x="385"
              y="193"
              width="40"
              height="40"
@@ -2066,7 +1973,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="203.5"
+             x="433"
              y="190"
              width="52"
              height="52"
@@ -2076,7 +1983,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="203.5"
+             x="433"
              y="190"
              width="52"
              height="52"
@@ -2085,7 +1992,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="209.5"
+             x="439"
              y="193"
              width="40"
              height="40"
@@ -2095,7 +2002,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="209.5"
+             x="439"
              y="193"
              width="40"
              height="40"
@@ -2108,7 +2015,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="257.5"
+             x="487"
              y="190"
              width="52"
              height="52"
@@ -2118,7 +2025,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="257.5"
+             x="487"
              y="190"
              width="52"
              height="52"
@@ -2127,7 +2034,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="263.5"
+             x="493"
              y="193"
              width="40"
              height="40"
@@ -2137,7 +2044,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="263.5"
+             x="493"
              y="193"
              width="40"
              height="40"
@@ -2150,7 +2057,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="311.5"
+             x="541"
              y="190"
              width="52"
              height="52"
@@ -2160,7 +2067,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="311.5"
+             x="541"
              y="190"
              width="52"
              height="52"
@@ -2169,7 +2076,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="317.5"
+             x="547"
              y="193"
              width="40"
              height="40"
@@ -2179,7 +2086,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="317.5"
+             x="547"
              y="193"
              width="40"
              height="40"
@@ -2192,7 +2099,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="365.5"
+             x="595"
              y="190"
              width="52"
              height="52"
@@ -2202,7 +2109,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="365.5"
+             x="595"
              y="190"
              width="52"
              height="52"
@@ -2211,7 +2118,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="371.5"
+             x="601"
              y="193"
              width="40"
              height="40"
@@ -2221,7 +2128,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="371.5"
+             x="601"
              y="193"
              width="40"
              height="40"
@@ -2234,7 +2141,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="419.5"
+             x="649"
              y="190"
              width="52"
              height="52"
@@ -2244,7 +2151,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="419.5"
+             x="649"
              y="190"
              width="52"
              height="52"
@@ -2253,7 +2160,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="425.5"
+             x="655"
              y="193"
              width="40"
              height="40"
@@ -2263,7 +2170,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="425.5"
+             x="655"
              y="193"
              width="40"
              height="40"
@@ -2276,7 +2183,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="473.5"
+             x="703"
              y="190"
              width="52"
              height="52"
@@ -2286,7 +2193,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="473.5"
+             x="703"
              y="190"
              width="52"
              height="52"
@@ -2295,7 +2202,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="479.5"
+             x="709"
              y="193"
              width="40"
              height="40"
@@ -2305,7 +2212,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="479.5"
+             x="709"
              y="193"
              width="40"
              height="40"
@@ -2318,9 +2225,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="527.5"
+             x="757"
              y="190"
-             width="52"
+             width="65.5"
              height="52"
              rx="5"
              class="outer border"
@@ -2328,18 +2235,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="527.5"
+             x="757"
              y="190"
-             width="52"
+             width="65.5"
              height="52"
              rx="5"
              id="rect516" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="533.5"
+             x="763"
              y="193"
-             width="40"
+             width="53.5"
              height="40"
              rx="5"
              class="inner border"
@@ -2347,9 +2254,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="533.5"
+             x="763"
              y="193"
-             width="40"
+             width="53.5"
              height="40"
              rx="5"
              id="rect520" />
@@ -2359,8 +2266,8 @@
            id="g532">
           <!-- Outer Border -->
           <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="581.5"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
+             x="892"
              y="190"
              width="52"
              height="52"
@@ -2369,8 +2276,8 @@
              id="rect524" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#333333"
-             x="581.5"
+             style="fill:#999999"
+             x="892"
              y="190"
              width="52"
              height="52"
@@ -2378,8 +2285,8 @@
              id="rect526" />
           <!-- Inner Border -->
           <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="587.5"
+             style="fill:#bcbcbc;stroke-width:2"
+             x="898"
              y="193"
              width="40"
              height="40"
@@ -2388,8 +2295,8 @@
              id="rect528" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#3d3d3d"
-             x="587.5"
+             style="fill:#bcbcbc"
+             x="898"
              y="193"
              width="40"
              height="40"
@@ -2402,9 +2309,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="635.5"
-             y="190"
-             width="52"
+             x="1"
+             y="244"
+             width="119.5"
              height="52"
              rx="5"
              class="outer border"
@@ -2412,18 +2319,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="635.5"
-             y="190"
-             width="52"
+             x="1"
+             y="244"
+             width="119.5"
              height="52"
              rx="5"
              id="rect536" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="641.5"
-             y="193"
-             width="40"
+             x="7"
+             y="247"
+             width="107.5"
              height="40"
              rx="5"
              class="inner border"
@@ -2431,9 +2338,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="641.5"
-             y="193"
-             width="40"
+             x="7"
+             y="247"
+             width="107.5"
              height="40"
              rx="5"
              id="rect540" />
@@ -2444,8 +2351,8 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="689.5"
-             y="190"
+             x="122.5"
+             y="244"
              width="52"
              height="52"
              rx="5"
@@ -2454,8 +2361,8 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="689.5"
-             y="190"
+             x="122.5"
+             y="244"
              width="52"
              height="52"
              rx="5"
@@ -2463,8 +2370,8 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="695.5"
-             y="193"
+             x="128.5"
+             y="247"
              width="40"
              height="40"
              rx="5"
@@ -2473,8 +2380,8 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="695.5"
-             y="193"
+             x="128.5"
+             y="247"
              width="40"
              height="40"
              rx="5"
@@ -2486,8 +2393,8 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="743.5"
-             y="190"
+             x="176.5"
+             y="244"
              width="52"
              height="52"
              rx="5"
@@ -2496,8 +2403,8 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="743.5"
-             y="190"
+             x="176.5"
+             y="244"
              width="52"
              height="52"
              rx="5"
@@ -2505,8 +2412,8 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="749.5"
-             y="193"
+             x="182.5"
+             y="247"
              width="40"
              height="40"
              rx="5"
@@ -2515,8 +2422,8 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="749.5"
-             y="193"
+             x="182.5"
+             y="247"
              width="40"
              height="40"
              rx="5"
@@ -2527,39 +2434,39 @@
            id="g572">
           <!-- Outer Border -->
           <rect
-             style="fill:#bc7c18;stroke:#000000;stroke-width:2"
-             x="865"
-             y="190"
-             width="79"
+             style="fill:#333333;stroke:#000000;stroke-width:2"
+             x="230.5"
+             y="244"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
              id="rect564" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#bc7c18"
-             x="865"
-             y="190"
-             width="79"
+             style="fill:#333333"
+             x="230.5"
+             y="244"
+             width="52"
              height="52"
              rx="5"
              id="rect566" />
           <!-- Inner Border -->
           <rect
-             style="fill:#e09b3a;stroke-width:2"
-             x="871"
-             y="193"
-             width="67"
+             style="fill:#3d3d3d;stroke-width:2"
+             x="236.5"
+             y="247"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
              id="rect568" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#e09b3a"
-             x="871"
-             y="193"
-             width="67"
+             style="fill:#3d3d3d"
+             x="236.5"
+             y="247"
+             width="40"
              height="40"
              rx="5"
              id="rect570" />
@@ -2569,9 +2476,9 @@
            id="g582">
           <!-- Outer Border -->
           <rect
-             style="fill:#bc7c18;stroke:#000000;stroke-width:2"
-             x="959.5"
-             y="190"
+             style="fill:#333333;stroke:#000000;stroke-width:2"
+             x="284.5"
+             y="244"
              width="52"
              height="52"
              rx="5"
@@ -2579,18 +2486,18 @@
              id="rect574" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#bc7c18"
-             x="959.5"
-             y="190"
+             style="fill:#333333"
+             x="284.5"
+             y="244"
              width="52"
              height="52"
              rx="5"
              id="rect576" />
           <!-- Inner Border -->
           <rect
-             style="fill:#e09b3a;stroke-width:2"
-             x="965.5"
-             y="193"
+             style="fill:#3d3d3d;stroke-width:2"
+             x="290.5"
+             y="247"
              width="40"
              height="40"
              rx="5"
@@ -2598,9 +2505,9 @@
              id="rect578" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#e09b3a"
-             x="965.5"
-             y="193"
+             style="fill:#3d3d3d"
+             x="290.5"
+             y="247"
              width="40"
              height="40"
              rx="5"
@@ -2612,9 +2519,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1040.5"
-             y="190"
-             width="106"
+             x="338.5"
+             y="244"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -2622,18 +2529,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="1040.5"
-             y="190"
-             width="106"
+             x="338.5"
+             y="244"
+             width="52"
              height="52"
              rx="5"
              id="rect586" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="1046.5"
-             y="193"
-             width="94"
+             x="344.5"
+             y="247"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -2641,9 +2548,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="1046.5"
-             y="193"
-             width="94"
+             x="344.5"
+             y="247"
+             width="40"
              height="40"
              rx="5"
              id="rect590" />
@@ -2654,9 +2561,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1229.5"
-             y="190"
-             width="65.5"
+             x="392.5"
+             y="244"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -2664,18 +2571,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="1229.5"
-             y="190"
-             width="65.5"
+             x="392.5"
+             y="244"
+             width="52"
              height="52"
              rx="5"
              id="rect596" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="1235.5"
-             y="193"
-             width="53.5"
+             x="398.5"
+             y="247"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -2683,9 +2590,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="1235.5"
-             y="193"
-             width="53.5"
+             x="398.5"
+             y="247"
+             width="40"
              height="40"
              rx="5"
              id="rect600" />
@@ -2696,9 +2603,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="14.5"
+             x="446.5"
              y="244"
-             width="92.5"
+             width="52"
              height="52"
              rx="5"
              class="outer border"
@@ -2706,18 +2613,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="14.5"
+             x="446.5"
              y="244"
-             width="92.5"
+             width="52"
              height="52"
              rx="5"
              id="rect606" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="20.5"
+             x="452.5"
              y="247"
-             width="80.5"
+             width="40"
              height="40"
              rx="5"
              class="inner border"
@@ -2725,9 +2632,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="20.5"
+             x="452.5"
              y="247"
-             width="80.5"
+             width="40"
              height="40"
              rx="5"
              id="rect610" />
@@ -2738,7 +2645,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="109"
+             x="500.5"
              y="244"
              width="52"
              height="52"
@@ -2748,7 +2655,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="109"
+             x="500.5"
              y="244"
              width="52"
              height="52"
@@ -2757,7 +2664,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="115"
+             x="506.5"
              y="247"
              width="40"
              height="40"
@@ -2767,7 +2674,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="115"
+             x="506.5"
              y="247"
              width="40"
              height="40"
@@ -2780,7 +2687,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="163"
+             x="554.5"
              y="244"
              width="52"
              height="52"
@@ -2790,7 +2697,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="163"
+             x="554.5"
              y="244"
              width="52"
              height="52"
@@ -2799,7 +2706,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="169"
+             x="560.5"
              y="247"
              width="40"
              height="40"
@@ -2809,7 +2716,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="169"
+             x="560.5"
              y="247"
              width="40"
              height="40"
@@ -2822,7 +2729,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="217"
+             x="608.5"
              y="244"
              width="52"
              height="52"
@@ -2832,7 +2739,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="217"
+             x="608.5"
              y="244"
              width="52"
              height="52"
@@ -2841,7 +2748,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="223"
+             x="614.5"
              y="247"
              width="40"
              height="40"
@@ -2851,7 +2758,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="223"
+             x="614.5"
              y="247"
              width="40"
              height="40"
@@ -2864,9 +2771,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="271"
+             x="662.5"
              y="244"
-             width="52"
+             width="106"
              height="52"
              rx="5"
              class="outer border"
@@ -2874,18 +2781,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="271"
+             x="662.5"
              y="244"
-             width="52"
+             width="106"
              height="52"
              rx="5"
              id="rect646" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="277"
+             x="668.5"
              y="247"
-             width="40"
+             width="94"
              height="40"
              rx="5"
              class="inner border"
@@ -2893,9 +2800,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="277"
+             x="668.5"
              y="247"
-             width="40"
+             width="94"
              height="40"
              rx="5"
              id="rect650" />
@@ -2906,7 +2813,7 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="325"
+             x="770.5"
              y="244"
              width="52"
              height="52"
@@ -2916,7 +2823,7 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="325"
+             x="770.5"
              y="244"
              width="52"
              height="52"
@@ -2925,7 +2832,7 @@
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="331"
+             x="776.5"
              y="247"
              width="40"
              height="40"
@@ -2935,7 +2842,7 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="331"
+             x="776.5"
              y="247"
              width="40"
              height="40"
@@ -2947,8 +2854,8 @@
            id="g672">
           <!-- Outer Border -->
           <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="379"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
+             x="892"
              y="244"
              width="52"
              height="52"
@@ -2957,8 +2864,8 @@
              id="rect664" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#333333"
-             x="379"
+             style="fill:#999999"
+             x="892"
              y="244"
              width="52"
              height="52"
@@ -2966,8 +2873,8 @@
              id="rect666" />
           <!-- Inner Border -->
           <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="385"
+             style="fill:#bcbcbc;stroke-width:2"
+             x="898"
              y="247"
              width="40"
              height="40"
@@ -2976,8 +2883,8 @@
              id="rect668" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#3d3d3d"
-             x="385"
+             style="fill:#bcbcbc"
+             x="898"
              y="247"
              width="40"
              height="40"
@@ -2990,9 +2897,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="433"
-             y="244"
-             width="52"
+             x="149.5"
+             y="298"
+             width="65.5"
              height="52"
              rx="5"
              class="outer border"
@@ -3000,18 +2907,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="433"
-             y="244"
-             width="52"
+             x="149.5"
+             y="298"
+             width="65.5"
              height="52"
              rx="5"
              id="rect676" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="439"
-             y="247"
-             width="40"
+             x="155.5"
+             y="301"
+             width="53.5"
              height="40"
              rx="5"
              class="inner border"
@@ -3019,9 +2926,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="439"
-             y="247"
-             width="40"
+             x="155.5"
+             y="301"
+             width="53.5"
              height="40"
              rx="5"
              id="rect680" />
@@ -3032,9 +2939,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="487"
-             y="244"
-             width="52"
+             x="217"
+             y="298"
+             width="335.5"
              height="52"
              rx="5"
              class="outer border"
@@ -3042,18 +2949,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="487"
-             y="244"
-             width="52"
+             x="217"
+             y="298"
+             width="335.5"
              height="52"
              rx="5"
              id="rect686" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="493"
-             y="247"
-             width="40"
+             x="223"
+             y="301"
+             width="323.5"
              height="40"
              rx="5"
              class="inner border"
@@ -3061,9 +2968,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="493"
-             y="247"
-             width="40"
+             x="223"
+             y="301"
+             width="323.5"
              height="40"
              rx="5"
              id="rect690" />
@@ -3074,9 +2981,9 @@
           <!-- Outer Border -->
           <rect
              style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="541"
-             y="244"
-             width="52"
+             x="554.5"
+             y="298"
+             width="79"
              height="52"
              rx="5"
              class="outer border"
@@ -3084,18 +2991,18 @@
           <!-- Outer Fill -->
           <rect
              style="fill:#333333"
-             x="541"
-             y="244"
-             width="52"
+             x="554.5"
+             y="298"
+             width="79"
              height="52"
              rx="5"
              id="rect696" />
           <!-- Inner Border -->
           <rect
              style="fill:#3d3d3d;stroke-width:2"
-             x="547"
-             y="247"
-             width="40"
+             x="560.5"
+             y="301"
+             width="67"
              height="40"
              rx="5"
              class="inner border"
@@ -3103,9 +3010,9 @@
           <!-- Inner Fill -->
           <rect
              style="fill:#3d3d3d"
-             x="547"
-             y="247"
-             width="40"
+             x="560.5"
+             y="301"
+             width="67"
              height="40"
              rx="5"
              id="rect700" />
@@ -3115,9 +3022,9 @@
            id="g712">
           <!-- Outer Border -->
           <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="595"
-             y="244"
+             style="fill:#999999;stroke:#000000;stroke-width:2"
+             x="892"
+             y="298"
              width="52"
              height="52"
              rx="5"
@@ -3125,18 +3032,18 @@
              id="rect704" />
           <!-- Outer Fill -->
           <rect
-             style="fill:#333333"
-             x="595"
-             y="244"
+             style="fill:#999999"
+             x="892"
+             y="298"
              width="52"
              height="52"
              rx="5"
              id="rect706" />
           <!-- Inner Border -->
           <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="601"
-             y="247"
+             style="fill:#bcbcbc;stroke-width:2"
+             x="898"
+             y="301"
              width="40"
              height="40"
              rx="5"
@@ -3144,474 +3051,23 @@
              id="rect708" />
           <!-- Inner Fill -->
           <rect
-             style="fill:#3d3d3d"
-             x="601"
-             y="247"
+             style="fill:#bcbcbc"
+             x="898"
+             y="301"
              width="40"
              height="40"
              rx="5"
              id="rect710" />
         </g>
-        <g
-           class="  keycap"
-           id="g722">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="649"
-             y="244"
-             width="92.5"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect714" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="649"
-             y="244"
-             width="92.5"
-             height="52"
-             rx="5"
-             id="rect716" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="655"
-             y="247"
-             width="80.5"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect718" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="655"
-             y="247"
-             width="80.5"
-             height="40"
-             rx="5"
-             id="rect720" />
-        </g>
-        <g
-           class="  keycap"
-           id="g732">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="743.5"
-             y="244"
-             width="52"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect724" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="743.5"
-             y="244"
-             width="52"
-             height="52"
-             rx="5"
-             id="rect726" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="749.5"
-             y="247"
-             width="40"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect728" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="749.5"
-             y="247"
-             width="40"
-             height="40"
-             rx="5"
-             id="rect730" />
-        </g>
-        <g
-           class="  keycap"
-           id="g742">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#c9870f;stroke:#000000;stroke-width:2"
-             x="865"
-             y="244"
-             width="79"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect734" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#c9870f"
-             x="865"
-             y="244"
-             width="79"
-             height="52"
-             rx="5"
-             id="rect736" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#f0a939;stroke-width:2"
-             x="871"
-             y="247"
-             width="67"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect738" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#f0a939"
-             x="871"
-             y="247"
-             width="67"
-             height="40"
-             rx="5"
-             id="rect740" />
-        </g>
-        <g
-           class="  keycap"
-           id="g752">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#c9870f;stroke:#000000;stroke-width:2"
-             x="959.5"
-             y="244"
-             width="52"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect744" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#c9870f"
-             x="959.5"
-             y="244"
-             width="52"
-             height="52"
-             rx="5"
-             id="rect746" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#f0a939;stroke-width:2"
-             x="965.5"
-             y="247"
-             width="40"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect748" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#f0a939"
-             x="965.5"
-             y="247"
-             width="40"
-             height="40"
-             rx="5"
-             id="rect750" />
-        </g>
-        <g
-           class="  keycap"
-           id="g762">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1040.5"
-             y="244"
-             width="119.5"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect754" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="1040.5"
-             y="244"
-             width="119.5"
-             height="52"
-             rx="5"
-             id="rect756" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="1046.5"
-             y="247"
-             width="107.5"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect758" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="1046.5"
-             y="247"
-             width="107.5"
-             height="40"
-             rx="5"
-             id="rect760" />
-        </g>
-        <g
-           class="  keycap"
-           id="g772">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="1189"
-             y="244"
-             width="106"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect764" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="1189"
-             y="244"
-             width="106"
-             height="52"
-             rx="5"
-             id="rect766" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="1195"
-             y="247"
-             width="94"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect768" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="1195"
-             y="247"
-             width="94"
-             height="40"
-             rx="5"
-             id="rect770" />
-        </g>
-        <g
-           class="  keycap"
-           id="g782">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="149.5"
-             y="298"
-             width="65.5"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect774" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="149.5"
-             y="298"
-             width="65.5"
-             height="52"
-             rx="5"
-             id="rect776" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="155.5"
-             y="301"
-             width="53.5"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect778" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="155.5"
-             y="301"
-             width="53.5"
-             height="40"
-             rx="5"
-             id="rect780" />
-        </g>
-        <g
-           class="  keycap"
-           id="g792">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="217"
-             y="298"
-             width="335.5"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect784" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="217"
-             y="298"
-             width="335.5"
-             height="52"
-             rx="5"
-             id="rect786" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="223"
-             y="301"
-             width="323.5"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect788" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="223"
-             y="301"
-             width="323.5"
-             height="40"
-             rx="5"
-             id="rect790" />
-        </g>
-        <g
-           class="  keycap"
-           id="g802">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#333333;stroke:#000000;stroke-width:2"
-             x="554.5"
-             y="298"
-             width="65.5"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect794" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#333333"
-             x="554.5"
-             y="298"
-             width="65.5"
-             height="52"
-             rx="5"
-             id="rect796" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#3d3d3d;stroke-width:2"
-             x="560.5"
-             y="301"
-             width="53.5"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect798" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#3d3d3d"
-             x="560.5"
-             y="301"
-             width="53.5"
-             height="40"
-             rx="5"
-             id="rect800" />
-        </g>
-        <g
-           class="  keycap"
-           id="g812">
-          <!-- Outer Border -->
-          <rect
-             style="fill:#c9870f;stroke:#000000;stroke-width:2"
-             x="959.5"
-             y="298"
-             width="52"
-             height="52"
-             rx="5"
-             class="outer border"
-             id="rect804" />
-          <!-- Outer Fill -->
-          <rect
-             style="fill:#c9870f"
-             x="959.5"
-             y="298"
-             width="52"
-             height="52"
-             rx="5"
-             id="rect806" />
-          <!-- Inner Border -->
-          <rect
-             style="fill:#f0a939;stroke-width:2"
-             x="965.5"
-             y="301"
-             width="40"
-             height="40"
-             rx="5"
-             class="inner border"
-             id="rect808" />
-          <!-- Inner Fill -->
-          <rect
-             style="fill:#f0a939"
-             x="965.5"
-             y="301"
-             width="40"
-             height="40"
-             rx="5"
-             id="rect810" />
-        </g>
       </g>
     </g>
-    <text
-       id="text766"
-       y="-107.64031"
-       x="222.73863"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="-107.64031"
-         x="222.73863"
-         id="tspan764"
-         sodipodi:role="line">ATARI 800 and ATARI XL series Keycap Set</tspan></text>
-    <text
-       id="text770"
-       y="-111.88295"
-       x="837.92151"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="-73.51178"
-         x="837.92151"
-         id="tspan768"
-         sodipodi:role="line" /></text>
-    <text
-       id="text766-0"
-       y="318.11847"
-       x="238.18527"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="318.11847"
-         x="238.18527"
-         id="tspan764-7"
-         sodipodi:role="line"
-         style="font-size:26.66666603px">Using Gorton Digital font created by: https://github.com/drdnar/GortonDigital/</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layout ROW"
      style="display:inline"
-     transform="translate(59.413109,129.02824)">
+     transform="translate(59.413109,124.09037)">
     <text
        id="text5078"
        y="56.825928"
@@ -3714,57 +3170,117 @@
          x="-56.981178"
          id="tspan5076-6"
          sodipodi:role="line">R4</tspan></text>
+    <text
+       id="text5078-6"
+       y="60.427811"
+       x="975.59778"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="60.427811"
+         x="975.59778"
+         id="tspan5076-9"
+         sodipodi:role="line">R4</tspan></text>
+    <text
+       id="text5094-8"
+       y="111.43996"
+       x="974.96619"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="111.43996"
+         x="974.96619"
+         id="tspan5092-8"
+         sodipodi:role="line">R3</tspan></text>
+    <text
+       id="text5098-2"
+       y="164.15251"
+       x="973.76782"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="164.15251"
+         x="973.76782"
+         id="tspan5096-6"
+         sodipodi:role="line">R2</tspan></text>
+    <text
+       id="text5102-4"
+       y="219.69907"
+       x="974.06738"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="219.69907"
+         x="974.06738"
+         id="tspan5100-8"
+         sodipodi:role="line">R1</tspan></text>
+    <text
+       id="text5106-7"
+       y="273.54523"
+       x="975.6059"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="273.54523"
+         x="975.6059"
+         id="tspan5104-4"
+         sodipodi:role="line">R1</tspan></text>
+    <text
+       id="text5078-3-4"
+       y="-23.210936"
+       x="977.78882"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-23.210936"
+         x="977.78882"
+         id="tspan5076-6-0"
+         sodipodi:role="line">R4</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layout Sizes"
      style="display:inline"
-     transform="translate(59.413109,129.02824)">
+     transform="translate(59.413109,124.09037)">
     <text
        id="text5117"
        y="118.86926"
-       x="70.12561"
+       x="86.12561"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
          y="118.86926"
-         x="70.12561"
+         x="86.12561"
          id="tspan5115"
-         sodipodi:role="line">1.50</tspan></text>
+         sodipodi:role="line">1.75</tspan></text>
     <text
        id="text5117-9"
        y="173.23389"
-       x="83.553566"
+       x="99.553566"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
          y="173.23389"
-         x="83.553566"
+         x="99.553566"
          id="tspan5115-3"
-         sodipodi:role="line">1.50</tspan></text>
+         sodipodi:role="line">2.0</tspan></text>
     <text
        id="text5117-6"
        y="226.72649"
-       x="97.428848"
+       x="107.42885"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
          y="226.72649"
-         x="97.428848"
+         x="107.42885"
          id="tspan5115-2"
-         sodipodi:role="line">1.75</tspan></text>
+         sodipodi:role="line">2.25</tspan></text>
     <text
        id="text5117-18"
        y="275.21075"
-       x="604.13647"
+       x="618.13647"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
          y="275.21075"
-         x="604.13647"
+         x="618.13647"
          id="tspan5115-8"
-         sodipodi:role="line">1.25</tspan></text>
+         sodipodi:role="line">1.50</tspan></text>
     <text
        id="text5117-7"
        y="275.77756"
@@ -3790,14 +3306,14 @@
     <text
        id="text5117-36"
        y="225.76967"
-       x="729.60699"
+       x="761.60699"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
          y="225.76967"
-         x="729.60699"
+         x="761.60699"
          id="tspan5115-84"
-         sodipodi:role="line">1.75</tspan></text>
+         sodipodi:role="line">2.0</tspan></text>
     <text
        id="text5117-66"
        y="175.10548"
@@ -3812,123 +3328,35 @@
     <text
        id="text5117-2"
        y="117.19346"
-       x="798.64398"
+       x="812.64398"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
          y="117.19346"
-         x="798.64398"
+         x="812.64398"
          id="tspan5115-74"
          sodipodi:role="line">1.50</tspan></text>
     <text
-       id="text5117-3-56"
-       y="172.45537"
-       x="1282.9276"
+       id="text5117-36-6"
+       y="172.75143"
+       x="814.54224"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="172.45537"
-         x="1282.9276"
-         id="tspan5115-9-2"
+         y="172.75143"
+         x="814.54224"
+         id="tspan5115-84-4"
          sodipodi:role="line">1.25</tspan></text>
     <text
-       id="text5117-3-56-9"
-       y="172.25426"
-       x="1134.5543"
+       id="text5117-94"
+       y="64.150795"
+       x="59.653637"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="172.25426"
-         x="1134.5543"
-         id="tspan5115-9-2-1"
-         sodipodi:role="line">2.0</tspan></text>
-    <text
-       id="text5117-3-56-9-2"
-       y="226.55176"
-       x="1284.0262"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan2225"
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="226.55176"
-         x="1284.0262"
-         sodipodi:role="line">2.0</tspan></text>
-    <text
-       id="text5117-3-56-9-2-0"
-       y="226.06398"
-       x="1143.8854"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="226.06398"
-         x="1143.8854"
-         id="tspan5115-9-2-1-7-9"
-         sodipodi:role="line">2.25</tspan></text>
-    <text
-       id="text5117-2-3"
-       y="66.22496"
-       x="935.51544"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="66.22496"
-         x="935.51544"
-         id="tspan5115-74-6"
-         sodipodi:role="line">1.50</tspan></text>
-    <text
-       id="text5117-2-3-7"
-       y="120.26874"
-       x="935.15271"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="120.26874"
-         x="935.15271"
-         id="tspan5115-74-6-5"
-         sodipodi:role="line">1.50</tspan></text>
-    <text
-       id="text5117-2-3-7-3"
-       y="174.31252"
-       x="934.0647"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="174.31252"
-         x="934.0647"
-         id="tspan5115-74-6-5-5"
-         sodipodi:role="line">1.50</tspan></text>
-    <text
-       id="text5117-2-3-7-3-6"
-       y="228.35629"
-       x="934.06458"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="228.35629"
-         x="934.06458"
-         id="tspan5115-74-6-5-5-2"
-         sodipodi:role="line">1.50</tspan></text>
-    <text
-       id="text5117-2-9"
-       y="119.64592"
-       x="1278.5546"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="119.64592"
-         x="1278.5546"
-         id="tspan5115-74-1"
-         sodipodi:role="line">1.75</tspan></text>
-    <text
-       id="text5117-3-56-0"
-       y="63.077377"
-       x="1092.3439"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:10.66666698px;fill:#ffff00;fill-opacity:1"
-         y="63.077377"
-         x="1092.3439"
-         id="tspan5115-9-2-9"
+         y="64.150795"
+         x="59.653637"
+         id="tspan5115-77"
          sodipodi:role="line">1.25</tspan></text>
   </g>
   <g
@@ -3936,16 +3364,16 @@
      id="layer3"
      inkscape:label="Legend QWERTY"
      style="display:inline"
-     transform="translate(59.413109,129.02824)">
+     transform="translate(59.413109,124.09037)">
     <text
        id="text5228"
-       y="43.918327"
-       x="28.402443"
+       y="42.308189"
+       x="35.182171"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:13.33333302px;fill:#ffffff;fill-opacity:1"
-         y="43.918327"
-         x="28.402443"
+         y="42.308189"
+         x="35.182171"
          id="tspan5226"
          sodipodi:role="line">ESC</tspan></text>
     <text
@@ -3962,7 +3390,8 @@
          sodipodi:role="line" /></text>
     <g
        id="g5442"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(12.974658)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
@@ -4076,13 +3505,13 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="663.99512"
-         y="87.078781"
+         x="665.37347"
+         y="88.732834"
          id="text5232-3-7-3-7-2-9-6-2-4-8"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-7-6"
-           x="663.99512"
-           y="87.078781"
+           x="665.37347"
+           y="88.732834"
            style="font-size:26.66666603px;fill:#ffffff;fill-opacity:1">_</tspan></text>
       <text
          xml:space="preserve"
@@ -4164,7 +3593,7 @@
            style="font-size:26.66666603px;fill:#ffffff;fill-opacity:1">-</tspan></text>
     </g>
     <g
-       transform="translate(13.51381,53.136084)"
+       transform="translate(27.123947,52.746221)"
        id="g5442-3"
        style="fill:#ffffff;fill-opacity:1">
       <text
@@ -4279,7 +3708,7 @@
            style="font-size:21.33333397px;fill:#ffffff;fill-opacity:1" /></text>
     </g>
     <g
-       transform="translate(26.72029,104.98224)"
+       transform="translate(40.72029,104.98224)"
        id="g5442-3-0"
        style="fill:#ffffff;fill-opacity:1">
       <text
@@ -4394,7 +3823,7 @@
            style="font-size:21.33333397px;fill:#ffffff;fill-opacity:1" /></text>
     </g>
     <g
-       transform="translate(-20.041911,-64.060792)"
+       transform="translate(-6.7709531,-64.060792)"
        id="g5442-4"
        style="fill:#ffffff;fill-opacity:1">
       <text
@@ -4411,12 +3840,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="166.58969"
+         x="166.44154"
          y="101.81873"
          id="text5232-3-37"><tspan
            sodipodi:role="line"
            id="tspan5230-8-8"
-           x="166.58969"
+           x="166.44154"
            y="101.81873"
            style="font-size:21.33333397px;fill:#ffffff;fill-opacity:1">&quot;</tspan></text>
       <text
@@ -4454,24 +3883,25 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">%</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="436.76718"
-         y="105.1863"
-         id="text5232-3-7-3-7-2-85"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.00982666px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.90024567"
+         x="380.69058"
+         y="-256.96381"
+         id="text5232-3-7-3-7-2-85"
+         transform="matrix(0.5454183,0.76561687,-0.7991885,0.71161493,0,0)"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-2"
-           x="436.76718"
-           y="105.1863"
-           style="font-size:24px;fill:#ffffff;fill-opacity:1">'</tspan></text>
+           x="380.69058"
+           y="-256.96381"
+           style="font-size:45.605896px;fill:#ffffff;fill-opacity:1;stroke-width:1.90024567">'</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="488.4744"
+         x="486.4744"
          y="99.379852"
          id="text5232-3-7-3-7-2-9-2"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-7"
-           x="488.4744"
+           x="486.4744"
            y="99.379852"
            style="font-size:16px;fill:#ffffff;fill-opacity:1">@</tspan></text>
       <text
@@ -4488,12 +3918,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="601.2663"
+         x="598.43976"
          y="98.039307"
          id="text5232-3-7-3-7-2-9-6-2-2"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-4"
-           x="601.2663"
+           x="598.43976"
            y="98.039307"
            style="font-size:16px;fill:#ffffff;fill-opacity:1">)</tspan></text>
       <text
@@ -4527,8 +3957,8 @@
            id="tspan5723"
            sodipodi:role="line"
            x="750.14081"
-           y="94.223061"
-           style="font-size:8px;fill:#ffffff;fill-opacity:1">DELETE</tspan></text>
+           y="132.59422"
+           style="font-size:8px;fill:#ffffff;fill-opacity:1" /></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
@@ -4553,31 +3983,52 @@
              height="22.827688"
              width="21.459984"
              id="rect5974" /></flowRegion><flowPara
-           id="flowPara5976" /></flowRoot>    </g>
+           id="flowPara5976" /></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="763.98877"
+         y="93.278748"
+         id="text5232-3-7-3-7-2-9-6-2-4-9-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan5230-8-5-8-2-7-6-4-1-7-37-7-2"
+           x="763.98877"
+           y="93.278748"
+           style="font-size:9.33333302px;line-height:0.33000001;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1">DELETE</tspan><tspan
+           sodipodi:role="line"
+           x="763.98877"
+           y="105.06998"
+           style="font-size:9.33333302px;line-height:0.33000001;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+           id="tspan2581">BACK</tspan><tspan
+           sodipodi:role="line"
+           x="763.98877"
+           y="116.86121"
+           style="font-size:9.33333302px;line-height:0.33000001;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+           id="tspan2583">SPACE</tspan></text>
+    </g>
     <g
-       transform="translate(-19.582863,-45.233103)"
+       transform="translate(-7.922042,-45.233103)"
        id="g5442-4-0"
        style="fill:#ffffff;fill-opacity:1">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="113.9783"
+         x="115.58844"
          y="101.83806"
          id="text5232-36-1"><tspan
            sodipodi:role="line"
            id="tspan5230-7-1"
-           x="113.9783"
+           x="115.58844"
            y="101.83806"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">1</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="165.61414"
+         x="166.10147"
          y="101.81873"
          id="text5232-3-37-8"><tspan
            sodipodi:role="line"
            id="tspan5230-8-8-0"
-           x="165.61414"
+           x="166.10147"
            y="101.81873"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">2</tspan></text>
       <text
@@ -4649,12 +4100,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="541.46478"
+         x="543.46478"
          y="101.50263"
          id="text5232-3-7-3-7-2-9-6-2-2-8"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-4-2"
-           x="541.46478"
+           x="543.46478"
            y="101.50263"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">9</tspan></text>
       <text
@@ -4671,66 +4122,66 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="703.0672"
+         x="705.0672"
          y="99.775154"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-0"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-7-37-7-0"
-           x="703.0672"
+           x="705.0672"
            y="99.775154"
            style="font-size:21.33333397px;fill:#ffffff;fill-opacity:1">&gt;</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="750.14081"
+         x="752.14081"
          y="98.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-7-5"><tspan
            id="tspan5723-0"
            sodipodi:role="line"
-           x="750.14081"
-           y="98.223061"
-           style="font-size:8px;fill:#ffffff;fill-opacity:1">SPACE</tspan></text>
+           x="752.14081"
+           y="136.59422"
+           style="font-size:8px;fill:#ffffff;fill-opacity:1" /></text>
       <text
          id="text5818"
          y="86.502731"
-         x="752.41364"
+         x="754.41364"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="86.502731"
-           x="752.41364"
+           y="94.176964"
+           x="754.41364"
            id="tspan5816"
-           sodipodi:role="line">BACK</tspan></text>
+           sodipodi:role="line" /></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="648.99939"
+         x="650.99939"
          y="99.536964"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-0-3"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-7-37-7-0-4"
-           x="648.99939"
+           x="650.99939"
            y="99.536964"
            style="font-size:21.33333397px;fill:#ffffff;fill-opacity:1">&lt;</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="596.91687"
+         x="596.52704"
          y="101.33041"
          id="text5232-3-7-3-7-2-9-6-2-2-8-7"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-6-4-1-4-2-0"
-           x="596.91687"
+           x="596.52704"
            y="101.33041"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">0</tspan></text>
       <text
          id="text5818-2"
          y="86.358612"
-         x="798.90314"
+         x="800.90314"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            style="font-size:10.66666698px;fill:#ffffff;fill-opacity:1"
            y="86.358612"
-           x="798.90314"
+           x="800.90314"
            id="tspan5816-5"
            sodipodi:role="line">BREAK</tspan></text>
     </g>
@@ -4755,59 +4206,19 @@
          id="tspan5892-0-4-6-4"
          sodipodi:role="line">SHIFT</tspan></text>
     <text
-       id="text5894-7-3"
-       y="141.24089"
-       x="1259.7246"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="141.24089"
-         x="1259.7246"
-         id="tspan5892-0-6"
-         sodipodi:role="line">CAPS</tspan></text>
-    <text
-       id="text5894-7-6-0"
-       y="160.66679"
-       x="1258.106"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="160.66679"
-         x="1258.106"
-         id="tspan5892-0-4-62"
-         sodipodi:role="line">LOWR</tspan></text>
-    <text
-       id="text5894-7-6-7-6"
-       y="205.09703"
-       x="1239.4246"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="205.09703"
-         x="1239.4246"
-         id="tspan5892-0-4-6-1"
-         sodipodi:role="line">SHIFT</tspan></text>
-    <text
-       id="text5894-7-6-7-6-8"
-       y="205.04813"
-       x="1096.2606"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="205.04813"
-         x="1096.2606"
-         id="tspan5892-0-4-6-1-7"
-         sodipodi:role="line">SHIFT</tspan></text>
-    <text
        id="text5894"
-       y="95.744949"
-       x="758.96844"
+       y="95.88279"
+       x="773.03601"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.32876682px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.92465758"
        xml:space="preserve"><tspan
          style="font-size:12.32876682px;fill:#ffffff;fill-opacity:1;stroke-width:0.92465758"
-         y="95.744949"
-         x="758.96844"
+         y="95.88279"
+         x="773.03601"
          id="tspan5892"
          sodipodi:role="line">RETURN</tspan></text>
     <g
        id="g1578"
-       transform="translate(0,0.40900978)">
+       transform="translate(20,0.40900978)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
@@ -4832,34 +4243,39 @@
     <text
        id="text5894-7-6-7"
        y="204.37532"
-       x="692.08411"
+       x="708.08411"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="204.37532"
-         x="692.08411"
+         x="708.08411"
          id="tspan5892-0-4-6"
          sodipodi:role="line">SHIFT</tspan></text>
     <g
-       id="g2264">
-      <path
-         inkscape:connector-curvature="0"
-         id="path6004"
-         d="m 34.798053,145.84808 v -7.07066 h 33.714952 33.714945 v 7.07066 7.07066 H 68.513005 34.798053 Z"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.16657619" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="35.860485"
-       y="150.51884"
-       id="text5815"><tspan
-         sodipodi:role="line"
-         id="tspan5813"
-         x="35.860485"
+       id="g2595"
+       transform="translate(-4)">
+      <g
+         transform="translate(4)"
+         id="g2264">
+        <path
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.16657619"
+           d="m 34.798053,145.84808 v -7.07066 h 33.714952 33.714945 v 7.07066 7.07066 H 68.513005 34.798053 Z"
+           id="path6004"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text5815"
          y="150.51884"
-         style="fill:#1a1a1a">CONTROL</tspan></text>
+         x="39.860485"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="fill:#1a1a1a"
+           y="150.51884"
+           x="39.860485"
+           id="tspan5813"
+           sodipodi:role="line">CONTROL</tspan></text>
+    </g>
     <g
-       transform="translate(0.125681,-0.979911)"
+       transform="translate(6.125681,-0.979911)"
        style="display:inline"
        id="g2272">
       <rect
@@ -4891,7 +4307,7 @@
            sodipodi:role="line">  TAB</tspan></text>
     </g>
     <g
-       transform="translate(-0.38457921,-0.98581001)"
+       transform="translate(13.26947,-0.98581001)"
        id="g2340">
       <text
          xml:space="preserve"
@@ -4930,16 +4346,16 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none"
-         x="581.35895"
+         x="579.35895"
          y="197.07454"
          id="text11926-0-1"><tspan
            sodipodi:role="line"
-           x="581.35895"
+           x="579.35895"
            y="197.07454"
            id="tspan11928-2-8"
            style="font-size:16px;fill:#f2f2f2;fill-opacity:1">]</tspan><tspan
            sodipodi:role="line"
-           x="581.35895"
+           x="579.35895"
            y="217.07454"
            style="font-size:16px;fill:#f2f2f2;fill-opacity:1"
            id="tspan11999">.</tspan></text>
@@ -4960,7 +4376,7 @@
            style="font-size:16px;fill:#f2f2f2;fill-opacity:1"
            id="tspan11995">,</tspan></text>
       <g
-         transform="translate(-662.84938,-113.15602)"
+         transform="translate(-663.22599,-113.17764)"
          id="g18041">
         <use
            id="use11622"
@@ -4984,7 +4400,7 @@
            transform="matrix(0.25,0,0,0.25,1306.707,186.53634)" />
       </g>
       <g
-         transform="translate(-656.80009,-114.6481)"
+         transform="translate(-656.96158,-114.88138)"
          id="g18046">
         <use
            id="use11664"
@@ -5006,7 +4422,7 @@
            transform="matrix(0.25,0,0,0.25,1354.6775,188.34206)" />
       </g>
       <g
-         transform="translate(-706.95297,-105.15853)"
+         transform="translate(-707.79119,-104.62247)"
          id="g18080">
         <use
            id="use11706"
@@ -5028,7 +4444,7 @@
            transform="matrix(0.26415094,0,0,0.26415094,1364.2838,232.14128)" />
       </g>
       <g
-         transform="translate(-606.13426,-105.41501)"
+         transform="translate(-606.48515,-105.12261)"
          id="g18084">
         <use
            id="use11748"
@@ -5050,147 +4466,59 @@
            transform="matrix(0.26415094,0,0,0.26415094,1317.0373,232.82395)" />
       </g>
     </g>
-    <g
-       transform="translate(1040.4296,0.67417289)"
-       style="display:inline"
-       id="g2264-7">
-      <path
-         inkscape:connector-curvature="0"
-         id="path6004-5"
-         d="m 34.798053,145.84808 v -7.07066 h 33.714952 33.714945 v 7.07066 7.07066 H 68.513005 34.798053 Z"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.16657619" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="1077.1741"
-       y="151.01625"
-       id="text5815-3"><tspan
-         sodipodi:role="line"
-         id="tspan5813-5"
-         x="1077.1741"
-         y="151.01625"
-         style="fill:#1a1a1a">CONTROL</tspan></text>
-    <text
-       id="text5894-6"
-       y="96.377769"
-       x="1240.5354"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.32876682px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.92465758"
-       xml:space="preserve"><tspan
-         style="font-size:12.32876682px;fill:#ffffff;fill-opacity:1;stroke-width:0.92465758"
-         y="96.377769"
-         x="1240.5354"
-         id="tspan5892-2"
-         sodipodi:role="line">RETURN</tspan></text>
-    <text
-       id="text5894-7-6-7-6-8-2"
-       y="41.808689"
-       x="1074.4769"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="41.808689"
-         x="1074.4769"
-         id="tspan5892-0-4-6-1-7-7"
-         sodipodi:role="line">ESC</tspan></text>
-    <text
-       id="text2647"
-       y="33.719131"
-       x="919.07568"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:14.66666698px"
-         y="33.719131"
-         x="919.07568"
-         id="tspan2645"
-         sodipodi:role="line">SYSTEM</tspan><tspan
-         style="font-size:14.66666698px"
-         id="tspan2649"
-         y="53.719131"
-         x="919.07568"
-         sodipodi:role="line">RESET</tspan></text>
-    <text
-       id="text2647-0"
-       y="97.905945"
-       x="919.41882"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan2649-3"
-         y="97.905945"
-         x="919.41882"
-         sodipodi:role="line">OPTION</tspan></text>
-    <text
-       id="text2647-02"
-       y="151.1283"
-       x="919.46906"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan2649-4"
-         y="151.1283"
-         x="919.46906"
-         sodipodi:role="line">SELECT</tspan></text>
-    <text
-       id="text2647-3"
-       y="204.90395"
-       x="919.41882"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan2649-6"
-         y="204.90395"
-         x="919.41882"
-         sodipodi:role="line">START</tspan></text>
     <text
        id="text2647-7"
        y="202.58897"
-       x="1000.3721"
+       x="934.37207"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan2649-8"
          y="202.58897"
-         x="1000.3721"
+         x="934.37207"
          sodipodi:role="line"
          style="font-size:9.33333302px">START</tspan></text>
     <text
        id="text2647-1"
        y="257.02579"
-       x="1000.6356"
+       x="934.63562"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan2649-1"
          y="257.02579"
-         x="1000.6356"
+         x="934.63562"
          sodipodi:role="line"
          style="font-size:9.33333302px">HELP</tspan></text>
     <text
        id="text2647-6"
        y="149.59886"
-       x="1000.3072"
+       x="934.30719"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan2649-85"
          y="149.59886"
-         x="1000.3072"
+         x="934.30719"
          sodipodi:role="line"
          style="font-size:9.33333302px">SELECT</tspan></text>
     <text
        id="text2647-01"
        y="95.209244"
-       x="1000.3929"
+       x="932.39288"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan2649-9"
          y="95.209244"
-         x="1000.3929"
+         x="932.39288"
          sodipodi:role="line"
          style="font-size:9.33333302px">OPTION</tspan></text>
     <text
        id="text2647-027"
        y="41.72649"
-       x="1000.2288"
+       x="934.22882"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan2649-81"
          y="41.72649"
-         x="1000.2288"
+         x="934.22882"
          sodipodi:role="line"
          style="font-size:9.33333302px">RESET</tspan></text>
     <text
@@ -5239,7 +4567,7 @@
          sodipodi:role="line">F4</tspan></text>
     <path
        style="fill:#ffffff;stroke-width:0.02700765"
-       d="m 783.78818,200.30484 v -12.3025 h 1.63765 1.63764 v 12.3025 12.3025 h -1.63764 -1.63765 z m -13.36529,10.46779 v -1.77948 l 0.12546,-0.0156 c 1.2388,-0.15401 2.92559,-1.01818 4.62899,-2.37151 1.93368,-1.53627 3.60135,-3.52535 4.36431,-5.20544 1.04571,-2.30272 1.66003,-5.73452 1.84225,-10.29158 0.014,-0.34933 0.0336,-1.19124 0.0437,-1.87092 l 0.0183,-1.23577 h 0.90375 0.90376 l 0.0162,0.15879 c 0.0349,0.34342 0.0504,4.82467 0.0198,5.75083 -0.10976,3.32717 -0.38941,5.81086 -0.87637,7.7834 -0.44711,1.81108 -1.30025,3.62238 -2.47718,5.25923 -1.93643,2.69317 -4.45233,4.56251 -7.10918,5.2822 -0.67425,0.18265 -1.58622,0.31532 -2.16745,0.31532 h -0.23628 z m 29.33233,1.76169 c -0.0436,-0.005 -0.20998,-0.0231 -0.36979,-0.0397 -0.63096,-0.0654 -1.43677,-0.25509 -2.12629,-0.50039 -3.04486,-1.08323 -5.88113,-3.73777 -7.62843,-7.13964 -1.26505,-2.46296 -1.78404,-5.03371 -2.04468,-10.12803 -0.0385,-0.75319 -0.0475,-6.0006 -0.011,-6.45501 l 0.0216,-0.26925 h 0.9088 0.90881 l 2.6e-4,0.58682 c 2.7e-4,0.83675 0.0462,2.50139 0.0936,3.38975 0.24251,4.54411 0.97853,8.02634 2.12845,10.07006 0.75191,1.33632 2.07178,2.88824 3.4964,4.11107 1.82826,1.5693 3.81443,2.65171 5.17047,2.81775 l 0.12546,0.0154 v 1.77948 1.77948 l -0.29715,-0.004 c -0.16344,-0.002 -0.33281,-0.008 -0.3764,-0.0136 z"
+       d="m 809.78818,200.30484 v -12.3025 h 1.63765 1.63764 v 12.3025 12.3025 h -1.63764 -1.63765 z m -13.36529,10.46779 v -1.77948 l 0.12546,-0.0156 c 1.2388,-0.15401 2.92559,-1.01818 4.62899,-2.37151 1.93368,-1.53627 3.60135,-3.52535 4.36431,-5.20544 1.04571,-2.30272 1.66003,-5.73452 1.84225,-10.29158 0.014,-0.34933 0.0336,-1.19124 0.0437,-1.87092 l 0.0183,-1.23577 h 0.90375 0.90376 l 0.0162,0.15879 c 0.0349,0.34342 0.0504,4.82467 0.0198,5.75083 -0.10976,3.32717 -0.38941,5.81086 -0.87637,7.7834 -0.44711,1.81108 -1.30025,3.62238 -2.47718,5.25923 -1.93643,2.69317 -4.45233,4.56251 -7.10918,5.2822 -0.67425,0.18265 -1.58622,0.31532 -2.16745,0.31532 h -0.23628 z m 29.33233,1.76169 c -0.0436,-0.005 -0.20998,-0.0231 -0.36979,-0.0397 -0.63096,-0.0654 -1.43677,-0.25509 -2.12629,-0.50039 -3.04486,-1.08323 -5.88113,-3.73777 -7.62843,-7.13964 -1.26505,-2.46296 -1.78404,-5.03371 -2.04468,-10.12803 -0.0385,-0.75319 -0.0475,-6.0006 -0.011,-6.45501 l 0.0216,-0.26925 h 0.9088 0.90881 l 2.6e-4,0.58682 c 2.7e-4,0.83675 0.0462,2.50139 0.0936,3.38975 0.24251,4.54411 0.97853,8.02634 2.12845,10.07006 0.75191,1.33632 2.07178,2.88824 3.4964,4.11107 1.82826,1.5693 3.81443,2.65171 5.17047,2.81775 l 0.12546,0.0154 v 1.77948 1.77948 l -0.29715,-0.004 c -0.16344,-0.002 -0.33281,-0.008 -0.3764,-0.0136 z"
        id="path80"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccsscscccccsssscccsssscccccccsscccccc" />
@@ -5250,4 +4578,32 @@
     .keycap .border { stroke: black; stroke-width: 2; }
     .keycap .inner.border { stroke: rgba(0,0,0,.1); }
     </style>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="TEXT"
+     transform="translate(4.654002e-7,-4.9378683)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="289.80457"
+       y="33.117966"
+       id="text2640"><tspan
+         sodipodi:role="line"
+         id="tspan2638"
+         x="289.80457"
+         y="33.117966"
+         style="font-size:37.33333206px">ATARI XL series Keycap Set</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="53.958023"
+       y="456.18732"
+       id="text2640-3"><tspan
+         sodipodi:role="line"
+         id="tspan2638-7"
+         x="53.958023"
+         y="456.18732"
+         style="font-size:26.66666603px">Using Gorton Digital font created by: https://github.com/drdnar/GortonDigital/</tspan></text>
+  </g>
 </svg>
