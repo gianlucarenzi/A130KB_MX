@@ -14,7 +14,7 @@
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-xe-style-maxkeyboard.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata1370">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="1006"
+     inkscape:window-width="2451"
+     inkscape:window-height="1199"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
      inkscape:zoom="1.4496536"
-     inkscape:cx="498.08223"
+     inkscape:cx="408.75054"
      inkscape:cy="206.49591"
      inkscape:window-x="62"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g5442"
+     inkscape:current-layer="layer2"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -3226,7 +3226,7 @@
          y="-42.672771"
          x="788.02936"
          id="tspan5115-8"
-         sodipodi:role="line">1.25</tspan></text>
+         sodipodi:role="line">1.50</tspan></text>
     <text
        id="text5117-7"
        y="-42.105968"
@@ -3860,17 +3860,6 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="436.76718"
-         y="105.1863"
-         id="text5232-3-7-3-7-2-85"><tspan
-           sodipodi:role="line"
-           id="tspan5230-8-5-8-2-7-2"
-           x="436.76718"
-           y="105.1863"
-           style="font-size:24px">'</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          x="488.4744"
          y="99.379852"
          id="text5232-3-7-3-7-2-9-2"><tspan
@@ -3956,7 +3945,19 @@
              height="22.827688"
              width="21.459984"
              id="rect5974" /></flowRegion><flowPara
-           id="flowPara5976" /></flowRoot>    </g>
+           id="flowPara5976" /></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.00982666px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.90024567"
+         x="382.84714"
+         y="-256.97296"
+         id="text5232-3-7-3-7-2-85-3"
+         transform="matrix(0.5454183,0.76561687,-0.7991885,0.71161493,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan5230-8-5-8-2-7-2-6"
+           x="382.84714"
+           y="-256.97296"
+           style="font-size:45.605896px;fill:#000000;fill-opacity:1;stroke-width:1.90024567">'</tspan></text>
+    </g>
     <g
        transform="translate(144.31001,-369.11663)"
        id="g5442-4-0">

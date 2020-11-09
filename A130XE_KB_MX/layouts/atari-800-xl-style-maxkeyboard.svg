@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1595"
-     inkscape:window-height="1006"
+     inkscape:window-width="2560"
+     inkscape:window-height="1354"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="0.90686535"
+     inkscape:zoom="1.8137307"
      inkscape:cx="523.50086"
      inkscape:cy="140.33257"
-     inkscape:window-x="1696"
-     inkscape:window-y="103"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
+     inkscape:window-x="2560"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5442-4"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -4034,23 +4034,23 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="218.13625"
+         x="220.13625"
          y="101.81873"
          id="text5232-3-7-0-5"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-0-5"
-           x="218.13625"
+           x="220.13625"
            y="101.81873"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">3</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="272.13623"
+         x="274.13623"
          y="101.81873"
          id="text5232-3-7-3-2-0"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-22-7"
-           x="272.13623"
+           x="274.13623"
            y="101.81873"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">4</tspan></text>
       <text
@@ -4067,12 +4067,12 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="380.13623"
+         x="380.96664"
          y="101.81873"
          id="text5232-3-7-3-7-2-85-9"><tspan
            sodipodi:role="line"
            id="tspan5230-8-5-8-2-7-2-9"
-           x="380.13623"
+           x="380.96664"
            y="101.81873"
            style="font-size:18.66666603px;fill:#ffffff;fill-opacity:1">6</tspan></text>
       <text
