@@ -9,8 +9,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="263.56851mm"
-   height="123.73113mm"
-   viewBox="0 0 996.16447 467.64523"
+   height="121.35844mm"
+   viewBox="0 0 996.16448 458.67759"
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-xe-style-maxkeyboard.svg"
@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2451"
-     inkscape:window-height="1199"
+     inkscape:window-width="2560"
+     inkscape:window-height="1354"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
      inkscape:zoom="1.4496536"
-     inkscape:cx="408.75054"
-     inkscape:cy="206.49591"
-     inkscape:window-x="62"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer2"
+     inkscape:cx="556.75092"
+     inkscape:cy="155.39144"
+     inkscape:window-x="2560"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer5"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -62,7 +62,7 @@
        inkscape:locked="false"
        id="guide5112"
        orientation="1,0"
-       position="-227.50029,-12.212425" />
+       position="-233.67647,-14.53926" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -147,13 +147,12 @@
   </defs>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
+     id="layer5"
      inkscape:label="KEYBOARD"
-     style="display:inline;opacity:1"
-     transform="translate(41.421421,51.161159)">
+     transform="translate(-6.1761643,-6.6408006)">
     <g
-       transform="translate(66.732,85.194782)"
-       id="g1925">
+       transform="translate(108.153,136.35623)"
+       id="g626">
       <rect
          style="fill:#d4d4d4;stroke:#dddddd;stroke-width:1"
          y="0"
@@ -161,13 +160,13 @@
          width="820"
          height="280"
          rx="6"
-         id="rect1331" />
+         id="rect32" />
       <g
          transform="translate(5,5)"
-         id="g1923">
+         id="g624">
         <g
            class="  keycap"
-           id="g1341">
+           id="g42">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -177,7 +176,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1333" />
+             id="rect34" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -186,7 +185,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1335" />
+             id="rect36" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -196,7 +195,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1337" />
+             id="rect38" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -205,11 +204,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1339" />
+             id="rect40" />
         </g>
         <g
            class="  keycap"
-           id="g1351">
+           id="g52">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -219,7 +218,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1343" />
+             id="rect44" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -228,7 +227,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1345" />
+             id="rect46" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -238,7 +237,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1347" />
+             id="rect48" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -247,11 +246,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1349" />
+             id="rect50" />
         </g>
         <g
            class="  keycap"
-           id="g1361">
+           id="g62">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -261,7 +260,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1353" />
+             id="rect54" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -270,7 +269,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1355" />
+             id="rect56" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -280,7 +279,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1357" />
+             id="rect58" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -289,11 +288,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1359" />
+             id="rect60" />
         </g>
         <g
            class="  keycap"
-           id="g1371">
+           id="g72">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -303,7 +302,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1363" />
+             id="rect64" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -312,7 +311,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1365" />
+             id="rect66" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -322,7 +321,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1367" />
+             id="rect68" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -331,11 +330,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1369" />
+             id="rect70" />
         </g>
         <g
            class="  keycap"
-           id="g1381">
+           id="g82">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -345,7 +344,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1373" />
+             id="rect74" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -354,7 +353,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1375" />
+             id="rect76" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -364,7 +363,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1377" />
+             id="rect78" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -373,11 +372,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1379" />
+             id="rect80" />
         </g>
         <g
            class="  keycap"
-           id="g1391">
+           id="g92">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -387,7 +386,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1383" />
+             id="rect84" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -396,7 +395,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1385" />
+             id="rect86" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -406,7 +405,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1387" />
+             id="rect88" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -415,11 +414,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1389" />
+             id="rect90" />
         </g>
         <g
            class="  keycap"
-           id="g1401">
+           id="g102">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -429,7 +428,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1393" />
+             id="rect94" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -438,7 +437,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1395" />
+             id="rect96" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -448,7 +447,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1397" />
+             id="rect98" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -457,11 +456,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1399" />
+             id="rect100" />
         </g>
         <g
            class="  keycap"
-           id="g1411">
+           id="g112">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -471,7 +470,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1403" />
+             id="rect104" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -480,7 +479,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1405" />
+             id="rect106" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -490,7 +489,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1407" />
+             id="rect108" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -499,11 +498,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1409" />
+             id="rect110" />
         </g>
         <g
            class="  keycap"
-           id="g1421">
+           id="g122">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -513,7 +512,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1413" />
+             id="rect114" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -522,7 +521,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1415" />
+             id="rect116" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -532,7 +531,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1417" />
+             id="rect118" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -541,11 +540,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1419" />
+             id="rect120" />
         </g>
         <g
            class="  keycap"
-           id="g1431">
+           id="g132">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -555,7 +554,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1423" />
+             id="rect124" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -564,7 +563,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1425" />
+             id="rect126" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -574,7 +573,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1427" />
+             id="rect128" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -583,11 +582,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1429" />
+             id="rect130" />
         </g>
         <g
            class="  keycap"
-           id="g1441">
+           id="g142">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -597,7 +596,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1433" />
+             id="rect134" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -606,7 +605,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1435" />
+             id="rect136" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -616,7 +615,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1437" />
+             id="rect138" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -625,11 +624,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1439" />
+             id="rect140" />
         </g>
         <g
            class="  keycap"
-           id="g1451">
+           id="g152">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -639,7 +638,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1443" />
+             id="rect144" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -648,7 +647,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1445" />
+             id="rect146" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -658,7 +657,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1447" />
+             id="rect148" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -667,11 +666,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1449" />
+             id="rect150" />
         </g>
         <g
            class="  keycap"
-           id="g1461">
+           id="g162">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -681,7 +680,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1453" />
+             id="rect154" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -690,7 +689,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1455" />
+             id="rect156" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -700,7 +699,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1457" />
+             id="rect158" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -709,11 +708,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1459" />
+             id="rect160" />
         </g>
         <g
            class="  keycap"
-           id="g1471">
+           id="g172">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -723,7 +722,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1463" />
+             id="rect164" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -732,7 +731,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1465" />
+             id="rect166" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -742,7 +741,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1467" />
+             id="rect168" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -751,11 +750,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1469" />
+             id="rect170" />
         </g>
         <g
            class="  keycap"
-           id="g1481">
+           id="g182">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -765,7 +764,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1473" />
+             id="rect174" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -774,7 +773,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1475" />
+             id="rect176" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -784,7 +783,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1477" />
+             id="rect178" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -793,11 +792,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1479" />
+             id="rect180" />
         </g>
         <g
            class="  keycap"
-           id="g1491">
+           id="g192">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -807,7 +806,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1483" />
+             id="rect184" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -816,7 +815,7 @@
              width="79"
              height="52"
              rx="5"
-             id="rect1485" />
+             id="rect186" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -826,7 +825,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1487" />
+             id="rect188" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -835,11 +834,11 @@
              width="67"
              height="40"
              rx="5"
-             id="rect1489" />
+             id="rect190" />
         </g>
         <g
            class="  keycap"
-           id="g1501">
+           id="g202">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -849,7 +848,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1493" />
+             id="rect194" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -858,7 +857,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1495" />
+             id="rect196" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -868,7 +867,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1497" />
+             id="rect198" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -877,11 +876,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1499" />
+             id="rect200" />
         </g>
         <g
            class="  keycap"
-           id="g1511">
+           id="g212">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -891,7 +890,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1503" />
+             id="rect204" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -900,7 +899,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1505" />
+             id="rect206" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -910,7 +909,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1507" />
+             id="rect208" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -919,11 +918,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1509" />
+             id="rect210" />
         </g>
         <g
            class="  keycap"
-           id="g1521">
+           id="g222">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -933,7 +932,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1513" />
+             id="rect214" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -942,7 +941,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1515" />
+             id="rect216" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -952,7 +951,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1517" />
+             id="rect218" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -961,11 +960,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1519" />
+             id="rect220" />
         </g>
         <g
            class="  keycap"
-           id="g1531">
+           id="g232">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -975,7 +974,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1523" />
+             id="rect224" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -984,7 +983,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1525" />
+             id="rect226" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -994,7 +993,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1527" />
+             id="rect228" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1003,11 +1002,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1529" />
+             id="rect230" />
         </g>
         <g
            class="  keycap"
-           id="g1541">
+           id="g242">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1017,7 +1016,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1533" />
+             id="rect234" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1026,7 +1025,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1535" />
+             id="rect236" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1036,7 +1035,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1537" />
+             id="rect238" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1045,11 +1044,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1539" />
+             id="rect240" />
         </g>
         <g
            class="  keycap"
-           id="g1551">
+           id="g252">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1059,7 +1058,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1543" />
+             id="rect244" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1068,7 +1067,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1545" />
+             id="rect246" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1078,7 +1077,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1547" />
+             id="rect248" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1087,11 +1086,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1549" />
+             id="rect250" />
         </g>
         <g
            class="  keycap"
-           id="g1561">
+           id="g262">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1101,7 +1100,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1553" />
+             id="rect254" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1110,7 +1109,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1555" />
+             id="rect256" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1120,7 +1119,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1557" />
+             id="rect258" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1129,11 +1128,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1559" />
+             id="rect260" />
         </g>
         <g
            class="  keycap"
-           id="g1571">
+           id="g272">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1143,7 +1142,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1563" />
+             id="rect264" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1152,7 +1151,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1565" />
+             id="rect266" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1162,7 +1161,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1567" />
+             id="rect268" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1171,11 +1170,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1569" />
+             id="rect270" />
         </g>
         <g
            class="  keycap"
-           id="g1581">
+           id="g282">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1185,7 +1184,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1573" />
+             id="rect274" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1194,7 +1193,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1575" />
+             id="rect276" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1204,7 +1203,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1577" />
+             id="rect278" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1213,11 +1212,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1579" />
+             id="rect280" />
         </g>
         <g
            class="  keycap"
-           id="g1591">
+           id="g292">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1227,7 +1226,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1583" />
+             id="rect284" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1236,7 +1235,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1585" />
+             id="rect286" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1246,7 +1245,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1587" />
+             id="rect288" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1255,11 +1254,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1589" />
+             id="rect290" />
         </g>
         <g
            class="  keycap"
-           id="g1601">
+           id="g302">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1269,7 +1268,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1593" />
+             id="rect294" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1278,7 +1277,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1595" />
+             id="rect296" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1288,7 +1287,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1597" />
+             id="rect298" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1297,11 +1296,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1599" />
+             id="rect300" />
         </g>
         <g
            class="  keycap"
-           id="g1611">
+           id="g312">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1311,7 +1310,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1603" />
+             id="rect304" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1320,7 +1319,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1605" />
+             id="rect306" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1330,7 +1329,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1607" />
+             id="rect308" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1339,11 +1338,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1609" />
+             id="rect310" />
         </g>
         <g
            class="  keycap"
-           id="g1621">
+           id="g322">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1353,7 +1352,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1613" />
+             id="rect314" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1362,7 +1361,7 @@
              width="79"
              height="52"
              rx="5"
-             id="rect1615" />
+             id="rect316" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1372,7 +1371,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1617" />
+             id="rect318" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1381,11 +1380,11 @@
              width="67"
              height="40"
              rx="5"
-             id="rect1619" />
+             id="rect320" />
         </g>
         <g
            class="  keycap"
-           id="g1631">
+           id="g332">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1395,7 +1394,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1623" />
+             id="rect324" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1404,7 +1403,7 @@
              width="92.5"
              height="52"
              rx="5"
-             id="rect1625" />
+             id="rect326" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1414,7 +1413,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1627" />
+             id="rect328" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1423,11 +1422,11 @@
              width="80.5"
              height="40"
              rx="5"
-             id="rect1629" />
+             id="rect330" />
         </g>
         <g
            class="  keycap"
-           id="g1641">
+           id="g342">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1437,7 +1436,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1633" />
+             id="rect334" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1446,7 +1445,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1635" />
+             id="rect336" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1456,7 +1455,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1637" />
+             id="rect338" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1465,11 +1464,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1639" />
+             id="rect340" />
         </g>
         <g
            class="  keycap"
-           id="g1651">
+           id="g352">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1479,7 +1478,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1643" />
+             id="rect344" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1488,7 +1487,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1645" />
+             id="rect346" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1498,7 +1497,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1647" />
+             id="rect348" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1507,11 +1506,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1649" />
+             id="rect350" />
         </g>
         <g
            class="  keycap"
-           id="g1661">
+           id="g362">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1521,7 +1520,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1653" />
+             id="rect354" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1530,7 +1529,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1655" />
+             id="rect356" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1540,7 +1539,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1657" />
+             id="rect358" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1549,11 +1548,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1659" />
+             id="rect360" />
         </g>
         <g
            class="  keycap"
-           id="g1671">
+           id="g372">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1563,7 +1562,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1663" />
+             id="rect364" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1572,7 +1571,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1665" />
+             id="rect366" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1582,7 +1581,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1667" />
+             id="rect368" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1591,11 +1590,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1669" />
+             id="rect370" />
         </g>
         <g
            class="  keycap"
-           id="g1681">
+           id="g382">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1605,7 +1604,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1673" />
+             id="rect374" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1614,7 +1613,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1675" />
+             id="rect376" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1624,7 +1623,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1677" />
+             id="rect378" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1633,11 +1632,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1679" />
+             id="rect380" />
         </g>
         <g
            class="  keycap"
-           id="g1691">
+           id="g392">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1647,7 +1646,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1683" />
+             id="rect384" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1656,7 +1655,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1685" />
+             id="rect386" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1666,7 +1665,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1687" />
+             id="rect388" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1675,11 +1674,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1689" />
+             id="rect390" />
         </g>
         <g
            class="  keycap"
-           id="g1701">
+           id="g402">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1689,7 +1688,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1693" />
+             id="rect394" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1698,7 +1697,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1695" />
+             id="rect396" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1708,7 +1707,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1697" />
+             id="rect398" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1717,11 +1716,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1699" />
+             id="rect400" />
         </g>
         <g
            class="  keycap"
-           id="g1711">
+           id="g412">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1731,7 +1730,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1703" />
+             id="rect404" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1740,7 +1739,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1705" />
+             id="rect406" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1750,7 +1749,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1707" />
+             id="rect408" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1759,11 +1758,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1709" />
+             id="rect410" />
         </g>
         <g
            class="  keycap"
-           id="g1721">
+           id="g422">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1773,7 +1772,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1713" />
+             id="rect414" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1782,7 +1781,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1715" />
+             id="rect416" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1792,7 +1791,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1717" />
+             id="rect418" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1801,11 +1800,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1719" />
+             id="rect420" />
         </g>
         <g
            class="  keycap"
-           id="g1731">
+           id="g432">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1815,7 +1814,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1723" />
+             id="rect424" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1824,7 +1823,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1725" />
+             id="rect426" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1834,7 +1833,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1727" />
+             id="rect428" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1843,11 +1842,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1729" />
+             id="rect430" />
         </g>
         <g
            class="  keycap"
-           id="g1741">
+           id="g442">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1857,7 +1856,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1733" />
+             id="rect434" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1866,7 +1865,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1735" />
+             id="rect436" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1876,7 +1875,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1737" />
+             id="rect438" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1885,11 +1884,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1739" />
+             id="rect440" />
         </g>
         <g
            class="  keycap"
-           id="g1751">
+           id="g452">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1899,7 +1898,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1743" />
+             id="rect444" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1908,7 +1907,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1745" />
+             id="rect446" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1918,7 +1917,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1747" />
+             id="rect448" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1927,11 +1926,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1749" />
+             id="rect450" />
         </g>
         <g
            class="  keycap"
-           id="g1761">
+           id="g462">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1941,7 +1940,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1753" />
+             id="rect454" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1950,7 +1949,7 @@
              width="65.5"
              height="52"
              rx="5"
-             id="rect1755" />
+             id="rect456" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -1960,7 +1959,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1757" />
+             id="rect458" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -1969,11 +1968,11 @@
              width="53.5"
              height="40"
              rx="5"
-             id="rect1759" />
+             id="rect460" />
         </g>
         <g
            class="  keycap"
-           id="g1771">
+           id="g472">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -1983,7 +1982,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1763" />
+             id="rect464" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -1992,7 +1991,7 @@
              width="119.5"
              height="52"
              rx="5"
-             id="rect1765" />
+             id="rect466" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2002,7 +2001,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1767" />
+             id="rect468" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2011,11 +2010,11 @@
              width="107.5"
              height="40"
              rx="5"
-             id="rect1769" />
+             id="rect470" />
         </g>
         <g
            class="  keycap"
-           id="g1781">
+           id="g482">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2025,7 +2024,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1773" />
+             id="rect474" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2034,7 +2033,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1775" />
+             id="rect476" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2044,7 +2043,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1777" />
+             id="rect478" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2053,11 +2052,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1779" />
+             id="rect480" />
         </g>
         <g
            class="  keycap"
-           id="g1791">
+           id="g492">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2067,7 +2066,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1783" />
+             id="rect484" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2076,7 +2075,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1785" />
+             id="rect486" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2086,7 +2085,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1787" />
+             id="rect488" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2095,11 +2094,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1789" />
+             id="rect490" />
         </g>
         <g
            class="  keycap"
-           id="g1801">
+           id="g502">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2109,7 +2108,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1793" />
+             id="rect494" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2118,7 +2117,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1795" />
+             id="rect496" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2128,7 +2127,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1797" />
+             id="rect498" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2137,11 +2136,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1799" />
+             id="rect500" />
         </g>
         <g
            class="  keycap"
-           id="g1811">
+           id="g512">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2151,7 +2150,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1803" />
+             id="rect504" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2160,7 +2159,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1805" />
+             id="rect506" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2170,7 +2169,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1807" />
+             id="rect508" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2179,11 +2178,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1809" />
+             id="rect510" />
         </g>
         <g
            class="  keycap"
-           id="g1821">
+           id="g522">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2193,7 +2192,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1813" />
+             id="rect514" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2202,7 +2201,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1815" />
+             id="rect516" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2212,7 +2211,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1817" />
+             id="rect518" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2221,11 +2220,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1819" />
+             id="rect520" />
         </g>
         <g
            class="  keycap"
-           id="g1831">
+           id="g532">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2235,7 +2234,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1823" />
+             id="rect524" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2244,7 +2243,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1825" />
+             id="rect526" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2254,7 +2253,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1827" />
+             id="rect528" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2263,11 +2262,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1829" />
+             id="rect530" />
         </g>
         <g
            class="  keycap"
-           id="g1841">
+           id="g542">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2277,7 +2276,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1833" />
+             id="rect534" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2286,7 +2285,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1835" />
+             id="rect536" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2296,7 +2295,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1837" />
+             id="rect538" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2305,11 +2304,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1839" />
+             id="rect540" />
         </g>
         <g
            class="  keycap"
-           id="g1851">
+           id="g552">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2319,7 +2318,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1843" />
+             id="rect544" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2328,7 +2327,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1845" />
+             id="rect546" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2338,7 +2337,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1847" />
+             id="rect548" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2347,11 +2346,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1849" />
+             id="rect550" />
         </g>
         <g
            class="  keycap"
-           id="g1861">
+           id="g562">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2361,7 +2360,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1853" />
+             id="rect554" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2370,7 +2369,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1855" />
+             id="rect556" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2380,7 +2379,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1857" />
+             id="rect558" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2389,11 +2388,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1859" />
+             id="rect560" />
         </g>
         <g
            class="  keycap"
-           id="g1871">
+           id="g572">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2403,7 +2402,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1863" />
+             id="rect564" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2412,7 +2411,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1865" />
+             id="rect566" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2422,7 +2421,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1867" />
+             id="rect568" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2431,11 +2430,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1869" />
+             id="rect570" />
         </g>
         <g
            class="  keycap"
-           id="g1881">
+           id="g582">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2445,7 +2444,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1873" />
+             id="rect574" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2454,7 +2453,7 @@
              width="92.5"
              height="52"
              rx="5"
-             id="rect1875" />
+             id="rect576" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2464,7 +2463,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1877" />
+             id="rect578" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2473,11 +2472,11 @@
              width="80.5"
              height="40"
              rx="5"
-             id="rect1879" />
+             id="rect580" />
         </g>
         <g
            class="  keycap"
-           id="g1891">
+           id="g592">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2487,7 +2486,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1883" />
+             id="rect584" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2496,7 +2495,7 @@
              width="52"
              height="52"
              rx="5"
-             id="rect1885" />
+             id="rect586" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2506,7 +2505,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1887" />
+             id="rect588" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2515,11 +2514,11 @@
              width="40"
              height="40"
              rx="5"
-             id="rect1889" />
+             id="rect590" />
         </g>
         <g
            class="  keycap"
-           id="g1901">
+           id="g602">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2529,7 +2528,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1893" />
+             id="rect594" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2538,7 +2537,7 @@
              width="65.5"
              height="52"
              rx="5"
-             id="rect1895" />
+             id="rect596" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2548,7 +2547,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1897" />
+             id="rect598" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2557,11 +2556,11 @@
              width="53.5"
              height="40"
              rx="5"
-             id="rect1899" />
+             id="rect600" />
         </g>
         <g
            class="  keycap"
-           id="g1911">
+           id="g612">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
@@ -2571,7 +2570,7 @@
              height="52"
              rx="5"
              class="outer border"
-             id="rect1903" />
+             id="rect604" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
@@ -2580,7 +2579,7 @@
              width="335.5"
              height="52"
              rx="5"
-             id="rect1905" />
+             id="rect606" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
@@ -2590,7 +2589,7 @@
              height="40"
              rx="5"
              class="inner border"
-             id="rect1907" />
+             id="rect608" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
@@ -2599,71 +2598,77 @@
              width="323.5"
              height="40"
              rx="5"
-             id="rect1909" />
+             id="rect610" />
         </g>
         <g
            class="  keycap"
-           id="g1921">
+           id="g622">
           <!-- Outer Border -->
           <rect
              style="fill:#cccccc;stroke:#000000;stroke-width:2"
              x="568"
              y="217"
-             width="65.5"
+             width="79"
              height="52"
              rx="5"
              class="outer border"
-             id="rect1913" />
+             id="rect614" />
           <!-- Outer Fill -->
           <rect
              style="fill:#cccccc"
              x="568"
              y="217"
-             width="65.5"
+             width="79"
              height="52"
              rx="5"
-             id="rect1915" />
+             id="rect616" />
           <!-- Inner Border -->
           <rect
              style="fill:#fcfcfc;stroke-width:2"
              x="574"
              y="220"
-             width="53.5"
+             width="67"
              height="40"
              rx="5"
              class="inner border"
-             id="rect1917" />
+             id="rect618" />
           <!-- Inner Fill -->
           <rect
              style="fill:#fcfcfc"
              x="574"
              y="220"
-             width="53.5"
+             width="67"
              height="40"
              rx="5"
-             id="rect1919" />
+             id="rect620" />
         </g>
       </g>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="TEXT"
+     transform="translate(-6.1761643,-6.6408006)">
     <text
-       id="text766"
-       y="-20.968197"
-       x="198.34171"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       id="text766-3"
+       y="36.833763"
+       x="279.48288"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         y="-20.968197"
-         x="198.34171"
-         id="tspan764"
+         y="36.833763"
+         x="279.48288"
+         id="tspan764-6"
          sodipodi:role="line">ATARI XE series Keycap Set</tspan></text>
     <text
-       id="text766-0"
-       y="407.82724"
-       x="-42.480824"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       id="text766-0-7"
+       y="456.66156"
+       x="5.1167622"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         y="407.82724"
-         x="-42.480824"
-         id="tspan764-7"
+         y="456.66156"
+         x="5.1167622"
+         id="tspan764-7-5"
          sodipodi:role="line"
          style="font-size:26.66666603px">Using Gorton Digital font created by: https://github.com/drdnar/GortonDigital/</tspan></text>
   </g>
@@ -2671,7 +2676,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="FUNCTION"
-     transform="translate(-65.395019,449.50137)"
+     transform="translate(-71.571184,442.86057)"
      style="display:inline">
     <g
        transform="translate(213.95163,-397.84021)"
@@ -3073,7 +3078,7 @@
      id="layer1"
      inkscape:label="Layout ROW"
      style="display:inline"
-     transform="translate(-65.395019,449.50137)">
+     transform="translate(-71.571184,442.86057)">
     <text
        id="text5078"
        y="-267.05762"
@@ -3182,7 +3187,7 @@
      id="layer2"
      inkscape:label="Layout Sizes"
      style="display:inline"
-     transform="translate(-65.395019,449.50137)">
+     transform="translate(-71.571184,442.86057)">
     <text
        id="text5117"
        y="-202.5394"
@@ -3207,24 +3212,24 @@
          sodipodi:role="line">1.75</tspan></text>
     <text
        id="text5117-6"
-       y="-93.798271"
-       x="275.64062"
+       y="-95.798271"
+       x="271.64062"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ff0000"
-         y="-93.798271"
-         x="275.64062"
+         y="-95.798271"
+         x="271.64062"
          id="tspan5115-2"
          sodipodi:role="line">2.25</tspan></text>
     <text
        id="text5117-18"
        y="-42.672771"
-       x="788.02936"
+       x="800.02936"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:10.66666698px;fill:#ff0000"
          y="-42.672771"
-         x="788.02936"
+         x="800.02936"
          id="tspan5115-8"
          sodipodi:role="line">1.50</tspan></text>
     <text
@@ -3343,7 +3348,7 @@
      id="layer3"
      inkscape:label="Legend QWERTY"
      style="display:inline"
-     transform="translate(-65.395019,449.50137)">
+     transform="translate(-71.571184,442.86057)">
     <text
        id="text5228"
        y="-279.96521"
@@ -4306,12 +4311,12 @@
          sodipodi:role="line">SHIFT</tspan></text>
     <text
        id="text5894-7-6-7"
-       y="-117.30307"
-       x="871.03473"
+       y="-116.60261"
+       x="868.25415"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         y="-117.30307"
-         x="871.03473"
+         y="-116.60261"
+         x="868.25415"
          id="tspan5892-0-4-6"
          sodipodi:role="line">SHIFT</tspan></text>
     <text
@@ -4327,24 +4332,31 @@
          sodipodi:role="line">RETURN</tspan></text>
     <text
        id="text5894-7"
-       y="-181.51682"
-       x="936.59833"
+       y="-180.03418"
+       x="955.53076"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         y="-181.51682"
-         x="936.59833"
+         y="-180.03418"
+         x="955.53076"
          id="tspan5892-0"
-         sodipodi:role="line">CAPS</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12px;text-align:center;text-anchor:middle">CAPS</tspan><tspan
+         y="-163.36751"
+         x="955.53076"
+         sodipodi:role="line"
+         style="font-size:12px;text-align:center;text-anchor:middle"
+         id="tspan1319">LOWR</tspan></text>
     <text
        id="text5894-7-6"
        y="-162.0909"
        x="934.42877"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
-         y="-162.0909"
+         y="-149.30051"
          x="934.42877"
          id="tspan5892-0-4"
-         sodipodi:role="line">LOWR</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12px" /></text>
     <text
        id="text4186"
        y="-364.56796"
