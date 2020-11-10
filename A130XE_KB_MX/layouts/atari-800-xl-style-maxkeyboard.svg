@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,13 +43,13 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="1.8137307"
-     inkscape:cx="523.50086"
+     inkscape:zoom="1.2825013"
+     inkscape:cx="526.56204"
      inkscape:cy="140.33257"
      inkscape:window-x="2560"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g5442-4"
+     inkscape:current-layer="layer1"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -4222,23 +4222,19 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="766.20856"
-         y="139.8736"
+         x="784.8208"
+         y="141.67867"
          id="text5894-7"><tspan
            sodipodi:role="line"
            id="tspan5892-0"
-           x="766.20856"
-           y="139.8736">CAPS</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="764.5899"
-         y="159.2995"
-         id="text5894-7-6"><tspan
+           x="784.8208"
+           y="141.67867"
+           style="font-size:12px;text-align:center;text-anchor:middle">CAPS</tspan><tspan
            sodipodi:role="line"
-           id="tspan5892-0-4"
-           x="764.5899"
-           y="159.2995">LOWR</tspan></text>
+           x="784.8208"
+           y="158.34534"
+           id="tspan676"
+           style="font-size:12px;text-align:center;text-anchor:middle">LOWR</tspan></text>
     </g>
     <text
        id="text5894-7-6-7"
@@ -4582,7 +4578,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="TEXT"
-     transform="translate(4.654002e-7,-4.9378683)">
+     transform="translate(6.981003e-7,-4.9378683)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
