@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/gianluca/Progetti-CVS/ATARI/A130KB_MX/A130XE_KB_MX/A130XE_KB_MX.sch)
+    (source /home/debian/Progetti-CVS/ATARI/A130KB_MX/A130XE_KB_MX/A130XE_KB_MX.sch)
     (date "Tue 10 Nov 2020 11:36:54 AM CET")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
