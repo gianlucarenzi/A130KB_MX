@@ -10,7 +10,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="263.56851mm"
    height="121.35844mm"
-   viewBox="0 0 996.16448 458.67759"
+   viewBox="0 0 996.16448 458.67762"
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-xe-style-maxkeyboard.svg"
@@ -37,19 +37,19 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="2560"
-     inkscape:window-height="1354"
+     inkscape:window-height="1406"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
      inkscape:zoom="1.4496536"
-     inkscape:cx="556.75092"
-     inkscape:cy="155.39144"
-     inkscape:window-x="2560"
-     inkscape:window-y="28"
+     inkscape:cx="528.48827"
+     inkscape:cy="372.8557"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -62,7 +62,7 @@
        inkscape:locked="false"
        id="guide5112"
        orientation="1,0"
-       position="-233.67647,-14.53926" />
+       position="-233.67647,-14.539227" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -3180,6 +3180,66 @@
          y="-351.60504"
          x="104.00063"
          id="tspan5076-0"
+         sodipodi:role="line">R4</tspan></text>
+    <text
+       id="text5078-6"
+       y="-269.15921"
+       x="1000.36"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-269.15921"
+         x="1000.36"
+         id="tspan5076-9"
+         sodipodi:role="line">R4</tspan></text>
+    <text
+       id="text5094-8"
+       y="-218.14706"
+       x="999.72845"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-218.14706"
+         x="999.72845"
+         id="tspan5092-8"
+         sodipodi:role="line">R3</tspan></text>
+    <text
+       id="text5098-2"
+       y="-165.43451"
+       x="998.53009"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-165.43451"
+         x="998.53009"
+         id="tspan5096-6"
+         sodipodi:role="line">R2</tspan></text>
+    <text
+       id="text5102-4"
+       y="-109.88794"
+       x="998.82965"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-109.88794"
+         x="998.82965"
+         id="tspan5100-8"
+         sodipodi:role="line">R1</tspan></text>
+    <text
+       id="text5106-7"
+       y="-56.041794"
+       x="1000.3682"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-56.041794"
+         x="1000.3682"
+         id="tspan5104-4"
+         sodipodi:role="line">R1</tspan></text>
+    <text
+       id="text5078-3-4"
+       y="-352.79794"
+       x="1002.5511"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-352.79794"
+         x="1002.5511"
+         id="tspan5076-6-0"
          sodipodi:role="line">R4</tspan></text>
   </g>
   <g
