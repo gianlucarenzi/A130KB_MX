@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 714)
+    (drawings 716)
     (tracks 594)
     (zones 0)
     (modules 76)
@@ -3502,6 +3502,12 @@
     )
   )
 
+  (gr_text "1.50U EXTRA" (at 272.5 203.5 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "1.25U EXTRA" (at 130 203.5 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 234.3 139.074593) (end 248.299 139.074593) (layer Cmts.User) (width 0.2))
   (gr_line (start 253.35 153.073893) (end 253.35 139.074593) (layer Cmts.User) (width 0.2))
   (gr_line (start 267.349 153.073893) (end 253.35 153.073893) (layer Cmts.User) (width 0.2))
@@ -4347,7 +4353,7 @@
   (gr_text "in memoriam A.S. - G.D." (at 311.1 211.1) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text SPACEBAR (at 208.15 211.9) (layer F.SilkS)
+  (gr_text "6.25U SPACEBAR" (at 210.5 211.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text LSHIFT (at 91.3 192.4) (layer F.SilkS)
@@ -4581,6 +4587,7 @@
     (arrow2b (pts (xy 47 72) (xy 48.126504 71.413579)))
   )
 
+  (segment (start 285.1748 203.2705) (end 285.1748 203.0166) (width 0.3) (layer F.Cu) (net 0))
   (segment (start 296.7777 197.0219) (end 294.1352 199.6644) (width 0.3) (layer B.Cu) (net 1))
   (segment (start 301.14 199.6997) (end 298.4622 197.0219) (width 0.3) (layer B.Cu) (net 1))
   (segment (start 298.4622 197.0219) (end 296.7777 197.0219) (width 0.3) (layer B.Cu) (net 1))
@@ -4601,7 +4608,6 @@
   (segment (start 287.65 92.54) (end 316.65 92.54) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 258.65 92.54) (end 287.65 92.54) (width 0.3) (layer F.Cu) (net 1))
   (via (at 294.1352 199.6644) (size 0.8) (layers F.Cu B.Cu) (net 1))
-  (segment (start 285.1748 203.2705) (end 285.1748 203.0166) (width 0.3) (layer F.Cu) (net 0))
   (segment (start 256.0693 205.6303) (end 266.5996 195.1) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 52.775 210.75) (end 57.8947 205.6303) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 294.1352 197.1852) (end 294.1352 199.6644) (width 0.3) (layer F.Cu) (net 1))
