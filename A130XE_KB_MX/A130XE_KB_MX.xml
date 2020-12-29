@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/debian/Progetti/ATARI/A130KB_MX/A130XE_KB_MX/A130XE_KB_MX.sch</source>
+    <date>Tue 29 Dec 2020 05:39:52 PM CET</date>
+    <tool>Eeschema 5.0.2+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ATARI XE KEYBOARD PCB </title>
+        <company>RetroBitLab Tech Guy</company>
+        <rev>0.2</rev>
+        <date>2020-10-10</date>
+        <source>A130XE_KB_MX.sch</source>
+        <comment number="1" value="A PCB KEYBOARD AS DROP IN REPLACEMENT"/>
+        <comment number="2" value="FOR ANY ATARI XE LINE OF COMPUTERS"/>
+        <comment number="3" value="CHERRY MX BASED"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>34 pin RIBBON KEYBOARD CABLE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x17_Counter_Clockwise" description="Generic connector, double row, 02x17, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F820B28</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Small</value>
+      <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F820D36</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>KS_RESET</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F826BF3</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>KS_OPTION</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F827A91</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>KS_SELECT</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F828CB1</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>KS_START</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F829FC7</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>KS_HELP</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82B67D</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>K_B</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82B76B</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>K_V</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82BA83</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>K_C</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82BB01</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>K_X</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82BEA1</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>K_Z</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82BEF1</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>K_RSHIFT</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.75u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82BF41</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>K_LSHIFT</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_2.25u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8350A4</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>K_N</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F839F17</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>K_SPACE</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_6.25u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F83BBB3</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>K_M</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F83BC1B</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>K_comma</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F83BC8B</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>K_dot</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F83BCF9</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>K_slash</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F83C6C9</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>K_ATARI</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F83C741</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>K_H</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84F756</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>K_G</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84F75C</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>K_F</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84F762</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>K_D</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84F768</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>K_S</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84F76E</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>K_A</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84F774</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>K_CAPS</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.25u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F858EDE</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>K_J</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A0D</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>K_K</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A13</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>K_L</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A19</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>K_comdot</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A1F</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>K_plus</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A25</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>K_asterisk</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A2B</tstamp>
+    </comp>
+    <comp ref="SW62">
+      <value>K_7</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA1E</tstamp>
+    </comp>
+    <comp ref="SW61">
+      <value>K_8</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA24</tstamp>
+    </comp>
+    <comp ref="SW60">
+      <value>K_9</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA2A</tstamp>
+    </comp>
+    <comp ref="SW59">
+      <value>K_0</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA30</tstamp>
+    </comp>
+    <comp ref="SW58">
+      <value>K_LT</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA36</tstamp>
+    </comp>
+    <comp ref="SW57">
+      <value>K_GT</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA3C</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>K_DEL</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BFA5E</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>K_BRK</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FD857</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>K_CTRL</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.75u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2D87D</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>K_TAB</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A92</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>K_Q</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A70</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>K_W</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A6A</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>K_E</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A64</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>K_R</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A5E</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>K_T</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A58</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>K_Y</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861A52</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>K_RETURN</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DD93</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>K_equal</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DDB5</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>K_minus</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DDBB</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>K_P</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DDC1</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>K_O</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DDC7</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>K_I</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DDCD</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>K_U</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6DDD3</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>K_ESC</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD3F</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>K_1</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD61</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>K_2</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD67</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>K_3</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD6D</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>K_4</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD73</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>K_5</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD79</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>K_6</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AD7F</tstamp>
+    </comp>
+    <comp ref="SW63">
+      <value>K_SPACE_1</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.25u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB2856D</tstamp>
+    </comp>
+    <comp ref="SW64">
+      <value>K_SPACE_2</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB28611</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB7B9E2</tstamp>
+    </comp>
+    <comp ref="SW65">
+      <value>K_F1</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8424D3</tstamp>
+    </comp>
+    <comp ref="SW66">
+      <value>K_F2</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8425CB</tstamp>
+    </comp>
+    <comp ref="SW67">
+      <value>K_F3</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F842671</tstamp>
+    </comp>
+    <comp ref="SW68">
+      <value>K_F4</value>
+      <footprint>RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F84271F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89E488</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89E760</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89E80E</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89E8B6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x17_Counter_Clockwise">
+      <description>Generic connector, double row, 02x17, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x17_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="IN_0">
+      <node ref="SW43" pin="2"/>
+      <node ref="SW41" pin="2"/>
+      <node ref="SW47" pin="2"/>
+      <node ref="SW40" pin="2"/>
+      <node ref="SW46" pin="2"/>
+      <node ref="SW45" pin="2"/>
+      <node ref="SW57" pin="2"/>
+      <node ref="J1" pin="17"/>
+      <node ref="SW42" pin="2"/>
+    </net>
+    <net code="2" name="IN_1">
+      <node ref="SW35" pin="2"/>
+      <node ref="SW38" pin="2"/>
+      <node ref="SW34" pin="2"/>
+      <node ref="SW44" pin="2"/>
+      <node ref="SW39" pin="2"/>
+      <node ref="SW58" pin="2"/>
+      <node ref="SW37" pin="2"/>
+      <node ref="J1" pin="11"/>
+      <node ref="SW36" pin="2"/>
+    </net>
+    <net code="3" name="IN_5">
+      <node ref="SW31" pin="2"/>
+      <node ref="SW59" pin="2"/>
+      <node ref="SW33" pin="2"/>
+      <node ref="SW27" pin="2"/>
+      <node ref="J1" pin="10"/>
+      <node ref="SW25" pin="2"/>
+      <node ref="SW32" pin="2"/>
+      <node ref="SW26" pin="2"/>
+      <node ref="SW28" pin="2"/>
+    </net>
+    <net code="4" name="IN_7">
+      <node ref="J1" pin="9"/>
+      <node ref="SW30" pin="2"/>
+      <node ref="SW60" pin="2"/>
+      <node ref="SW20" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="SW24" pin="2"/>
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="5" name="IN_2">
+      <node ref="SW13" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="SW22" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW61" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW12" pin="2"/>
+    </net>
+    <net code="6" name="IN_4">
+      <node ref="SW2" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW68" pin="2"/>
+      <node ref="SW65" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="J1" pin="19"/>
+      <node ref="SW62" pin="2"/>
+    </net>
+    <net code="7" name="IN_3">
+      <node ref="SW56" pin="2"/>
+      <node ref="SW49" pin="2"/>
+      <node ref="SW66" pin="2"/>
+      <node ref="J1" pin="16"/>
+      <node ref="SW67" pin="2"/>
+      <node ref="SW51" pin="2"/>
+      <node ref="SW50" pin="2"/>
+      <node ref="SW48" pin="2"/>
+    </net>
+    <net code="8" name="OUT_1">
+      <node ref="J1" pin="13"/>
+      <node ref="SW55" pin="1"/>
+      <node ref="SW61" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW58" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW56" pin="1"/>
+    </net>
+    <net code="9" name="RSC">
+      <node ref="J1" pin="20"/>
+      <node ref="SW55" pin="2"/>
+      <node ref="SW53" pin="2"/>
+      <node ref="SW52" pin="2"/>
+      <node ref="SW54" pin="2"/>
+    </net>
+    <net code="10" name="OUT_2">
+      <node ref="J1" pin="15"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW50" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="11" name="OUT_5">
+      <node ref="SW67" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW32" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="SW38" pin="1"/>
+      <node ref="SW46" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW53" pin="1"/>
+      <node ref="SW68" pin="1"/>
+    </net>
+    <net code="12" name="OUT_7">
+      <node ref="SW16" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="SW65" pin="1"/>
+      <node ref="SW66" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="SW39" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="SW63" pin="1"/>
+      <node ref="SW64" pin="1"/>
+    </net>
+    <net code="14" name="OUT_6">
+      <node ref="SW3" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="J1" pin="12"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW49" pin="1"/>
+      <node ref="SW19" pin="1"/>
+    </net>
+    <net code="15" name="OUT_4">
+      <node ref="J1" pin="14"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW40" pin="1"/>
+    </net>
+    <net code="16" name="+5V">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="17" name="OUT_3">
+      <node ref="SW30" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="18" name="OUT_0">
+      <node ref="SW13" pin="1"/>
+      <node ref="SW28" pin="1"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="J1" pin="18"/>
+      <node ref="SW43" pin="1"/>
+      <node ref="SW37" pin="1"/>
+    </net>
+    <net code="19" name="OPTION">
+      <node ref="J1" pin="23"/>
+      <node ref="SW9" pin="1"/>
+    </net>
+    <net code="20" name="SELECT">
+      <node ref="J1" pin="22"/>
+      <node ref="SW17" pin="1"/>
+    </net>
+    <net code="21" name="START">
+      <node ref="J1" pin="21"/>
+      <node ref="SW29" pin="1"/>
+    </net>
+    <net code="22" name="RESET">
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="D1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="SW29" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad27)">
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad28)">
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad29)">
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad30)">
+      <node ref="J1" pin="30"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad31)">
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad32)">
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad33)">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad34)">
+      <node ref="J1" pin="34"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad26)">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad25)">
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="35" name="IN_6">
+      <node ref="SW8" pin="2"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="SW64" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW63" pin="2"/>
+    </net>
+  </nets>
+</export>
