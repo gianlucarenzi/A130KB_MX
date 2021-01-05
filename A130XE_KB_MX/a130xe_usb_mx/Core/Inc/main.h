@@ -124,6 +124,12 @@ void Error_Handler(void);
 #define ROW11_GPIO_Port GPIOD
 #define ROW12_Pin GPIO_PIN_1
 #define ROW12_GPIO_Port GPIOD
+#define KB_RST_Pin GPIO_PIN_2
+#define KB_RST_GPIO_Port GPIOA
+#define KB_CLK_Pin GPIO_PIN_3
+#define KB_CLK_GPIO_Port GPIOA
+#define KB_DAT_Pin GPIO_PIN_4
+#define KB_DAT_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
