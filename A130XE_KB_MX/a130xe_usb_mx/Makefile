@@ -13,8 +13,8 @@
 ######################################
 # target
 ######################################
-TARGET = a130xe_usb_mx
-
+TARGET = matrix_key_usb
+PLATFORM ?= ATARI
 
 ######################################
 # building variables
@@ -44,7 +44,17 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
+	Core/Src/action.c \
+	Core/Src/action_macro.c \
+	Core/Src/debug.c \
+	Core/Src/hook.c \
+	Core/Src/host.c \
+	Core/Src/keyboard.c \
+	Core/Src/keymap.c \
 	Core/Src/main.c \
+	Core/Src/matrix.c \
+	Core/Src/print.c \
+	Core/Src/util.c \
 	Core/Src/syscall.c \
 	Core/Src/stm32f4xx_it.c \
 	Core/Src/stm32f4xx_hal_msp.c \
@@ -87,6 +97,20 @@ ASM_SOURCES =  \
 	startup_stm32f407xx.s
 
 
+ifeq ($(PLATFORM),AMIGA)
+	C_DEFS = -D__AMIGA__
+	C_SOURCES += \
+		Core/Src/amiga_config.c \
+		
+endif
+
+ifeq ($(PLATFORM),ATARI)
+	C_DEFS = -D__ATARI__
+	C_SOURCES += \
+		Core/Src/atari_config.c \
+		
+endif
+
 #######################################
 # binaries
 #######################################
@@ -127,7 +151,7 @@ MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
 AS_DEFS = 
 
 # C defines
-C_DEFS =  \
+C_DEFS +=  \
 	-DUSE_HAL_DRIVER \
 	-DSTM32F407xx
 
