@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 #include <stm32f4xx_hal.h>
+#include "stm32f4xx_it.h"
+
 typedef enum {
 	SYSCALL_NOTREADY,
 	SYSCALL_READY,
@@ -10,12 +12,6 @@ typedef enum {
 
 extern void _write_ready(t_syscall_status rdy);
 extern int _write(int file, char *data, int len);
-
-/**
- * Simple timer functions!
- **/
-extern void timer_start(void);
-extern int timer_elapsed(uint32_t msec);
 
 /**
  * blocking functions!
