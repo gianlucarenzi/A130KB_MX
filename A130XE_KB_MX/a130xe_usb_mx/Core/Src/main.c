@@ -20,27 +20,52 @@
 #include <stdio.h>
 #include <string.h>
 #include "stm32f4xx_ll_gpio.h"
+#include "usbd_hid.h"
 #include "syscall.h"
 #include "debug.h"
 #include "main.h"
 #include "usb_device.h"
+#include "keyboard.h"
 
 static UART_HandleTypeDef huart1;
-static int debuglevel = DBG_INFO;
+static int debuglevel = DBG_VERBOSE;
+
+__weak void matrix_init(void) { };
 
 /* Private function prototypes -----------------------------------------------*/
 static void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
 
-#define LED_OFF           LL_GPIO_SetOutputPin(LED1_GPIO_Port, LED1_Pin);    /* LOW ACTIVE */
-#define LED_ON            LL_GPIO_ResetOutputPin(LED1_GPIO_Port, LED1_Pin);  /* LOW ACTIVE */
+#if defined(__ATARI__)
+#	define KEYBOARD_INTERFACE "ATARI XL/XE"
+#elif defined(__AMIGA__)
+#	define KEYBOARD_INTERFACE "AMIGA COMMODORE COMPUTERS"
+#else
+#	error "NO PLATFORM DEFINED"
+#endif
 
 static void banner(void)
 {
-	DBG_I("STM32 KEYBOARD CORE INTERFACE BOARD\r\n");
+	DBG_I("STM32 KEYBOARD CORE INTERFACE BOARD for " KEYBOARD_INTERFACE "\r\n");
 	DBG_I("(C) RetroBit Lab 2021 written by Gianluca Renzi <icjtqr@gmail.com>\r\n");
 }
+
+void led_toggle(void)
+{
+	static int ledval = 0;
+	if (ledval == 0)
+	{
+		LED_ON();
+	}
+	else
+	{
+		LED_OFF();
+	}
+}
+
+keyboard_type_t keyboard;
+extern USBD_HandleTypeDef hUsbDeviceFS;
 
 /**
   * @brief  The application entry point.
@@ -65,20 +90,42 @@ int main(void)
 	/* Initialize all configured peripherals */
 	MX_GPIO_Init();
 
-	LED_ON
-
 	MX_USART1_UART_Init();
 	_write_ready(SYSCALL_READY); // printf is functional from now on...
 
 	banner();
 
-	LED_OFF
-
 	MX_USB_DEVICE_Init();
 
-	/* Infinite loop */
-	while (1)
+	keyboard_init();
+
+	DBG_V("KEYBOARD TYPE: " KEYBOARD_INTERFACE "\r\n");
+
+	uint8_t press_report[8] = {0};
+
+	for(;;)
 	{
+		// Press
+		press_report[2] = 'A'; 
+		press_report[3] = 'B'; 
+		press_report[4] = 'C'; 
+		press_report[5] = 'D'; 
+		press_report[6] = 'E'; 
+
+		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 /* buffer size */);
+		LED_TGL();
+		mdelay(1000);
+
+		// Release
+		press_report[2] = 0; 
+		press_report[3] = 0; 
+		press_report[4] = 0; 
+		press_report[5] = 0; 
+		press_report[6] = 0; 
+
+		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 /* buffer size */);
+		LED_TGL();
+		mdelay(1000);
 	}
 }
 
@@ -207,7 +254,7 @@ static void MX_GPIO_Init(void)
 	GPIO_InitStruct.Pin = COL0_Pin|COL1_Pin|COL2_Pin|COL3_Pin
 						  |COL4_Pin|COL5_Pin|COL6_Pin|COL7_Pin;
 	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Pull = GPIO_PULLUP;
 	HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
 	/*Configure GPIO pin : LED1_Pin */

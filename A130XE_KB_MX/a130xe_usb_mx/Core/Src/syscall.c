@@ -46,6 +46,7 @@ int _write(int file, char *data, int len)
 	return 0;
 }
 
+/**
 static uint32_t timertick_start_ms = 0;
 void timer_start(void)
 {
@@ -66,6 +67,7 @@ int timer_elapsed(uint32_t msec)
 
 	return retval;
 }
+**/
 
 // I hate this delay because they are clockspeed dependent!!!
 #define delayUS_ASM(us) do {\

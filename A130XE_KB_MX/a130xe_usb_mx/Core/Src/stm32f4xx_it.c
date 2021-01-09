@@ -181,6 +181,8 @@ void PendSV_Handler(void)
 /**
   * @brief This function handles System tick timer.
   */
+volatile uint32_t timer_count = 0;
+
 void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
@@ -188,8 +190,33 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-
+  timer_count++;
   /* USER CODE END SysTick_IRQn 1 */
+}
+
+void timer_init(void)
+{
+	timer_count = 0;
+}
+
+uint16_t timer_read(void)
+{
+	return (uint16_t)(timer_count & 0xFFFF);
+}
+
+uint32_t timer_read32(void)
+{
+	return timer_count;
+}
+
+uint16_t timer_elapsed(uint16_t last)
+{
+	return TIMER_DIFF_16(timer_read(), last);
+}
+
+uint32_t timer_elapsed32(uint32_t last)
+{
+	return TIMER_DIFF_32(timer_read32(), last);
 }
 
 /******************************************************************************/
