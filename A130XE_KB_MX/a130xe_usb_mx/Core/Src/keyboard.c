@@ -141,6 +141,7 @@ void keyboard_task(void)
 
 void keyboard_set_leds(uint8_t leds)
 {
+	DBG_V("Leds: 0x%02x\n", leds);
 	led_set(leds);
 }
 
