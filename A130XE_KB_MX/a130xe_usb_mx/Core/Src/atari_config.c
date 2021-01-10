@@ -5,16 +5,18 @@
 #include "atari_config.h"
 
 /* This keymap should be valid with Atari XL and XE (F1..F4) keys as Atari 1200XL */
-uint8_t keyboard_matrix[KEYBOARD_ROWS][KEYBOARD_COLUMNS] = {
-	{ KC_7,  KC_NO,   KC_8,  KC_9,    KC_0,    KC_KP_LT, KC_KP_GT, KC_DEL,  KC_BRK,   KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_6,  KC_NO,   KC_5,  KC_4,    KC_3,    KC_2,     KC_1,     KC_ESC,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_U,  KC_NO,   KC_I,  KC_O,    KC_P,    KC_MINS,  KC_EQL,   KC_ENT,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_Y,  KC_NO,   KC_T,  KC_R,    KC_E,    KC_W,     KC_Q,     KC_TAB,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_F1, KC_J,    KC_K,  KC_L,    KC_SCLN, KC_PPLS,  KC_PAST,  KC_F2,   KC_LCTRL, KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_NO, KC_H,    KC_G,  KC_F,    KC_D,    KC_S,     KC_A,     KC_CAPS, KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_N,  KC_SPC,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,  KC_RGUI,  KC_NO,   KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_F3, KC_HELP, KC_B,  KC_V,    KC_C,    KC_X,     KC_Z,     KC_F4,   KC_LSFT,  KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-	{ KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,   KC_NO,    KC_SYSTEM_POWER /* START */, KC_SELECT, KC_OPER /* OPTION? */, KC_SYSREQ /* RESET */ },
+const uint8_t keymaps[][KEYBOARD_ROWS][KEYBOARD_COLUMNS] = {
+	[0] = {
+		{ KC_7,  KC_NO,   KC_8,  KC_9,    KC_0,    KC_KP_LT, KC_KP_GT, KC_DEL,  KC_BRK,   KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_6,  KC_NO,   KC_5,  KC_4,    KC_3,    KC_2,     KC_1,     KC_ESC,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_U,  KC_NO,   KC_I,  KC_O,    KC_P,    KC_MINS,  KC_EQL,   KC_ENT,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_Y,  KC_NO,   KC_T,  KC_R,    KC_E,    KC_W,     KC_Q,     KC_TAB,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_F1, KC_J,    KC_K,  KC_L,    KC_SCLN, KC_PPLS,  KC_PAST,  KC_F2,   KC_LCTRL, KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_NO, KC_H,    KC_G,  KC_F,    KC_D,    KC_S,     KC_A,     KC_CAPS, KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_N,  KC_SPC,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,  KC_RGUI,  KC_NO,   KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_F3, KC_HELP, KC_B,  KC_V,    KC_C,    KC_X,     KC_Z,     KC_F4,   KC_LSFT,  KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,   KC_NO,    KC_SYSTEM_POWER /* START */, KC_SELECT, KC_OPER /* OPTION? */, KC_SYSREQ /* RESET */ },
+	},
 };
 
 gpioPort_t lut_row[ KEYBOARD_ROWS ] = {
