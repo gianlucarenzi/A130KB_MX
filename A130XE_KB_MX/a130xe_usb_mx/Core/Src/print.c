@@ -44,14 +44,28 @@ void print_set_sendchar(int8_t (*sendchar_func)(uint8_t))
 
 #elif defined(__arm__) /* __ARM__ */
 
-void xprintfbin(uint32_t val, int n_bits)
-{
-}
-
 void xprintfbin_rev(uint32_t val, int n_bits)
 {
+	int r;
+	for (r = 0; r < n_bits; r++)
+	{
+		int v;
+		v = (val & (1 << r)) >> r;
+		printf("%d", v);
+	}
 }
 
-#endif /* __AVR__ */
+void xprintfbin(uint32_t val, int n_bits)
+{
+	int r;
+	for (r = (n_bits - 1); r >= 0; r--)
+	{
+		int v;
+		v = (val & (1 << r)) >> r;
+		printf("%d", v);
+	}
+}
+
+#endif /* __ARM__ */
 
 #endif
