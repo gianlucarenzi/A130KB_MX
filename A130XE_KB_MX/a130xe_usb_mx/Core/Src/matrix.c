@@ -33,6 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #   define DEBOUNCE	5
 #endif
 static uint8_t debouncing = DEBOUNCE;
+static int debuglevel = DBG_NOISY;
 
 /* matrix state(1:on, 0:off) */
 static matrix_row_t matrix[MATRIX_ROWS];
@@ -44,7 +45,7 @@ bool matrix_has_ghost_in_row(uint8_t row);
 static matrix_row_t read_cols(void);
 static void unselect_rows(void);
 static void select_row(uint8_t row);
-
+static void prepare_cols(void);
 
 inline
 uint8_t matrix_rows(void)
@@ -58,19 +59,40 @@ uint8_t matrix_cols(void)
     return MATRIX_COLS;
 }
 
+static
+void prepare_cols(void)
+{
+	GPIO_InitTypeDef GPIO_InitStruct = {0};
+	int z;
+	for (z = 0; z < KEYBOARD_COLUMNS; z++)
+	{
+		/* Configure GPIO pins : COL as INPUT with internal PULL UP */
+		GPIO_InitStruct.Pin = lut_col[z].pin;
+		GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+		GPIO_InitStruct.Pull = GPIO_PULLUP;
+		HAL_GPIO_Init(lut_col[z].port, &GPIO_InitStruct);
+	}
+}
+
 void matrix_init(void)
 {
     // initialize row and col
+    // now rows
     unselect_rows();
-    // Input with pull-up(DDR:0, PORT:1)
-    //DDRB = 0x00;
-    //PORTB = 0xFF;
+	// ...and now initialize columns
+	prepare_cols();
 
     // initialize matrix state: all keys off
     for (uint8_t i=0; i < MATRIX_ROWS; i++) {
         matrix[i] = 0;
         matrix_debouncing[i] = 0;
     }
+
+    //debug
+    debug_matrix = true;
+    LED_ON();
+    wait_ms(500);
+    LED_OFF();
 }
 
 uint8_t matrix_scan(void)
@@ -82,7 +104,7 @@ uint8_t matrix_scan(void)
         if (matrix_debouncing[i] != cols) {
             matrix_debouncing[i] = cols;
             if (debouncing) {
-                debug("bounce!: "); debug_hex(debouncing); debug("\n");
+                debug("bounce!: "); debug_hex(debouncing); debug("\r\n");
             }
             debouncing = DEBOUNCE;
         }
@@ -123,16 +145,32 @@ matrix_row_t matrix_get_row(uint8_t row)
 
 void matrix_print(void)
 {
-    print("\nr/c 01234567\n");
-    for (uint8_t row = 0; row < matrix_rows(); row++) {
-        phex(row); print(": ");
-        pbin_reverse(matrix_get_row(row));
-#ifdef MATRIX_HAS_GHOST
-        if (matrix_has_ghost_in_row(row)) {
-            print(" <ghost");
-        }
+#if (MATRIX_COLS <= 8)
+	xprintf("\r\n  01234567\r\n");
+#elif (MATRIX_COLS <= 16)
+	xprintf("\r\n  012345679ABCDEF\r\n");
+#elif (MATRIX_COLS <= 32)
+	xprintf("\r\n  012345679ABCDEF012345679ABCDEF\r\n");
 #endif
-        print("\n");
+
+    for (uint8_t row = 0; row < matrix_rows(); row++) {
+        xprintf("%X:", row&0xF);
+#if (MATRIX_COLS <= 8)
+		// Print 8 bits in reverse order (0..7)
+		xprintfbin_rev(matrix_get_row(row), 8);
+#elif (MATRIX_COLS <= 16)
+		// Print 16 bits in reverse order (0..F)
+		xprintfbin_rev(matrix_get_row(row), 16);
+#elif (MATRIX_COLS <= 32)
+		// Print 32 bits in reverse order (0..F0..F)
+		xprintfbin_rev(matrix_get_row(row), 32);
+#endif
+#ifdef MATRIX_HAS_GHOST
+		xprintf("%s", matrix_has_ghost_in_row(row) ?  " <ghost" : "" );
+#else
+        xprintf("");
+#endif
+		xprintf("\r\n");
     }
 }
 
@@ -156,68 +194,60 @@ bool matrix_has_ghost_in_row(uint8_t row)
 inline
 static matrix_row_t read_cols(void)
 {
-	return 0;
-    //return ~PINB;
+	/* Read all columns and put everything in a 16 bit word
+	 *
+	 * C0 = Bit0
+	 * C1 = Bit1
+	 * C2 = Bit2
+	 * ...
+	 * Cn = Bitn
+	 *
+	 * */
+	matrix_row_t readcol = 0; // Not pressed as default
+	int z;
+	int temp;
+	for (z = 0; z < KEYBOARD_COLUMNS; z++)
+	{
+		temp = HAL_GPIO_ReadPin( lut_col[z].port, lut_col[z].pin );
+		readcol |= (temp << z);
+	}
+	
+	return readcol;
 }
 
 inline
 static void unselect_rows(void)
 {
-	/**
-    // Hi-Z(DDR:0, PORT:0) to unselect
-    DDRC  &= ~0b01000000; // PC: 6
-    PORTC &= ~0b01000000;
-    DDRD  &= ~0b11100111; // PD: 7,6,5,2,1,0
-    PORTD &= ~0b11100111;
-    DDRF  &= ~0b11000000; // PF: 7,6
-    PORTF &= ~0b11000000;
-    **/
+	/* Put all rows as Hi-Z */
+	int z;
+	for (z = 0; z < KEYBOARD_ROWS; z++)
+	{
+		GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+		/*Configure GPIO as INPUT Hi-Z */
+		GPIO_InitStruct.Pin = lut_row[z].pin;
+		GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+		GPIO_InitStruct.Pull = GPIO_NOPULL;
+		HAL_GPIO_Init(lut_row[z].port, &GPIO_InitStruct);
+	}
 }
 
 inline
 static void select_row(uint8_t row)
 {
-	/**
-    // Output low(DDR:1, PORT:0) to select
-    // row: 0    1    2    3    4    5    6    7    8
-    // pin: PD0, PD5, PD7, PF6, PD6, PD1, PD2, PC6, PF7
-    switch (row) {
-        case 0:
-            DDRD  |= (1<<0);
-            PORTD &= ~(1<<0);
-            break;
-        case 1:
-            DDRD  |= (1<<5);
-            PORTD &= ~(1<<5);
-            break;
-        case 2:
-            DDRD  |= (1<<7);
-            PORTD &= ~(1<<7);
-            break;
-        case 3:
-            DDRF  |= (1<<6);
-            PORTF &= ~(1<<6);
-            break;
-        case 4:
-            DDRD  |= (1<<6);
-            PORTD &= ~(1<<6);
-            break;
-        case 5:
-            DDRD  |= (1<<1);
-            PORTD &= ~(1<<1);
-            break;
-        case 6:
-            DDRD  |= (1<<2);
-            PORTD &= ~(1<<2);
-            break;
-        case 7:
-            DDRC  |= (1<<6);
-            PORTC &= ~(1<<6);
-            break;
-        case 8:
-            DDRF  |= (1<<7);
-            PORTF &= ~(1<<7);
-            break;
-    }
-    **/
+	// Output low to select
+	// So first, put the low level in the output register, then
+	// configure the pin as output.
+
+	GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+	// Output low
+	HAL_GPIO_WritePin(lut_row[row].port, lut_row[row].pin, GPIO_PIN_RESET);
+
+	// then configure it as output
+	GPIO_InitStruct.Pin = lut_row[row].pin;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	HAL_GPIO_Init(lut_row[row].port, &GPIO_InitStruct);
 }
