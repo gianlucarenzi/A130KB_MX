@@ -97,14 +97,16 @@ int main(void)
 
 	MX_USB_DEVICE_Init();
 
-	keyboard_init();
 
 	DBG_V("KEYBOARD TYPE: " KEYBOARD_INTERFACE "\r\n");
 
 	uint8_t press_report[8] = {0};
+	keyboard_init();
 
 	for(;;)
 	{
+		keyboard_task();
+/**
 		// Press
 		press_report[2] = 'A'; 
 		press_report[3] = 'B'; 
@@ -112,7 +114,7 @@ int main(void)
 		press_report[5] = 'D'; 
 		press_report[6] = 'E'; 
 
-		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 /* buffer size */);
+		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 ); // buffer size
 		LED_TGL();
 		mdelay(1000);
 
@@ -123,10 +125,17 @@ int main(void)
 		press_report[5] = 0; 
 		press_report[6] = 0; 
 
-		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 /* buffer size */);
+		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 ); // buffer size
 		LED_TGL();
 		mdelay(1000);
+**/
 	}
+}
+
+__weak void bootloader_jump(void)
+{
+	DBG_E("Bootloader Jump Not Implemented Yet!\n");
+	while (1);
 }
 
 /**
@@ -222,15 +231,7 @@ static void MX_GPIO_Init(void)
 	__HAL_RCC_GPIOD_CLK_ENABLE();
 
 	/*Configure GPIO pin Output Level */
-	HAL_GPIO_WritePin(GPIOE, ROW0_Pin|ROW1_Pin|ROW2_Pin|ROW3_Pin
-						  |ROW4_Pin|ROW5_Pin|ROW6_Pin|ROW7_Pin
-						  |ROW8_Pin|ROW9_Pin|ROW10_Pin, GPIO_PIN_RESET);
-
-	/*Configure GPIO pin Output Level */
 	HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
-
-	/*Configure GPIO pin Output Level */
-	HAL_GPIO_WritePin(GPIOD, ROW11_Pin|ROW12_Pin, GPIO_PIN_RESET);
 
 	/*Configure GPIO pin : K0_Pin */
 	GPIO_InitStruct.Pin = K0_Pin;
@@ -238,46 +239,12 @@ static void MX_GPIO_Init(void)
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 	HAL_GPIO_Init(K0_GPIO_Port, &GPIO_InitStruct);
 
-	/*Configure GPIO pins : ROW0_Pin ROW1_Pin ROW2_Pin ROW3_Pin
-						   ROW4_Pin ROW5_Pin ROW6_Pin ROW7_Pin
-						   ROW8_Pin ROW9_Pin ROW10_Pin */
-	GPIO_InitStruct.Pin = ROW0_Pin|ROW1_Pin|ROW2_Pin|ROW3_Pin
-						  |ROW4_Pin|ROW5_Pin|ROW6_Pin|ROW7_Pin
-						  |ROW8_Pin|ROW9_Pin|ROW10_Pin;
-	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
-
-	/*Configure GPIO pins : COL0_Pin COL1_Pin COL2_Pin COL3_Pin
-						   COL4_Pin COL5_Pin COL6_Pin COL7_Pin */
-	GPIO_InitStruct.Pin = COL0_Pin|COL1_Pin|COL2_Pin|COL3_Pin
-						  |COL4_Pin|COL5_Pin|COL6_Pin|COL7_Pin;
-	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-	GPIO_InitStruct.Pull = GPIO_PULLUP;
-	HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
 	/*Configure GPIO pin : LED1_Pin */
 	GPIO_InitStruct.Pin = LED1_Pin;
 	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
 	HAL_GPIO_Init(LED1_GPIO_Port, &GPIO_InitStruct);
-
-	/*Configure GPIO pins : COL8_Pin COL9_Pin COL10_Pin COL11_Pin
-						   COL12_Pin COL13_Pin COL14_Pin COL15_Pin */
-	GPIO_InitStruct.Pin = COL8_Pin|COL9_Pin|COL10_Pin|COL11_Pin
-						  |COL12_Pin|COL13_Pin|COL14_Pin|COL15_Pin;
-	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-	/*Configure GPIO pins : ROW11_Pin ROW12_Pin */
-	GPIO_InitStruct.Pin = ROW11_Pin|ROW12_Pin;
-	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
 	/* The following pins are usable only on Amiga Keyboards. We are
 	 * using them anyway, just to have a single firmware for more PCBs
