@@ -48,6 +48,7 @@ static inline bool IS_RELEASED(keyevent_t event) { return (!IS_NOEVENT(event) &&
 }
 
 extern void keyboard_init(void);
+extern void keyboard_task(void);
 extern void keyboard_set_leds(uint8_t leds);
 extern __attribute__ ((weak)) void led_set(uint8_t usb_led);
 
