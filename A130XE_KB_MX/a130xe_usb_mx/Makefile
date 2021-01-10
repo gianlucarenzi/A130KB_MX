@@ -45,7 +45,10 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 	Core/Src/action.c \
+	Core/Src/action_layer.c \
 	Core/Src/action_macro.c \
+	Core/Src/action_tapping.c \
+	Core/Src/action_util.c \
 	Core/Src/debug.c \
 	Core/Src/hook.c \
 	Core/Src/host.c \
