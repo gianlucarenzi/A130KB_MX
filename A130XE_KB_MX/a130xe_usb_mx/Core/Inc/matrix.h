@@ -64,6 +64,9 @@ matrix_row_t matrix_get_row(uint8_t row);
 void matrix_print(void);
 /* clear matrix */
 void matrix_clear(void);
+/* print a single matrix row */
+void matrix_print_row(uint8_t row);
+
 
 #ifdef MATRIX_HAS_GHOST
 bool matrix_has_ghost_in_row(uint8_t row);

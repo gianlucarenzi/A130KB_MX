@@ -143,6 +143,35 @@ matrix_row_t matrix_get_row(uint8_t row)
     return matrix[row];
 }
 
+void matrix_print_row(uint8_t row)
+{
+#if (MATRIX_COLS <= 8)
+	xprintf("\r\n  01234567\r\n");
+#elif (MATRIX_COLS <= 16)
+	xprintf("\r\n  012345679ABCDEF\r\n");
+#elif (MATRIX_COLS <= 32)
+	xprintf("\r\n  012345679ABCDEF012345679ABCDEF\r\n");
+#endif
+
+    xprintf("%X:", row&0xF);
+#if (MATRIX_COLS <= 8)
+		// Print 8 bits in reverse order (0..7)
+		xprintfbin_rev(matrix_get_row(row), 8);
+#elif (MATRIX_COLS <= 16)
+		// Print 16 bits in reverse order (0..F)
+		xprintfbin_rev(matrix_get_row(row), 16);
+#elif (MATRIX_COLS <= 32)
+		// Print 32 bits in reverse order (0..F0..F)
+		xprintfbin_rev(matrix_get_row(row), 32);
+#endif
+#ifdef MATRIX_HAS_GHOST
+		xprintf("%s", matrix_has_ghost_in_row(row) ?  " <ghost" : "" );
+#else
+        xprintf("");
+#endif
+		xprintf("\r\n\r\n");
+}
+
 void matrix_print(void)
 {
 #if (MATRIX_COLS <= 8)

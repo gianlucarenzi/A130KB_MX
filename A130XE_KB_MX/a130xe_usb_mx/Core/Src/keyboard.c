@@ -89,7 +89,7 @@ void keyboard_task(void)
 				 * the last key would be lost.
 				 */
 				if (debug_matrix && matrix_ghost[r] != matrix_row) {
-					matrix_print();
+					matrix_print_row(r);
 				}
 				matrix_ghost[r] = matrix_row;
 				continue;
