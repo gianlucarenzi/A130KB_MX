@@ -3,7 +3,8 @@
     "backcolor": "#d4d4d4",
     "name": "ATARI XE STYLE maxkeyboard",
     "author": "Gianluca Renzi",
-    "radii": "20px",
+    "notes": "Plate created with http://www.keyboardcad.com/ because Plate & Builder does not work anymore.",
+    "radii": "10px",
     "switchMount": "cherry",
     "switchBrand": "cherry",
     "switchType": "MX1A-E1xx",
@@ -12,10 +13,47 @@
   },
   [
     {
+      "y": 0.07,
+      "x": 0.125,
+      "c": "#999999",
+      "a": 7
+    },
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    {
+      "x": 4.055,
+      "t": "#ffffff",
+      "w": 1.5
+    },
+    "HELP",
+    {
+      "w": 1.5
+    },
+    "START",
+    {
+      "w": 1.5
+    },
+    "SELECT",
+    {
+      "w": 1.5
+    },
+    "OPTION",
+    {
+      "w": 1.5
+    },
+    "RESET"
+  ],
+  [
+    {
+      "y": 0.6799999999999999,
+      "x": 0.25,
+      "c": "#cccccc",
+      "t": "#000000",
       "sm": "cherry",
       "sb": "cherry",
-      "st": "MX1A-E1xx",
-      "a": 7
+      "st": "MX1A-E1xx"
     },
     "ESC",
     {
@@ -64,6 +102,7 @@
   ],
   [
     {
+      "x": 0.25,
       "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
       "a": 4,
       "f": 3,
@@ -102,6 +141,7 @@
   ],
   [
     {
+      "x": 0.25,
       "t": "#cccccc",
       "w": 1.75
     },
@@ -141,6 +181,7 @@
   ],
   [
     {
+      "x": 0.25,
       "a": 7,
       "w": 2.25
     },
@@ -175,7 +216,7 @@
   ],
   [
     {
-      "x": 3,
+      "x": 3.25,
       "f": 3,
       "w": 1.25
     },
