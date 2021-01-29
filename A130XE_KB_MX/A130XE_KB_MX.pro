@@ -1,4 +1,4 @@
-update=Tue 10 Nov 2020 11:45:33 AM CET
+update=Fri 29 Jan 2021 12:59:44 PM CET
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=production/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
