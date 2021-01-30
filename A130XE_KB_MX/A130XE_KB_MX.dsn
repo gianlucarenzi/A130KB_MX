@@ -36,12 +36,12 @@
   )
   (placement
     (component RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d
+      (place SW67 117500 -90000 front 0 (PN K_F3))
       (place SW47 348600 -179000 front 0 (PN K_ATARI))
       (place SW56 329600 -121900 front 0 (PN K_DEL))
       (place SW58 291500 -121900 front 0 (PN K_LT))
       (place SW60 253400 -121900 front 0 (PN K_9))
       (place SW62 215300 -121900 front 0 (PN K_7))
-      (place SW67 117500 -90000 front 0 (PN K_F3))
       (place SW48 81900 -121900 front 0 (PN K_ESC))
       (place SW36 129550 -140950 front 0 (PN K_W))
       (place SW38 143850 -179050 front 0 (PN K_X))
@@ -633,7 +633,7 @@
       (pins SW36-1 SW42-1 SW27-1 SW20-1 SW12-1 SW4-1 SW50-1 J1-15)
     )
     (net IN_3
-      (pins SW56-2 SW66-2 SW67-2 SW48-2 SW51-2 SW50-2 SW49-2 J1-16)
+      (pins SW56-2 SW66-2 SW48-2 SW68-2 SW51-2 SW50-2 SW49-2 J1-16)
     )
     (net IN_0
       (pins SW47-2 SW57-2 SW40-2 SW41-2 SW42-2 SW43-2 SW46-2 SW45-2 J1-17)
@@ -642,7 +642,7 @@
       (pins SW37-1 SW43-1 SW21-1 SW28-1 SW13-1 SW5-1 SW51-1 J1-18)
     )
     (net IN_4
-      (pins SW62-2 SW68-2 SW6-2 SW4-2 SW3-2 SW65-2 SW2-2 J1-19)
+      (pins SW67-2 SW62-2 SW6-2 SW4-2 SW3-2 SW65-2 SW2-2 J1-19)
     )
     (net RSC
       (pins SW55-2 SW54-2 SW52-2 SW53-2 J1-20)
