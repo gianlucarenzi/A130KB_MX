@@ -107,8 +107,6 @@ Text GLabel 12550 7750 0    39   Output ~ 0
 OPTION
 Text GLabel 12550 7850 0    39   Output ~ 0
 RESET
-NoConn ~ 12800 7950
-NoConn ~ 12800 8050
 NoConn ~ 12800 8150
 NoConn ~ 12800 8250
 NoConn ~ 12800 8350
@@ -211,7 +209,7 @@ Text GLabel 1750 10050 0    39   Input ~ 0
 OUT_5
 Text GLabel 2650 8550 2    39   Output ~ 0
 IN_4
-Text GLabel 8300 9650 2    39   Output ~ 0
+Text GLabel 8500 10050 2    39   Output ~ 0
 RSC
 Text GLabel 12250 3150 0    39   Output ~ 0
 SELECT
@@ -222,24 +220,13 @@ OUT_0
 $Comp
 L power:GND #PWR02
 U 1 1 5F826B7B
-P 13860 3500
-F 0 "#PWR02" H 13860 3250 50  0001 C CNN
-F 1 "GND" H 13865 3327 50  0000 C CNN
-F 2 "" H 13860 3500 50  0001 C CNN
-F 3 "" H 13860 3500 50  0001 C CNN
-	1    13860 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5F826BB2
-P 10200 3500
-F 0 "#PWR01" H 10200 3250 50  0001 C CNN
-F 1 "GND" H 10205 3327 50  0000 C CNN
-F 2 "" H 10200 3500 50  0001 C CNN
-F 3 "" H 10200 3500 50  0001 C CNN
-	1    10200 3500
-	0    1    1    0   
+P 14250 3850
+F 0 "#PWR02" H 14250 3600 50  0001 C CNN
+F 1 "GND" H 14255 3677 50  0000 C CNN
+F 2 "" H 14250 3850 50  0001 C CNN
+F 3 "" H 14250 3850 50  0001 C CNN
+	1    14250 3850
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW1
@@ -256,7 +243,6 @@ Wire Wire Line
 	10450 3150 10500 3150
 Wire Wire Line
 	10900 3150 10900 3500
-Connection ~ 10900 3500
 Wire Wire Line
 	10900 3500 11800 3500
 Text GLabel 11350 3150 0    39   Output ~ 0
@@ -314,14 +300,6 @@ Wire Wire Line
 	13550 3150 13550 3500
 Wire Wire Line
 	13150 3150 13100 3150
-Text Notes 10850 3650 0    50   ~ 0
-3
-Text Notes 11750 3650 0    50   ~ 0
-3
-Text Notes 12650 3650 0    50   ~ 0
-3
-Text Notes 13500 3650 0    50   ~ 0
-3
 Text Notes 10100 3150 0    50   ~ 0
 24
 Text Notes 10950 3150 0    50   ~ 0
@@ -466,8 +444,6 @@ F 3 "" H 7850 9850 50  0001 C CNN
 	1    7850 9650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 10050 8200 10050
 $Comp
 L Switch:SW_Push SW6
 U 1 1 5F839F17
@@ -866,13 +842,6 @@ Connection ~ 13550 3500
 Wire Wire Line
 	7450 9650 7650 9650
 Connection ~ 7450 9650
-Wire Wire Line
-	8050 9650 8200 9650
-Wire Wire Line
-	8200 9650 8200 10050
-Wire Wire Line
-	8200 9650 8300 9650
-Connection ~ 8200 9650
 Text GLabel 1700 1800 0    39   Input ~ 0
 OUT_1
 $Comp
@@ -1427,8 +1396,6 @@ Text GLabel 1700 3300 0    39   Input ~ 0
 OUT_4
 Wire Wire Line
 	14200 8750 14200 8700
-Wire Wire Line
-	10200 3500 10210 3500
 Text Notes 2250 10000 0    50   ~ 0
 6
 Text Notes 3100 10000 0    50   ~ 0
@@ -1457,7 +1424,7 @@ Text Notes 7300 10200 0    50   ~ 0
 17
 Text Notes 8100 10150 0    50   ~ 0
 20
-Text Notes 8100 9600 0    50   ~ 0
+Text Notes 8350 9850 0    50   ~ 0
 20
 Text Notes 7600 9600 0    50   ~ 0
 6
@@ -1753,15 +1720,7 @@ Text GLabel 14000 6000 2    39   Output ~ 0
 IN_4
 Text GLabel 14000 5000 2    39   Output ~ 0
 IN_4
-Wire Bus Line
-	13000 4600 14500 4600
-Wire Bus Line
-	14500 4600 14500 6200
-Wire Bus Line
-	14500 6200 13000 6200
-Wire Bus Line
-	13000 6200 13000 4600
-Text Notes 15100 6300 2    50   ~ 0
+Text Notes 14900 6200 2    50   ~ 0
 EXTRA FUNCTION KEYS (as Atari 1200XL) F1, F2, F3, F4
 $Comp
 L Mechanical:MountingHole H1
@@ -1888,32 +1847,101 @@ Wire Wire Line
 Wire Wire Line
 	9250 1800 9550 1800
 Connection ~ 8150 1400
-Wire Bus Line
-	9700 2400 14350 2400
-Wire Bus Line
-	14350 2400 14350 4100
-Wire Bus Line
-	14350 4100 9700 4100
-Wire Bus Line
-	9700 4100 9700 2400
-Text Notes 11100 4350 0    50   ~ 0
+Text Notes 11250 3850 0    50   ~ 0
 FUNCTION KEYS: HELP, START, SELECT, OPTION and RESET\nThose keys should be reused from original
-Wire Wire Line
-	13550 3500 13860 3500
 Wire Wire Line
 	13300 8650 13310 8650
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6020DE80
-P 10210 3500
-F 0 "#FLG0101" H 10210 3575 50  0001 C CNN
-F 1 "PWR_FLAG" H 10210 3674 50  0000 C CNN
-F 2 "" H 10210 3500 50  0001 C CNN
-F 3 "~" H 10210 3500 50  0001 C CNN
-	1    10210 3500
-	1    0    0    -1  
+P 14250 3800
+F 0 "#FLG0101" H 14250 3875 50  0001 C CNN
+F 1 "PWR_FLAG" H 14250 3974 50  0000 C CNN
+F 2 "" H 14250 3800 50  0001 C CNN
+F 3 "~" H 14250 3800 50  0001 C CNN
+	1    14250 3800
+	0    -1   -1   0   
 $EndComp
-Connection ~ 10210 3500
+Text GLabel 8350 9550 0    39   Output ~ 0
+LSC
 Wire Wire Line
-	10210 3500 10900 3500
+	8050 10050 8250 10050
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 601A45B3
+P 8650 9650
+F 0 "J3" H 8623 9580 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 8623 9671 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8650 9650 50  0001 C CNN
+F 3 "~" H 8650 9650 50  0001 C CNN
+	1    8650 9650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8050 9650 8450 9650
+Wire Wire Line
+	8450 9750 8250 9750
+Wire Wire Line
+	8250 9750 8250 10050
+Connection ~ 8250 10050
+Wire Wire Line
+	8250 10050 8500 10050
+Wire Wire Line
+	8350 9550 8450 9550
+Text Notes 8600 9400 0    39   ~ 0
+JP1-2 single SHIFT\nJP2-3 Left and Right SHIFT
+Text GLabel 12550 7950 0    39   Output ~ 0
+LSC
+Wire Wire Line
+	12800 7950 12550 7950
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 602333E0
+P 14450 3500
+F 0 "J4" H 14423 3430 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 14423 3521 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14450 3500 50  0001 C CNN
+F 3 "~" H 14450 3500 50  0001 C CNN
+	1    14450 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13550 3500 14250 3500
+Wire Wire Line
+	14250 3600 14250 3800
+Wire Wire Line
+	14250 3800 14250 3850
+Connection ~ 14250 3800
+Text Notes 14400 3700 0    50   ~ 0
+3
+Text GLabel 14150 3400 0    39   Output ~ 0
+IN_FN
+Wire Wire Line
+	14150 3400 14250 3400
+Text Notes 13700 3150 0    39   ~ 0
+JP1-2 FN Keys are tied to GND (original ATARI)\nJP2-3 FN Keys are using an IN_FN (USB HID)
+Wire Notes Line
+	15250 2750 15250 4150
+Wire Notes Line
+	15250 4150 10050 4150
+Wire Notes Line
+	10050 4150 10050 2750
+Wire Notes Line
+	10050 2750 15250 2750
+Wire Notes Line
+	12600 4600 15000 4600
+Wire Notes Line
+	15000 4600 15000 6400
+Wire Notes Line
+	15000 6400 12600 6400
+Wire Notes Line
+	12600 4600 12600 6400
+Text GLabel 12550 8050 0    39   Output ~ 0
+IN_FN
+Wire Wire Line
+	12550 8050 12800 8050
+Text Notes 13800 3450 0    50   ~ 0
+26
+Text Notes 8250 9500 0    50   ~ 0
+25
 $EndSCHEMATC
