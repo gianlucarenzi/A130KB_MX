@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/debian/Progetti/ATARI/A130KB_MX/A130XE_KB_MX/A130XE_KB_MX.sch)
-    (date "Mon 01 Feb 2021 02:09:28 PM CET")
+    (date "Tue 02 Feb 2021 09:46:57 AM CET")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -733,7 +733,7 @@
     (net (code 17) (name "Net-(J3-Pad2)")
       (node (ref SW53) (pin 2))
       (node (ref J3) (pin 2)))
-    (net (code 18) (name IN_FN)
+    (net (code 18) (name OUT_FN)
       (node (ref J4) (pin 3))
       (node (ref J1) (pin 26)))
     (net (code 19) (name OUT_4)

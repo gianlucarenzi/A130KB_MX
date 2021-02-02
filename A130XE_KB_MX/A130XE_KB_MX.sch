@@ -1847,8 +1847,8 @@ Wire Wire Line
 Wire Wire Line
 	9250 1800 9550 1800
 Connection ~ 8150 1400
-Text Notes 11250 3850 0    50   ~ 0
-FUNCTION KEYS: HELP, START, SELECT, OPTION and RESET\nThose keys should be reused from original
+Text Notes 10200 4050 0    50   ~ 0
+FUNCTION KEYS: HELP, START, SELECT, OPTION and RESET\nThose keys should be used new squared Keycaps 1.5U or\nthey can be reused from original using a sort of adapter
 Wire Wire Line
 	13300 8650 13310 8650
 $Comp
@@ -1888,7 +1888,7 @@ Wire Wire Line
 	8250 10050 8500 10050
 Wire Wire Line
 	8350 9550 8450 9550
-Text Notes 8600 9400 0    39   ~ 0
+Text Notes 8600 9250 0    39   ~ 0
 JP1-2 single SHIFT\nJP2-3 Left and Right SHIFT
 Text GLabel 12550 7950 0    39   Output ~ 0
 LSC
@@ -1915,7 +1915,7 @@ Connection ~ 14250 3800
 Text Notes 14400 3700 0    50   ~ 0
 3
 Text GLabel 14150 3400 0    39   Output ~ 0
-IN_FN
+OUT_FN
 Wire Wire Line
 	14150 3400 14250 3400
 Text Notes 13700 3150 0    39   ~ 0
@@ -1936,12 +1936,30 @@ Wire Notes Line
 	15000 6400 12600 6400
 Wire Notes Line
 	12600 4600 12600 6400
-Text GLabel 12550 8050 0    39   Output ~ 0
-IN_FN
+Text GLabel 12550 8050 0    39   Input ~ 0
+OUT_FN
 Wire Wire Line
 	12550 8050 12800 8050
 Text Notes 13800 3450 0    50   ~ 0
 26
 Text Notes 8250 9500 0    50   ~ 0
 25
+Text Notes 750  8900 0    39   ~ 0
+CLOSE: both extra keys are like SPACEBAR\nOPEN:  they are left unconnected
+Wire Notes Line
+	700  8700 700  8950
+Wire Notes Line
+	700  8950 2050 8950
+Wire Notes Line
+	2050 8950 2050 8700
+Wire Notes Line
+	2050 8700 700  8700
+Wire Notes Line
+	8500 9050 9500 9050
+Wire Notes Line
+	9500 9050 9500 9350
+Wire Notes Line
+	9500 9350 8500 9350
+Wire Notes Line
+	8500 9350 8500 9050
 $EndSCHEMATC
