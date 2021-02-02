@@ -1,0 +1,158 @@
+Info: Checking netlist symbol footprint “SW39:/5F861A25:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW48:/5FA7AD3F:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW47:/5F83C741:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW46:/5F82BEF1:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW45:/5F861A2B:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW44:/5F83C6C9:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW43:/5F84F774:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW42:/5F861A70:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW41:/5FA6DDB5:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW40:/5FA7AD61:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW49:/5FA6DD93:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW38:/5F82BEA1:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW37:/5F84F76E:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW36:/5F861A6A:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW35:/5FA6DDBB:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW34:/5FA7AD67:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW33:/5F83BCF9:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW32:/5F82BB01:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW31:/5F861A1F:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW30:/5F83BC8B:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW59:/5F8BFA30:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW68:/5F84271F:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW67:/5F842671:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW66:/5F8425CB:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW65:/5F8424D3:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW64:/5FB28611:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW63:/5FB2856D:RetroBitLab:SW_Cherry_MX1A_1.25u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW62:/5F8BFA1E:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW61:/5F8BFA24:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW60:/5F8BFA2A:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW29:/5F829FC7:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW58:/5F8BFA36:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW57:/5F8BFA3C:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW56:/5F8BFA5E:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW55:/5F9FD857:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW54:/5F82BF41:RetroBitLab:SW_Cherry_MX1A_1.75u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW53:/5F8350A4:RetroBitLab:SW_Cherry_MX1A_2.25u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW52:/5FA2D87D:RetroBitLab:SW_Cherry_MX1A_1.75u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW51:/5F858EDE:RetroBitLab:SW_Cherry_MX1A_1.25u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW50:/5F861A92:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW1:/5F826BF3:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “D1:/5F820D36:LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder”.
+
+Info: Checking netlist symbol footprint “SW9:/5F827A91:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW8:/5F861A0D:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW7:/5F82B67D:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW6:/5F839F17:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW5:/5F84F756:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW4:/5F861A52:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW3:/5FA6DDD3:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW2:/5FA7AD7F:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW10:/5FA7AD79:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “J4:/602333E0:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “J3:/601A45B3:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “J2:/5FB7B9E2:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “J1:/5F820B28:Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “H4:/5F89E8B6:MountingHole:MountingHole_3.7mm”.
+
+Info: Checking netlist symbol footprint “H3:/5F89E80E:MountingHole:MountingHole_3.7mm”.
+
+Info: Checking netlist symbol footprint “H2:/5F89E760:MountingHole:MountingHole_3.7mm”.
+
+Info: Checking netlist symbol footprint “H1:/5F89E488:MountingHole:MountingHole_3.7mm”.
+
+Info: Checking netlist symbol footprint “SW12:/5F861A58:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW28:/5F84F768:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW27:/5F861A64:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW26:/5FA6DDC1:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW25:/5FA7AD6D:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW24:/5F861A19:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW23:/5F82BA83:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW22:/5F83BC1B:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW21:/5F84F762:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW20:/5F861A5E:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW19:/5FA6DDC7:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW18:/5FA7AD73:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW17:/5F828CB1:RetroBitLab:SW_Cherry_MX1A_1.50u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW16:/5F861A13:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW15:/5F82B76B:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW14:/5F83BBB3:RetroBitLab:SW_Cherry_MX1A_6.25u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW13:/5F84F75C:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Info: Checking netlist symbol footprint “SW11:/5FA6DDCD:RetroBitLab:SW_Cherry_MX1A_1.00u_PCB_3d”.
+
+Changing footprint “J4:/602333E0” pad “3” net name from “IN_FN” to “OUT_FN”.
+
+Changing footprint “J1:/5F820B28” pad “26” net name from “IN_FN” to “OUT_FN”.
+
