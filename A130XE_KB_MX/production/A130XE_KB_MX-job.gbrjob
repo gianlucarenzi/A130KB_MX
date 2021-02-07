@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2+dfsg1-1"
+      "Version":     "5.1.9+dfsg1-1~bpo10+1"
     },
-    "CreationDate":  "2021-02-02T09:48:45+01:00"
+    "CreationDate":  "2021-02-07T01:50:26+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,11 +15,11 @@
     {
       "Name": "A130XE_KB_MX",
       "GUID": "41313330-5845-45f4-9b42-5f4d582e6b69",
-      "Revision": "0.2"
+      "Revision": "2.0"
     },
     "Size":
     {
-      "X": 330.200,
+      "X": 329.200,
       "Y": 131.200
     },
     "LayerNumber": 2,
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "A130XE_KB_MX-F.Cu.gtl",
+      "Path":  "A130XE_KB_MX-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "A130XE_KB_MX-B.Cu.gbl",
+      "Path":  "A130XE_KB_MX-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "A130XE_KB_MX-F.Paste.gtp",
+      "Path":  "A130XE_KB_MX-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "A130XE_KB_MX-B.Paste.gbp",
+      "Path":  "A130XE_KB_MX-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "A130XE_KB_MX-F.SilkS.gto",
+      "Path":  "A130XE_KB_MX-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "A130XE_KB_MX-B.SilkS.gbo",
+      "Path":  "A130XE_KB_MX-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "A130XE_KB_MX-F.Mask.gts",
+      "Path":  "A130XE_KB_MX-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "A130XE_KB_MX-B.Mask.gbs",
+      "Path":  "A130XE_KB_MX-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "A130XE_KB_MX-Edge.Cuts.gm1",
+      "Path":  "A130XE_KB_MX-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
