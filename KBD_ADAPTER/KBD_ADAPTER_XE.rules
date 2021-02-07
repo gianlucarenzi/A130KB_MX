@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 192)
+    (start_pass_no 622)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -67,7 +67,6 @@
     "IN_7" "IN_5" "IN_1" "OUT_6" "OUT_1" "OUT_4" "OUT_2" "IN_3"
     "IN_0" "OUT_0" "IN_4" RSC START SELECT OPTION RESET
     "Net-(J2-Pad25)" "Net-(J2-Pad26)" "Net-(J2-Pad27)" "Net-(J2-Pad28)" "Net-(J2-Pad29)" "Net-(J2-Pad30)" "Net-(J2-Pad31)" "Net-(J2-Pad32)"
-    "Net-(J2-Pad33)" "Net-(J2-Pad34)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
