@@ -1,5 +1,5 @@
 Drill report for /home/debian/Progetti/ATARI/A130KB_MX/KBD_ADAPTER/KBD_ADAPTER_XE.kicad_pcb
-Created on Tue 29 Dec 2020 05:43:45 PM CET
+Created on Sun 07 Feb 2021 01:31:34 AM CET
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'KBD_ADAPTER_XE-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (13 holes)
-    T2  0.91mm  0.036"  (34 holes)
+    T1  0.40mm  0.016"  (12 holes)
+    T2  0.85mm  0.033"  (32 holes)
 
-    Total plated holes count 47
+    Total plated holes count 44
 
 
 Drill file 'KBD_ADAPTER_XE-NPTH.drl' contains
