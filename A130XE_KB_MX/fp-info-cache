@@ -1,4 +1,4 @@
-18654913450954253
+18720981155298253
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74445,6 +74445,13 @@ ABEX_Logo_22mmx11mm_WB
 0
 0
 RetroBitLab
+AG12864E
+STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+AG12864E Graphics Display 128x64 Ampire
+0
+24
+20
+RetroBitLab
 ATARI-LEFT-CARTRIDGE
 
 
@@ -74466,6 +74473,20 @@ PCIexpress Bus Edge Connector
 24
 24
 RetroBitLab
+Adafruit_SSD1306
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+RetroBitLab
+Adafruit_SSD1306_No_Mounting_Holes
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+RetroBitLab
 BUS_ATARI_EXPANSION_ABEX_CARD_CONN
 AT ISA 16 bits Bus Edge Connector
 BUS ISA AT Edge connector
@@ -74480,12 +74501,26 @@ PCIexpress Bus Edge Connector
 128
 65
 RetroBitLab
+CONV_PES1-S5-S9-M
+
+
+0
+5
+5
+RetroBitLab
 CP_Radial_D10.0mm_P2.50mm_3D
 CP, Radial series, Radial, pin pitch=2.50mm, , diameter=10mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.50mm  diameter 10mm Electrolytic Capacitor
 0
 2
 2
+RetroBitLab
+CR2013-MI2120
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+18
+14
 RetroBitLab
 Crystal_HC49-4H_Vertical_3D
 Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
@@ -74508,6 +74543,118 @@ DUOCart_20x11_Rev
 0
 0
 RetroBitLab
+EA-eDIP128B-XXX
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI
+0
+32
+32
+RetroBitLab
+EA_DOGL128-6
+Graphical,Display,LCD,128x64 https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf
+EA DOGL128
+0
+26
+26
+RetroBitLab
+EA_DOGM128-6
+Graphical,Display,LCD,128x64 https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf
+EA DOGM128-6
+0
+26
+26
+RetroBitLab
+EA_DOGS104X-A
+LCD 4x10 character 3.3V VDD I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf
+LCD 4x10 character 3.3V VDD I2C or SPI
+0
+14
+14
+RetroBitLab
+EA_DOGXL160-7
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7
+0
+22
+22
+RetroBitLab
+EA_DOGXL160-7_Backlight
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7_Backlight
+0
+22
+22
+RetroBitLab
+EA_T123X-I2C
+http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+3 Line 12 character wide alpha numeric LCD
+0
+6
+6
+RetroBitLab
+EA_eDIP160-XXX
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip160-7e.pdf
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI
+0
+40
+40
+RetroBitLab
+EA_eDIP240-XXX
+LCD graphical display LED backlight 240x128 http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip240-7e.pdf
+LCD graphical display LED backlight 240x128
+0
+40
+40
+RetroBitLab
+EA_eDIP320X-XXX
+LCD display 320x340 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip320-8e.pdf
+LCD display 320x340 RS-232 I2C or SPI
+0
+48
+48
+RetroBitLab
+EA_eDIPTFT32-XXX
+TFT-graphic display 320x240 16 bit colour with led backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft32-ae.pdf
+TFT-graphic display 320x240 16 bit colour with led backlight
+0
+40
+40
+RetroBitLab
+EA_eDIPTFT43-ATC
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+RetroBitLab
+EA_eDIPTFT43-XXX
+TFT graphical display 480x272 16-bit colour with LED backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+RetroBitLab
+EA_eDIPTFT57-XXX
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft57-ae.pdf
+TFT-graphic display 640x480 16 bit colour
+0
+48
+48
+RetroBitLab
+EA_eDIPTFT70-ATC
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel
+0
+48
+48
+RetroBitLab
+EA_eDIPTFT70-XXX
+TFT-graphical display 800x480 16-bit colours http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours and touch display
+0
+48
+48
+RetroBitLab
 ECI_BUS_7X2_EDGE_CONNECTOR
 
 
@@ -74515,12 +74662,82 @@ ECI_BUS_7X2_EDGE_CONNECTOR
 14
 14
 RetroBitLab
-FFC-1.25mm-RA-5204403245
-
-
+ERM19264
+STN/FSTN LCD 192x64 dot https://www.buydisplay.com/download/manual/ERM19264-1_Series_Datasheet.pdf
+ERM19264 Graphics Display 192x64
 0
-32
-32
+20
+20
+RetroBitLab
+HDSM-441B_HDSM-443B
+2 Digit 7 segemnt blue LED, right hand decimal, https://docs.broadcom.com/docs/AV02-1589EN
+2 Digit 7 segment blue LED
+0
+10
+10
+RetroBitLab
+HDSM-541B_HDSM-543B
+2 digit 7 segement blue LED with right hand decimal, https://docs.broadcom.com/docs/AV02-1588EN
+2 digit 7 segement blue LED with right hand decimal
+0
+10
+10
+RetroBitLab
+HDSP-48xx
+10-Element Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Bar Graph Array
+0
+20
+20
+RetroBitLab
+HDSP-4830
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+RetroBitLab
+HDSP-4832
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+RetroBitLab
+HDSP-4836
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+RetroBitLab
+HDSP-4840
+10-Element Yellow Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Yellow Bar Graph Array
+0
+20
+20
+RetroBitLab
+HDSP-4850
+10-Element Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Green Bar Graph Array
+0
+20
+20
+RetroBitLab
+HLCP-J100
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+RetroBitLab
+HY1602E
+http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
 RetroBitLab
 IDC-Header_2x03_P2.54mm_Vertical
 Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
@@ -74571,6 +74788,20 @@ SRAM 512K ISSI
 32
 32
 RetroBitLab
+LCD-016N002L
+16 x 2 Character LCD, http://www.vishay.com/product?docid=37299
+LCD-016N002L 16 x 2 Character LCD
+0
+24
+20
+RetroBitLab
+LM16255
+LCD LM16255 16x2 character http://www.datasheetlib.com/datasheet/259542/lm16255_sharp-electronics.html
+LCD 12x2
+0
+14
+14
+RetroBitLab
 LQFP-176_24x24_Pitch0.5mm_Handsoldering
 
 
@@ -74585,12 +74816,47 @@ TO-220-3 Horizontal RM 2.54mm
 3
 3
 RetroBitLab
+MIC2075-1BM-TR
+
+
+0
+8
+8
+RetroBitLab
+MOLEX-FFC-1.25mm-RA-52044-3245
+Molex 52044-3245 to use with: 15168-0400  FFC/FPC 1.25 Type D 32 ckts lgt 178
+
+0
+32
+32
+RetroBitLab
 MountingHole
 
 MOUNTINGHOLE
 0
 1
 1
+RetroBitLab
+NHD-0420H1Z
+NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
+NHD-0420H1Z LCD
+0
+16
+16
+RetroBitLab
+NHD-C0220BiZ
+NHD-C0220BiZ LCD http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf
+NHD-C0220BiZ LCD
+0
+10
+10
+RetroBitLab
+OLED-128O064D
+128x64 OLED display
+display oled
+0
+30
+30
 RetroBitLab
 PSOP-14-8.75x4x1.27
 PSOP14-8.75x4-1.27
@@ -74619,6 +74885,20 @@ Through hole pin header THT 2x22 2.00mm double row
 0
 44
 44
+RetroBitLab
+QFP50P1200X1200X120-64N
+
+
+0
+64
+64
+RetroBitLab
+RC1602A
+http://www.raystar-optronics.com/down.php?ProID=18
+LCD 16x2 Alphanumeric 16pin
+0
+22
+18
 RetroBitLab
 RJ10-RECEPTACLE-Assmann-ASS-2004-3-4-LP-N-R
 
@@ -74844,6 +75124,13 @@ TE_5530843-2_15X2_EDGE_CONNECTOR
 30
 30
 RetroBitLab
+TME_0505S
+
+
+0
+4
+4
+RetroBitLab
 TO-3P-3_Horizontal_TabDown_3D
 TO-3P-3, Horizontal, RM 5.45mm, , see https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.TO-3P(N).html
 TO-3P-3 Horizontal RM 5.45mm 
@@ -74885,6 +75172,13 @@ Vertical_IDE_44_Pins_2x22_1.27_PCB
 0
 44
 44
+RetroBitLab
+WC1602A
+LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
 RetroBitLab
 Xilinx-XC9572XL-VQ64
 
