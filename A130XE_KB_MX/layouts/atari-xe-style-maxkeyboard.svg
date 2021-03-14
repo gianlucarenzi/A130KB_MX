@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1406"
+     inkscape:window-width="1680"
+     inkscape:window-height="1018"
      id="namedview1368"
-     showgrid="false"
+     showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="1.4496536"
-     inkscape:cx="528.48827"
-     inkscape:cy="372.8557"
+     inkscape:zoom="4.1002396"
+     inkscape:cx="883.84948"
+     inkscape:cy="140.36977"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -63,6 +63,9 @@
        id="guide5112"
        orientation="1,0"
        position="-233.67647,-14.539227" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3821" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -4215,49 +4218,58 @@
          id="flowPara12113" /></flowRoot>    <g
        id="g3723"
        transform="translate(161.89287,-325.88353)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path6004"
-         d="m 29.39559,148.51218 v -7.50179 h 34.05986 34.05986 v 7.50179 7.5018 H 63.45545 29.39559 Z"
-         style="display:inline;fill:#000000;stroke-width:0.172455" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-         x="30.317457"
-         y="153.43732"
-         id="text5980"><tspan
-           sodipodi:role="line"
-           id="tspan5978"
-           x="30.317457"
-           y="153.43732"
-           style="fill:#f9f9f9">CONTROL</tspan></text>
+      <g
+         id="g3746">
+        <path
+           style="display:inline;fill:#000000;stroke-width:0.172455"
+           d="m 29.39559,148.51218 v -7.50179 h 34.05986 34.05986 v 7.50179 7.5018 H 63.45545 29.39559 Z"
+           id="path6004"
+           inkscape:connector-curvature="0" />
+        <text
+           transform="scale(0.98849639,1.0116375)"
+           id="text5980"
+           y="151.50336"
+           x="30.30636"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.17995262px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.98849636"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.17995262px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold';fill:#f9f9f9;stroke-width:0.98849636"
+             y="151.50336"
+             x="30.30636"
+             id="tspan5978"
+             sodipodi:role="line">CONTROL</tspan></text>
+      </g>
     </g>
     <g
        id="g3718"
        transform="translate(163.89287,-323.88353)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path6004-3"
-         d="M 23.6613,85.80873 V 79.34346 H 37.72233 51.78336 V 85.80873 92.274 H 37.72233 23.6613 Z"
-         style="display:inline;fill:#000000;stroke-width:0.10286643" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-         x="55.868275"
-         y="90.374542"
-         id="text6008"><tspan
-           sodipodi:role="line"
-           id="tspan6006"
-           x="55.868275"
-           y="90.374542"
-           style="text-align:center;text-anchor:middle"><tspan
-   style="fill:#f2f2f2"
-   id="tspan6049">CLR </tspan>SET</tspan><tspan
-           sodipodi:role="line"
-           x="55.868275"
-           y="107.04121"
-           id="tspan6012"
-           style="text-align:center;text-anchor:middle">TAB</tspan></text>
+      <g
+         id="g3778">
+        <path
+           style="display:inline;fill:#000000;stroke-width:0.10286643"
+           d="M 23.6613,85.80873 V 79.34346 H 37.72233 51.78336 V 85.80873 92.274 H 37.72233 23.6613 Z"
+           id="path6004-3"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text6008"
+           y="90.069679"
+           x="54.831749"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             style="text-align:center;text-anchor:middle"
+             y="90.069679"
+             x="54.831749"
+             id="tspan6006"
+             sodipodi:role="line"><tspan
+   id="tspan6049"
+   style="fill:#f2f2f2"><tspan
+   id="tspan3731"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold'">CLR</tspan> </tspan>SET</tspan><tspan
+             style="text-align:center;text-anchor:middle"
+             id="tspan6012"
+             y="106.73634"
+             x="54.831749"
+             sodipodi:role="line">TAB</tspan></text>
+      </g>
     </g>
     <use
        id="use11622"
@@ -4513,7 +4525,7 @@
          sodipodi:role="line">RESET</tspan></text>
     <path
        style="display:inline;fill:#000000;stroke-width:0.02700765"
-       d="m 960.48528,-122.5802 v -12.3025 h 1.63765 1.63764 v 12.3025 12.3025 h -1.63764 -1.63765 z m -13.36529,10.46779 v -1.77948 l 0.12546,-0.0156 c 1.2388,-0.15401 2.92559,-1.01818 4.62899,-2.37151 1.93368,-1.53627 3.60135,-3.52535 4.36431,-5.20544 1.04571,-2.30272 1.66003,-5.73452 1.84225,-10.29158 0.014,-0.34933 0.0336,-1.19124 0.0437,-1.87092 l 0.0183,-1.23577 h 0.90375 0.90376 l 0.0162,0.15879 c 0.0349,0.34342 0.0504,4.82467 0.0198,5.75083 -0.10976,3.32717 -0.38941,5.81086 -0.87637,7.7834 -0.44711,1.81108 -1.30025,3.62238 -2.47718,5.25923 -1.93643,2.69317 -4.45233,4.56251 -7.10918,5.2822 -0.67425,0.18265 -1.58622,0.31532 -2.16745,0.31532 h -0.23628 z m 29.33233,1.76169 c -0.0436,-0.005 -0.20998,-0.0231 -0.36979,-0.0397 -0.63096,-0.0654 -1.43677,-0.25509 -2.12629,-0.50039 -3.04486,-1.08323 -5.88113,-3.73777 -7.62843,-7.13964 -1.26505,-2.46296 -1.78404,-5.03371 -2.04468,-10.12803 -0.0385,-0.75319 -0.0475,-6.0006 -0.011,-6.45501 l 0.0216,-0.26925 h 0.9088 0.90881 l 2.6e-4,0.58682 c 2.7e-4,0.83675 0.0462,2.50139 0.0936,3.38975 0.24251,4.54411 0.97853,8.02634 2.12845,10.07006 0.75191,1.33632 2.07178,2.88824 3.4964,4.11107 1.82826,1.5693 3.81443,2.65171 5.17047,2.81775 l 0.12546,0.0154 v 1.77948 1.77948 l -0.29715,-0.004 c -0.16344,-0.002 -0.33281,-0.008 -0.3764,-0.0136 z"
+       d="m 960.48528,-122.5802 v -12.3025 h 1.63765 1.63764 v 12.3025 12.3025 h -1.63764 -1.63765 z m -13.36529,10.46779 v -1.77948 l 0.12546,-0.0156 c 1.2388,-0.15401 2.92559,-1.01818 4.62899,-2.37151 1.93368,-1.53627 3.60135,-3.52535 4.36431,-5.20544 1.04571,-2.30272 1.23323,-5.71928 1.41545,-10.27634 0.014,-0.34933 0.0138,-1.20659 -0.002,-1.88616 l -0.0122,-1.22053 1.40677,-0.0152 0.41598,0.0305 0.0162,0.21976 c 0.0349,0.34342 0.0252,4.73321 -0.005,5.65937 -0.10976,3.32717 0.12362,5.81086 -0.36334,7.7834 -0.44711,1.81108 -1.30025,3.62238 -2.47718,5.25923 -1.93643,2.69317 -4.45233,4.56251 -7.10918,5.2822 -0.67425,0.18265 -1.58622,0.31532 -2.16745,0.31532 h -0.23628 z m 29.33233,1.76169 c -0.0436,-0.005 -0.20998,-0.0231 -0.36979,-0.0397 -0.63096,-0.0654 -1.43677,-0.25509 -2.12629,-0.50039 -3.04486,-1.08323 -5.88113,-3.73777 -7.62843,-7.13964 -1.26505,-2.46296 -1.17955,-5.08575 -1.44019,-10.18007 -0.0385,-0.75319 -0.0869,-5.74409 -0.0504,-6.1985 l -0.009,-0.42168 0.37421,-0.052 1.32037,0.0152 2.6e-4,0.61731 c 2.7e-4,0.83675 -0.0605,2.39469 -0.0131,3.28305 0.24251,4.54411 0.67367,8.08731 1.82359,10.13103 0.75191,1.33632 2.07178,2.88824 3.4964,4.11107 1.82826,1.5693 3.81443,2.65171 5.17047,2.81775 l 0.12546,0.0154 v 1.77948 1.77948 l -0.29715,-0.004 c -0.16344,-0.002 -0.33281,-0.008 -0.3764,-0.0136 z"
        id="path80"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccsscscccccsssscccsssscccccccsscccccc" />
