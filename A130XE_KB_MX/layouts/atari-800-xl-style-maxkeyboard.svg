@@ -49,7 +49,7 @@
      inkscape:window-x="2560"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer3"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -5836,12 +5836,12 @@
      transform="translate(269.47579,212.62233)">
     <text
        id="text5228"
-       y="17.839676"
+       y="21.839676"
        x="-138.46132"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55.40000153px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          style="font-size:18.46666718px;fill:#ffffff;fill-opacity:1;stroke-width:1.38499999"
-         y="17.839676"
+         y="21.839676"
          x="-138.46132"
          id="tspan5226"
          sodipodi:role="line">ESC</tspan></text>
@@ -6677,12 +6677,12 @@
          style="font-size:14.66666698px;stroke-width:1.38499999">SHIFT</tspan></text>
     <text
        id="text5894"
-       y="92.040497"
+       y="96.040497"
        x="883.46625"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.07534218px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.28065073"
        xml:space="preserve"><tspan
          style="font-size:17.07534218px;fill:#ffffff;fill-opacity:1;stroke-width:1.28065073"
-         y="92.040497"
+         y="96.040497"
          x="883.46625"
          id="tspan5892"
          sodipodi:role="line">RETURN</tspan></text>
@@ -6719,7 +6719,7 @@
          style="font-size:14.66666698px;stroke-width:1.38499999">SHIFT</tspan></text>
     <g
        id="g2595"
-       transform="matrix(1.385,0,0,1.385,-192.72862,-40.757166)">
+       transform="matrix(1.385,0,0,1.385,-192.72862,-38.757166)">
       <g
          id="g12582">
         <g
@@ -6746,7 +6746,7 @@
       </g>
     </g>
     <g
-       transform="matrix(1.385,0,0,1.385,-178.70455,-42.114343)"
+       transform="matrix(1.385,0,0,1.385,-178.70455,-40.114343)"
        style="display:inline"
        id="g2272">
       <g
@@ -6944,56 +6944,56 @@
     </g>
     <text
        id="text2647-7"
-       y="239.82857"
+       y="241.82857"
        x="1106.9167"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.77333355px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          id="tspan2649-8"
-         y="239.82857"
+         y="241.82857"
          x="1106.9167"
          sodipodi:role="line"
          style="font-size:12.92666626px;stroke-width:1.38499999">START</tspan></text>
     <text
        id="text2647-1"
-       y="315.22354"
+       y="317.22354"
        x="1107.2817"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.77333355px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          id="tspan2649-1"
-         y="315.22354"
+         y="317.22354"
          x="1107.2817"
          sodipodi:role="line"
          style="font-size:12.92666626px;stroke-width:1.38499999">HELP</tspan></text>
     <text
        id="text2647-6"
-       y="166.43726"
+       y="168.43726"
        x="1106.8268"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.77333355px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          id="tspan2649-85"
-         y="166.43726"
+         y="168.43726"
          x="1106.8268"
          sodipodi:role="line"
          style="font-size:12.92666626px;stroke-width:1.38499999">SELECT</tspan></text>
     <text
        id="text2647-01"
-       y="91.107635"
+       y="95.107635"
        x="1104.1755"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.77333355px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          id="tspan2649-9"
-         y="91.107635"
+         y="95.107635"
          x="1104.1755"
          sodipodi:role="line"
          style="font-size:12.92666626px;stroke-width:1.38499999">OPTION</tspan></text>
     <text
        id="text2647-027"
-       y="17.034023"
+       y="19.034023"
        x="1106.7183"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.77333355px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          id="tspan2649-81"
-         y="17.034023"
+         y="19.034023"
          x="1106.7183"
          sodipodi:role="line"
          style="font-size:12.92666626px;stroke-width:1.38499999">RESET</tspan></text>
