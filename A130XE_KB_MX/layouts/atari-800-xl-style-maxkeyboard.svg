@@ -14,7 +14,7 @@
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-800-xl-style-maxkeyboard.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
   <metadata
      id="metadata1370">
     <rdf:RDF>
@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1354"
+     inkscape:window-width="1680"
+     inkscape:window-height="963"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="1.391462"
-     inkscape:cx="662.61244"
+     inkscape:zoom="0.86676898"
+     inkscape:cx="755.68002"
      inkscape:cy="318.48511"
-     inkscape:window-x="2560"
-     inkscape:window-y="28"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="g12631"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -6756,8 +6756,8 @@
            id="rect12252"
            width="22.543327"
            height="10.651875"
-           x="32.909466"
-           y="81.46981"
+           x="24.714849"
+           y="81.234985"
            ry="0.21583825" />
         <text
            transform="scale(0.95354882,1.048714)"
@@ -6767,19 +6767,17 @@
            y="86.078827"
            id="text5823"><tspan
              sodipodi:role="line"
-             id="tspan5819"
              x="56.955387"
              y="86.078827"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.95354879">  <tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold'"
-   id="tspan671">CLR</tspan>  <tspan
-   id="tspan12254"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';fill:#ffffff;stroke-width:0.95354879">SET</tspan></tspan><tspan
+             id="tspan5821"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.95354879"><tspan
+   id="tspan7517"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.95354879">CLR    </tspan>SET</tspan><tspan
              sodipodi:role="line"
              x="56.955387"
              y="101.97131"
-             id="tspan5821"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.95354879">  TAB</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62695503px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.95354879"
+             id="tspan7521">TAB</tspan></text>
       </g>
     </g>
     <g
