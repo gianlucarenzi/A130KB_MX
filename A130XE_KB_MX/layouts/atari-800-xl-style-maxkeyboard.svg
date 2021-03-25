@@ -14,7 +14,7 @@
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-800-xl-style-maxkeyboard.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata1370">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,19 +37,19 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1680"
-     inkscape:window-height="963"
+     inkscape:window-height="1018"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="0.86676898"
-     inkscape:cx="755.68002"
+     inkscape:zoom="0.9805738"
+     inkscape:cx="755.67999"
      inkscape:cy="318.48511"
      inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g12631"
+     inkscape:current-layer="layer2"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -60,7 +60,9 @@
      units="px">
     <inkscape:grid
        type="xygrid"
-       id="grid11440" />
+       id="grid11440"
+       originx="-1.3422997e-06"
+       originy="-2.2749028e-06" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -1448,7 +1450,7 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="23.130067"
+       r="23.130068"
        fy="124.90236"
        fx="29.182795"
        cy="124.90236"
@@ -1611,9 +1613,9 @@
        gradientUnits="userSpaceOnUse"
        r="28.372522"
        fy="229.81743"
-       fx="33.306874"
+       fx="33.306873"
        cy="229.81743"
-       cx="33.306874"
+       cx="33.306873"
        gradientTransform="scale(1.4186261,0.70490738)"
        id="radialGradient6367"
        xlink:href="#DSA"
@@ -1740,11 +1742,11 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="25.884358"
+       r="25.884357"
        fy="209.6633"
-       fx="604.99858"
+       fx="604.9986"
        cy="209.6633"
-       cx="604.99858"
+       cx="604.9986"
        gradientTransform="scale(1.2942179,0.77266741)"
        id="radialGradient6393"
        xlink:href="#DSA"
@@ -1761,7 +1763,7 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="30.659419"
+       r="30.659418"
        fy="331.12173"
        fx="35.225716"
        cy="331.12173"
@@ -1892,11 +1894,11 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="23.130067"
+       r="23.130068"
        fy="249.80472"
-       fx="682.8774"
+       fx="682.87738"
        cy="249.80472"
-       cx="682.8774"
+       cx="682.87738"
        gradientTransform="scale(1.1565034,0.8646754)"
        id="radialGradient6423"
        xlink:href="#DSA"
@@ -1914,10 +1916,10 @@
     <radialGradient
        gradientUnits="userSpaceOnUse"
        r="32.787193"
-       fy="442.6271"
-       fx="37.057153"
-       cy="442.6271"
-       cx="37.057153"
+       fy="442.62711"
+       fx="37.057152"
+       cy="442.62711"
+       cx="37.057152"
        gradientTransform="scale(1.6393596,0.60999428)"
        id="radialGradient6427"
        xlink:href="#DSA"
@@ -2024,11 +2026,11 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="30.659419"
+       r="30.659418"
        fy="413.90216"
-       fx="466.74074"
+       fx="466.74075"
        cy="413.90216"
-       cx="466.74074"
+       cx="466.74075"
        gradientTransform="scale(1.532971,0.65232807)"
        id="radialGradient6449"
        xlink:href="#DSA"
@@ -2055,11 +2057,11 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="23.130067"
+       r="23.130068"
        fy="374.70709"
-       fx="157.58709"
+       fx="157.5871"
        cy="374.70709"
-       cx="157.58709"
+       cx="157.5871"
        gradientTransform="scale(1.1565034,0.8646754)"
        id="radialGradient6455"
        xlink:href="#DSA"
@@ -2067,21 +2069,21 @@
     <radialGradient
        gradientUnits="userSpaceOnUse"
        r="56.87706"
-       fy="921.40838"
-       fx="135.2918"
-       cy="921.40838"
-       cx="135.2918"
+       fy="921.40839"
+       fx="135.29179"
+       cy="921.40839"
+       cx="135.29179"
        gradientTransform="scale(2.843853,0.35163561)"
        id="radialGradient6457"
        xlink:href="#DSA"
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       r="25.884358"
+       r="25.884357"
        fy="419.3266"
-       fx="458.96444"
+       fx="458.96445"
        cy="419.3266"
-       cx="458.96444"
+       cx="458.96445"
        gradientTransform="scale(1.2942179,0.77266741)"
        id="radialGradient6459"
        xlink:href="#DSA"
@@ -2101,7 +2103,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="ATARI800XL_DSA"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-1.3422996e-6)">
     <g
        transform="matrix(1.3849611,0,0,1.385577,95.525121,71.766983)"
        id="g852">
@@ -5318,7 +5321,8 @@
         </g>
         <g
            class="  keycap"
-           id="g812">
+           id="g812"
+           transform="translate(14.440839)">
           <!-- Outer Border -->
           <rect
              style="fill:#3d3635;stroke:#000000;stroke-width:2"
@@ -5368,7 +5372,8 @@
         </g>
         <g
            class="  keycap"
-           id="g824">
+           id="g824"
+           transform="translate(14.440839)">
           <!-- Outer Border -->
           <rect
              style="fill:#3d3635;stroke:#000000;stroke-width:2"
@@ -5418,7 +5423,8 @@
         </g>
         <g
            class="  keycap"
-           id="g836">
+           id="g836"
+           transform="matrix(0.83131048,0,0,1.0033353,107.89244,-1.0806454)">
           <!-- Outer Border -->
           <rect
              style="fill:#3d3635;stroke:#000000;stroke-width:2"
@@ -5742,14 +5748,14 @@
     <text
        id="text5117-18"
        y="340.40973"
-       x="668.93042"
+       x="674.93042"
        style="font-style:normal;font-weight:normal;font-size:55.40000153px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          style="font-size:14.77333355px;fill:#ffff00;fill-opacity:1;stroke-width:1.38499999"
          y="340.40973"
-         x="668.93042"
+         x="674.93042"
          id="tspan5115-8"
-         sodipodi:role="line">1.50</tspan></text>
+         sodipodi:role="line">1.25</tspan></text>
     <text
        id="text5117-7"
        y="341.19476"
@@ -5764,12 +5770,12 @@
     <text
        id="text5117-91"
        y="340.82468"
-       x="90.190979"
+       x="112.19098"
        style="font-style:normal;font-weight:normal;font-size:55.40000153px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.38499999"
        xml:space="preserve"><tspan
          style="font-size:14.77333355px;fill:#ffff00;fill-opacity:1;stroke-width:1.38499999"
          y="340.82468"
-         x="90.190979"
+         x="112.19098"
          id="tspan5115-96"
          sodipodi:role="line">1.25</tspan></text>
     <text
@@ -6699,12 +6705,12 @@
            id="tspan5892-0"
            x="784.8208"
            y="141.67867"
-           style="font-size:10.58965103px;text-align:center;text-anchor:middle">CAPS</tspan><tspan
+           style="font-size:10.58965111px;text-align:center;text-anchor:middle">CAPS</tspan><tspan
            sodipodi:role="line"
            x="784.8208"
            y="158.34534"
            id="tspan676"
-           style="font-size:10.58965103px;text-align:center;text-anchor:middle">LOWR</tspan></text>
+           style="font-size:10.58965111px;text-align:center;text-anchor:middle">LOWR</tspan></text>
     </g>
     <text
        id="text5894-7-6-7"
@@ -7084,5 +7090,6 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="CUT CONTOUR"
-     style="display:inline" />
+     style="display:inline"
+     transform="translate(-1.3422996e-6)" />
 </svg>
