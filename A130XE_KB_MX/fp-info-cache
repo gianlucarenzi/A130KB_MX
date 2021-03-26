@@ -1,4 +1,4 @@
-18720981155298253
+18724448186372253
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74732,12 +74732,26 @@ HLCP-J100
 20
 20
 RetroBitLab
+HLW26R-6C7LF
+Right angle 26 FPC 1mm contact AMP
+https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/hlw01lf.pdf
+0
+26
+26
+RetroBitLab
 HY1602E
 http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
 LCD 16x2 Alphanumeric 16pin
 0
 20
 16
+RetroBitLab
+Hirose_FH12-26S-0.5SH_1x26-1MP_P0.50mm_Horizontal_3d
+Hirose FH12, FFC/FPC connector, FH12-26S-0.5SH, 26 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+28
+27
 RetroBitLab
 IDC-Header_2x03_P2.54mm_Vertical
 Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
