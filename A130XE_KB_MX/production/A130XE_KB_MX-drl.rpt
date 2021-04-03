@@ -1,5 +1,5 @@
 Drill report for /home/debian/Progetti/ATARI/A130KB_MX/A130XE_KB_MX/A130XE_KB_MX.kicad_pcb
-Created on Fri 26 Mar 2021 01:46:24 PM CET
+Created on Sat 03 Apr 2021 06:05:03 PM CEST
 
 Copper Layer Stackup:
     =============================================================
@@ -10,20 +10,21 @@ Copper Layer Stackup:
 Drill file 'A130XE_KB_MX-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (29 holes)
+    T1  0.40mm  0.016"  (44 holes)
     T2  0.85mm  0.033"  (32 holes)
     T3  1.00mm  0.039"  (42 holes)
-    T4  1.50mm  0.059"  (136 holes)
+    T4  1.50mm  0.059"  (138 holes)
 
-    Total plated holes count 239
+    Total plated holes count 256
 
 
 Drill file 'A130XE_KB_MX-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  1.70mm  0.067"  (136 holes)
-    T2  3.05mm  0.120"  (4 holes)
-    T3  3.70mm  0.146"  (4 holes)
-    T4  4.00mm  0.157"  (72 holes)
+    T1  1.70mm  0.067"  (138 holes)
+    T2  3.05mm  0.120"  (6 holes)
+    T3  3.50mm  0.138"  (5 holes)  (with 5 slots)
+    T4  3.70mm  0.146"  (4 holes)
+    T5  4.00mm  0.157"  (75 holes)
 
-    Total unplated holes count 216
+    Total unplated holes count 228
