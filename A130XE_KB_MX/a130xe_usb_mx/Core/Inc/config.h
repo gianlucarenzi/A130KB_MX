@@ -2,7 +2,7 @@
 #define __CONFIG_INCLUDED__
 
 #	if defined( __ATARI__ )
-# 		define MATRIX_HAS_GHOST
+# 		undef MATRIX_HAS_GHOST
 #		include "atari_config.h"
 #	elif defined ( __AMIGA__ )
 #		undef MATRIX_HAS_GHOST
