@@ -21,7 +21,7 @@
 #ifndef __MAIN_H
 #define __MAIN_H
 
-#include <stdint.h> 
+#include <stdint.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -35,24 +35,11 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define K0_Pin GPIO_PIN_4
 #define K0_GPIO_Port GPIOE
+
 #define ROW0_Pin GPIO_PIN_5
 #define ROW0_GPIO_Port GPIOE
 #define ROW1_Pin GPIO_PIN_6
 #define ROW1_GPIO_Port GPIOE
-#define COL0_Pin GPIO_PIN_0
-#define COL0_GPIO_Port GPIOC
-#define COL1_Pin GPIO_PIN_1
-#define COL1_GPIO_Port GPIOC
-#define COL2_Pin GPIO_PIN_2
-#define COL2_GPIO_Port GPIOC
-#define COL3_Pin GPIO_PIN_3
-#define COL3_GPIO_Port GPIOC
-#define LED1_Pin GPIO_PIN_6
-#define LED1_GPIO_Port GPIOA
-#define COL4_Pin GPIO_PIN_4
-#define COL4_GPIO_Port GPIOC
-#define COL5_Pin GPIO_PIN_5
-#define COL5_GPIO_Port GPIOC
 #define ROW2_Pin GPIO_PIN_7
 #define ROW2_GPIO_Port GPIOE
 #define ROW3_Pin GPIO_PIN_8
@@ -71,6 +58,27 @@ void Error_Handler(void);
 #define ROW9_GPIO_Port GPIOE
 #define ROW10_Pin GPIO_PIN_15
 #define ROW10_GPIO_Port GPIOE
+#define ROW11_Pin GPIO_PIN_0
+#define ROW11_GPIO_Port GPIOD
+#define ROW12_Pin GPIO_PIN_1
+#define ROW12_GPIO_Port GPIOD
+
+#define COL0_Pin GPIO_PIN_0
+#define COL0_GPIO_Port GPIOC
+#define COL1_Pin GPIO_PIN_1
+#define COL1_GPIO_Port GPIOC
+#define COL2_Pin GPIO_PIN_2
+#define COL2_GPIO_Port GPIOC
+#define COL3_Pin GPIO_PIN_3
+#define COL3_GPIO_Port GPIOC
+#define COL4_Pin GPIO_PIN_4
+#define COL4_GPIO_Port GPIOC
+#define COL5_Pin GPIO_PIN_5
+#define COL5_GPIO_Port GPIOC
+#define COL6_Pin GPIO_PIN_6
+#define COL6_GPIO_Port GPIOC
+#define COL7_Pin GPIO_PIN_7
+#define COL7_GPIO_Port GPIOC
 #define COL8_Pin GPIO_PIN_8
 #define COL8_GPIO_Port GPIOD
 #define COL9_Pin GPIO_PIN_9
@@ -87,18 +95,15 @@ void Error_Handler(void);
 #define COL14_GPIO_Port GPIOD
 #define COL15_Pin GPIO_PIN_15
 #define COL15_GPIO_Port GPIOD
-#define COL6_Pin GPIO_PIN_6
-#define COL6_GPIO_Port GPIOC
-#define COL7_Pin GPIO_PIN_7
-#define COL7_GPIO_Port GPIOC
+
+#define LED1_Pin GPIO_PIN_6
+#define LED1_GPIO_Port GPIOA
+
 #define DEBUG_TX_Pin GPIO_PIN_9
 #define DEBUG_TX_GPIO_Port GPIOA
 #define DEBUG_RX_Pin GPIO_PIN_10
 #define DEBUG_RX_GPIO_Port GPIOA
-#define ROW11_Pin GPIO_PIN_0
-#define ROW11_GPIO_Port GPIOD
-#define ROW12_Pin GPIO_PIN_1
-#define ROW12_GPIO_Port GPIOD
+
 #define KB_RST_Pin GPIO_PIN_2
 #define KB_RST_GPIO_Port GPIOA
 #define KB_CLK_Pin GPIO_PIN_3
