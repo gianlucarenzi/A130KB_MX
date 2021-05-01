@@ -169,7 +169,6 @@ void matrix_print_row(uint8_t row)
 #else
         xprintf("");
 #endif
-		xprintf("\r\n\r\n");
 }
 
 void matrix_print(void)
