@@ -22,6 +22,7 @@ PLATFORM ?= ATARI
 # debug build?
 # DEBUG = 1
 DEBUG = 0
+C_DEFS =
 
 ifeq ($(DEBUG), 1)
 	OPT = -Og
@@ -30,6 +31,7 @@ else
 	#OPTLVL = -O2
 	OPTLVL = -O3
 	OPT = $(OPTLVL) -fomit-frame-pointer -funroll-loops
+	C_DEFS += -DDEBUG_ACTION
 endif
 
 
@@ -101,14 +103,14 @@ ASM_SOURCES =  \
 
 
 ifeq ($(PLATFORM),AMIGA)
-	C_DEFS = -D__AMIGA__
+	C_DEFS += -D__AMIGA__
 	C_SOURCES += \
 		Core/Src/amiga_config.c \
 		
 endif
 
 ifeq ($(PLATFORM),ATARI)
-	C_DEFS = -D__ATARI__
+	C_DEFS += -D__ATARI__
 	C_SOURCES += \
 		Core/Src/atari_config.c \
 		
@@ -202,7 +204,10 @@ LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BU
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
 
-
+flash: all
+	./flash.sh
+	
+	
 #######################################
 # build the application
 #######################################
