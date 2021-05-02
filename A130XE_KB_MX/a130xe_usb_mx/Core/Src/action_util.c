@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "main.h"
 #include "syscall.h"
 #include "debug.h"
-static int debuglevel = DBG_NOISY;
+static int debuglevel = DBG_INFO;
 
 static inline void add_key_byte(uint8_t code);
 static inline void del_key_byte(uint8_t code);
