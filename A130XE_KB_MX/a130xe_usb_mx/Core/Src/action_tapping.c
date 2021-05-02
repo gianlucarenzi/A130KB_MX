@@ -13,6 +13,9 @@
 #include "nodebug.h"
 #endif
 
+#include "debug.h"
+static int debuglevel = DBG_INFO;
+
 #ifndef NO_ACTION_TAPPING
 
 #define IS_TAPPING()            !IS_NOEVENT(tapping_key.event)
@@ -41,6 +44,7 @@ void action_tapping_process(keyrecord_t record)
     if (process_tapping(&record)) {
         if (!IS_NOEVENT(record.event)) {
             debug("processed: "); debug_record(record); debug("\n");
+            DBG_N("processed: "); debug_record(record); printf("\n\r");
         }
     } else {
         if (!waiting_buffer_enq(record)) {
@@ -55,6 +59,7 @@ void action_tapping_process(keyrecord_t record)
     // process waiting_buffer
     if (!IS_NOEVENT(record.event) && waiting_buffer_head != waiting_buffer_tail) {
         debug("---- action_exec: process waiting_buffer -----\n");
+        DBG_N("---- action_exec: process waiting buffer -----\n");
     }
     for (; waiting_buffer_tail != waiting_buffer_head; waiting_buffer_tail = (waiting_buffer_tail + 1) % WAITING_BUFFER_SIZE) {
         if (process_tapping(&waiting_buffer[waiting_buffer_tail])) {
@@ -79,14 +84,16 @@ void action_tapping_process(keyrecord_t record)
 bool process_tapping(keyrecord_t *keyp)
 {
     keyevent_t event = keyp->event;
-
+    DBG_N("Called\r\n");
     // if tapping
     if (IS_TAPPING_PRESSED()) {
+    	DBG_N("TAPPING PRESSED\n\r");
         if (WITHIN_TAPPING_TERM(event)) {
             if (tapping_key.tap.count == 0) {
                 if (IS_TAPPING_KEY(event.key) && !event.pressed) {
                     // first tap!
                     debug("Tapping: First tap(0->1).\n");
+                    DBG_N("Tapping: First tap(0->1).\n\r");
                     tapping_key.tap.count = 1;
                     debug_tapping_key();
                     process_action(&tapping_key);
@@ -103,6 +110,7 @@ bool process_tapping(keyrecord_t *keyp)
                  */
                 else if (IS_RELEASED(event) && waiting_buffer_typed(event)) {
                     debug("Tapping: End. No tap. Interfered by typing key\n");
+                    DBG_N("Tapping: End. No tap. Interfered by typing key\n\r");
                     process_action(&tapping_key);
                     tapping_key = (keyrecord_t){};
                     debug_tapping_key();
@@ -131,6 +139,7 @@ bool process_tapping(keyrecord_t *keyp)
                     }
                     // Release of key should be process immediately.
                     debug("Tapping: release event of a key pressed before tapping\n");
+                    DBG_N("Tapping: release event of a key pressed before tapping\n\r");
                     process_action(keyp);
                     return true;
                 }
@@ -139,7 +148,7 @@ bool process_tapping(keyrecord_t *keyp)
                     if (event.pressed) {
                         tapping_key.tap.interrupted = true;
                     }
-                    // enqueue 
+                    // enqueue
                     return false;
                 }
             }
@@ -225,6 +234,7 @@ bool process_tapping(keyrecord_t *keyp)
             }
         }
     } else if (IS_TAPPING_RELEASED()) {
+    	DBG_N("TAPPING RELEASED\n\r");
         if (WITHIN_TAPPING_TERM(event)) {
             if (event.pressed) {
                 if (IS_TAPPING_KEY(event.key)) {
@@ -273,6 +283,7 @@ bool process_tapping(keyrecord_t *keyp)
     }
     // not tapping state
     else {
+    	DBG_N("NOT TAPPING STATE\r\n");
         if (event.pressed && is_tap_key(event)) {
             debug("Tapping: Start(Press tap key).\n");
             tapping_key = *keyp;
