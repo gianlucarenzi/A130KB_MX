@@ -102,7 +102,12 @@ void keyboard_task(void)
 				if (matrix_change & col_mask) {
 					keyevent_t e = (keyevent_t){
 						.key = (keypos_t){ .row = r, .col = c },
+#ifdef __ATARI__
+						// As today, Atari Keyboard has a negative logic! :-/
+						.pressed = !(matrix_row & col_mask),
+#else
 						.pressed = (matrix_row & col_mask),
+#endif
 						.time = (timer_read() | 1) /* time should not be 0 */
 					};
 					action_exec(e);
@@ -124,11 +129,6 @@ void keyboard_task(void)
 
 	hook_keyboard_loop();
 
-#ifdef __AMIGA__
-	// Amiga keyboard task()
-	amiga_task();
-#endif
-
 	// update LED
 	if (led_status != host_keyboard_leds()) {
 		led_status = host_keyboard_leds();
@@ -148,5 +148,8 @@ void keyboard_set_leds(uint8_t leds)
 __attribute__ ((weak))
 void led_set(uint8_t usb_led)
 {
-	// CAPS LOCK LED, NUM LOCK LED & SCROLL Lock
+	// CAPS LOCK LED always available
+#ifdef __AMIGA__
+	// NUM LOCK LED & SCROLL Lock only with Amiga
+#endif
 }
