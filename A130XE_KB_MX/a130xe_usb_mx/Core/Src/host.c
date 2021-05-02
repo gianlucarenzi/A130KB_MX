@@ -31,35 +31,42 @@ static host_driver_t *driver;
 static uint16_t last_system_report = 0;
 static uint16_t last_consumer_report = 0;
 
+static int debuglevel = DBG_INFO;
 
 void host_set_driver(host_driver_t *d)
 {
+	DBG_N("Called with driver: %p\r\n", d);
     driver = d;
 }
 
 host_driver_t *host_get_driver(void)
 {
+	DBG_N("Returns driver: %p\r\n", driver);
     return driver;
 }
 
 uint8_t host_keyboard_leds(void)
 {
+	DBG_N("Called\r\n");
     if (!driver) return 0;
     return (*driver->keyboard_leds)();
 }
 /* send report */
 void host_keyboard_send(report_keyboard_t *report)
 {
-    if (!driver) return;
-    (*driver->send_keyboard)(report);
+	DBG_N("Called with %p -- DRIVER: %p\r\n", report, driver);
 
     if (debug_keyboard) {
         dprint("keyboard: ");
         for (uint8_t i = 0; i < KEYBOARD_REPORT_SIZE; i++) {
             dprintf("%02X ", report->raw[i]);
         }
-        dprint("\n");
+        dprint("\n\r");
     }
+
+    if (!driver) return;
+
+    (*driver->send_keyboard)(report);
 }
 
 void host_mouse_send(report_mouse_t *report)
