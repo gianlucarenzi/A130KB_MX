@@ -2,17 +2,17 @@
 /* Very basic print functions, intended to be used with usb_debug_only.c
  * http://www.pjrc.com/teensy/
  * Copyright (c) 2008 PJRC.COM, LLC
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -37,33 +37,32 @@
 
 #if defined(__AVR__)
 
-#include "avr/xprintf.h"
-#define print(s)    xputs(PSTR(s))
-#define println(s)  xputs(PSTR(s "\r\n"))
+	#include "avr/xprintf.h"
+	#define print(s)    xputs(PSTR(s))
+	#define println(s)  xputs(PSTR(s "\r\n"))
 
-#ifdef __cplusplus
-extern "C"
-#endif
-/* function pointer of sendchar to be used by print utility */
-void print_set_sendchar(int8_t (*print_sendchar_func)(uint8_t));
+	#ifdef __cplusplus
+	extern "C"
+	#endif
+	/* function pointer of sendchar to be used by print utility */
+	void print_set_sendchar(int8_t (*print_sendchar_func)(uint8_t));
 
 #elif defined(PROTOCOL_CHIBIOS) /* __AVR__ */
 
-#include "chibios/printf.h"
+	#include "chibios/printf.h"
 
-#define print(s)    printf(s)
-#define println(s)  printf(s "\r\n")
-#define xprintf  printf
+	#define print(s)    printf(s)
+	#define println(s)  printf(s "\r\n")
+	#define xprintf  printf
 
 #elif defined(__arm__) /* __AVR__ */
 
-#define xprintf(fmt, args...) printf(fmt, ## args)
+	#define xprintf(fmt, args...) printf(fmt, ## args)
+	#define print(s)    xprintf(s)
+	#define println(s)  xprintf(s "\r\n")
 
-#define print(s)    xprintf(s)
-#define println(s)  xprintf(s "\r\n")
-
-/* TODO: to select output destinations: UART/USBSerial */
-#define print_set_sendchar(func)
+	/* TODO: to select output destinations: UART/USBSerial */
+	#define print_set_sendchar(func)
 
 #endif /* __AVR__ */
 
