@@ -25,6 +25,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "nodebug.h"
 #endif
 
+#include "debug.h"
+static int debuglevel = DBG_NOISY;
 
 #ifndef NO_ACTION_MACRO
 
@@ -36,6 +38,7 @@ void action_macro_play(const macro_t *macro_p)
 
     uint8_t mod_storage = 0;
 
+    DBG_N("Called with: %p\n\r", macro_p);
     if (!macro_p) return;
     while (true) {
         switch (MACRO_READ()) {
