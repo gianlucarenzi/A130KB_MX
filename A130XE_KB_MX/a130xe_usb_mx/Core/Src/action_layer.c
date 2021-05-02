@@ -13,7 +13,7 @@
 #endif
 
 
-/* 
+/*
  * Default Layer State
  */
 uint32_t default_layer_state = 0;
@@ -57,7 +57,7 @@ void default_layer_xor(uint32_t state)
 
 
 #ifndef NO_ACTION_LAYER
-/* 
+/*
  * Keymap Layer State
  */
 uint32_t layer_state = 0;
@@ -156,9 +156,9 @@ action_t layer_switch_get_action(keyevent_t event)
     if (event.pressed) {
         layer = current_layer_for_key(event.key);
         layer_pressed[event.key.row][event.key.col] = layer;
-    } else {
+        } else {
         layer = layer_pressed[event.key.row][event.key.col];
-    }
+        }
 #else
     layer = current_layer_for_key(event.key);
 #endif
