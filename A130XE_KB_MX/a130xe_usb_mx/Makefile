@@ -31,7 +31,7 @@ else
 	#OPTLVL = -O2
 	OPTLVL = -O3
 	OPT = $(OPTLVL) -fomit-frame-pointer -funroll-loops
-	C_DEFS += -DDEBUG_ACTION
+	C_DEFS += -DNO_DEBUG -DNO_PRINT
 endif
 
 
