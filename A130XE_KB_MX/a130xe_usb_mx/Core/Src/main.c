@@ -26,6 +26,8 @@
 #include "main.h"
 #include "usb_device.h"
 #include "keyboard.h"
+#include "host.h"
+#include "config.h"
 
 static UART_HandleTypeDef huart1;
 static int debuglevel = DBG_VERBOSE;
@@ -66,6 +68,7 @@ void led_toggle(void)
 
 keyboard_type_t keyboard;
 extern USBD_HandleTypeDef hUsbDeviceFS;
+extern host_driver_t usbdriver;
 
 /**
   * @brief  The application entry point.
@@ -97,6 +100,8 @@ int main(void)
 
 	MX_USB_DEVICE_Init();
 
+	host_set_driver(&usbdriver);
+
 	DBG_V("KEYBOARD TYPE: " KEYBOARD_INTERFACE "\r\n");
 
 	keyboard_init();
@@ -104,29 +109,6 @@ int main(void)
 	for(;;)
 	{
 		keyboard_task();
-/**
-		// Press
-		press_report[2] = 'A';
-		press_report[3] = 'B';
-		press_report[4] = 'C';
-		press_report[5] = 'D';
-		press_report[6] = 'E';
-
-		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 ); // buffer size
-		LED_TGL();
-		mdelay(1000);
-
-		// Release
-		press_report[2] = 0;
-		press_report[3] = 0;
-		press_report[4] = 0;
-		press_report[5] = 0;
-		press_report[6] = 0;
-
-		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 ); // buffer size
-		LED_TGL();
-		mdelay(1000);
-**/
 	}
 }
 
