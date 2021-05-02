@@ -97,10 +97,8 @@ int main(void)
 
 	MX_USB_DEVICE_Init();
 
-
 	DBG_V("KEYBOARD TYPE: " KEYBOARD_INTERFACE "\r\n");
 
-	uint8_t press_report[8] = {0};
 	keyboard_init();
 
 	for(;;)
@@ -108,22 +106,22 @@ int main(void)
 		keyboard_task();
 /**
 		// Press
-		press_report[2] = 'A'; 
-		press_report[3] = 'B'; 
-		press_report[4] = 'C'; 
-		press_report[5] = 'D'; 
-		press_report[6] = 'E'; 
+		press_report[2] = 'A';
+		press_report[3] = 'B';
+		press_report[4] = 'C';
+		press_report[5] = 'D';
+		press_report[6] = 'E';
 
 		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 ); // buffer size
 		LED_TGL();
 		mdelay(1000);
 
 		// Release
-		press_report[2] = 0; 
-		press_report[3] = 0; 
-		press_report[4] = 0; 
-		press_report[5] = 0; 
-		press_report[6] = 0; 
+		press_report[2] = 0;
+		press_report[3] = 0;
+		press_report[4] = 0;
+		press_report[5] = 0;
+		press_report[6] = 0;
 
 		USBD_HID_SendReport(&hUsbDeviceFS, press_report, 8 ); // buffer size
 		LED_TGL();
