@@ -89,6 +89,8 @@ void matrix_init(void)
 
     //debug
     debug_matrix = true;
+    debug_enable = true;
+    debug_keyboard = true;
     LED_ON();
     wait_ms(500);
     LED_OFF();
@@ -166,7 +168,7 @@ void matrix_print_row(uint8_t row)
 #ifdef MATRIX_HAS_GHOST
 		xprintf("%s", matrix_has_ghost_in_row(row) ?  " <ghost" : "" );
 #else
-        xprintf("");
+        xprintf(" ");
 #endif
 }
 
@@ -195,7 +197,7 @@ void matrix_print(void)
 #ifdef MATRIX_HAS_GHOST
 		xprintf("%s", matrix_has_ghost_in_row(row) ?  " <ghost" : "" );
 #else
-        xprintf("");
+        xprintf(" ");
 #endif
 		xprintf("\r\n");
     }
