@@ -149,6 +149,11 @@ __attribute__ ((weak))
 void led_set(uint8_t usb_led)
 {
 	// CAPS LOCK LED always available
+
+#ifdef __ATARI__
+	// We can use keyboard led as error indicator too!
+#endif
+
 #ifdef __AMIGA__
 	// NUM LOCK LED & SCROLL Lock only with Amiga
 #endif
