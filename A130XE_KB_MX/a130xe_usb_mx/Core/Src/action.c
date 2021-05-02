@@ -36,13 +36,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "nodebug.h"
 #endif
 
+static int debuglevel = DBG_INFO;
 
 void action_exec(keyevent_t event)
 {
     if (!IS_NOEVENT(event)) {
-        dprint("\n---- action_exec: start -----\n");
         dprint("EVENT: "); debug_event(event); dprintln();
-        hook_matrix_change(event);
+        DBG_N("\r\n---- action_exec: start -----\r\n");
+        DBG_N("EVENT: "); debug_event(event); dprintln();
+        /*
+         * This seems to be a BUG:
+         * https://github.com/tmk/tmk_keyboard/blob/6271878a021fcf578b71e2b7e97cd43786efa7dd/tmk_core/common/action.c#L45
+         */
+        //hook_matrix_change(event);
     }
 
     keyrecord_t record = { .event = event };
@@ -59,6 +65,7 @@ void action_exec(keyevent_t event)
 
 void process_action(keyrecord_t *record)
 {
+	DBG_N("Called with %p\r\n", record);
     if (hook_process_action(record)) return;
 
     keyevent_t event = record->event;
@@ -66,7 +73,10 @@ void process_action(keyrecord_t *record)
     uint8_t tap_count = record->tap.count;
 #endif
 
-    if (IS_NOEVENT(event)) { return; }
+    if (IS_NOEVENT(event)) {
+    	DBG_N("No EVENT\r\n");
+    	return;
+    }
 
     action_t action = layer_switch_get_action(event);
     dprint("ACTION: "); debug_action(action);
@@ -76,6 +86,7 @@ void process_action(keyrecord_t *record)
 #endif
     dprintln();
 
+    DBG_E("SWITCH ACTION.KIND.ID %d\r\n", action.kind.id);
     switch (action.kind.id) {
         /* Key and Mods */
         case ACT_LMODS:
@@ -83,6 +94,7 @@ void process_action(keyrecord_t *record)
             {
                 uint8_t mods = (action.kind.id == ACT_LMODS) ?  action.key.mods :
                                                                 action.key.mods<<4;
+                DBG_N("ACT_RMODS/ACT_RMODS: mods %d\r\n", mods);
                 if (event.pressed) {
                     if (mods) {
                         add_weak_mods(mods);
@@ -384,6 +396,7 @@ void process_action(keyrecord_t *record)
  */
 void register_code(uint8_t code)
 {
+	DBG_N("Called with: %d\r\n", code);
     if (code == KC_NO) {
         return;
     }
@@ -431,7 +444,7 @@ void register_code(uint8_t code)
             set_mods(tmp_mods);
             send_keyboard_report();
             oneshot_cancel();
-        } else 
+        } else
 */
 #endif
         {
@@ -453,6 +466,7 @@ void register_code(uint8_t code)
 
 void unregister_code(uint8_t code)
 {
+	DBG_N("Called with: %d\r\n", code);
     if (code == KC_NO) {
         return;
     }
@@ -508,6 +522,7 @@ void type_code(uint8_t code)
 
 void register_mods(uint8_t mods)
 {
+	DBG_N("Called with: %d\r\n", mods);
     if (mods) {
         add_mods(mods);
         send_keyboard_report();
@@ -516,6 +531,7 @@ void register_mods(uint8_t mods)
 
 void unregister_mods(uint8_t mods)
 {
+	DBG_N("Called with: %d\r\n", mods);
     if (mods) {
         del_mods(mods);
         send_keyboard_report();
@@ -530,6 +546,7 @@ void clear_keyboard(void)
 
 void clear_keyboard_but_mods(void)
 {
+	DBG_N("Called\r\n");
     clear_weak_mods();
     clear_keys();
     send_keyboard_report();
@@ -585,6 +602,7 @@ bool is_tap_key(keyevent_t event)
 void debug_event(keyevent_t event)
 {
     dprintf("%04X%c(%u)", (event.key.row<<8 | event.key.col), (event.pressed ? 'd' : 'u'), event.time);
+    DBG_N("%04X%c(%u)\r\n", (event.key.row<<8 | event.key.col), (event.pressed ? 'd' : 'u'), event.time);
 }
 
 void debug_record(keyrecord_t record)
