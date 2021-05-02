@@ -86,7 +86,7 @@ void process_action(keyrecord_t *record)
 #endif
     dprintln();
 
-    DBG_E("SWITCH ACTION.KIND.ID %d\r\n", action.kind.id);
+    DBG_N("SWITCH ACTION.KIND.ID %d\r\n", action.kind.id);
     switch (action.kind.id) {
         /* Key and Mods */
         case ACT_LMODS:
