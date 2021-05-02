@@ -2,23 +2,43 @@
 #include "main.h"
 #include "keyboard.h"
 #include "keycode.h"
+#include "config.h"
 #include "atari_config.h"
 #include "debug.h"
+#include "host.h"
+#include "host_driver.h"
+#include "usbd_hid.h"
+#include "usb_device.h"
+
+/* Here we can use USB and a couple of led:
+ * the main led (usable for reporting errors
+ * the caps lock led (original Atari has not got the led for keycaps)
+ */
+static uint8_t keyboard_leds(void);
+static void send_keyboard(report_keyboard_t *report);
+
+host_driver_t usbdriver = {
+	keyboard_leds,
+	send_keyboard,
+	NULL, // void (*send_mouse)(report_mouse_t *);
+	NULL, // void (*send_system)(uint16_t);
+	NULL, // (*send_consumer)(uint16_t);
+};
 
 static int debuglevel = DBG_INFO;
 
 /* This keymap should be valid with Atari XL and XE (F1..F4) keys as Atari 1200XL */
 const uint8_t keymaps[][KEYBOARD_ROWS][KEYBOARD_COLUMNS] = {
 	[0] = {
-		{ KC_7,  KC_NO,   KC_8,  KC_9,    KC_0,    KC_KP_LT, KC_KP_GT, KC_DEL,  KC_BRK,   KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_6,  KC_NO,   KC_5,  KC_4,    KC_3,    KC_2,     KC_1,     KC_ESC,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_U,  KC_NO,   KC_I,  KC_O,    KC_P,    KC_MINS,  KC_EQL,   KC_ENT,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_Y,  KC_NO,   KC_T,  KC_R,    KC_E,    KC_W,     KC_Q,     KC_TAB,  KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_F1, KC_J,    KC_K,  KC_L,    KC_SCLN, KC_PPLS,  KC_PAST,  KC_F2,   KC_LCTRL, KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_NO, KC_H,    KC_G,  KC_F,    KC_D,    KC_S,     KC_A,     KC_CAPS, KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_N,  KC_SPC,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,  KC_RGUI,  KC_NO,   KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_F3, KC_HELP, KC_B,  KC_V,    KC_C,    KC_X,     KC_Z,     KC_F4,   KC_LSFT,  KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,   KC_NO,    KC_SYSTEM_POWER /* START */, KC_SELECT, KC_OPER /* OPTION? */, KC_SYSREQ /* RESET */ },
+		{ KC_7,  KC_NO,   KC_8,  KC_9,    KC_0,    KC_KP_LT, KC_KP_GT, KC_BSPACE,  KC_BRK,   KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_6,  KC_NO,   KC_5,  KC_4,    KC_3,    KC_2,     KC_1,     KC_ESC,     KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_U,  KC_NO,   KC_I,  KC_O,    KC_P,    KC_MINS,  KC_EQL,   KC_ENT,     KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_Y,  KC_NO,   KC_T,  KC_R,    KC_E,    KC_W,     KC_Q,     KC_TAB,     KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_F1, KC_J,    KC_K,  KC_L,    KC_SCLN, KC_PPLS,  KC_PAST,  KC_F2,      KC_LCTRL, KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_NO, KC_H,    KC_G,  KC_F,    KC_D,    KC_S,     KC_A,     KC_CAPS,    KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_N,  KC_SPC,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,  KC_RGUI,  KC_NO,      KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_F3, KC_HELP, KC_B,  KC_V,    KC_C,    KC_X,     KC_Z,     KC_F4,      KC_LSFT,  KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
+		{ KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,      KC_NO,    KC_SYSTEM_POWER /* START */, KC_SELECT, KC_OPER /* OPTION? */, KC_SYSREQ /* RESET */ },
 	},
 };
 
@@ -50,6 +70,9 @@ gpioPort_t lut_col[ KEYBOARD_COLUMNS ] = {
 	{ .port = COL12_GPIO_Port, .pin = COL12_Pin },
 };
 
+static uint8_t leds = 0;
+static uint8_t keyboard_leds(void) { return leds; }
+
 uint8_t keymap_key_to_keycode(uint8_t layer, keypos_t key)
 {
 	return keymaps[(layer)][key.col][key.row];
@@ -58,6 +81,24 @@ uint8_t keymap_key_to_keycode(uint8_t layer, keypos_t key)
 action_t keymap_fn_to_action(uint8_t keycode)
 {
     return (action_t) fn_actions[FN_INDEX(keycode)];
+}
+
+extern USBD_HandleTypeDef hUsbDeviceFS;
+
+static void send_keyboard(report_keyboard_t *report)
+{
+	int i;
+	unsigned char * ptr = (unsigned char *) report;
+	if (debuglevel >= DBG_VERBOSE)
+	{
+		printf(ANSI_GREEN "ATARI USB REPORT: ");
+		for (i = 0; i < sizeof(report_keyboard_t); i++)
+		{
+			printf("[" ANSI_RED "0x%02x" ANSI_RESET "] ", *(ptr+i));
+		}
+		printf(ANSI_RESET "\r\n");
+	}
+	USBD_HID_SendReport(&hUsbDeviceFS, (unsigned char *) report, 8 ); // buffer size
 }
 
 void hook_matrix_change(keyevent_t event, void *caller)
@@ -72,5 +113,4 @@ void hook_matrix_change(keyevent_t event, void *caller)
 	DBG_N("ATARI KEYMAP[%d, %d] = value %d (hex) 0x%02x\r\n", event.key.col, event.key.row,
 			keymaps[0][event.key.col][event.key.row],
 			keymaps[0][event.key.col][event.key.row]);
-
 }
