@@ -20,6 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "action_util.h"
 #include "main.h"
 #include "syscall.h"
+#include "debug.h"
+static int debuglevel = DBG_NOISY;
 
 static inline void add_key_byte(uint8_t code);
 static inline void del_key_byte(uint8_t code);
@@ -54,6 +56,7 @@ static int16_t oneshot_time = 0;
 
 
 void send_keyboard_report(void) {
+	DBG_N("Called\n\r");
     keyboard_report->mods  = real_mods;
     keyboard_report->mods |= weak_mods;
 #ifndef NO_ACTION_ONESHOT
@@ -76,6 +79,7 @@ void send_keyboard_report(void) {
 /* key */
 void add_key(uint8_t key)
 {
+	DBG_N("Called with: %d\r\n", key);
 #ifdef NKRO_ENABLE
     if (keyboard_protocol && keyboard_nkro) {
         add_key_bit(key);
@@ -87,6 +91,7 @@ void add_key(uint8_t key)
 
 void del_key(uint8_t key)
 {
+	DBG_N("Called with: %d\r\n", key);
 #ifdef NKRO_ENABLE
     if (keyboard_protocol && keyboard_nkro) {
         del_key_bit(key);
@@ -98,6 +103,7 @@ void del_key(uint8_t key)
 
 void clear_keys(void)
 {
+	DBG_N("Called\r\n");
     // not clear mods
     for (int8_t i = 1; i < KEYBOARD_REPORT_SIZE; i++) {
         keyboard_report->raw[i] = 0;
