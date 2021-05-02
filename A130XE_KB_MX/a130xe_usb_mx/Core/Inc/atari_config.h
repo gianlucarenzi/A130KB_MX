@@ -13,6 +13,6 @@ extern const uint8_t keymaps[][KEYBOARD_ROWS][KEYBOARD_COLUMNS];
 extern gpioPort_t lut_row[ KEYBOARD_ROWS ];
 extern gpioPort_t lut_col[ KEYBOARD_COLUMNS ];
 
-static const action_t PROGMEM fn_actions[] = {};
+static const action_t PROGMEM fn_actions[1] = {};
 
 #endif
