@@ -3,6 +3,9 @@
 #include "keyboard.h"
 #include "keycode.h"
 #include "atari_config.h"
+#include "debug.h"
+
+static int debuglevel = DBG_INFO;
 
 /* This keymap should be valid with Atari XL and XE (F1..F4) keys as Atari 1200XL */
 const uint8_t keymaps[][KEYBOARD_ROWS][KEYBOARD_COLUMNS] = {
@@ -46,3 +49,28 @@ gpioPort_t lut_col[ KEYBOARD_COLUMNS ] = {
 	{ .port = COL11_GPIO_Port, .pin = COL11_Pin },
 	{ .port = COL12_GPIO_Port, .pin = COL12_Pin },
 };
+
+uint8_t keymap_key_to_keycode(uint8_t layer, keypos_t key)
+{
+	return keymaps[(layer)][key.col][key.row];
+}
+
+action_t keymap_fn_to_action(uint8_t keycode)
+{
+    return (action_t) fn_actions[FN_INDEX(keycode)];
+}
+
+void hook_matrix_change(keyevent_t event, void *caller)
+{
+	/*
+	 * https://github.com/tmk/tmk_keyboard/blob/6271878a021fcf578b71e2b7e97cd43786efa7dd/tmk_core/common/action.c#L45
+	 */
+
+	/* Be careful: the row and columns are SWAPPED. So the keycode is adapted on the fly to this! */
+	DBG_N("MATRIX CHANGED EVENT KEY: ROW: %d - COL: %d -- STATUS: %s \r\n",
+			event.key.row, event.key.col, event.pressed ? "PRESSED" : "RELEASED");
+	DBG_N("ATARI KEYMAP[%d, %d] = value %d (hex) 0x%02x\r\n", event.key.col, event.key.row,
+			keymaps[0][event.key.col][event.key.row],
+			keymaps[0][event.key.col][event.key.row]);
+
+}
