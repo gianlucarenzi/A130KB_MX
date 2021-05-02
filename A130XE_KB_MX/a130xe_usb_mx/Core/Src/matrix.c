@@ -33,7 +33,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #   define DEBOUNCE	5
 #endif
 static uint8_t debouncing = DEBOUNCE;
-static int debuglevel = DBG_NOISY;
 
 /* matrix state(1:on, 0:off) */
 static matrix_row_t matrix[MATRIX_ROWS];
