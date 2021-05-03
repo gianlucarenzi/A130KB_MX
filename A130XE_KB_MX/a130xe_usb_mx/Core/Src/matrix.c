@@ -73,6 +73,24 @@ void prepare_cols(void)
 	}
 }
 
+static void matrix_led_start(int seconds)
+{
+	int c1 = 100;
+	int c2 = 50;
+	int elapsed = 0; // msec
+	seconds *= 1000; // msec
+	for(;;)
+	{
+		LED_ON();
+		wait_ms(c1);
+		LED_OFF();
+		wait_ms(c2);
+		elapsed += (c1 + c2);
+		if (elapsed > seconds)
+			break;
+	}
+}
+
 void matrix_init(void)
 {
     // initialize row and col
@@ -91,9 +109,8 @@ void matrix_init(void)
     debug_matrix = false;
     debug_enable = false;
     debug_keyboard = false;
-    LED_ON();
-    wait_ms(500);
-    LED_OFF();
+    matrix_led_start(2);
+
 }
 
 uint8_t matrix_scan(void)
