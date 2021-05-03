@@ -91,7 +91,7 @@ static uint8_t USBD_HID_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx);
 static uint8_t USBD_HID_DeInit(USBD_HandleTypeDef *pdev, uint8_t cfgidx);
 static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *req);
 static uint8_t USBD_HID_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum);
-
+static uint8_t USBD_HID_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum);
 static uint8_t *USBD_HID_GetFSCfgDesc(uint16_t *length);
 static uint8_t *USBD_HID_GetHSCfgDesc(uint16_t *length);
 static uint8_t *USBD_HID_GetOtherSpeedCfgDesc(uint16_t *length);
@@ -112,7 +112,7 @@ USBD_ClassTypeDef USBD_HID = {
   NULL,              /* EP0_TxSent */
   NULL,              /* EP0_RxReady */
   USBD_HID_DataIn,   /* DataIn */
-  NULL,              /* DataOut */
+  USBD_HID_DataOut,  /* DataOut */
   NULL,              /* SOF */
   NULL,
   NULL,
@@ -141,7 +141,7 @@ __ALIGN_BEGIN static uint8_t USBD_HID_CfgFSDesc[USB_HID_CONFIG_DESC_SIZ] __ALIGN
   USB_DESC_TYPE_INTERFACE,                            /* bDescriptorType: Interface descriptor type */
   0x00,                                               /* bInterfaceNumber: Number of Interface */
   0x00,                                               /* bAlternateSetting: Alternate setting */
-  0x01,                                               /* bNumEndpoints */
+  HID_NUM_EP,                                               /* bNumEndpoints */
   0x03,                                               /* bInterfaceClass: HID */
   0x01,                                               /* bInterfaceSubClass : 1=BOOT, 0=no boot */
   0x01,                                               /* nInterfaceProtocol : 0=none, 1=keyboard, 2=mouse */
@@ -168,6 +168,16 @@ __ALIGN_BEGIN static uint8_t USBD_HID_CfgFSDesc[USB_HID_CONFIG_DESC_SIZ] __ALIGN
   0x00,
   HID_FS_BINTERVAL,                                   /* bInterval: Polling Interval */
   /* 34 */
+  /* HID_LED_SUPPORT */
+  0x07,                                               /* bLength: Endpoint Descriptor size */
+  USB_DESC_TYPE_ENDPOINT,                             /* bDescriptorType:*/
+
+  HID_EPOUT_ADDR,                                     /* bEndpointAddress: Endpoint Address (IN)*/
+  0x03,                                               /* bmAttributes: Interrupt endpoint */
+  HID_EPOUT_SIZE,                                     /* wMaxPacketSize: 4 Byte max */
+  0x00,
+  HID_FS_BINTERVAL,                                   /* bInterval: Polling Interval */
+  /* 41 */
 };
 
 /* USB HID device HS Configuration Descriptor */
@@ -216,6 +226,16 @@ __ALIGN_BEGIN static uint8_t USBD_HID_CfgHSDesc[USB_HID_CONFIG_DESC_SIZ] __ALIGN
   0x00,
   HID_HS_BINTERVAL,                                   /* bInterval: Polling Interval */
   /* 34 */
+  /* HID_LED_SUPPORT */
+  0x07,                                               /* bLength: Endpoint Descriptor size */
+  USB_DESC_TYPE_ENDPOINT,                             /* bDescriptorType:*/
+
+  HID_EPOUT_ADDR,                                     /* bEndpointAddress: Endpoint Address (IN)*/
+  0x03,                                               /* bmAttributes: Interrupt endpoint */
+  HID_EPOUT_SIZE,                                     /* wMaxPacketSize: 4 Byte max */
+  0x00,
+  HID_HS_BINTERVAL,                                   /* bInterval: Polling Interval */
+  /* 41 */
 };
 
 /* USB HID device Other Speed Configuration Descriptor */
@@ -307,11 +327,22 @@ __ALIGN_BEGIN static uint8_t HID_KEYBOARD_ReportDesc[HID_KEYBOARD_REPORT_DESC_SI
 	0x75, 0x01, // REPORT_SIZE (1)
 	0x95, 0x08, // REPORT_COUNT (8)
 	0x81, 0x02, // INPUT (Data,Var,Abs) //1 byte
-	 
+
 	0x95, 0x01, // REPORT_COUNT (1)
 	0x75, 0x08, // REPORT_SIZE (8)
 	0x81, 0x03, // INPUT (Cnst,Var,Abs) //1 byte
-	 
+
+    // --------------------- output report for LED
+	0x95, 0x05, //   REPORT_COUNT (5)
+	0x75, 0x01, //   REPORT_SIZE (1)
+	0x05, 0x08, //   USAGE_PAGE (LEDs)
+	0x19, 0x01, //   USAGE_MINIMUM (Num Lock)
+	0x29, 0x05, //   USAGE_MAXIMUM (Kana)
+	0x91, 0x02, //   OUTPUT (Data,Var,Abs)
+	0x95, 0x01, //   REPORT_COUNT (1)
+	0x75, 0x03, //   REPORT_SIZE (3)
+	0x91, 0x03, //   OUTPUT (Cnst,Var,Abs)
+
 	0x95, 0x06, // REPORT_COUNT (6)
 	0x75, 0x08, // REPORT_SIZE (8)
 	0x15, 0x00, // LOGICAL_MINIMUM (0)
@@ -320,9 +351,13 @@ __ALIGN_BEGIN static uint8_t HID_KEYBOARD_ReportDesc[HID_KEYBOARD_REPORT_DESC_SI
 	0x19, 0x00, // USAGE_MINIMUM (Reserved (no event indicated))
 	0x29, 0x65, // USAGE_MAXIMUM (Keyboard Application)
 	0x81, 0x00, // INPUT (Data,Ary,Abs) //6 bytes
-	 
+
 	0xc0 // END_COLLECTION
 };
+
+uint32_t  nOutData;
+uint8_t OutDataBuffer[HID_EPOUT_SIZE]; // local copy for user (usb fly at same time)
+uint8_t OutData[HID_EPOUT_SIZE]; // live usb buffer
 
 /**
   * @}
@@ -368,6 +403,10 @@ static uint8_t USBD_HID_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   (void)USBD_LL_OpenEP(pdev, HID_EPIN_ADDR, USBD_EP_TYPE_INTR, HID_EPIN_SIZE);
   pdev->ep_in[HID_EPIN_ADDR & 0xFU].is_used = 1U;
 
+  /* LED SUPPORT */
+  (void)USBD_LL_OpenEP(pdev, HID_EPOUT_ADDR, USBD_EP_TYPE_INTR, HID_EPOUT_SIZE);
+  (void)USBD_LL_PrepareReceive(pdev, HID_EPOUT_ADDR, OutData, HID_EPOUT_SIZE);
+
   hhid->state = HID_IDLE;
 
   return (uint8_t)USBD_OK;
@@ -388,6 +427,10 @@ static uint8_t USBD_HID_DeInit(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   (void)USBD_LL_CloseEP(pdev, HID_EPIN_ADDR);
   pdev->ep_in[HID_EPIN_ADDR & 0xFU].is_used = 0U;
   pdev->ep_in[HID_EPIN_ADDR & 0xFU].bInterval = 0U;
+
+  (void)USBD_LL_CloseEP(pdev, HID_EPOUT_ADDR);
+  pdev->ep_out[HID_EPOUT_ADDR & 0xFU].is_used = 0U;
+  pdev->ep_out[HID_EPOUT_ADDR & 0xFU].bInterval = 0U;
 
   /* FRee allocated memory */
   if (pdev->pClassData != NULL)
@@ -627,6 +670,25 @@ static uint8_t USBD_HID_DataIn(USBD_HandleTypeDef *pdev, uint8_t epnum)
   ((USBD_HID_HandleTypeDef *)pdev->pClassData)->state = HID_IDLE;
 
   return (uint8_t)USBD_OK;
+}
+
+
+__weak void USBD_HID_GetReport(uint8_t * OutData, int len)
+{
+    /** default do ntohing */
+}
+
+static uint8_t USBD_HID_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum)
+{
+    int len;
+
+    nOutData++;
+    // data cpy so we can be ready for next usb out and used received data safely
+    len = USBD_LL_GetRxDataSize (pdev, epnum);
+    memcpy(OutDataBuffer,OutData, len);
+    USBD_LL_PrepareReceive(pdev, HID_EPOUT_ADDR, OutData, HID_EPOUT_SIZE);
+    USBD_HID_GetReport(OutDataBuffer, len);
+  return USBD_OK;
 }
 
 

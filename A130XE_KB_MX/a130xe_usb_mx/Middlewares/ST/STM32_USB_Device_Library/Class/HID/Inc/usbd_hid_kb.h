@@ -44,6 +44,17 @@ extern "C" {
 #define HID_EPIN_ADDR                              0x81U
 #define HID_EPIN_SIZE                              0x04U
 
+#define HID_EPOUT_ADDR                             0x01U
+#define HID_EPOUT_SIZE                             0x08U
+
+/* For LED SUPPORT THE SIZ is bigger */
+#define CFG_ADD_SIZE                               0x07U /* original 0 and NUM EP 1 */
+#define HID_NUM_EP                                 2
+#define HID_LED_SIZE                               18 /* original 0 */
+#define USB_HID_CONFIG_DESC_SIZ                    (34U+CFG_ADD_SIZE)
+#define USB_HID_DESC_SIZ                           9U
+#define HID_KEYBOARD_REPORT_DESC_SIZE              (45U+HID_LED_SIZE)
+
 #define USB_HID_CONFIG_DESC_SIZ                    34U
 #define USB_HID_DESC_SIZ                           9U
 #define HID_MOUSE_REPORT_DESC_SIZE                 45U
