@@ -14,12 +14,12 @@
  * the main led (usable for reporting errors
  * the caps lock led (original Atari has not got the led for keycaps)
  */
-static uint8_t keyboard_leds(void);
-static void send_keyboard(report_keyboard_t *report);
+uint8_t atari_keyboard_leds(void);
+void atari_send_keyboard(report_keyboard_t *report);
 
 host_driver_t usbdriver = {
-	keyboard_leds,
-	send_keyboard,
+	atari_keyboard_leds,
+	atari_send_keyboard,
 	NULL, // void (*send_mouse)(report_mouse_t *);
 	NULL, // void (*send_system)(uint16_t);
 	NULL, // (*send_consumer)(uint16_t);
@@ -27,18 +27,32 @@ host_driver_t usbdriver = {
 
 static int debuglevel = DBG_INFO;
 
-/* This keymap should be valid with Atari XL and XE (F1..F4) keys as Atari 1200XL */
+/* This keymap should be valid with Atari XL and XE (F1..F4) keys as Atari 1200XL
+ *
+ * ATARI KEYBOARD --- USB KEYBOARD HID
+ *      F1         =       F1 (in atari800 Built In User Interface)
+ *      F2         =       F2 (in atari800 Option key)
+ *      F3         =       F3 (in atari800 Select key)
+ *      F4         =       F4 (in atari800 Start key)
+ *    RESET        =       F5 (like atari800 emulator)
+ *    HELP         =       F6 (like atari800 emulator)
+ *    BREAK        =       F7 (like atari800 emulator)
+ *    START        =       F8 (atari800 Enter monitor)
+ *    SELECT       =       F9 (in atari800 Exit emulator)
+ *    OPTION       =       F10 (in atari800 Save screenshot)
+ *
+ */
 const uint8_t keymaps[][KEYBOARD_ROWS][KEYBOARD_COLUMNS] = {
 	[0] = {
-		{ KC_7,  KC_NO,   KC_8,  KC_9,    KC_0,    KC_KP_LT, KC_KP_GT, KC_BSPACE,  KC_BRK,   KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_6,  KC_NO,   KC_5,  KC_4,    KC_3,    KC_2,     KC_1,     KC_ESC,     KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_U,  KC_NO,   KC_I,  KC_O,    KC_P,    KC_MINS,  KC_EQL,   KC_ENT,     KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_Y,  KC_NO,   KC_T,  KC_R,    KC_E,    KC_W,     KC_Q,     KC_TAB,     KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_F1, KC_J,    KC_K,  KC_L,    KC_SCLN, KC_PPLS,  KC_PAST,  KC_F2,      KC_LCTRL, KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_NO, KC_H,    KC_G,  KC_F,    KC_D,    KC_S,     KC_A,     KC_CAPS,    KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_N,  KC_SPC,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,  KC_RGUI,  KC_NO,      KC_NO,    KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_F3, KC_HELP, KC_B,  KC_V,    KC_C,    KC_X,     KC_Z,     KC_F4,      KC_LSFT,  KC_NO,                       KC_NO,     KC_NO,                 KC_NO },
-		{ KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,      KC_NO,    KC_SYSTEM_POWER /* START */, KC_SELECT, KC_OPER /* OPTION? */, KC_SYSREQ /* RESET */ },
+		{ KC_7,  KC_NO,   KC_8,  KC_9,    KC_0,    KC_DELETE, KC_INSERT, KC_BSPACE,  KC_F7,    KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_6,  KC_NO,   KC_5,  KC_4,    KC_3,    KC_2,      KC_1,      KC_ESC,     KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_U,  KC_NO,   KC_I,  KC_O,    KC_P,    KC_MINS,   KC_EQL,    KC_ENT,     KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_Y,  KC_NO,   KC_T,  KC_R,    KC_E,    KC_W,      KC_Q,      KC_TAB,     KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_F1, KC_J,    KC_K,  KC_L,    KC_SCLN, KC_PPLS,   KC_PAST,   KC_F2,      KC_LCTRL, KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_NO, KC_H,    KC_G,  KC_F,    KC_D,    KC_S,      KC_A,      KC_CAPS,    KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_N,  KC_SPC,  KC_M,  KC_COMM, KC_DOT,  KC_SLSH,   KC_RGUI,   KC_NO,      KC_NO,    KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_F3, KC_F6,   KC_B,  KC_V,    KC_C,    KC_X,      KC_Z,      KC_F4,      KC_LSFT,  KC_NO,  KC_NO,  KC_NO,  KC_NO },
+		{ KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,     KC_NO,     KC_NO,      KC_NO,    KC_F8,  KC_F9,  KC_F10, KC_F5 },
 	},
 };
 
@@ -71,7 +85,11 @@ gpioPort_t lut_col[ KEYBOARD_COLUMNS ] = {
 };
 
 static uint8_t leds = 0;
-static uint8_t keyboard_leds(void) { return leds; }
+
+uint8_t atari_keyboard_leds(void)
+{
+	return leds;
+}
 
 uint8_t keymap_key_to_keycode(uint8_t layer, keypos_t key)
 {
@@ -83,9 +101,10 @@ action_t keymap_fn_to_action(uint8_t keycode)
     return (action_t) fn_actions[FN_INDEX(keycode)];
 }
 
+/* From Middlewares Initialization Stuff... */
 extern USBD_HandleTypeDef hUsbDeviceFS;
 
-static void send_keyboard(report_keyboard_t *report)
+void atari_send_keyboard(report_keyboard_t *report)
 {
 	int i;
 	unsigned char * ptr = (unsigned char *) report;
@@ -101,6 +120,43 @@ static void send_keyboard(report_keyboard_t *report)
 	USBD_HID_SendReport(&hUsbDeviceFS, (unsigned char *) report, 8 ); // buffer size
 }
 
+void USBD_HID_GetReport(uint8_t * report, int len)
+{
+    // see from http://www.microchip.com/forums/m433757.aspx
+    // report[0] is the report id
+    // report[1] is the led bit filed
+    // D0: NUM lock
+    // D1: CAPS lock
+    // D2: SCROLL lock
+    // D3: Compose
+    // D4: Kana
+	const char * LED[5] = {	"NUM lock", "CAPS lock", "SCROLL lock", "Compose", "Kana", };
+
+	int i;
+	unsigned char * ptr = (unsigned char *) report;
+	if (debuglevel >= DBG_VERBOSE)
+	{
+		printf(ANSI_GREEN "USB GET REPORT (LED): ");
+		for (i = 0; i < len; i++)
+		{
+			printf(ANSI_GREEN "[" ANSI_RED "0x%02x" ANSI_RESET "] ", *(ptr+i));
+		}
+		// Scan each led and PRINTOUT Which LED Has to be Light or Not
+		uint8_t led = *(ptr);
+		for (i = 0; i < 5; i++)
+		{
+			uint8_t idx;
+			idx = led & (1 << i);
+			if (idx)
+			{
+				printf(ANSI_YELLOW "%s " ANSI_RESET, LED[idx-1]);
+			}
+		}
+		printf(ANSI_RESET "\r\n");
+	}
+	leds = *(report);
+}
+
 void hook_matrix_change(keyevent_t event, void *caller)
 {
 	/*
@@ -113,4 +169,19 @@ void hook_matrix_change(keyevent_t event, void *caller)
 	DBG_N("ATARI KEYMAP[%d, %d] = value %d (hex) 0x%02x\r\n", event.key.col, event.key.row,
 			keymaps[0][event.key.col][event.key.row],
 			keymaps[0][event.key.col][event.key.row]);
+}
+
+void hook_keyboard_leds_change(uint8_t led_status)
+{
+	DBG_N("Called: %d\r\n", led_status);
+
+	/* ATARI KEYBOARD HAS TWO USER LEDS:
+	 * Power Supply LED (Hardwired to 5V)
+	 * USER LED D2
+	 * USER LED D3
+	 */
+	if (led_status & (1 << 1))
+		LED_ON();
+	else
+		LED_OFF();
 }
