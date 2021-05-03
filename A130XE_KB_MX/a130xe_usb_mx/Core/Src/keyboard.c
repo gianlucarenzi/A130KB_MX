@@ -133,28 +133,17 @@ void keyboard_task(void)
 	if (led_status != host_keyboard_leds()) {
 		led_status = host_keyboard_leds();
 		if (debug_keyboard) {
-			DBG_V("LED: %02X\n", led_status);
+			DBG_I("LED: %02X\n\r", led_status);
 		}
 		hook_keyboard_leds_change(led_status);
 	}
 }
 
+__attribute__ ((weak))
 void keyboard_set_leds(uint8_t leds)
 {
-	DBG_V("Leds: 0x%02x\n", leds);
 	led_set(leds);
 }
 
 __attribute__ ((weak))
-void led_set(uint8_t usb_led)
-{
-	// CAPS LOCK LED always available
-
-#ifdef __ATARI__
-	// We can use keyboard led as error indicator too!
-#endif
-
-#ifdef __AMIGA__
-	// NUM LOCK LED & SCROLL Lock only with Amiga
-#endif
-}
+void led_set(uint8_t usb_led) { }
