@@ -96,25 +96,57 @@ void Error_Handler(void);
 #define COL15_Pin GPIO_PIN_15
 #define COL15_GPIO_Port GPIOD
 
-#define LED1_Pin GPIO_PIN_6
-#define LED1_GPIO_Port GPIOA
-
 #define DEBUG_TX_Pin GPIO_PIN_9
 #define DEBUG_TX_GPIO_Port GPIOA
 #define DEBUG_RX_Pin GPIO_PIN_10
 #define DEBUG_RX_GPIO_Port GPIOA
 
-#define KB_RST_Pin GPIO_PIN_2
+#define KB_RST_Pin GPIO_PIN_0
 #define KB_RST_GPIO_Port GPIOA
-#define KB_CLK_Pin GPIO_PIN_3
+#define KB_CLK_Pin GPIO_PIN_1
 #define KB_CLK_GPIO_Port GPIOA
-#define KB_DAT_Pin GPIO_PIN_4
+#define KB_DAT_Pin GPIO_PIN_2
 #define KB_DAT_GPIO_Port GPIOA
 
+/**
+ * The keyboard can have up to 5 leds:
+ * D0: NUM lock
+ * D1: CAPS lock
+ * D2: SCROLL lock
+ * D3: Compose
+ * D4: Kana
+ **/
+#define LED_NUM_LOCK_Pin GPIO_PIN_3
+#define LED_NUM_LOCK_Port GPIOA
+#define LED_CAPS_LOCK_Pin GPIO_PIN_6
+#define LED_CAPS_LOCK_Port GPIOA
+#define LED_SCROLL_LOCK_Pin GPIO_PIN_4
+#define LED_SCROLL_LOCK_Port GPIOA
+#define LED_COMPOSE_Pin GPIO_PIN_5
+#define LED_COMPOSE_Port GPIOA
+#define LED_KANA_Pin GPIO_PIN_7
+#define LED_KANA_Port GPIOA
+
+/* All leds must be defined in the same port! */
+#define LEDS_GPIO_Port GPIOA
+
 extern void led_toggle(void);
-#define LED_OFF()         do { HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET); } while (0)
-#define LED_ON()          do { HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET); } while (0)
-#define LED_TGL()         do { led_toggle(); } while (0)
+#define LED_CAPS_LOCK_OFF()         do { HAL_GPIO_WritePin(LED_CAPS_LOCK_Port, LED_CAPS_LOCK_Pin, GPIO_PIN_SET); } while (0)
+#define LED_CAPS_LOCK_ON()          do { HAL_GPIO_WritePin(LED_CAPS_LOCK_Port, LED_CAPS_LOCK_Pin, GPIO_PIN_RESET); } while (0)
+#define LED_CAPS_LOCK_TGL()         do { led_toggle(); } while (0)
+
+#define LED_ON  LED_CAPS_LOCK_ON
+#define LED_OFF LED_CAPS_LOCK_OFF
+#define LED_TGL LED_CAPS_LOCK_TGL
+
+#define LED_NUM_LOCK_OFF()         do { HAL_GPIO_WritePin(LED_NUM_LOCK_Port, LED_NUM_LOCK_Pin, GPIO_PIN_SET); } while (0)
+#define LED_NUM_LOCK_ON()          do { HAL_GPIO_WritePin(LED_NUM_LOCK_Port, LED_NUM_LOCK_Pin, GPIO_PIN_RESET); } while (0)
+#define LED_SCROLL_LOCK_OFF()      do { HAL_GPIO_WritePin(LED_SCROLL_LOCK_Port, LED_SCROLL_LOCK_Pin, GPIO_PIN_SET); } while (0)
+#define LED_SCROLL_LOCK_ON()       do { HAL_GPIO_WritePin(LED_SCROLL_LOCK_Port, LED_SCROLL_LOCK_Pin, GPIO_PIN_RESET); } while (0)
+#define LED_COMPOSE_OFF()          do { HAL_GPIO_WritePin(LED_COMPOSE_Port, LED_COMPOSE_Pin, GPIO_PIN_SET); } while (0)
+#define LED_COMPOSE_ON()           do { HAL_GPIO_WritePin(LED_COMPOSE_Port, LED_COMPOSE_Pin, GPIO_PIN_RESET); } while (0)
+#define LED_KANA_OFF()             do { HAL_GPIO_WritePin(LED_KANA_Port, LED_KANA_Pin, GPIO_PIN_SET); } while (0)
+#define LED_KANA_ON()              do { HAL_GPIO_WritePin(LED_KANA_Port, LED_KANA_Pin, GPIO_PIN_RESET); } while (0)
 
 #ifdef __cplusplus
 }
