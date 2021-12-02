@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 #ifndef DEBOUNCE
-#   define DEBOUNCE	5
+#   define DEBOUNCE 5
 #endif
 static uint8_t debouncing = DEBOUNCE;
 
@@ -81,9 +81,17 @@ static void matrix_led_start(int seconds)
 	seconds *= 1000; // msec
 	for(;;)
 	{
-		LED_ON();
+		LED_CAPS_LOCK_ON();
+		LED_NUM_LOCK_ON();
+		LED_SCROLL_LOCK_ON();
+		LED_COMPOSE_ON();
+		LED_KANA_ON();
 		wait_ms(c1);
-		LED_OFF();
+		LED_CAPS_LOCK_OFF();
+		LED_NUM_LOCK_OFF();
+		LED_SCROLL_LOCK_OFF();
+		LED_COMPOSE_OFF();
+		LED_KANA_OFF();
 		wait_ms(c2);
 		elapsed += (c1 + c2);
 		if (elapsed > seconds)
