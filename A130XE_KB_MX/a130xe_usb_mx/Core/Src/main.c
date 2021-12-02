@@ -50,7 +50,7 @@ static void MX_USART1_UART_Init(void);
 static void banner(void)
 {
 	DBG_I("STM32 KEYBOARD CORE INTERFACE BOARD for " KEYBOARD_INTERFACE "\r\n");
-	DBG_I("(C) RetroBit Lab 2021 written by Gianluca Renzi <icjtqr@gmail.com>\r\n");
+	DBG_I("(C) RetroBit Lab 2021/2022 written by Gianluca Renzi <icjtqr@gmail.com>\r\n");
 }
 
 void led_toggle(void)
@@ -211,20 +211,30 @@ static void MX_GPIO_Init(void)
 	__HAL_RCC_GPIOD_CLK_ENABLE();
 
 	/*Configure GPIO pin Output Level */
-	HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED_CAPS_LOCK_Port, LED_CAPS_LOCK_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED_NUM_LOCK_Port, LED_NUM_LOCK_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED_SCROLL_LOCK_Port, LED_SCROLL_LOCK_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED_COMPOSE_Port, LED_COMPOSE_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED_KANA_Port, LED_KANA_Pin, GPIO_PIN_SET);
 
-	/*Configure GPIO pin : K0_Pin */
+	/*Configure GPIO pin : K0_Pin Configuration 1-Atari - 0-Amiga */
 	GPIO_InitStruct.Pin = K0_Pin;
 	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Pull = GPIO_PULLUP;
 	HAL_GPIO_Init(K0_GPIO_Port, &GPIO_InitStruct);
 
-	/*Configure GPIO pin : LED1_Pin */
-	GPIO_InitStruct.Pin = LED1_Pin;
+	/*Configure GPIO pin : LEDS MUST BE IN THE SAME PORT! */
+	GPIO_InitStruct.Pin = 
+		LED_CAPS_LOCK_Pin |
+		LED_NUM_LOCK_Pin |
+		LED_SCROLL_LOCK_Pin |
+		LED_COMPOSE_Pin |
+		LED_KANA_Pin;
+
 	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
 	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	HAL_GPIO_Init(LED1_GPIO_Port, &GPIO_InitStruct);
+	HAL_GPIO_Init(LEDS_GPIO_Port, &GPIO_InitStruct);
 
 	/* The following pins are usable only on Amiga Keyboards. We are
 	 * using them anyway, just to have a single firmware for more PCBs
