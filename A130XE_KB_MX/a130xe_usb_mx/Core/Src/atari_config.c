@@ -175,13 +175,37 @@ void hook_keyboard_leds_change(uint8_t led_status)
 {
 	DBG_N("Called: %d\r\n", led_status);
 
-	/* ATARI KEYBOARD HAS TWO USER LEDS:
+	/* ATARI KEYBOARD HAS 6 LEDS:
 	 * Power Supply LED (Hardwired to 5V)
-	 * USER LED D2
-	 * USER LED D3
+	 * D0: NUM lock
+	 * D1: CAPS lock
+	 * D2: SCROLL lock
+	 * D3: Compose
+	 * D4: Kana
 	 */
-	if (led_status & (1 << 1))
-		LED_ON();
+
+	if (led_status & (1 << 0))
+		LED_NUM_LOCK_ON();
 	else
-		LED_OFF();
+		LED_NUM_LOCK_OFF();
+
+	if (led_status & (1 << 1))
+		LED_CAPS_LOCK_ON();
+	else
+		LED_CAPS_LOCK_OFF();
+
+	if (led_status & (1 << 2))
+		LED_SCROLL_LOCK_ON();
+	else
+		LED_SCROLL_LOCK_OFF();
+
+	if (led_status & (1 << 3))
+		LED_COMPOSE_ON();
+	else
+		LED_COMPOSE_OFF();
+
+	if (led_status & (1 << 4))
+		LED_KANA_ON();
+	else
+		LED_KANA_OFF();
 }
