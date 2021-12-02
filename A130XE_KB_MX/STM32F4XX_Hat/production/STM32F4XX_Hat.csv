@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"G***";"atari_fuji_SilkScreen_21.2x25-Rev";1;"LOGO";;;
+2;"H1,H4,H3,H2";"MountingHole_3.5mm";4;"MountingHole";;;
+3;"R6,R5,R4,R3,R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical";5;"510R";;;
+4;"J6";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+5;"D6,D5,D4,D3,D2,D1";"LED_D5.0mm";6;"LED";;;
+6;"J1";"PinSocket_2x16_P2.54mm_Vertical";1;"Conn_02x16_Odd_Even";;;
+7;"J2,J3";"PinSocket_2x24_P2.54mm_Vertical";2;"Conn_02x24_Odd_Even";;;
+8;"J4";"IDC-Header_2x17_P2.54mm_Vertical";1;"Conn_02x17_Counter_Clockwise";;;
+9;"J5";"MOLEX-FFC-1.25mm-RA-52044-3245";1;"Conn_01x32";;;
+10;"LOGO1";"atari_ready_8mm_rev";1;"LOGO";;;
+11;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical";1;"330";;;
