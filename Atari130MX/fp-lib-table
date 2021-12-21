@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name RetroBit)(type KiCad)(uri ${KILIBPATH}/RetroBitLab.pretty/)(options "")(descr ""))
+  (lib (name Atari130MX)(type KiCad)(uri ${KIPRJMOD}/Atari130MX.pretty/)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Atari130MX)(type Legacy)(uri ${KIPRJMOD}/Atari130MX.lib)(options "")(descr ""))
+  (lib (name RetroBitLab)(type Legacy)(uri ${KILIBPATH}/AmigaComponents.lib)(options "")(descr "Retro8/16/32bit Library not only Amiga related"))
+)
