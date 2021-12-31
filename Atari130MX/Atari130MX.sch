@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Atari XE Mechanical Keyboard"
-Date "2021-12-30"
+Date "2021-12-31"
 Rev "E"
 Comp "Decent Consulting"
 Comment1 "RetroBitLab Modifications"
@@ -1031,7 +1031,7 @@ U 1 1 61BF9891
 P 2800 7400
 F 0 "SW2" H 2700 7350 50  0000 C CNN
 F 1 "Left-Alt" H 2500 7600 50  0000 C CNN
-F 2 "Atari130MX:SW_Kailh_1.25u_PCB" H 2800 7400 50  0001 C CNN
+F 2 "Atari130MX:SW_Kailh_1.50u_PCB" H 2800 7400 50  0001 C CNN
 F 3 "~" H 2800 7400 50  0001 C CNN
 	1    2800 7400
 	1    0    0    -1  
@@ -1042,7 +1042,7 @@ U 1 1 61BFA211
 P 3550 7400
 F 0 "SW10" H 3450 7350 50  0000 C CNN
 F 1 "Right-Alt" H 3650 7650 50  0000 C CNN
-F 2 "Atari130MX:SW_Kailh_1.50u_PCB" H 3550 7400 50  0001 C CNN
+F 2 "Atari130MX:SW_Kailh_1.25u_PCB" H 3550 7400 50  0001 C CNN
 F 3 "~" H 3550 7400 50  0001 C CNN
 	1    3550 7400
 	1    0    0    -1  
@@ -1735,4 +1735,48 @@ Wire Wire Line
 Connection ~ 12200 7750
 Wire Wire Line
 	12200 7750 12200 7900
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61CFBB35
+P 10700 9050
+F 0 "H5" H 10800 9100 50  0000 L CNN
+F 1 "MountingHole" H 10800 9050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10700 9050 50  0001 C CNN
+F 3 "~" H 10700 9050 50  0001 C CNN
+	1    10700 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61CFBCB7
+P 11400 9050
+F 0 "H6" H 11500 9100 50  0000 L CNN
+F 1 "MountingHole" H 11500 9050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11400 9050 50  0001 C CNN
+F 3 "~" H 11400 9050 50  0001 C CNN
+	1    11400 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 61CFBE8D
+P 12100 9050
+F 0 "H7" H 12200 9100 50  0000 L CNN
+F 1 "MountingHole" H 12200 9050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 12100 9050 50  0001 C CNN
+F 3 "~" H 12100 9050 50  0001 C CNN
+	1    12100 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 61CFC049
+P 12800 9050
+F 0 "H8" H 12900 9100 50  0000 L CNN
+F 1 "MountingHole" H 12900 9050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 12800 9050 50  0001 C CNN
+F 3 "~" H 12800 9050 50  0001 C CNN
+	1    12800 9050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
