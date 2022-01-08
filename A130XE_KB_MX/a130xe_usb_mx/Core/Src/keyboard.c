@@ -58,9 +58,6 @@ void keyboard_init(void)
 {
 	timer_init();
 	matrix_init();
-#ifdef __AMIGA__
-	amiga_kb_init();
-#endif
 }
 
 /*
