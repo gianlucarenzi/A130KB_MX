@@ -1,0 +1,250 @@
+[
+  {
+    "backcolor": "#403730",
+    "name": "ATARI 1200 XL STYLE MAXKEYBOARD",
+    "author": "Gianluca Renzi",
+    "radii": "10px",
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-E1xx",
+    "pcb": false,
+    "css": ".whiteback {background: white; padding: 0.1em;}",
+    "plate": true
+  },
+  [
+    {
+      "c": "#999999",
+      "t": "#cccccc",
+      "p": "DSA",
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx",
+      "a": 7
+    },
+    "RESET",
+    {
+      "x": 4.25
+    },
+    "START",
+    {
+      "f": 2
+    },
+    "SELECT",
+    {
+      "f": 3
+    },
+    "OPTION",
+    {
+      "f": 6
+    },
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    {
+      "f": 3
+    },
+    "HELP",
+    {
+      "x": 1,
+      "c": "#e81515",
+      "t": "#ffffff"
+    },
+    "BREAK"
+  ],
+  [
+    {
+      "y": 0.5,
+      "c": "#3d3635",
+      "t": "#cccccc",
+      "f": 5,
+      "w": 1.25
+    },
+    "ESC",
+    {
+      "a": 5,
+      "f": 6
+    },
+    "!\n1",
+    "\"\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "&\n6",
+    "'\n7",
+    "@\n8",
+    "(\n9",
+    ")\n0",
+    {
+      "f": 3,
+      "f2": 7
+    },
+    "CLEAR\n<",
+    "INSERT\n>",
+    {
+      "f": 2,
+      "fa": [
+        3,
+        3
+      ],
+      "w": 2
+    },
+    "DELETE\nBACK SPACE"
+  ],
+  [
+    {
+      "t": "000000\n\n#ffffff\n\n\n\n\n\n\n\n#ffffff",
+      "a": 4,
+      "f": 4,
+      "w": 1.75
+    },
+    "<span class='whiteback'>CLR</span>\n\nSET\n\n\n\n\n\n\n\nTAB",
+    {
+      "t": "#cccccc",
+      "a": 7,
+      "f": 8
+    },
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    {
+      "t": "#3d3635\n\n#cccccc\n\n\n\n\n\n\n\n#cccccc",
+      "a": 4,
+      "f": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    "<span class='whiteback'>🡹<span>\n\n_\n\n\n\n\n\n\n\n-",
+    "<span class='whiteback'>🡻<span>\n\n|\n\n\n\n\n\n\n\n=",
+    {
+      "t": "#cccccc",
+      "a": 7,
+      "w": 1.5
+    },
+    "RETURN"
+  ],
+  [
+    {
+      "t": "000000",
+      "w": 2
+    },
+    "<span class='whiteback'>CONTROL<span>",
+    {
+      "t": "#cccccc",
+      "f": 8
+    },
+    "A",
+    "S",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    {
+      "a": 5,
+      "f": 7
+    },
+    ":\n;",
+    {
+      "t": "#3d3635\n\n#cccccc\n\n\n\n\n\n\n\n#cccccc",
+      "a": 4,
+      "f": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    "<span class='whiteback'>🡸<span>\n\n\\\n\n\n\n\n\n\n\n+",
+    {
+      "t": "000000\n\n#cccccc\n\n\n\n\n\n\n\n#cccccc"
+    },
+    "<span class='whiteback'>🡺<span>\n\n^\n\n\n\n\n\n\n\n*",
+    {
+      "t": "#cccccc",
+      "a": 7,
+      "w": 1.25
+    },
+    "CAPS"
+  ],
+  [
+    {
+      "w": 2.5
+    },
+    "SHIFT",
+    {
+      "f": 8
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "a": 5
+    },
+    "[\n,",
+    "]\n.",
+    {
+      "f": 7
+    },
+    "?\n/",
+    {
+      "a": 7,
+      "f": 4,
+      "w": 1.75
+    },
+    "SHIFT",
+    {
+      "f": 9
+    },
+    "<i class='kb kb-logo-atari'></i>"
+  ],
+  [
+    {
+      "x": 3,
+      "t": "#000000",
+      "f": 3
+    },
+    "",
+    {
+      "t": "#cccccc",
+      "w": 7
+    },
+    "",
+    {
+      "t": "#000000"
+    },
+    ""
+  ]
+]

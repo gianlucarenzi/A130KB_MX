@@ -1,0 +1,253 @@
+[
+  {
+    "backcolor": "#d4d4d4",
+    "name": "ATARI XE STYLE maxkeyboard",
+    "author": "Gianluca Renzi",
+    "notes": "Plate created with http://www.keyboardcad.com/ because Plate & Builder does not work anymore.",
+    "radii": "10px",
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-E1xx",
+    "pcb": true,
+    "css": ".reverse {background: black; padding: 0.1em;}"
+  },
+  [
+    {
+      "y": 0.07,
+      "x": 2.18,
+      "c": "#999999",
+      "p": "DSA",
+      "a": 7,
+      "f": 6,
+      "w": 1.5
+    },
+    "F1",
+    {
+      "w": 1.5
+    },
+    "F2",
+    {
+      "w": 1.5
+    },
+    "F3",
+    {
+      "w": 1.5
+    },
+    "F4",
+    {
+      "t": "#ffffff",
+      "f": 5,
+      "w": 1.5
+    },
+    "HELP",
+    {
+      "w": 1.5
+    },
+    "START",
+    {
+      "w": 1.5
+    },
+    "SELECT",
+    {
+      "w": 1.5
+    },
+    "OPTION",
+    {
+      "w": 1.5
+    },
+    "RESET"
+  ],
+  [
+    {
+      "y": 0.6799999999999999,
+      "x": 0.25,
+      "c": "#cccccc",
+      "t": "#000000",
+      "sm": "cherry",
+      "sb": "cherry",
+      "st": "MX1A-E1xx"
+    },
+    "ESC",
+    {
+      "a": 5,
+      "f": 6
+    },
+    "!\n1",
+    "\"\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "&\n6",
+    "'\n7",
+    "@\n8",
+    "(\n9",
+    ")\n0",
+    {
+      "f": 3,
+      "f2": 5
+    },
+    "CLEAR\n<",
+    "INSERT\n>",
+    {
+      "f": 2
+    },
+    "DELETE\nSPACE\n\n\n\n\nBACK",
+    {
+      "a": 7,
+      "f": 3
+    },
+    "BREAK"
+  ],
+  [
+    {
+      "x": 0.25,
+      "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
+      "a": 4,
+      "f": 4,
+      "w": 1.5
+    },
+    "<span class='reverse'>CLR\n\nSET\n\n\n\n\n\n\n\nTAB",
+    {
+      "t": "#000000",
+      "a": 7,
+      "f": 8
+    },
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    {
+      "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
+      "a": 4,
+      "f": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    "<span class='reverse'>🡹<span>\n\n_\n\n\n\n\n\n\n\n-",
+    "<span class='reverse'>🡻<span>\n\n|\n\n\n\n\n\n\n\n=",
+    {
+      "t": "#000000",
+      "a": 7,
+      "w": 1.5
+    },
+    "RETURN"
+  ],
+  [
+    {
+      "x": 0.25,
+      "t": "#cccccc",
+      "w": 1.75
+    },
+    "<span class='reverse'>CONTROL<span>",
+    {
+      "t": "#000000",
+      "f": 8
+    },
+    "A",
+    "S",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    {
+      "a": 5,
+      "f": 7
+    },
+    ":\n;",
+    {
+      "t": "#cccccc\n\n#333333\n\n\n\n\n\n\n\n#333333",
+      "a": 4,
+      "f": 4,
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    "<span class='reverse'>🡸<span>\n\n\\\n\n\n\n\n\n\n\n+",
+    "<span class='reverse'>🡺<span>\n\n^\n\n\n\n\n\n\n\n*",
+    {
+      "t": "#000000",
+      "a": 5,
+      "w": 1.25
+    },
+    "CAPS\nLOWR"
+  ],
+  [
+    {
+      "x": 0.25,
+      "a": 7,
+      "w": 2.25
+    },
+    "SHIFT",
+    {
+      "f": 8
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "a": 5
+    },
+    "[\n,",
+    "]\n.",
+    {
+      "f": 7
+    },
+    "?\n/",
+    {
+      "a": 7,
+      "f": 4,
+      "w": 1.75
+    },
+    "SHIFT",
+    {
+      "f": 9
+    },
+    "<i class='kb kb-logo-atari'></i>"
+  ],
+  [
+    {
+      "x": 3.25,
+      "f": 3
+    },
+    "",
+    {
+      "w": 7
+    },
+    "",
+    ""
+  ]
+]
