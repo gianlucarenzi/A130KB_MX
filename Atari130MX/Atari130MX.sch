@@ -5,11 +5,11 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Atari XE Mechanical Keyboard"
-Date "2022-01-12"
-Rev "D"
+Date "2022-01-21"
+Rev "Jan 2022"
 Comp "Decent Consulting"
 Comment1 "RetroBitLab Modifications"
-Comment2 ""
+Comment2 "Removed old FFC connector"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -645,17 +645,6 @@ F 3 "~" H 14250 5150 50  0001 C CNN
 	1    14250 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x26 J2
-U 1 1 6147FD17
-P 6400 7800
-F 0 "J2" V 6300 9100 50  0000 C CNN
-F 1 "Conn_01x26" V 6400 9300 50  0000 C CNN
-F 2 "Atari130MX:Molex_200528-0260_1x26-1MP_P1.00mm_Horizontal" H 6400 7800 50  0001 C CNN
-F 3 "~" H 6400 7800 50  0001 C CNN
-	1    6400 7800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2850 5900 2850 6450
 Wire Wire Line
@@ -770,11 +759,11 @@ Text GLabel 7400 6700 3    50   Input ~ 0
 COL_8
 Text GLabel 8050 6700 3    50   Input ~ 0
 COL_9
-Text GLabel 9750 2600 0    50   Input ~ 0
+Text GLabel 9715 2600 0    50   Input ~ 0
 START
-Text GLabel 10400 2600 0    50   Input ~ 0
+Text GLabel 10370 2600 0    50   Input ~ 0
 SELECT
-Text GLabel 11050 2600 0    50   Input ~ 0
+Text GLabel 11010 2600 0    50   Input ~ 0
 OPTION
 Wire Wire Line
 	8250 2800 8400 2800
@@ -811,60 +800,30 @@ Wire Wire Line
 	4800 3150 4800 3700
 Wire Wire Line
 	2850 2600 2850 3150
-Text GLabel 5800 7600 1    50   Input ~ 0
-COL_1
 Wire Wire Line
 	2850 6450 2850 6700
 Connection ~ 2850 6450
-Text GLabel 7300 7600 1    50   Input ~ 0
-COL_2
 Wire Wire Line
 	3500 6700 3500 6450
 Connection ~ 3500 6450
-Text GLabel 6900 7600 1    50   Input ~ 0
-COL_3
 Wire Wire Line
 	4150 3700 4150 4250
-Text GLabel 6800 7600 1    50   Input ~ 0
-COL_4
 Wire Wire Line
 	4800 6450 4800 6700
 Connection ~ 4800 6450
-Text GLabel 11700 2600 0    50   Input ~ 0
+Text GLabel 11665 2600 0    50   Input ~ 0
 RESET
-Text GLabel 6700 7600 1    50   Input ~ 0
-COL_5
-Text GLabel 6600 7600 1    50   Input ~ 0
-COL_6
 Wire Wire Line
 	6100 6450 6100 6700
 Connection ~ 6100 6450
-Text GLabel 6000 7600 1    50   Input ~ 0
-COL_7
 Wire Wire Line
 	6750 6450 6750 6700
 Connection ~ 6750 6450
-Text GLabel 6100 7600 1    50   Input ~ 0
-COL_8
 Wire Wire Line
 	7400 6450 7400 6700
 Connection ~ 7400 6450
-Text GLabel 5700 7600 1    50   Input ~ 0
-COL_9
 Wire Wire Line
 	8050 6450 8050 6700
-Text GLabel 5600 7600 1    50   Input ~ 0
-START
-Text GLabel 5500 7600 1    50   Input ~ 0
-SELECT
-Text GLabel 5400 7600 1    50   Input ~ 0
-OPTION
-Text GLabel 5300 7600 1    50   Input ~ 0
-RESET
-Text GLabel 7500 7600 1    50   Input ~ 0
-LED
-Text GLabel 7600 7600 1    50   Input ~ 0
-POWER
 Text GLabel 14050 5550 0    50   Input ~ 0
 POWER
 Text GLabel 9050 4650 0    50   Input ~ 0
@@ -875,36 +834,14 @@ Text GLabel 12050 3350 2    50   Input ~ 0
 GND
 Text GLabel 11850 7750 0    50   Input ~ 0
 GND
-Text GLabel 5100 7600 1    50   Input ~ 0
-GND
-Text GLabel 7400 7600 1    50   Input ~ 0
-GND
-Text GLabel 5200 7600 1    50   Input ~ 0
-POWER
-Text GLabel 6300 7600 1    50   Input ~ 0
-ROW_2
-Text GLabel 6500 7600 1    50   Input ~ 0
-ROW_3
-Text GLabel 6200 7600 1    50   Input ~ 0
-ROW_4
 Wire Wire Line
 	4350 4450 5000 4450
-Text GLabel 7000 7600 1    50   Input ~ 0
-ROW_5
 Wire Wire Line
 	3700 5000 4350 5000
-Text GLabel 5900 7600 1    50   Input ~ 0
-ROW_6
-Text GLabel 7200 7600 1    50   Input ~ 0
-ROW_7
 Wire Wire Line
 	3700 6100 3855 6100
-Text GLabel 7100 7600 1    50   Input ~ 0
-ROW_8
 Wire Wire Line
 	5000 2800 5650 2800
-Text GLabel 6400 7600 1    50   Input ~ 0
-ROW_1
 Text GLabel 14050 5150 0    50   Input ~ 0
 VBUS
 Text GLabel 14050 5050 0    50   Input ~ 0
@@ -930,10 +867,10 @@ SWCLK
 Text GLabel 14050 5250 0    50   Input ~ 0
 SWDIO
 $Comp
-L Connector_Generic:Conn_01x32 J3
+L Connector_Generic:Conn_01x32 J2
 U 1 1 61C502D9
 P 6350 8500
-F 0 "J3" V 6475 8446 50  0000 C CNN
+F 0 "J2" V 6475 8446 50  0000 C CNN
 F 1 "Conn_01x32" V 6566 8446 50  0000 C CNN
 F 2 "RetroBit:MOLEX-FFC-1.25mm-RA-52044-3245" H 6350 8500 50  0001 C CNN
 F 3 "~" H 6350 8500 50  0001 C CNN
@@ -1777,4 +1714,12 @@ Wire Wire Line
 Connection ~ 3500 5750
 Wire Wire Line
 	3500 5750 3500 5350
+Wire Wire Line
+	9715 2600 9750 2600
+Wire Wire Line
+	10370 2600 10400 2600
+Wire Wire Line
+	11010 2600 11050 2600
+Wire Wire Line
+	11665 2600 11700 2600
 $EndSCHEMATC

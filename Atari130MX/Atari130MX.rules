@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 5950)
+    (start_pass_no 5542)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -80,8 +80,8 @@
     "COL_4" "COL_3" "ROW_5" "ROW_8" "ROW_7" "COL_2" "3V3_EN" 3V3
     "ADC_VREF" SWDIO RUN SWCLK "GPIO26_ADC0" "GPIO27_ADC1" "GPIO28_ADC2" "OUT_FN"
     LSC "Net-(JP3-Pad2)" "/LED-GP2" "Net-(U1-Pad3)" "Net-(U1-Pad8)" "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad23)"
-    "Net-(U1-Pad28)" "Net-(U1-Pad42)" "Net-(JP1-Pad2)" "Net-(JP2-Pad2)" "Net-(JP4-Pad2)" "Net-(J3-Pad30)" "Net-(J3-Pad29)" "Net-(J3-Pad28)"
-    "Net-(J3-Pad27)"
+    "Net-(U1-Pad28)" "Net-(U1-Pad42)" "Net-(JP1-Pad2)" "Net-(JP2-Pad2)" "Net-(JP4-Pad2)" "Net-(J2-Pad30)" "Net-(J2-Pad29)" "Net-(J2-Pad28)"
+    "Net-(J2-Pad27)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
