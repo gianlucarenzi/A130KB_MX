@@ -1,4 +1,4 @@
-(module SW_Kailh_1.00u_PCB (layer F.Cu) (tedit 6203B001)
+(module SW_Kailh_1.00u_PCB (layer F.Cu) (tedit 6203CD9D)
   (descr "Kailh Box keyswitch, 1.00u, PCB mount, https://www.kailhswitch.com/uploads/201815927/CPG1511F01S02-BOX_White.pdf")
   (tags "Kailh Box keyswitch 1.00u PCB")
   (fp_text reference REF** (at 0 -7.874) (layer Cmts.User) hide
@@ -52,14 +52,14 @@
   (pad "" np_thru_hole circle (at -5.08 0.01) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0.01) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.54 -5.07) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KILIBPATH}/RetroBitLab.3dshapes/SW_Cherry_MX_PCB.wrl
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/DSA_1u.step
+    (offset (xyz 0 0 11))
+    (scale (xyz 2.5 2.5 2.5))
+    (rotate (xyz -90 0 0))
+  )
+  (model ${KILIBPATH}/RetroBitLab.3dshapes/SW_Cherry_MX_PCB.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
-  )
-  (model ${KILIBPATH}/RetroBitLab.3dshapes/DSA-1u.wrl
-    (offset (xyz 0 -0.5 12))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
   )
 )
