@@ -6,10 +6,10 @@
     (component Atari130MX:RPi_Pico_SMD_TH
       (place U1 541600 -421100 back 270)
     )
-    (component Atari130MX:SW_Kailh_1.25u_PCB
+    (component Atari130MX:SW_Kailh_1.25u_PCB_noSwitch
       (place SW49 3174000 -1022300 front 0)
     )
-    (component Atari130MX:SW_Kailh_1.00u_PCB
+    (component Atari130MX:SW_Kailh_1.00u_PCB_noSwitch
       (place SW19 537600 -640600 front 0)
       (place SW13 1677600 -640600 front 0)
       (place SW64 964600 -1213300 front 0)
@@ -72,10 +72,10 @@
     (component "RetroBit:MOLEX-FFC-1.25mm-RA-52044-3245"
       (place J2 3011600 -516100 back 180)
     )
-    (component Atari130MX:SW_Kailh_2.25u_PCB
+    (component Atari130MX:SW_Kailh_2.25u_PCB_noSwitch
       (place SW67 656100 -1213300 front 0)
     )
-    (component Atari130MX:SW_Kailh_1.50u_Atari_Fn_PCB
+    (component Atari130MX:SW_Kailh_1.50u_Atari_Fn_PCB_noSwitch
       (place SW65 1825850 -326100 front 0)
       (place SW58 1540100 -326100 front 0)
       (place SW41 1254350 -326100 front 0)
@@ -92,14 +92,14 @@
     (component Atari130MX:PinHeader_1x14_P2.54mm_Vertical
       (place J1 384400 -255000 back 90)
     )
-    (component Atari130MX:SW_Kailh_1.75u_PCB
+    (component Atari130MX:SW_Kailh_1.75u_PCB_noSwitch
       (place SW66 2935850 -1213300 front 0)
       (place SW42 608000 -1022300 front 0)
     )
     (component LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm
       (place D1 251600 -1446100 front 0)
     )
-    (component Atari130MX:SW_Kailh_1.50u_PCB
+    (component Atari130MX:SW_Kailh_1.50u_PCB_noSwitch
       (place SW33 585200 -831600 front 0)
       (place SW26 3150200 -831600 front 0)
     )

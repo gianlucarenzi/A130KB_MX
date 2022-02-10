@@ -66,10 +66,10 @@
     (component Atari130MX:RPi_Pico_SMD_TH
       (place U1 54160 -42110 back 270 (PN PICO_RP2040))
     )
-    (component Atari130MX:SW_Kailh_1.25u_PCB
+    (component Atari130MX:SW_Kailh_1.25u_PCB_noSwitch
       (place SW49 317400 -102230 front 0 (PN Caps))
     )
-    (component Atari130MX:SW_Kailh_1.00u_PCB
+    (component Atari130MX:SW_Kailh_1.00u_PCB_noSwitch
       (place SW19 53760 -64060 front 0 (PN Esc))
       (place SW13 167760 -64060 front 0 (PN 6))
       (place SW64 96460 -121330 front 0 (PN Z))
@@ -132,10 +132,10 @@
     (component "RetroBit:MOLEX-FFC-1.25mm-RA-52044-3245"
       (place J2 301160 -51610 back 180 (PN Conn_01x32))
     )
-    (component Atari130MX:SW_Kailh_2.25u_PCB
+    (component Atari130MX:SW_Kailh_2.25u_PCB_noSwitch
       (place SW67 65610 -121330 front 0 (PN LSC))
     )
-    (component Atari130MX:SW_Kailh_1.50u_Atari_Fn_PCB
+    (component Atari130MX:SW_Kailh_1.50u_Atari_Fn_PCB_noSwitch
       (place SW65 182585 -32610 front 0 (PN F4))
       (place SW58 154010 -32610 front 0 (PN F3))
       (place SW41 125435 -32610 front 0 (PN F2))
@@ -152,14 +152,14 @@
     (component Atari130MX:PinHeader_1x14_P2.54mm_Vertical
       (place J1 38440 -25500 back 90 (PN Conn_01x14))
     )
-    (component Atari130MX:SW_Kailh_1.75u_PCB
+    (component Atari130MX:SW_Kailh_1.75u_PCB_noSwitch
       (place SW66 293585 -121330 front 0 (PN RSC))
       (place SW42 60800 -102230 front 0 (PN Ctrl))
     )
     (component LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm
       (place D1 25160 -144610 front 0 (PN LED))
     )
-    (component Atari130MX:SW_Kailh_1.50u_PCB
+    (component Atari130MX:SW_Kailh_1.50u_PCB_noSwitch
       (place SW33 58520 -83160 front 0 (PN Tab))
       (place SW26 315020 -83160 front 0 (PN Return))
     )
@@ -340,7 +340,7 @@
       (pin "Rect[T][-900,0]Pad_3500x1700_um" (rotate 90) 43 2540 -23900)
       (pin Oval[A]Pad_1700x1700_um 43@1 2540 -23900)
     )
-    (image Atari130MX:SW_Kailh_1.25u_PCB
+    (image Atari130MX:SW_Kailh_1.25u_PCB_noSwitch
       (outline (path signal 120  -6975 6985  6995 6985))
       (outline (path signal 120  6995 6985  6995 -6985))
       (outline (path signal 120  6995 -6985  -6975 -6985))
@@ -382,7 +382,7 @@
       (keepout "" (circle F.Cu 4000))
       (keepout "" (circle B.Cu 4000))
     )
-    (image Atari130MX:SW_Kailh_1.00u_PCB
+    (image Atari130MX:SW_Kailh_1.00u_PCB_noSwitch
       (outline (path signal 120  -6985 6975  6985 6975))
       (outline (path signal 120  6985 6975  6985 -6995))
       (outline (path signal 120  6985 -6995  -6985 -6995))
@@ -478,7 +478,7 @@
       (pin Round[A]Pad_1600_um 2 -18750 1250)
       (pin Round[A]Pad_1600_um 1 -20000 -1250)
     )
-    (image Atari130MX:SW_Kailh_2.25u_PCB
+    (image Atari130MX:SW_Kailh_2.25u_PCB_noSwitch
       (outline (path signal 120  -6985 6985  6985 6985))
       (outline (path signal 120  6985 6985  6985 -6985))
       (outline (path signal 120  6985 -6985  -6985 -6985))
@@ -520,7 +520,7 @@
       (keepout "" (circle F.Cu 4000))
       (keepout "" (circle B.Cu 4000))
     )
-    (image Atari130MX:SW_Kailh_1.50u_Atari_Fn_PCB
+    (image Atari130MX:SW_Kailh_1.50u_Atari_Fn_PCB_noSwitch
       (outline (path signal 120  -6975 6995  6995 6995))
       (outline (path signal 120  6995 6995  6995 -6975))
       (outline (path signal 120  6995 -6975  -6975 -6975))
@@ -613,7 +613,7 @@
       (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
       (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
     )
-    (image Atari130MX:SW_Kailh_1.75u_PCB
+    (image Atari130MX:SW_Kailh_1.75u_PCB_noSwitch
       (outline (path signal 120  -6985 6995  6985 6995))
       (outline (path signal 120  6985 6995  6985 -6975))
       (outline (path signal 120  6985 -6975  -6985 -6975))
@@ -693,7 +693,7 @@
       (pin Round[A]Pad_1800_um 2 2540 0)
       (pin Rect[A]Pad_1800x1800_um 1 0 0)
     )
-    (image Atari130MX:SW_Kailh_1.50u_PCB
+    (image Atari130MX:SW_Kailh_1.50u_PCB_noSwitch
       (outline (path signal 120  -6995 7005  6975 7005))
       (outline (path signal 120  6975 7005  6975 -6965))
       (outline (path signal 120  6975 -6965  -6995 -6965))
