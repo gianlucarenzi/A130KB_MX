@@ -1,0 +1,28 @@
+Drill report for /home/gianluca/Progetti-CVS/ATARI/A130KB_MX/A130XE_CX85/A130XE_CX85.kicad_pcb
+Created on Wed 16 Feb 2022 01:07:33 PM CET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'A130XE_CX85-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (42 holes)
+    T2  1.00mm  0.039"  (27 holes)
+    T3  1.50mm  0.059"  (36 holes)
+    T4  3.20mm  0.126"  (6 holes)
+
+    Total plated holes count 111
+
+
+Drill file 'A130XE_CX85-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.70mm  0.067"  (36 holes)
+    T2  3.05mm  0.120"  (4 holes)
+    T3  4.00mm  0.157"  (22 holes)
+
+    Total unplated holes count 62

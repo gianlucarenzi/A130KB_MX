@@ -1,0 +1,1039 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "CX85_REPLICA"
+Date "2022-02-16"
+Rev "0.1"
+Comp "RetroBit Lab"
+Comment1 "Gianluca Renzi"
+Comment2 "Leonardo Vettori"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:MM74C923 U2
+U 1 1 620CCDCE
+P 4150 3350
+F 0 "U2" H 4150 2369 50  0000 C CNN
+F 1 "MM74C923" H 4150 2460 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 4150 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/snMM74C923" H 4150 3350 50  0001 C CNN
+	1    4150 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 1 1 620CDF9E
+P 2075 4750
+F 0 "U1" H 2200 4850 50  0000 C CNN
+F 1 "4049" H 2225 4925 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2075 4750 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2075 4750 50  0001 C CNN
+	1    2075 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 2 1 620CF6E2
+P 2075 4425
+F 0 "U1" H 2200 4525 50  0000 C CNN
+F 1 "4049" H 2225 4600 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2075 4425 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2075 4425 50  0001 C CNN
+	2    2075 4425
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 3 1 620D061A
+P 2075 4100
+F 0 "U1" H 2200 4200 50  0000 C CNN
+F 1 "4049" H 2225 4275 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2075 4100 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2075 4100 50  0001 C CNN
+	3    2075 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 4 1 620D1156
+P 2075 3775
+F 0 "U1" H 2200 3875 50  0000 C CNN
+F 1 "4049" H 2200 3950 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2075 3775 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2075 3775 50  0001 C CNN
+	4    2075 3775
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 5 1 620D1900
+P 2075 3450
+F 0 "U1" H 2175 3550 50  0000 C CNN
+F 1 "4049" H 2175 3625 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2075 3450 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2075 3450 50  0001 C CNN
+	5    2075 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 6 1 620D226E
+P 2075 3050
+F 0 "U1" H 2150 3175 50  0000 C CNN
+F 1 "4049" H 2175 3250 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2075 3050 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 2075 3050 50  0001 C CNN
+	6    2075 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4xxx:4049 U1
+U 7 1 620D2BFD
+P 1825 1650
+F 0 "U1" H 2055 1696 50  0000 L CNN
+F 1 "4049" H 2055 1605 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 1825 1650 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf" H 1825 1650 50  0001 C CNN
+	7    1825 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J2
+U 1 1 620DB6D5
+P 3900 6150
+F 0 "J2" H 4079 6059 50  0000 L CNN
+F 1 "JOY2" H 4079 6150 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 3900 6150 50  0001 C CNN
+F 3 " ~" H 3900 6150 50  0001 C CNN
+	1    3900 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 620DE522
+P 6700 1525
+F 0 "SW1" H 6700 1810 50  0000 C CNN
+F 1 "KP_MINUS" H 6700 1719 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6700 1725 50  0001 C CNN
+F 3 "~" H 6700 1725 50  0001 C CNN
+	1    6700 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 620E0AC7
+P 6700 1925
+F 0 "SW5" H 6700 2210 50  0000 C CNN
+F 1 "KP_PLUS" H 6700 2119 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6700 2125 50  0001 C CNN
+F 3 "~" H 6700 2125 50  0001 C CNN
+	1    6700 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 620E0F00
+P 6700 2325
+F 0 "SW9" H 6700 2610 50  0000 C CNN
+F 1 "KP_COMMA" H 6700 2519 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6700 2525 50  0001 C CNN
+F 3 "~" H 6700 2525 50  0001 C CNN
+	1    6700 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 620E13CD
+P 6700 2725
+F 0 "SW14" H 6700 3010 50  0000 C CNN
+F 1 "KP_0" H 6700 2919 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 6700 2925 50  0001 C CNN
+F 3 "~" H 6700 2925 50  0001 C CNN
+	1    6700 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 620E1628
+P 7500 1525
+F 0 "SW2" H 7500 1810 50  0000 C CNN
+F 1 "KP_3" H 7500 1719 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 1725 50  0001 C CNN
+F 3 "~" H 7500 1725 50  0001 C CNN
+	1    7500 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 620E1F43
+P 7500 1925
+F 0 "SW6" H 7500 2210 50  0000 C CNN
+F 1 "KP_2" H 7500 2119 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 2125 50  0001 C CNN
+F 3 "~" H 7500 2125 50  0001 C CNN
+	1    7500 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 620E2344
+P 7500 2325
+F 0 "SW10" H 7500 2610 50  0000 C CNN
+F 1 "KP_1" H 7500 2519 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 2525 50  0001 C CNN
+F 3 "~" H 7500 2525 50  0001 C CNN
+	1    7500 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 620E269A
+P 7500 2725
+F 0 "SW15" H 7500 3010 50  0000 C CNN
+F 1 "K_F4(YES)" H 7500 2919 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 2925 50  0001 C CNN
+F 3 "~" H 7500 2925 50  0001 C CNN
+	1    7500 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 620E2931
+P 8300 1525
+F 0 "SW3" H 8300 1810 50  0000 C CNN
+F 1 "KP_9" H 8300 1719 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 1725 50  0001 C CNN
+F 3 "~" H 8300 1725 50  0001 C CNN
+	1    8300 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 620E2B7F
+P 8300 1925
+F 0 "SW7" H 8300 2210 50  0000 C CNN
+F 1 "KP_8" H 8300 2119 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 2125 50  0001 C CNN
+F 3 "~" H 8300 2125 50  0001 C CNN
+	1    8300 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 620E2EF2
+P 8300 2325
+F 0 "SW11" H 8300 2610 50  0000 C CNN
+F 1 "KP_7" H 8300 2519 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 2525 50  0001 C CNN
+F 3 "~" H 8300 2525 50  0001 C CNN
+	1    8300 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 620E3266
+P 8300 2725
+F 0 "SW16" H 8300 3010 50  0000 C CNN
+F 1 "K_F3(DEL)" H 8300 2919 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 2925 50  0001 C CNN
+F 3 "~" H 8300 2925 50  0001 C CNN
+	1    8300 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 620E35B1
+P 9900 2725
+F 0 "SW18" H 9900 3010 50  0000 C CNN
+F 1 "K_F1(ESC)" H 9900 2919 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9900 2925 50  0001 C CNN
+F 3 "~" H 9900 2925 50  0001 C CNN
+	1    9900 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 620E3AE3
+P 9900 2325
+F 0 "SW13" H 9900 2610 50  0000 C CNN
+F 1 "KP_ENTER" H 9900 2519 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 9900 2525 50  0001 C CNN
+F 3 "~" H 9900 2525 50  0001 C CNN
+	1    9900 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2850 10100 2725
+Wire Wire Line
+	8500 2725 8500 2850
+Connection ~ 8500 2850
+Wire Wire Line
+	8500 2850 9300 2850
+Wire Wire Line
+	7700 2725 7700 2850
+Connection ~ 7700 2850
+Wire Wire Line
+	7700 2850 8500 2850
+Wire Wire Line
+	6900 2725 6900 2850
+Connection ~ 6900 2850
+Wire Wire Line
+	6900 2850 7700 2850
+$Comp
+L Switch:SW_Push SW4
+U 1 1 62149BCD
+P 9100 1525
+F 0 "SW4" H 9100 1810 50  0000 C CNN
+F 1 "KP_6" H 9100 1719 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9100 1725 50  0001 C CNN
+F 3 "~" H 9100 1725 50  0001 C CNN
+	1    9100 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 62149CE5
+P 9100 1925
+F 0 "SW8" H 9100 2210 50  0000 C CNN
+F 1 "KP_5" H 9100 2119 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9100 2125 50  0001 C CNN
+F 3 "~" H 9100 2125 50  0001 C CNN
+	1    9100 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 62149CEF
+P 9100 2325
+F 0 "SW12" H 9100 2610 50  0000 C CNN
+F 1 "KP_4" H 9100 2519 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9100 2525 50  0001 C CNN
+F 3 "~" H 9100 2525 50  0001 C CNN
+	1    9100 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 62149CF9
+P 9100 2725
+F 0 "SW17" H 9100 3010 50  0000 C CNN
+F 1 "K_F2(NO)" H 9100 2919 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9100 2925 50  0001 C CNN
+F 3 "~" H 9100 2925 50  0001 C CNN
+	1    9100 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2725 9300 2850
+Connection ~ 9300 2850
+Wire Wire Line
+	9300 2850 10100 2850
+Wire Wire Line
+	6400 2950 6400 2375
+Wire Wire Line
+	6400 2375 6900 2375
+Wire Wire Line
+	10100 2375 10100 2325
+Wire Wire Line
+	9300 2325 9300 2375
+Connection ~ 9300 2375
+Wire Wire Line
+	9300 2375 10100 2375
+Wire Wire Line
+	8500 2325 8500 2375
+Connection ~ 8500 2375
+Wire Wire Line
+	8500 2375 9300 2375
+Wire Wire Line
+	7700 2325 7700 2375
+Connection ~ 7700 2375
+Wire Wire Line
+	7700 2375 8500 2375
+Wire Wire Line
+	6900 2325 6900 2375
+Connection ~ 6900 2375
+Wire Wire Line
+	6900 2375 7700 2375
+Wire Wire Line
+	4650 3050 5125 3050
+Wire Wire Line
+	6300 3050 6300 1975
+Wire Wire Line
+	6300 1975 6900 1975
+Wire Wire Line
+	6900 1925 6900 1975
+Connection ~ 6900 1975
+Wire Wire Line
+	6900 1975 7700 1975
+Wire Wire Line
+	7700 1925 7700 1975
+Connection ~ 7700 1975
+Wire Wire Line
+	7700 1975 8500 1975
+Wire Wire Line
+	8500 1925 8500 1975
+Connection ~ 8500 1975
+Wire Wire Line
+	8500 1975 9300 1975
+Wire Wire Line
+	9300 1925 9300 1975
+Wire Wire Line
+	4650 3150 5025 3150
+Wire Wire Line
+	6200 3150 6200 1575
+Wire Wire Line
+	6200 1575 6900 1575
+Wire Wire Line
+	9300 1575 9300 1525
+Wire Wire Line
+	8500 1525 8500 1575
+Connection ~ 8500 1575
+Wire Wire Line
+	8500 1575 9300 1575
+Wire Wire Line
+	7700 1525 7700 1575
+Connection ~ 7700 1575
+Wire Wire Line
+	7700 1575 8500 1575
+Wire Wire Line
+	6900 1525 6900 1575
+Connection ~ 6900 1575
+Wire Wire Line
+	6900 1575 7700 1575
+Wire Wire Line
+	4650 3850 5525 3850
+Wire Wire Line
+	6500 3850 6500 2725
+Connection ~ 6500 1925
+Wire Wire Line
+	6500 1925 6500 1525
+Connection ~ 6500 2325
+Wire Wire Line
+	6500 2325 6500 1925
+Connection ~ 6500 2725
+Wire Wire Line
+	6500 2725 6500 2325
+Wire Wire Line
+	4650 3750 5625 3750
+Wire Wire Line
+	7300 3750 7300 2725
+Connection ~ 7300 1925
+Wire Wire Line
+	7300 1925 7300 1525
+Connection ~ 7300 2325
+Wire Wire Line
+	7300 2325 7300 1925
+Connection ~ 7300 2725
+Wire Wire Line
+	7300 2725 7300 2325
+Wire Wire Line
+	4650 3650 5725 3650
+Wire Wire Line
+	8100 3650 8100 2725
+Connection ~ 8100 1925
+Wire Wire Line
+	8100 1925 8100 1525
+Connection ~ 8100 2325
+Wire Wire Line
+	8100 2325 8100 1925
+Connection ~ 8100 2725
+Wire Wire Line
+	8100 2725 8100 2325
+Wire Wire Line
+	8900 3550 8900 2725
+Connection ~ 8900 1925
+Wire Wire Line
+	8900 1925 8900 1525
+Connection ~ 8900 2325
+Wire Wire Line
+	8900 2325 8900 1925
+Connection ~ 8900 2725
+Wire Wire Line
+	8900 2725 8900 2325
+Wire Wire Line
+	4650 3550 5825 3550
+Wire Wire Line
+	4650 3450 5925 3450
+Wire Wire Line
+	9700 3450 9700 2725
+Connection ~ 9700 2725
+Wire Wire Line
+	9700 2725 9700 2325
+$Comp
+L Device:CP_Small C2
+U 1 1 62172AD1
+P 3250 2225
+F 0 "C2" H 3338 2271 50  0000 L CNN
+F 1 "0.1uF" H 3338 2180 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 3250 2225 50  0001 C CNN
+F 3 "~" H 3250 2225 50  0001 C CNN
+	1    3250 2225
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C3
+U 1 1 62175312
+P 3650 2225
+F 0 "C3" H 3738 2271 50  0000 L CNN
+F 1 "0.1uF" H 3738 2180 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 3650 2225 50  0001 C CNN
+F 3 "~" H 3650 2225 50  0001 C CNN
+	1    3650 2225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 2325 3650 2850
+Wire Wire Line
+	3650 2950 3250 2950
+Wire Wire Line
+	3250 2950 3250 2325
+$Comp
+L power:GND #PWR04
+U 1 1 62183482
+P 3250 3175
+F 0 "#PWR04" H 3250 2925 50  0001 C CNN
+F 1 "GND" H 3255 3002 50  0000 C CNN
+F 2 "" H 3250 3175 50  0001 C CNN
+F 3 "" H 3250 3175 50  0001 C CNN
+	1    3250 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3150 3250 3175
+Wire Wire Line
+	3650 3150 3250 3150
+$Comp
+L power:GND #PWR03
+U 1 1 621897B6
+P 4700 2550
+F 0 "#PWR03" H 4700 2300 50  0001 C CNN
+F 1 "GND" H 4705 2377 50  0000 C CNN
+F 2 "" H 4700 2550 50  0001 C CNN
+F 3 "" H 4700 2550 50  0001 C CNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2550 4500 2550
+$Comp
+L power:+5V #PWR05
+U 1 1 6218C744
+P 4150 4150
+F 0 "#PWR05" H 4150 4000 50  0001 C CNN
+F 1 "+5V" H 4165 4323 50  0000 C CNN
+F 2 "" H 4150 4150 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 3050 2375 3050
+Wire Wire Line
+	3650 3450 2375 3450
+Wire Wire Line
+	3650 3550 2450 3550
+Wire Wire Line
+	2450 3550 2450 3775
+Wire Wire Line
+	2450 3775 2375 3775
+Wire Wire Line
+	3650 3650 2550 3650
+Wire Wire Line
+	2550 3650 2550 4100
+Wire Wire Line
+	2550 4100 2375 4100
+Wire Wire Line
+	3650 3750 2675 3750
+Wire Wire Line
+	2675 3750 2675 4425
+Wire Wire Line
+	2675 4425 2375 4425
+Wire Wire Line
+	3650 3850 2800 3850
+Wire Wire Line
+	2800 3850 2800 4750
+Wire Wire Line
+	2800 4750 2375 4750
+$Comp
+L power:+5V #PWR010
+U 1 1 6220559B
+P 4700 6175
+F 0 "#PWR010" H 4700 6025 50  0001 C CNN
+F 1 "+5V" H 4715 6348 50  0000 C CNN
+F 2 "" H 4700 6175 50  0001 C CNN
+F 3 "" H 4700 6175 50  0001 C CNN
+	1    4700 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6250 4700 6250
+Wire Wire Line
+	4700 6250 4700 6175
+Wire Wire Line
+	4500 2550 4500 2000
+Wire Wire Line
+	4500 2000 3650 2000
+Wire Wire Line
+	3250 2000 3250 2125
+Connection ~ 4500 2550
+Wire Wire Line
+	4500 2550 4700 2550
+Wire Wire Line
+	3650 2125 3650 2000
+Connection ~ 3650 2000
+Wire Wire Line
+	3650 2000 3250 2000
+$Comp
+L power:GND #PWR07
+U 1 1 6220EFB8
+P 4550 6050
+F 0 "#PWR07" H 4550 5800 50  0001 C CNN
+F 1 "GND" H 4475 5925 50  0000 C CNN
+F 2 "" H 4550 6050 50  0001 C CNN
+F 3 "" H 4550 6050 50  0001 C CNN
+	1    4550 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 6050 4550 6050
+$Comp
+L Connector:DB9_Female_MountingHoles J1
+U 1 1 6225A523
+P 1850 6150
+F 0 "J1" H 2029 6059 50  0000 L CNN
+F 1 "JOY1" H 2029 6150 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 1850 6150 50  0001 C CNN
+F 3 " ~" H 1850 6150 50  0001 C CNN
+	1    1850 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 6225A8C5
+P 2650 6175
+F 0 "#PWR09" H 2650 6025 50  0001 C CNN
+F 1 "+5V" H 2665 6348 50  0000 C CNN
+F 2 "" H 2650 6175 50  0001 C CNN
+F 3 "" H 2650 6175 50  0001 C CNN
+	1    2650 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6250 2650 6250
+Wire Wire Line
+	2650 6250 2650 6175
+$Comp
+L power:GND #PWR06
+U 1 1 6225A8D1
+P 2500 6050
+F 0 "#PWR06" H 2500 5800 50  0001 C CNN
+F 1 "GND" H 2505 5877 50  0000 C CNN
+F 2 "" H 2500 6050 50  0001 C CNN
+F 3 "" H 2500 6050 50  0001 C CNN
+	1    2500 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6050 2500 6050
+$Comp
+L Device:CP_Small C1
+U 1 1 622653F6
+P 1275 1650
+F 0 "C1" H 1363 1696 50  0000 L CNN
+F 1 "0.01uF" H 1363 1605 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 1275 1650 50  0001 C CNN
+F 3 "~" H 1275 1650 50  0001 C CNN
+	1    1275 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 1550 1275 1150
+Wire Wire Line
+	1275 1150 1825 1150
+Wire Wire Line
+	1275 1750 1275 2150
+Wire Wire Line
+	1275 2150 1825 2150
+$Comp
+L power:GND #PWR02
+U 1 1 6226D9C0
+P 1825 2150
+F 0 "#PWR02" H 1825 1900 50  0001 C CNN
+F 1 "GND" H 1830 1977 50  0000 C CNN
+F 2 "" H 1825 2150 50  0001 C CNN
+F 3 "" H 1825 2150 50  0001 C CNN
+	1    1825 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1825 2150
+$Comp
+L power:+5V #PWR01
+U 1 1 6226E4E0
+P 1825 1150
+F 0 "#PWR01" H 1825 1000 50  0001 C CNN
+F 1 "+5V" H 1840 1323 50  0000 C CNN
+F 2 "" H 1825 1150 50  0001 C CNN
+F 3 "" H 1825 1150 50  0001 C CNN
+	1    1825 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1825 1150
+Text Label 1500 4750 2    50   ~ 0
+FWD
+Text Label 1500 3050 2    50   ~ 0
+TRIGGER
+Text Label 1500 4425 2    50   ~ 0
+BACK
+Text Label 1500 4100 2    50   ~ 0
+LEFT
+Text Label 1500 3775 2    50   ~ 0
+RIGHT
+Text Label 1500 3450 2    50   ~ 0
+B_POT
+Wire Wire Line
+	1500 3050 1775 3050
+Wire Wire Line
+	1775 3450 1500 3450
+Wire Wire Line
+	1775 3775 1500 3775
+Wire Wire Line
+	1775 4100 1500 4100
+Wire Wire Line
+	1775 4425 1500 4425
+Wire Wire Line
+	1775 4750 1500 4750
+Text Label 4275 6550 0    50   ~ 0
+FWD
+Text Label 4275 6350 0    50   ~ 0
+BACK
+Text Label 4300 6150 0    50   ~ 0
+LEFT
+Text Label 4300 5950 0    50   ~ 0
+RIGHT
+Text Label 4300 5750 0    50   ~ 0
+B_POT
+Text Label 4550 6450 0    50   ~ 0
+TRIGGER
+Wire Wire Line
+	4200 5750 4300 5750
+Wire Wire Line
+	4200 5950 4300 5950
+Wire Wire Line
+	4200 6150 4300 6150
+Wire Wire Line
+	4200 6350 4275 6350
+Wire Wire Line
+	4200 6450 4550 6450
+Wire Wire Line
+	4200 6550 4275 6550
+Text Label 2150 6550 0    50   ~ 0
+JOY_1
+Text Label 2150 6350 0    50   ~ 0
+JOY_2
+Text Label 2150 6150 0    50   ~ 0
+JOY_3
+Text Label 2150 5950 0    50   ~ 0
+JOY_4
+Text Label 2150 5750 0    50   ~ 0
+JOY_5
+Text Label 2150 6450 0    50   ~ 0
+JOY_6
+Text Label 2150 5850 0    50   ~ 0
+JOY_9
+$Comp
+L Connector:DB9_Female_MountingHoles J3
+U 1 1 62354F56
+P 5700 6175
+F 0 "J3" H 5880 6084 50  0000 L CNN
+F 1 "JOY1_OUT" H 5880 6175 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 5700 6175 50  0001 C CNN
+F 3 " ~" H 5700 6175 50  0001 C CNN
+	1    5700 6175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 6235503C
+P 6500 6200
+F 0 "#PWR011" H 6500 6050 50  0001 C CNN
+F 1 "+5V" H 6515 6373 50  0000 C CNN
+F 2 "" H 6500 6200 50  0001 C CNN
+F 3 "" H 6500 6200 50  0001 C CNN
+	1    6500 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6275 6500 6275
+Wire Wire Line
+	6500 6275 6500 6200
+$Comp
+L power:GND #PWR08
+U 1 1 62355048
+P 6350 6075
+F 0 "#PWR08" H 6350 5825 50  0001 C CNN
+F 1 "GND" H 6355 5902 50  0000 C CNN
+F 2 "" H 6350 6075 50  0001 C CNN
+F 3 "" H 6350 6075 50  0001 C CNN
+	1    6350 6075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 6075 6350 6075
+Text Label 6000 6575 0    50   ~ 0
+JOY_1
+Text Label 6000 6375 0    50   ~ 0
+JOY_2
+Text Label 6000 6175 0    50   ~ 0
+JOY_3
+Text Label 6000 5975 0    50   ~ 0
+JOY_4
+Text Label 6000 5775 0    50   ~ 0
+JOY_5
+Text Label 6000 6475 0    50   ~ 0
+JOY_6
+Text Label 6000 5875 0    50   ~ 0
+JOY_9
+NoConn ~ 4200 5850
+Text Label 9725 4000 2    50   ~ 0
+FWD
+Text Label 9725 4500 2    50   ~ 0
+TRIGGER
+Text Label 9725 4100 2    50   ~ 0
+BACK
+Text Label 9725 4200 2    50   ~ 0
+LEFT
+Text Label 9725 4300 2    50   ~ 0
+RIGHT
+Text Label 9725 4400 2    50   ~ 0
+B_POT
+Wire Wire Line
+	9725 4000 10000 4000
+Wire Wire Line
+	10000 4100 9725 4100
+Wire Wire Line
+	10000 4200 9725 4200
+Wire Wire Line
+	10000 4300 9725 4300
+Wire Wire Line
+	10000 4400 9725 4400
+Wire Wire Line
+	10000 4500 9725 4500
+Text GLabel 10000 4000 2    50   Input ~ 0
+D0
+Text GLabel 10000 4100 2    50   Input ~ 0
+D1
+Text GLabel 10000 4200 2    50   Input ~ 0
+D2
+Text GLabel 10000 4300 2    50   Input ~ 0
+D3
+Text GLabel 10000 4400 2    50   Input ~ 0
+D4
+Text GLabel 10000 4500 2    50   Input ~ 0
+D5
+NoConn ~ 5700 5575
+NoConn ~ 3900 5550
+NoConn ~ 1850 5550
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 62424741
+P 5750 4550
+F 0 "H4" H 5850 4599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5850 4508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5750 4550 50  0001 C CNN
+F 3 "~" H 5750 4550 50  0001 C CNN
+	1    5750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 62427B8B
+P 6550 4525
+F 0 "H3" H 6650 4574 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6650 4483 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6550 4525 50  0001 C CNN
+F 3 "~" H 6550 4525 50  0001 C CNN
+	1    6550 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 62428666
+P 7400 4500
+F 0 "H1" H 7500 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7500 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7400 4500 50  0001 C CNN
+F 3 "~" H 7400 4500 50  0001 C CNN
+	1    7400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6242909C
+P 8300 4500
+F 0 "H2" H 8400 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8400 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 8300 4500 50  0001 C CNN
+F 3 "~" H 8300 4500 50  0001 C CNN
+	1    8300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 62429AC5
+P 7050 4925
+F 0 "H6" H 7150 4974 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7150 4883 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7050 4925 50  0001 C CNN
+F 3 "~" H 7050 4925 50  0001 C CNN
+	1    7050 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 6242A5EB
+P 7900 4900
+F 0 "H5" H 8000 4949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8000 4858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7900 4900 50  0001 C CNN
+F 3 "~" H 7900 4900 50  0001 C CNN
+	1    7900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6242B8F8
+P 7050 5025
+F 0 "#PWR0101" H 7050 4775 50  0001 C CNN
+F 1 "GND" H 7055 4852 50  0000 C CNN
+F 2 "" H 7050 5025 50  0001 C CNN
+F 3 "" H 7050 5025 50  0001 C CNN
+	1    7050 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6242C5DD
+P 7900 5000
+F 0 "#PWR0102" H 7900 4750 50  0001 C CNN
+F 1 "GND" H 7905 4827 50  0000 C CNN
+F 2 "" H 7900 5000 50  0001 C CNN
+F 3 "" H 7900 5000 50  0001 C CNN
+	1    7900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6242CA22
+P 8300 4600
+F 0 "#PWR0103" H 8300 4350 50  0001 C CNN
+F 1 "GND" H 8305 4427 50  0000 C CNN
+F 2 "" H 8300 4600 50  0001 C CNN
+F 3 "" H 8300 4600 50  0001 C CNN
+	1    8300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6242CDE7
+P 7400 4600
+F 0 "#PWR0104" H 7400 4350 50  0001 C CNN
+F 1 "GND" H 7405 4427 50  0000 C CNN
+F 2 "" H 7400 4600 50  0001 C CNN
+F 3 "" H 7400 4600 50  0001 C CNN
+	1    7400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6242D325
+P 6550 4625
+F 0 "#PWR0105" H 6550 4375 50  0001 C CNN
+F 1 "GND" H 6555 4452 50  0000 C CNN
+F 2 "" H 6550 4625 50  0001 C CNN
+F 3 "" H 6550 4625 50  0001 C CNN
+	1    6550 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6242D6CF
+P 5750 4650
+F 0 "#PWR0106" H 5750 4400 50  0001 C CNN
+F 1 "GND" H 5755 4477 50  0000 C CNN
+F 2 "" H 5750 4650 50  0001 C CNN
+F 3 "" H 5750 4650 50  0001 C CNN
+	1    5750 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5025 2575 1    50   Input ~ 0
+ROW0
+Text GLabel 5125 2575 1    50   Input ~ 0
+ROW1
+Text GLabel 5225 2575 1    50   Input ~ 0
+ROW2
+Text GLabel 5325 2575 1    50   Input ~ 0
+ROW3
+Wire Wire Line
+	4650 2950 5225 2950
+Wire Wire Line
+	4650 2850 5325 2850
+Wire Wire Line
+	5025 2575 5025 3150
+Connection ~ 5025 3150
+Wire Wire Line
+	5025 3150 6200 3150
+Wire Wire Line
+	5125 2575 5125 3050
+Connection ~ 5125 3050
+Wire Wire Line
+	5125 3050 6300 3050
+Wire Wire Line
+	5225 2575 5225 2950
+Connection ~ 5225 2950
+Wire Wire Line
+	5225 2950 6400 2950
+Wire Wire Line
+	5325 2575 5325 2850
+Connection ~ 5325 2850
+Wire Wire Line
+	5325 2850 6900 2850
+Text GLabel 5525 2550 1    50   Input ~ 0
+COL0
+Text GLabel 5625 2550 1    50   Input ~ 0
+COL1
+Text GLabel 5725 2550 1    50   Input ~ 0
+COL2
+Text GLabel 5825 2550 1    50   Input ~ 0
+COL3
+Text GLabel 5925 2550 1    50   Input ~ 0
+COL4
+Wire Wire Line
+	5525 2550 5525 3850
+Connection ~ 5525 3850
+Wire Wire Line
+	5525 3850 6500 3850
+Wire Wire Line
+	5625 2550 5625 3750
+Connection ~ 5625 3750
+Wire Wire Line
+	5625 3750 7300 3750
+Wire Wire Line
+	5725 2550 5725 3650
+Connection ~ 5725 3650
+Wire Wire Line
+	5725 3650 8100 3650
+Wire Wire Line
+	5825 2550 5825 3550
+Connection ~ 5825 3550
+Wire Wire Line
+	5825 3550 8900 3550
+Wire Wire Line
+	5925 2550 5925 3450
+Connection ~ 5925 3450
+Wire Wire Line
+	5925 3450 9700 3450
+$EndSCHEMATC
