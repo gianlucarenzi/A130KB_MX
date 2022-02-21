@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="265.90958mm"
-   height="125.66744mm"
-   viewBox="0 0 1005.0126 474.96363"
+   width="325.65176mm"
+   height="160.49333mm"
+   viewBox="0 0 1230.8099 606.58906"
    version="1.1"
    id="svg1366"
    sodipodi:docname="atari-xe-style-maxkeyboard.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.1.2 (0a00cf5, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata1370">
     <rdf:RDF>
@@ -23,7 +23,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,38 +36,41 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="2560"
-     inkscape:window-height="1359"
+     inkscape:window-height="1412"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="1.3811788"
-     inkscape:cx="502.48765"
-     inkscape:cy="234.5857"
-     inkscape:window-x="2560"
-     inkscape:window-y="28"
+     inkscape:zoom="0.77445746"
+     inkscape:cx="1090.4408"
+     inkscape:cy="473.88013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
      units="mm"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:document-rotation="0">
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:document-rotation="0"
+     lock-margins="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm">
     <sodipodi:guide
        inkscape:locked="false"
        id="guide5112"
        orientation="1,0"
-       position="-233.67647,-14.539194" />
+       position="-26.739618,4.3584356" />
     <inkscape:grid
        type="xygrid"
        id="grid3821"
-       originx="-3.0472741e-08"
-       originy="3.3017921e-05" />
+       originx="206.93685"
+       originy="112.72783" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -1417,10 +1419,10 @@
     </linearGradient>
     <linearGradient
        id="SPACE"
-       x1="0%"
-       x2="0%"
-       y1="0%"
-       y2="100%">
+       x1="0"
+       x2="0"
+       y1="0"
+       y2="1">
       <stop
          offset="0%"
          stop-color="black"
@@ -1467,100 +1469,100 @@
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3251"
-       gradientTransform="scale(1.2942179,0.77266741)"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
        cx="122.25144"
-       cy="39.836027"
+       cy="39.836025"
        fx="122.25144"
-       fy="39.836027"
-       r="25.884358"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3253"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="184.8375"
-       cy="39.836027"
-       fx="184.8375"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="184.83749"
+       cy="39.836025"
+       fx="184.83749"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3255"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="247.42356"
-       cy="39.836027"
-       fx="247.42356"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="247.42355"
+       cy="39.836025"
+       fx="247.42355"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3257"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="310.00962"
-       cy="39.836027"
-       fx="310.00962"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="310.00961"
+       cy="39.836025"
+       fx="310.00961"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3259"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="372.59568"
-       cy="39.836027"
-       fx="372.59568"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="372.59567"
+       cy="39.836025"
+       fx="372.59567"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3261"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="435.18172"
-       cy="39.836027"
-       fx="435.18172"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="435.18173"
+       cy="39.836025"
+       fx="435.18173"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3263"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="497.76778"
-       cy="39.836027"
-       fx="497.76778"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="497.76779"
+       cy="39.836025"
+       fx="497.76779"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3265"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="560.35384"
-       cy="39.836027"
-       fx="560.35384"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="560.35382"
+       cy="39.836025"
+       fx="560.35382"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3267"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="622.9399"
-       cy="39.836027"
-       fx="622.9399"
-       fy="39.836027"
-       r="25.884358"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="622.93988"
+       cy="39.836025"
+       fx="622.93988"
+       fy="39.836025"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -1571,7 +1573,8 @@
        fx="40.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1581,7 +1584,8 @@
        fx="94.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1591,7 +1595,8 @@
        fx="148.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1601,7 +1606,8 @@
        fx="202.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1611,7 +1617,8 @@
        fx="256.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1621,7 +1628,8 @@
        fx="310.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1631,7 +1639,8 @@
        fx="364.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1641,7 +1650,8 @@
        fx="418.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1651,7 +1661,8 @@
        fx="472.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1661,7 +1672,8 @@
        fx="526.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1671,7 +1683,8 @@
        fx="580.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1681,7 +1694,8 @@
        fx="634.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1691,7 +1705,8 @@
        fx="688.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1701,7 +1716,8 @@
        fx="742.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1711,17 +1727,18 @@
        fx="796.5"
        fy="121.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3299"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="41.72404"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="41.724041"
        cy="227.13524"
-       fx="41.72404"
+       fx="41.724041"
        fy="227.13524"
-       r="25.884358"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
@@ -1732,7 +1749,8 @@
        fx="121.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1742,7 +1760,8 @@
        fx="175.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1752,7 +1771,8 @@
        fx="229.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1762,7 +1782,8 @@
        fx="283.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1772,7 +1793,8 @@
        fx="337.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1782,7 +1804,8 @@
        fx="391.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1792,7 +1815,8 @@
        fx="445.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1802,7 +1826,8 @@
        fx="499.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1812,7 +1837,8 @@
        fx="553.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1822,7 +1848,8 @@
        fx="607.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1832,7 +1859,8 @@
        fx="661.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1842,27 +1870,28 @@
        fx="715.5"
        fy="175.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3325"
-       gradientTransform="scale(1.2942179,0.77266741)"
-       cx="604.99858"
+       gradientTransform="matrix(1.2942179,0,0,0.77266741,-206.93683,-112.72778)"
+       cx="604.9986"
        cy="227.13524"
-       fx="604.99858"
+       fx="604.9986"
        fy="227.13524"
-       r="25.884358"
+       r="25.884357"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3327"
-       gradientTransform="scale(1.4186261,0.70490738)"
-       cx="42.823123"
-       cy="325.57469"
-       fx="42.823123"
-       fy="325.57469"
+       gradientTransform="matrix(1.4186261,0,0,0.70490738,-206.93683,-112.72778)"
+       cx="42.823124"
+       cy="325.57468"
+       fx="42.823124"
+       fy="325.57468"
        r="28.372522"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
@@ -1874,7 +1903,8 @@
        fx="135"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1884,7 +1914,8 @@
        fx="189"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1894,7 +1925,8 @@
        fx="243"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1904,7 +1936,8 @@
        fx="297"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1914,7 +1947,8 @@
        fx="351"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1924,7 +1958,8 @@
        fx="405"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1934,7 +1969,8 @@
        fx="459"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1944,7 +1980,8 @@
        fx="513"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1954,7 +1991,8 @@
        fx="567"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1964,7 +2002,8 @@
        fx="621"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1974,7 +2013,8 @@
        fx="675"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -1984,27 +2024,28 @@
        fx="729"
        fy="229.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3353"
-       gradientTransform="scale(1.1565034,0.8646754)"
-       cx="682.8774"
-       cy="265.41752"
-       fx="682.8774"
-       fy="265.41752"
-       r="23.130067"
+       gradientTransform="matrix(1.1565034,0,0,0.8646754,-206.93683,-112.72778)"
+       cx="682.87738"
+       cy="265.41751"
+       fx="682.87738"
+       fy="265.41751"
+       r="23.130068"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3355"
-       gradientTransform="scale(1.6393596,0.60999428)"
-       cx="45.292075"
-       cy="464.75846"
-       fx="45.292075"
-       fy="464.75846"
+       gradientTransform="matrix(1.6393596,0,0,0.60999428,-206.93683,-112.72778)"
+       cx="45.292076"
+       cy="464.75845"
+       fx="45.292076"
+       fy="464.75845"
        r="32.787193"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
@@ -2016,7 +2057,8 @@
        fx="162"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2026,7 +2068,8 @@
        fx="216"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2036,7 +2079,8 @@
        fx="270"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2046,7 +2090,8 @@
        fx="324"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2056,7 +2101,8 @@
        fx="378"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2066,7 +2112,8 @@
        fx="432"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2076,7 +2123,8 @@
        fx="486"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2086,7 +2134,8 @@
        fx="540"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2096,7 +2145,8 @@
        fx="594"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2106,16 +2156,17 @@
        fx="648"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3377"
-       gradientTransform="scale(1.4186261,0.70490738)"
+       gradientTransform="matrix(1.4186261,0,0,0.70490738,-206.93683,-112.72778)"
        cx="509.11935"
-       cy="402.1805"
+       cy="402.18051"
        fx="509.11935"
-       fy="402.1805"
+       fy="402.18051"
        r="28.372522"
        gradientUnits="userSpaceOnUse" />
     <radialGradient
@@ -2127,7 +2178,8 @@
        fx="796.5"
        fy="283.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
@@ -2137,12 +2189,13 @@
        fx="202.5"
        fy="337.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#DSA-3"
        id="radialGradient3383"
-       gradientTransform="scale(3.0166206,0.33149677)"
+       gradientTransform="matrix(3.0166206,0,0,0.33149677,-206.93683,-112.72778)"
        cx="138.7314"
        cy="1018.1095"
        fx="138.7314"
@@ -2158,13 +2211,16 @@
        fx="634.5"
        fy="337.5"
        r="20"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-206.93683,-112.72778)" />
   </defs>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="KEYBOARD DSA"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(206.93683,112.72778)">
     <g
        transform="translate(88.767,47.884)"
        id="g2816">
@@ -2177,7 +2233,8 @@
          rx="6"
          id="rect1996"
          x="0"
-         y="0" />
+         y="0"
+         ry="6" />
       <g
          transform="translate(5,5)"
          id="g2814">
@@ -2193,7 +2250,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect1998" />
+             id="rect1998"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="118.72"
@@ -2202,7 +2260,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2000" />
+             id="rect2000"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="124.72"
@@ -2212,7 +2271,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2002" />
+             id="rect2002"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="124.72"
@@ -2221,7 +2281,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2004" />
+             id="rect2004"
+             ry="5" />
           <rect
              x="124.72"
              y="10.78"
@@ -2230,7 +2291,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2006"
-             style="fill:url(#radialGradient3251)" />
+             style="fill:url(#radialGradient3251)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2244,7 +2306,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2010" />
+             id="rect2010"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="199.72"
@@ -2253,7 +2316,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2012" />
+             id="rect2012"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="205.72"
@@ -2263,7 +2327,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2014" />
+             id="rect2014"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="205.72"
@@ -2272,7 +2337,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2016" />
+             id="rect2016"
+             ry="5" />
           <rect
              x="205.72"
              y="10.78"
@@ -2281,7 +2347,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2018"
-             style="fill:url(#radialGradient3253)" />
+             style="fill:url(#radialGradient3253)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2295,7 +2362,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2022" />
+             id="rect2022"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="280.72"
@@ -2304,7 +2372,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2024" />
+             id="rect2024"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="286.72"
@@ -2314,7 +2383,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2026" />
+             id="rect2026"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="286.72"
@@ -2323,7 +2393,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2028" />
+             id="rect2028"
+             ry="5" />
           <rect
              x="286.72"
              y="10.78"
@@ -2332,7 +2403,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2030"
-             style="fill:url(#radialGradient3255)" />
+             style="fill:url(#radialGradient3255)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2346,7 +2418,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2034" />
+             id="rect2034"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="361.72"
@@ -2355,7 +2428,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2036" />
+             id="rect2036"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="367.72"
@@ -2365,7 +2439,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2038" />
+             id="rect2038"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="367.72"
@@ -2374,7 +2449,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2040" />
+             id="rect2040"
+             ry="5" />
           <rect
              x="367.72"
              y="10.78"
@@ -2383,7 +2459,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2042"
-             style="fill:url(#radialGradient3257)" />
+             style="fill:url(#radialGradient3257)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2397,7 +2474,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2046" />
+             id="rect2046"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="442.72"
@@ -2406,7 +2484,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2048" />
+             id="rect2048"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="448.72"
@@ -2416,7 +2495,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2050" />
+             id="rect2050"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="448.72"
@@ -2425,7 +2505,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2052" />
+             id="rect2052"
+             ry="5" />
           <rect
              x="448.72"
              y="10.78"
@@ -2434,7 +2515,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2054"
-             style="fill:url(#radialGradient3259)" />
+             style="fill:url(#radialGradient3259)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2448,7 +2530,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2058" />
+             id="rect2058"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="523.71997"
@@ -2457,7 +2540,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2060" />
+             id="rect2060"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="529.71997"
@@ -2467,7 +2551,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2062" />
+             id="rect2062"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="529.71997"
@@ -2476,7 +2561,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2064" />
+             id="rect2064"
+             ry="5" />
           <rect
              x="529.71997"
              y="10.78"
@@ -2485,7 +2571,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2066"
-             style="fill:url(#radialGradient3261)" />
+             style="fill:url(#radialGradient3261)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2499,7 +2586,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2070" />
+             id="rect2070"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="604.71997"
@@ -2508,7 +2596,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2072" />
+             id="rect2072"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="610.71997"
@@ -2518,7 +2607,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2074" />
+             id="rect2074"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="610.71997"
@@ -2527,7 +2617,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2076" />
+             id="rect2076"
+             ry="5" />
           <rect
              x="610.71997"
              y="10.78"
@@ -2536,7 +2627,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2078"
-             style="fill:url(#radialGradient3263)" />
+             style="fill:url(#radialGradient3263)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2550,7 +2642,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2082" />
+             id="rect2082"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="685.71997"
@@ -2559,7 +2652,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2084" />
+             id="rect2084"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="691.71997"
@@ -2569,7 +2663,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2086" />
+             id="rect2086"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="691.71997"
@@ -2578,7 +2673,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2088" />
+             id="rect2088"
+             ry="5" />
           <rect
              x="691.71997"
              y="10.78"
@@ -2587,7 +2683,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2090"
-             style="fill:url(#radialGradient3265)" />
+             style="fill:url(#radialGradient3265)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2601,7 +2698,8 @@
              rx="5"
              fill="#999999"
              class="outer border"
-             id="rect2094" />
+             id="rect2094"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="766.71997"
@@ -2610,7 +2708,8 @@
              height="52"
              rx="5"
              fill="#999999"
-             id="rect2096" />
+             id="rect2096"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="772.71997"
@@ -2620,7 +2719,8 @@
              rx="5"
              fill="#bcbcbc"
              class="inner border"
-             id="rect2098" />
+             id="rect2098"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="772.71997"
@@ -2629,7 +2729,8 @@
              height="40"
              rx="5"
              fill="#bcbcbc"
-             id="rect2100" />
+             id="rect2100"
+             ry="5" />
           <rect
              x="772.71997"
              y="10.78"
@@ -2638,7 +2739,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2102"
-             style="fill:url(#radialGradient3267)" />
+             style="fill:url(#radialGradient3267)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2652,7 +2754,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2106" />
+             id="rect2106"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="14.5"
@@ -2661,7 +2764,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2108" />
+             id="rect2108"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="20.5"
@@ -2671,7 +2775,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2110" />
+             id="rect2110"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="20.5"
@@ -2680,7 +2785,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2112" />
+             id="rect2112"
+             ry="5" />
           <rect
              x="20.5"
              y="101.5"
@@ -2689,7 +2795,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2114"
-             style="fill:url(#radialGradient3269)" />
+             style="fill:url(#radialGradient3269)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2703,7 +2810,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2118" />
+             id="rect2118"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="68.5"
@@ -2712,7 +2820,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2120" />
+             id="rect2120"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="74.5"
@@ -2722,7 +2831,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2122" />
+             id="rect2122"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="74.5"
@@ -2731,7 +2841,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2124" />
+             id="rect2124"
+             ry="5" />
           <rect
              x="74.5"
              y="101.5"
@@ -2740,7 +2851,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2126"
-             style="fill:url(#radialGradient3271)" />
+             style="fill:url(#radialGradient3271)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2754,7 +2866,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2130" />
+             id="rect2130"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="122.5"
@@ -2763,7 +2876,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2132" />
+             id="rect2132"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="128.5"
@@ -2773,7 +2887,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2134" />
+             id="rect2134"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="128.5"
@@ -2782,7 +2897,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2136" />
+             id="rect2136"
+             ry="5" />
           <rect
              x="128.5"
              y="101.5"
@@ -2791,7 +2907,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2138"
-             style="fill:url(#radialGradient3273)" />
+             style="fill:url(#radialGradient3273)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2805,7 +2922,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2142" />
+             id="rect2142"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="176.5"
@@ -2814,7 +2932,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2144" />
+             id="rect2144"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="182.5"
@@ -2824,7 +2943,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2146" />
+             id="rect2146"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="182.5"
@@ -2833,7 +2953,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2148" />
+             id="rect2148"
+             ry="5" />
           <rect
              x="182.5"
              y="101.5"
@@ -2842,7 +2963,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2150"
-             style="fill:url(#radialGradient3275)" />
+             style="fill:url(#radialGradient3275)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2856,7 +2978,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2154" />
+             id="rect2154"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="230.5"
@@ -2865,7 +2988,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2156" />
+             id="rect2156"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="236.5"
@@ -2875,7 +2999,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2158" />
+             id="rect2158"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="236.5"
@@ -2884,7 +3009,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2160" />
+             id="rect2160"
+             ry="5" />
           <rect
              x="236.5"
              y="101.5"
@@ -2893,7 +3019,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2162"
-             style="fill:url(#radialGradient3277)" />
+             style="fill:url(#radialGradient3277)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2907,7 +3034,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2166" />
+             id="rect2166"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="284.5"
@@ -2916,7 +3044,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2168" />
+             id="rect2168"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="290.5"
@@ -2926,7 +3055,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2170" />
+             id="rect2170"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="290.5"
@@ -2935,7 +3065,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2172" />
+             id="rect2172"
+             ry="5" />
           <rect
              x="290.5"
              y="101.5"
@@ -2944,7 +3075,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2174"
-             style="fill:url(#radialGradient3279)" />
+             style="fill:url(#radialGradient3279)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -2958,7 +3090,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2178" />
+             id="rect2178"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="338.5"
@@ -2967,7 +3100,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2180" />
+             id="rect2180"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="344.5"
@@ -2977,7 +3111,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2182" />
+             id="rect2182"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="344.5"
@@ -2986,7 +3121,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2184" />
+             id="rect2184"
+             ry="5" />
           <rect
              x="344.5"
              y="101.5"
@@ -2995,7 +3131,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2186"
-             style="fill:url(#radialGradient3281)" />
+             style="fill:url(#radialGradient3281)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3009,7 +3146,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2190" />
+             id="rect2190"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="392.5"
@@ -3018,7 +3156,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2192" />
+             id="rect2192"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="398.5"
@@ -3028,7 +3167,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2194" />
+             id="rect2194"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="398.5"
@@ -3037,7 +3177,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2196" />
+             id="rect2196"
+             ry="5" />
           <rect
              x="398.5"
              y="101.5"
@@ -3046,7 +3187,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2198"
-             style="fill:url(#radialGradient3283)" />
+             style="fill:url(#radialGradient3283)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3060,7 +3202,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2202" />
+             id="rect2202"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="446.5"
@@ -3069,7 +3212,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2204" />
+             id="rect2204"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="452.5"
@@ -3079,7 +3223,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2206" />
+             id="rect2206"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="452.5"
@@ -3088,7 +3233,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2208" />
+             id="rect2208"
+             ry="5" />
           <rect
              x="452.5"
              y="101.5"
@@ -3097,7 +3243,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2210"
-             style="fill:url(#radialGradient3285)" />
+             style="fill:url(#radialGradient3285)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3111,7 +3258,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2214" />
+             id="rect2214"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="500.5"
@@ -3120,7 +3268,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2216" />
+             id="rect2216"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="506.5"
@@ -3130,7 +3279,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2218" />
+             id="rect2218"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="506.5"
@@ -3139,7 +3289,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2220" />
+             id="rect2220"
+             ry="5" />
           <rect
              x="506.5"
              y="101.5"
@@ -3148,7 +3299,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2222"
-             style="fill:url(#radialGradient3287)" />
+             style="fill:url(#radialGradient3287)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3162,7 +3314,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2226" />
+             id="rect2226"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="554.5"
@@ -3171,7 +3324,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2228" />
+             id="rect2228"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="560.5"
@@ -3181,7 +3335,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2230" />
+             id="rect2230"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="560.5"
@@ -3190,7 +3345,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2232" />
+             id="rect2232"
+             ry="5" />
           <rect
              x="560.5"
              y="101.5"
@@ -3199,7 +3355,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2234"
-             style="fill:url(#radialGradient3289)" />
+             style="fill:url(#radialGradient3289)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3213,7 +3370,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2238" />
+             id="rect2238"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="608.5"
@@ -3222,7 +3380,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2240" />
+             id="rect2240"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="614.5"
@@ -3232,7 +3391,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2242" />
+             id="rect2242"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="614.5"
@@ -3241,7 +3401,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2244" />
+             id="rect2244"
+             ry="5" />
           <rect
              x="614.5"
              y="101.5"
@@ -3250,7 +3411,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2246"
-             style="fill:url(#radialGradient3291)" />
+             style="fill:url(#radialGradient3291)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3264,7 +3426,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2250" />
+             id="rect2250"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="662.5"
@@ -3273,7 +3436,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2252" />
+             id="rect2252"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="668.5"
@@ -3283,7 +3447,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2254" />
+             id="rect2254"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="668.5"
@@ -3292,7 +3457,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2256" />
+             id="rect2256"
+             ry="5" />
           <rect
              x="668.5"
              y="101.5"
@@ -3301,7 +3467,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2258"
-             style="fill:url(#radialGradient3293)" />
+             style="fill:url(#radialGradient3293)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3315,7 +3482,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2262" />
+             id="rect2262"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="716.5"
@@ -3324,7 +3492,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2264" />
+             id="rect2264"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="722.5"
@@ -3334,7 +3503,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2266" />
+             id="rect2266"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="722.5"
@@ -3343,7 +3513,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2268" />
+             id="rect2268"
+             ry="5" />
           <rect
              x="722.5"
              y="101.5"
@@ -3352,7 +3523,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2270"
-             style="fill:url(#radialGradient3295)" />
+             style="fill:url(#radialGradient3295)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3366,7 +3538,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2274" />
+             id="rect2274"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="770.5"
@@ -3375,7 +3548,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2276" />
+             id="rect2276"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="776.5"
@@ -3385,7 +3559,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2278" />
+             id="rect2278"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="776.5"
@@ -3394,7 +3569,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2280" />
+             id="rect2280"
+             ry="5" />
           <rect
              x="776.5"
              y="101.5"
@@ -3403,7 +3579,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2282"
-             style="fill:url(#radialGradient3297)" />
+             style="fill:url(#radialGradient3297)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3417,7 +3594,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2286" />
+             id="rect2286"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="14.5"
@@ -3426,7 +3604,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2288" />
+             id="rect2288"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="20.5"
@@ -3436,7 +3615,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2290" />
+             id="rect2290"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="20.5"
@@ -3445,7 +3625,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2292" />
+             id="rect2292"
+             ry="5" />
           <rect
              x="20.5"
              y="155.5"
@@ -3454,7 +3635,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2294"
-             style="fill:url(#radialGradient3299)" />
+             style="fill:url(#radialGradient3299)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3468,7 +3650,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2298" />
+             id="rect2298"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="95.5"
@@ -3477,7 +3660,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2300" />
+             id="rect2300"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="101.5"
@@ -3487,7 +3671,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2302" />
+             id="rect2302"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="101.5"
@@ -3496,7 +3681,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2304" />
+             id="rect2304"
+             ry="5" />
           <rect
              x="101.5"
              y="155.5"
@@ -3505,7 +3691,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2306"
-             style="fill:url(#radialGradient3301)" />
+             style="fill:url(#radialGradient3301)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3519,7 +3706,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2310" />
+             id="rect2310"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="149.5"
@@ -3528,7 +3716,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2312" />
+             id="rect2312"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="155.5"
@@ -3538,7 +3727,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2314" />
+             id="rect2314"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="155.5"
@@ -3547,7 +3737,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2316" />
+             id="rect2316"
+             ry="5" />
           <rect
              x="155.5"
              y="155.5"
@@ -3556,7 +3747,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2318"
-             style="fill:url(#radialGradient3303)" />
+             style="fill:url(#radialGradient3303)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3570,7 +3762,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2322" />
+             id="rect2322"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="203.5"
@@ -3579,7 +3772,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2324" />
+             id="rect2324"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="209.5"
@@ -3589,7 +3783,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2326" />
+             id="rect2326"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="209.5"
@@ -3598,7 +3793,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2328" />
+             id="rect2328"
+             ry="5" />
           <rect
              x="209.5"
              y="155.5"
@@ -3607,7 +3803,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2330"
-             style="fill:url(#radialGradient3305)" />
+             style="fill:url(#radialGradient3305)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3621,7 +3818,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2334" />
+             id="rect2334"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="257.5"
@@ -3630,7 +3828,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2336" />
+             id="rect2336"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="263.5"
@@ -3640,7 +3839,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2338" />
+             id="rect2338"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="263.5"
@@ -3649,7 +3849,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2340" />
+             id="rect2340"
+             ry="5" />
           <rect
              x="263.5"
              y="155.5"
@@ -3658,7 +3859,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2342"
-             style="fill:url(#radialGradient3307)" />
+             style="fill:url(#radialGradient3307)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3672,7 +3874,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2346" />
+             id="rect2346"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="311.5"
@@ -3681,7 +3884,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2348" />
+             id="rect2348"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="317.5"
@@ -3691,7 +3895,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2350" />
+             id="rect2350"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="317.5"
@@ -3700,7 +3905,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2352" />
+             id="rect2352"
+             ry="5" />
           <rect
              x="317.5"
              y="155.5"
@@ -3709,7 +3915,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2354"
-             style="fill:url(#radialGradient3309)" />
+             style="fill:url(#radialGradient3309)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3723,7 +3930,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2358" />
+             id="rect2358"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="365.5"
@@ -3732,7 +3940,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2360" />
+             id="rect2360"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="371.5"
@@ -3742,7 +3951,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2362" />
+             id="rect2362"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="371.5"
@@ -3751,7 +3961,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2364" />
+             id="rect2364"
+             ry="5" />
           <rect
              x="371.5"
              y="155.5"
@@ -3760,7 +3971,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2366"
-             style="fill:url(#radialGradient3311)" />
+             style="fill:url(#radialGradient3311)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3774,7 +3986,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2370" />
+             id="rect2370"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="419.5"
@@ -3783,7 +3996,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2372" />
+             id="rect2372"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="425.5"
@@ -3793,7 +4007,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2374" />
+             id="rect2374"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="425.5"
@@ -3802,7 +4017,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2376" />
+             id="rect2376"
+             ry="5" />
           <rect
              x="425.5"
              y="155.5"
@@ -3811,7 +4027,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2378"
-             style="fill:url(#radialGradient3313)" />
+             style="fill:url(#radialGradient3313)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3825,7 +4042,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2382" />
+             id="rect2382"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="473.5"
@@ -3834,7 +4052,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2384" />
+             id="rect2384"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="479.5"
@@ -3844,7 +4063,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2386" />
+             id="rect2386"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="479.5"
@@ -3853,7 +4073,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2388" />
+             id="rect2388"
+             ry="5" />
           <rect
              x="479.5"
              y="155.5"
@@ -3862,7 +4083,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2390"
-             style="fill:url(#radialGradient3315)" />
+             style="fill:url(#radialGradient3315)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3876,7 +4098,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2394" />
+             id="rect2394"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="527.5"
@@ -3885,7 +4108,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2396" />
+             id="rect2396"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="533.5"
@@ -3895,7 +4119,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2398" />
+             id="rect2398"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="533.5"
@@ -3904,7 +4129,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2400" />
+             id="rect2400"
+             ry="5" />
           <rect
              x="533.5"
              y="155.5"
@@ -3913,7 +4139,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2402"
-             style="fill:url(#radialGradient3317)" />
+             style="fill:url(#radialGradient3317)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3927,7 +4154,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2406" />
+             id="rect2406"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="581.5"
@@ -3936,7 +4164,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2408" />
+             id="rect2408"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="587.5"
@@ -3946,7 +4175,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2410" />
+             id="rect2410"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="587.5"
@@ -3955,7 +4185,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2412" />
+             id="rect2412"
+             ry="5" />
           <rect
              x="587.5"
              y="155.5"
@@ -3964,7 +4195,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2414"
-             style="fill:url(#radialGradient3319)" />
+             style="fill:url(#radialGradient3319)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -3978,7 +4210,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2418" />
+             id="rect2418"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="635.5"
@@ -3987,7 +4220,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2420" />
+             id="rect2420"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="641.5"
@@ -3997,7 +4231,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2422" />
+             id="rect2422"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="641.5"
@@ -4006,7 +4241,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2424" />
+             id="rect2424"
+             ry="5" />
           <rect
              x="641.5"
              y="155.5"
@@ -4015,7 +4251,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2426"
-             style="fill:url(#radialGradient3321)" />
+             style="fill:url(#radialGradient3321)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4029,7 +4266,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2430" />
+             id="rect2430"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="689.5"
@@ -4038,7 +4276,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2432" />
+             id="rect2432"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="695.5"
@@ -4048,7 +4287,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2434" />
+             id="rect2434"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="695.5"
@@ -4057,7 +4297,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2436" />
+             id="rect2436"
+             ry="5" />
           <rect
              x="695.5"
              y="155.5"
@@ -4066,7 +4307,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2438"
-             style="fill:url(#radialGradient3323)" />
+             style="fill:url(#radialGradient3323)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4080,7 +4322,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2442" />
+             id="rect2442"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="743.5"
@@ -4089,7 +4332,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2444" />
+             id="rect2444"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="749.5"
@@ -4099,7 +4343,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2446" />
+             id="rect2446"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="749.5"
@@ -4108,7 +4353,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2448" />
+             id="rect2448"
+             ry="5" />
           <rect
              x="749.5"
              y="155.5"
@@ -4117,7 +4363,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2450"
-             style="fill:url(#radialGradient3325)" />
+             style="fill:url(#radialGradient3325)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4131,7 +4378,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2454" />
+             id="rect2454"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="14.5"
@@ -4140,7 +4388,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2456" />
+             id="rect2456"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="20.5"
@@ -4150,7 +4399,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2458" />
+             id="rect2458"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="20.5"
@@ -4159,7 +4409,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2460" />
+             id="rect2460"
+             ry="5" />
           <rect
              x="20.5"
              y="209.5"
@@ -4168,7 +4419,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2462"
-             style="fill:url(#radialGradient3327)" />
+             style="fill:url(#radialGradient3327)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4182,7 +4434,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2466" />
+             id="rect2466"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="109"
@@ -4191,7 +4444,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2468" />
+             id="rect2468"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="115"
@@ -4201,7 +4455,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2470" />
+             id="rect2470"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="115"
@@ -4210,7 +4465,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2472" />
+             id="rect2472"
+             ry="5" />
           <rect
              x="115"
              y="209.5"
@@ -4219,7 +4475,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2474"
-             style="fill:url(#radialGradient3329)" />
+             style="fill:url(#radialGradient3329)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4233,7 +4490,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2478" />
+             id="rect2478"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="163"
@@ -4242,7 +4500,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2480" />
+             id="rect2480"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="169"
@@ -4252,7 +4511,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2482" />
+             id="rect2482"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="169"
@@ -4261,7 +4521,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2484" />
+             id="rect2484"
+             ry="5" />
           <rect
              x="169"
              y="209.5"
@@ -4270,7 +4531,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2486"
-             style="fill:url(#radialGradient3331)" />
+             style="fill:url(#radialGradient3331)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4284,7 +4546,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2490" />
+             id="rect2490"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="217"
@@ -4293,7 +4556,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2492" />
+             id="rect2492"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="223"
@@ -4303,7 +4567,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2494" />
+             id="rect2494"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="223"
@@ -4312,7 +4577,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2496" />
+             id="rect2496"
+             ry="5" />
           <rect
              x="223"
              y="209.5"
@@ -4321,7 +4587,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2498"
-             style="fill:url(#radialGradient3333)" />
+             style="fill:url(#radialGradient3333)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4335,7 +4602,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2502" />
+             id="rect2502"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="271"
@@ -4344,7 +4612,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2504" />
+             id="rect2504"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="277"
@@ -4354,7 +4623,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2506" />
+             id="rect2506"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="277"
@@ -4363,7 +4633,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2508" />
+             id="rect2508"
+             ry="5" />
           <rect
              x="277"
              y="209.5"
@@ -4372,7 +4643,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2510"
-             style="fill:url(#radialGradient3335)" />
+             style="fill:url(#radialGradient3335)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4386,7 +4658,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2514" />
+             id="rect2514"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="325"
@@ -4395,7 +4668,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2516" />
+             id="rect2516"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="331"
@@ -4405,7 +4679,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2518" />
+             id="rect2518"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="331"
@@ -4414,7 +4689,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2520" />
+             id="rect2520"
+             ry="5" />
           <rect
              x="331"
              y="209.5"
@@ -4423,7 +4699,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2522"
-             style="fill:url(#radialGradient3337)" />
+             style="fill:url(#radialGradient3337)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4437,7 +4714,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2526" />
+             id="rect2526"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="379"
@@ -4446,7 +4724,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2528" />
+             id="rect2528"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="385"
@@ -4456,7 +4735,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2530" />
+             id="rect2530"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="385"
@@ -4465,7 +4745,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2532" />
+             id="rect2532"
+             ry="5" />
           <rect
              x="385"
              y="209.5"
@@ -4474,7 +4755,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2534"
-             style="fill:url(#radialGradient3339)" />
+             style="fill:url(#radialGradient3339)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4488,7 +4770,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2538" />
+             id="rect2538"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="433"
@@ -4497,7 +4780,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2540" />
+             id="rect2540"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="439"
@@ -4507,7 +4791,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2542" />
+             id="rect2542"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="439"
@@ -4516,7 +4801,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2544" />
+             id="rect2544"
+             ry="5" />
           <rect
              x="439"
              y="209.5"
@@ -4525,7 +4811,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2546"
-             style="fill:url(#radialGradient3341)" />
+             style="fill:url(#radialGradient3341)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4539,7 +4826,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2550" />
+             id="rect2550"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="487"
@@ -4548,7 +4836,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2552" />
+             id="rect2552"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="493"
@@ -4558,7 +4847,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2554" />
+             id="rect2554"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="493"
@@ -4567,7 +4857,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2556" />
+             id="rect2556"
+             ry="5" />
           <rect
              x="493"
              y="209.5"
@@ -4576,7 +4867,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2558"
-             style="fill:url(#radialGradient3343)" />
+             style="fill:url(#radialGradient3343)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4590,7 +4882,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2562" />
+             id="rect2562"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="541"
@@ -4599,7 +4892,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2564" />
+             id="rect2564"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="547"
@@ -4609,7 +4903,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2566" />
+             id="rect2566"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="547"
@@ -4618,7 +4913,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2568" />
+             id="rect2568"
+             ry="5" />
           <rect
              x="547"
              y="209.5"
@@ -4627,7 +4923,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2570"
-             style="fill:url(#radialGradient3345)" />
+             style="fill:url(#radialGradient3345)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4641,7 +4938,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2574" />
+             id="rect2574"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="595"
@@ -4650,7 +4948,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2576" />
+             id="rect2576"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="601"
@@ -4660,7 +4959,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2578" />
+             id="rect2578"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="601"
@@ -4669,7 +4969,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2580" />
+             id="rect2580"
+             ry="5" />
           <rect
              x="601"
              y="209.5"
@@ -4678,7 +4979,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2582"
-             style="fill:url(#radialGradient3347)" />
+             style="fill:url(#radialGradient3347)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4692,7 +4994,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2586" />
+             id="rect2586"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="649"
@@ -4701,7 +5004,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2588" />
+             id="rect2588"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="655"
@@ -4711,7 +5015,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2590" />
+             id="rect2590"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="655"
@@ -4720,7 +5025,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2592" />
+             id="rect2592"
+             ry="5" />
           <rect
              x="655"
              y="209.5"
@@ -4729,7 +5035,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2594"
-             style="fill:url(#radialGradient3349)" />
+             style="fill:url(#radialGradient3349)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4743,7 +5050,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2598" />
+             id="rect2598"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="703"
@@ -4752,7 +5060,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2600" />
+             id="rect2600"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="709"
@@ -4762,7 +5071,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2602" />
+             id="rect2602"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="709"
@@ -4771,7 +5081,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2604" />
+             id="rect2604"
+             ry="5" />
           <rect
              x="709"
              y="209.5"
@@ -4780,7 +5091,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2606"
-             style="fill:url(#radialGradient3351)" />
+             style="fill:url(#radialGradient3351)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4794,7 +5106,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2610" />
+             id="rect2610"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="757"
@@ -4803,7 +5116,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2612" />
+             id="rect2612"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="763"
@@ -4813,7 +5127,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2614" />
+             id="rect2614"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="763"
@@ -4822,7 +5137,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2616" />
+             id="rect2616"
+             ry="5" />
           <rect
              x="763"
              y="209.5"
@@ -4831,7 +5147,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2618"
-             style="fill:url(#radialGradient3353)" />
+             style="fill:url(#radialGradient3353)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4845,7 +5162,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2622" />
+             id="rect2622"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="14.5"
@@ -4854,7 +5172,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2624" />
+             id="rect2624"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="20.5"
@@ -4864,7 +5183,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2626" />
+             id="rect2626"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="20.5"
@@ -4873,7 +5193,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2628" />
+             id="rect2628"
+             ry="5" />
           <rect
              x="20.5"
              y="263.5"
@@ -4882,7 +5203,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2630"
-             style="fill:url(#radialGradient3355)" />
+             style="fill:url(#radialGradient3355)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4896,7 +5218,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2634" />
+             id="rect2634"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="136"
@@ -4905,7 +5228,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2636" />
+             id="rect2636"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="142"
@@ -4915,7 +5239,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2638" />
+             id="rect2638"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="142"
@@ -4924,7 +5249,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2640" />
+             id="rect2640"
+             ry="5" />
           <rect
              x="142"
              y="263.5"
@@ -4933,7 +5259,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2642"
-             style="fill:url(#radialGradient3357)" />
+             style="fill:url(#radialGradient3357)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4947,7 +5274,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2646" />
+             id="rect2646"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="190"
@@ -4956,7 +5284,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2648" />
+             id="rect2648"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="196"
@@ -4966,7 +5295,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2650" />
+             id="rect2650"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="196"
@@ -4975,7 +5305,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2652" />
+             id="rect2652"
+             ry="5" />
           <rect
              x="196"
              y="263.5"
@@ -4984,7 +5315,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2654"
-             style="fill:url(#radialGradient3359)" />
+             style="fill:url(#radialGradient3359)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -4998,7 +5330,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2658" />
+             id="rect2658"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="244"
@@ -5007,7 +5340,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2660" />
+             id="rect2660"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="250"
@@ -5017,7 +5351,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2662" />
+             id="rect2662"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="250"
@@ -5026,7 +5361,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2664" />
+             id="rect2664"
+             ry="5" />
           <rect
              x="250"
              y="263.5"
@@ -5035,7 +5371,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2666"
-             style="fill:url(#radialGradient3361)" />
+             style="fill:url(#radialGradient3361)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5049,7 +5386,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2670" />
+             id="rect2670"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="298"
@@ -5058,7 +5396,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2672" />
+             id="rect2672"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="304"
@@ -5068,7 +5407,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2674" />
+             id="rect2674"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="304"
@@ -5077,7 +5417,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2676" />
+             id="rect2676"
+             ry="5" />
           <rect
              x="304"
              y="263.5"
@@ -5086,7 +5427,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2678"
-             style="fill:url(#radialGradient3363)" />
+             style="fill:url(#radialGradient3363)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5100,7 +5442,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2682" />
+             id="rect2682"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="352"
@@ -5109,7 +5452,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2684" />
+             id="rect2684"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="358"
@@ -5119,7 +5463,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2686" />
+             id="rect2686"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="358"
@@ -5128,7 +5473,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2688" />
+             id="rect2688"
+             ry="5" />
           <rect
              x="358"
              y="263.5"
@@ -5137,7 +5483,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2690"
-             style="fill:url(#radialGradient3365)" />
+             style="fill:url(#radialGradient3365)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5151,7 +5498,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2694" />
+             id="rect2694"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="406"
@@ -5160,7 +5508,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2696" />
+             id="rect2696"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="412"
@@ -5170,7 +5519,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2698" />
+             id="rect2698"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="412"
@@ -5179,7 +5529,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2700" />
+             id="rect2700"
+             ry="5" />
           <rect
              x="412"
              y="263.5"
@@ -5188,7 +5539,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2702"
-             style="fill:url(#radialGradient3367)" />
+             style="fill:url(#radialGradient3367)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5202,7 +5554,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2706" />
+             id="rect2706"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="460"
@@ -5211,7 +5564,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2708" />
+             id="rect2708"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="466"
@@ -5221,7 +5575,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2710" />
+             id="rect2710"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="466"
@@ -5230,7 +5585,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2712" />
+             id="rect2712"
+             ry="5" />
           <rect
              x="466"
              y="263.5"
@@ -5239,7 +5595,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2714"
-             style="fill:url(#radialGradient3369)" />
+             style="fill:url(#radialGradient3369)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5253,7 +5610,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2718" />
+             id="rect2718"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="514"
@@ -5262,7 +5620,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2720" />
+             id="rect2720"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="520"
@@ -5272,7 +5631,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2722" />
+             id="rect2722"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="520"
@@ -5281,7 +5641,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2724" />
+             id="rect2724"
+             ry="5" />
           <rect
              x="520"
              y="263.5"
@@ -5290,7 +5651,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2726"
-             style="fill:url(#radialGradient3371)" />
+             style="fill:url(#radialGradient3371)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5304,7 +5666,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2730" />
+             id="rect2730"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="568"
@@ -5313,7 +5676,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2732" />
+             id="rect2732"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="574"
@@ -5323,7 +5687,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2734" />
+             id="rect2734"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="574"
@@ -5332,7 +5697,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2736" />
+             id="rect2736"
+             ry="5" />
           <rect
              x="574"
              y="263.5"
@@ -5341,7 +5707,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2738"
-             style="fill:url(#radialGradient3373)" />
+             style="fill:url(#radialGradient3373)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5355,7 +5722,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2742" />
+             id="rect2742"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="622"
@@ -5364,7 +5732,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2744" />
+             id="rect2744"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="628"
@@ -5374,7 +5743,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2746" />
+             id="rect2746"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="628"
@@ -5383,7 +5753,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2748" />
+             id="rect2748"
+             ry="5" />
           <rect
              x="628"
              y="263.5"
@@ -5392,7 +5763,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2750"
-             style="fill:url(#radialGradient3375)" />
+             style="fill:url(#radialGradient3375)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5406,7 +5778,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2754" />
+             id="rect2754"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="676"
@@ -5415,7 +5788,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2756" />
+             id="rect2756"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="682"
@@ -5425,7 +5799,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2758" />
+             id="rect2758"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="682"
@@ -5434,7 +5809,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2760" />
+             id="rect2760"
+             ry="5" />
           <rect
              x="682"
              y="263.5"
@@ -5443,7 +5819,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2762"
-             style="fill:url(#radialGradient3377)" />
+             style="fill:url(#radialGradient3377)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5457,7 +5834,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2766" />
+             id="rect2766"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="770.5"
@@ -5466,7 +5844,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2768" />
+             id="rect2768"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="776.5"
@@ -5476,7 +5855,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2770" />
+             id="rect2770"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="776.5"
@@ -5485,7 +5865,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2772" />
+             id="rect2772"
+             ry="5" />
           <rect
              x="776.5"
              y="263.5"
@@ -5494,7 +5875,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2774"
-             style="fill:url(#radialGradient3379)" />
+             style="fill:url(#radialGradient3379)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5508,7 +5890,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2778" />
+             id="rect2778"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="176.5"
@@ -5517,7 +5900,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2780" />
+             id="rect2780"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="182.5"
@@ -5527,7 +5911,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2782" />
+             id="rect2782"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="182.5"
@@ -5536,7 +5921,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2784" />
+             id="rect2784"
+             ry="5" />
           <rect
              x="182.5"
              y="317.5"
@@ -5545,7 +5931,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2786"
-             style="fill:url(#radialGradient3381)" />
+             style="fill:url(#radialGradient3381)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5559,7 +5946,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2790" />
+             id="rect2790"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="230.5"
@@ -5568,7 +5956,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2792" />
+             id="rect2792"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="236.5"
@@ -5578,7 +5967,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2794" />
+             id="rect2794"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="236.5"
@@ -5587,7 +5977,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2796" />
+             id="rect2796"
+             ry="5" />
           <rect
              x="236.5"
              y="317.5"
@@ -5596,7 +5987,8 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2798"
-             style="fill:url(#radialGradient3383)" />
+             style="fill:url(#radialGradient3383)"
+             ry="5" />
         </g>
         <g
            class="  keycap"
@@ -5610,7 +6002,8 @@
              rx="5"
              fill="#cccccc"
              class="outer border"
-             id="rect2802" />
+             id="rect2802"
+             ry="5" />
           <!-- Outer Fill -->
           <rect
              x="608.5"
@@ -5619,7 +6012,8 @@
              height="52"
              rx="5"
              fill="#cccccc"
-             id="rect2804" />
+             id="rect2804"
+             ry="5" />
           <!-- Inner Border -->
           <rect
              x="614.5"
@@ -5629,7 +6023,8 @@
              rx="5"
              fill="#fcfcfc"
              class="inner border"
-             id="rect2806" />
+             id="rect2806"
+             ry="5" />
           <!-- Inner Fill -->
           <rect
              x="614.5"
@@ -5638,7 +6033,8 @@
              height="40"
              rx="5"
              fill="#fcfcfc"
-             id="rect2808" />
+             id="rect2808"
+             ry="5" />
           <rect
              x="614.5"
              y="317.5"
@@ -5647,44 +6043,19 @@
              rx="5"
              fill="url(#DSA)"
              id="rect2810"
-             style="fill:url(#radialGradient3385)" />
+             style="fill:url(#radialGradient3385)"
+             ry="5" />
         </g>
       </g>
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer6"
-     inkscape:label="TEXT"
-     transform="translate(-6.1761643,9.6451625)">
-    <text
-       id="text766-3"
-       y="20.5478"
-       x="257.63806"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="20.5478"
-         x="257.63806"
-         id="tspan764-6"
-         sodipodi:role="line">ATARI XE series Keycap Set</tspan></text>
-    <text
-       id="text766-0-7"
-       y="456.66156"
-       x="5.1167622"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         y="456.66156"
-         x="5.1167622"
-         id="tspan764-7-5"
-         sodipodi:role="line"
-         style="font-size:26.6667px">Using Gorton Digital font created by: https://github.com/drdnar/GortonDigital/</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layout ROW"
      style="display:inline"
-     transform="translate(-71.571184,459.14653)">
+     transform="translate(135.36565,571.87431)"
+     sodipodi:insensitive="true">
     <text
        id="text5078"
        y="-267.05762"
@@ -5847,7 +6218,8 @@
      id="layer2"
      inkscape:label="Layout Sizes"
      style="display:inline"
-     transform="translate(-71.571184,459.14653)">
+     transform="translate(135.36565,571.87431)"
+     sodipodi:insensitive="true">
     <text
        id="text5117"
        y="-208.5394"
@@ -6028,9 +6400,10 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Legend QWERTY"
+     inkscape:label="Legend QWERTY Gorton"
      style="display:inline"
-     transform="translate(-71.571184,459.14653)">
+     transform="translate(135.36565,571.87431)"
+     sodipodi:insensitive="true">
     <text
        id="text5228"
        y="-279.96521"
@@ -6836,7 +7209,7 @@
       <g
          id="g3778">
         <path
-           style="display:inline;fill:#000000;stroke-width:0.10286643"
+           style="display:inline;fill:#000000;stroke-width:0.102866"
            d="M 23.6613,85.80873 V 79.34346 H 37.72233 51.78336 V 85.80873 92.274 H 37.72233 23.6613 Z"
            id="path6004-3"
            inkscape:connector-curvature="0" />
@@ -6857,7 +7230,7 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold'">CLR </tspan></tspan>SET</tspan><tspan
              style="text-align:center;text-anchor:middle"
              id="tspan6012"
-             y="106.73634"
+             y="106.73631"
              x="54.831749"
              sodipodi:role="line">TAB</tspan></text>
       </g>
@@ -7004,7 +7377,7 @@
          id="tspan5892-0"
          sodipodi:role="line"
          style="font-size:12px;text-align:center;text-anchor:middle">CAPS</tspan><tspan
-         y="-163.36751"
+         y="-163.36755"
          x="955.53076"
          sodipodi:role="line"
          style="font-size:12px;text-align:center;text-anchor:middle"
@@ -7110,11 +7483,1361 @@
          id="tspan4298-8-3-5-0"
          sodipodi:role="line">RESET</tspan></text>
     <path
-       style="display:inline;fill:#000000;stroke-width:0.02700765"
+       style="display:inline;fill:#000000;stroke-width:0.0270077"
        d="m 960.48528,-122.5802 v -12.3025 h 1.63765 1.63764 v 12.3025 12.3025 h -1.63764 -1.63765 z m -13.36529,10.46779 v -1.77948 l 0.12546,-0.0156 c 1.2388,-0.15401 2.92559,-1.01818 4.62899,-2.37151 1.93368,-1.53627 3.60135,-3.52535 4.36431,-5.20544 1.04571,-2.30272 1.23323,-5.71928 1.41545,-10.27634 0.014,-0.34933 0.0138,-1.20659 -0.002,-1.88616 l -0.0122,-1.22053 1.40677,-0.0152 0.41598,0.0305 0.0162,0.21976 c 0.0349,0.34342 0.0252,4.73321 -0.005,5.65937 -0.10976,3.32717 0.12362,5.81086 -0.36334,7.7834 -0.44711,1.81108 -1.30025,3.62238 -2.47718,5.25923 -1.93643,2.69317 -4.45233,4.56251 -7.10918,5.2822 -0.67425,0.18265 -1.58622,0.31532 -2.16745,0.31532 h -0.23628 z m 29.33233,1.76169 c -0.0436,-0.005 -0.20998,-0.0231 -0.36979,-0.0397 -0.63096,-0.0654 -1.43677,-0.25509 -2.12629,-0.50039 -3.04486,-1.08323 -5.88113,-3.73777 -7.62843,-7.13964 -1.26505,-2.46296 -1.17955,-5.08575 -1.44019,-10.18007 -0.0385,-0.75319 -0.0869,-5.74409 -0.0504,-6.1985 l -0.009,-0.42168 0.37421,-0.052 1.32037,0.0152 2.6e-4,0.61731 c 2.7e-4,0.83675 -0.0605,2.39469 -0.0131,3.28305 0.24251,4.54411 0.67367,8.08731 1.82359,10.13103 0.75191,1.33632 2.07178,2.88824 3.4964,4.11107 1.82826,1.5693 3.81443,2.65171 5.17047,2.81775 l 0.12546,0.0154 v 1.77948 1.77948 l -0.29715,-0.004 c -0.16344,-0.002 -0.33281,-0.008 -0.3764,-0.0136 z"
        id="path80"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccsscscccccsssscccsssscccccccsscccccc" />
+    <text
+       id="text766-3-6"
+       y="-428.95358"
+       x="323.03308"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-428.95358"
+         x="323.03308"
+         id="tspan764-6-1"
+         sodipodi:role="line">ATARI XE series Keycap Set</tspan></text>
+    <text
+       id="text766-0-7-8"
+       y="7.1601901"
+       x="70.51178"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="7.1601901"
+         x="70.51178"
+         id="tspan764-7-5-7"
+         sodipodi:role="line"
+         style="font-size:26.6667px">Using Gorton Digital font created by: https://github.com/drdnar/GortonDigital/</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g2597"
+     inkscape:label="Legend QWERTY Arial"
+     style="display:none"
+     transform="translate(135.36565,571.87431)"
+     sodipodi:insensitive="true">
+    <text
+       id="text2193"
+       y="-291.96521"
+       x="188.29532"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-291.96521"
+         x="188.29532"
+         id="tspan2191"
+         sodipodi:role="line">Esc</tspan></text>
+    <text
+       transform="scale(1,-1)"
+       id="text2195"
+       y="-87.493011"
+       x="222.22531"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve" />
+    <g
+       id="g2269"
+       transform="translate(155.89287,-333.88353)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="114.91918"
+         y="101.59417"
+         id="text2199"><tspan
+           sodipodi:role="line"
+           id="tspan2197"
+           x="114.91918"
+           y="101.59417"
+           style="font-size:21.3333px">Q</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="168.58969"
+         y="101.81873"
+         id="text2203"><tspan
+           sodipodi:role="line"
+           id="tspan2201"
+           x="168.58969"
+           y="101.81873"
+           style="font-size:21.3333px">W</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="224.13625"
+         y="101.81873"
+         id="text2207"><tspan
+           sodipodi:role="line"
+           id="tspan2205"
+           x="224.13625"
+           y="101.81873"
+           style="font-size:21.3333px">E</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="278.13623"
+         y="101.81873"
+         id="text2211"><tspan
+           sodipodi:role="line"
+           id="tspan2209"
+           x="278.13623"
+           y="101.81873"
+           style="font-size:21.3333px">R</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="332.13623"
+         y="101.81873"
+         id="text2215"><tspan
+           sodipodi:role="line"
+           id="tspan2213"
+           x="332.13623"
+           y="101.81873"
+           style="font-size:21.3333px">T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="386.13623"
+         y="101.81873"
+         id="text2219"><tspan
+           sodipodi:role="line"
+           id="tspan2217"
+           x="386.13623"
+           y="101.81873"
+           style="font-size:21.3333px">Y</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="440.13623"
+         y="101.81873"
+         id="text2223"><tspan
+           sodipodi:role="line"
+           id="tspan2221"
+           x="440.13623"
+           y="101.81873"
+           style="font-size:21.3333px">U</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="499.367"
+         y="101.55153"
+         id="text2227"><tspan
+           sodipodi:role="line"
+           id="tspan2225"
+           x="499.367"
+           y="101.55153"
+           style="font-size:21.3333px">I</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="547.367"
+         y="101.55153"
+         id="text2231"><tspan
+           sodipodi:role="line"
+           id="tspan2229"
+           x="547.367"
+           y="101.55153"
+           style="font-size:21.3333px">O</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="603.367"
+         y="101.55153"
+         id="text2235"><tspan
+           sodipodi:role="line"
+           id="tspan2233"
+           x="603.367"
+           y="101.55153"
+           style="font-size:21.3333px">P</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="673.99512"
+         y="93.078781"
+         id="text2239"><tspan
+           sodipodi:role="line"
+           id="tspan2237"
+           x="673.99512"
+           y="93.078781"
+           style="font-size:26.6667px">_</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.389px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.959724"
+         x="701.76172"
+         y="103.31613"
+         id="text2243"
+         transform="scale(1.0419664,0.95972384)"><tspan
+           sodipodi:role="line"
+           id="tspan2241"
+           x="701.76172"
+           y="103.31613"
+           style="font-size:17.9148px;stroke-width:0.959724"> |</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2676px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.881689"
+         x="567.83398"
+         y="423.15033"
+         id="text2247"
+         transform="matrix(0.91520269,-0.40144439,0.40194539,0.91634485,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan2245"
+           x="567.83398"
+           y="423.15033"
+           style="font-size:18.8094px;stroke-width:0.881689"> \</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.3763px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="626.68445"
+         y="188.9496"
+         id="text2251"
+         transform="scale(1.1844064,0.84430479)"><tspan
+           sodipodi:role="line"
+           id="tspan2249"
+           x="626.68445"
+           y="188.9496"
+           style="font-size:22.109px;stroke-width:1">^</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="668.86798"
+         y="173.95528"
+         id="text2255"><tspan
+           sodipodi:role="line"
+           id="tspan2253"
+           x="668.86798"
+           y="173.95528"
+           style="font-size:21.3333px">+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="724.77679"
+         y="182.26146"
+         id="text2259"><tspan
+           sodipodi:role="line"
+           id="tspan2257"
+           x="724.77679"
+           y="182.26146"
+           style="font-size:26.6667px">*</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="711.65515"
+         y="121.13767"
+         id="text2263"><tspan
+           sodipodi:role="line"
+           id="tspan2261"
+           x="711.65515"
+           y="121.13767"
+           style="font-size:21.3333px">=</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="656.6825"
+         y="122.52797"
+         id="text2267"><tspan
+           sodipodi:role="line"
+           id="tspan2265"
+           x="656.6825"
+           y="122.52797"
+           style="font-size:26.6667px">-</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2676px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.881689"
+         x="533.11816"
+         y="-410.14212"
+         id="text2247-6"
+         transform="matrix(0.55179947,0.83322921,-0.83426906,0.55248811,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan2245-7"
+           x="533.11816"
+           y="-410.14212"
+           style="font-size:18.8094px;stroke-width:0.881689"> \</tspan></text>
+    </g>
+    <g
+       transform="translate(169.40668,-280.74745)"
+       id="g2309">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="115.89474"
+         y="101.83806"
+         id="text2273"><tspan
+           sodipodi:role="line"
+           id="tspan2271"
+           x="115.89474"
+           y="101.83806"
+           style="font-size:21.3333px">A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="170.58969"
+         y="101.81873"
+         id="text2277"><tspan
+           sodipodi:role="line"
+           id="tspan2275"
+           x="170.58969"
+           y="101.81873"
+           style="font-size:21.3333px">S</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="222.13625"
+         y="101.81873"
+         id="text2281"><tspan
+           sodipodi:role="line"
+           id="tspan2279"
+           x="222.13625"
+           y="101.81873"
+           style="font-size:21.3333px">D</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="278.13623"
+         y="101.81873"
+         id="text2285"><tspan
+           sodipodi:role="line"
+           id="tspan2283"
+           x="278.13623"
+           y="101.81873"
+           style="font-size:21.3333px">F</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="330.13623"
+         y="101.81873"
+         id="text2289"><tspan
+           sodipodi:role="line"
+           id="tspan2287"
+           x="330.13623"
+           y="101.81873"
+           style="font-size:21.3333px">G</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="384.13623"
+         y="101.81873"
+         id="text2293"><tspan
+           sodipodi:role="line"
+           id="tspan2291"
+           x="384.13623"
+           y="101.81873"
+           style="font-size:21.3333px">H</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="440.13623"
+         y="101.81873"
+         id="text2297"><tspan
+           sodipodi:role="line"
+           id="tspan2295"
+           x="440.13623"
+           y="101.81873"
+           style="font-size:21.3333px">J</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="493.367"
+         y="101.55153"
+         id="text2301"><tspan
+           sodipodi:role="line"
+           id="tspan2299"
+           x="493.367"
+           y="101.55153"
+           style="font-size:21.3333px">K</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="547.367"
+         y="101.55153"
+         id="text2305"><tspan
+           sodipodi:role="line"
+           id="tspan2303"
+           x="547.367"
+           y="101.55153"
+           style="font-size:21.3333px">L</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="601.367"
+         y="101.55153"
+         id="text2307" />
+    </g>
+    <g
+       transform="translate(194.61316,-224.90129)"
+       id="g2345">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="115.89474"
+         y="101.83806"
+         id="text2313"><tspan
+           sodipodi:role="line"
+           id="tspan2311"
+           x="115.89474"
+           y="101.83806"
+           style="font-size:21.3333px">Z</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="169.12636"
+         y="101.81873"
+         id="text2317"><tspan
+           sodipodi:role="line"
+           id="tspan2315"
+           x="169.12636"
+           y="101.81873"
+           style="font-size:21.3333px">X</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="224.13625"
+         y="101.81873"
+         id="text2321"><tspan
+           sodipodi:role="line"
+           id="tspan2319"
+           x="224.13625"
+           y="101.81873"
+           style="font-size:21.3333px">C</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="276.91678"
+         y="101.81873"
+         id="text2325"><tspan
+           sodipodi:role="line"
+           id="tspan2323"
+           x="276.91678"
+           y="101.81873"
+           style="font-size:21.3333px">V</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="332.13623"
+         y="101.81873"
+         id="text2329"><tspan
+           sodipodi:role="line"
+           id="tspan2327"
+           x="332.13623"
+           y="101.81873"
+           style="font-size:21.3333px">B</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="386.13623"
+         y="101.81873"
+         id="text2333"><tspan
+           sodipodi:role="line"
+           id="tspan2331"
+           x="386.13623"
+           y="101.81873"
+           style="font-size:21.3333px">N</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="438.13623"
+         y="101.81873"
+         id="text2337"><tspan
+           sodipodi:role="line"
+           id="tspan2335"
+           x="438.13623"
+           y="101.81873"
+           style="font-size:21.3333px">M</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="497.367"
+         y="101.55153"
+         id="text2339" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="547.367"
+         y="101.55153"
+         id="text2341" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="601.367"
+         y="101.55153"
+         id="text2343" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="243.55994"
+       y="-286.10626"
+       id="text2349"><tspan
+         sodipodi:role="line"
+         id="tspan2347"
+         x="243.55994"
+         y="-286.10626"
+         style="font-size:21.3333px">!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="299.12851"
+       y="-286.12558"
+       id="text2353"><tspan
+         sodipodi:role="line"
+         id="tspan2351"
+         x="299.12851"
+         y="-286.12558"
+         style="font-size:21.3333px">&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="353.52664"
+       y="-290.12558"
+       id="text2357"><tspan
+         sodipodi:role="line"
+         id="tspan2355"
+         x="353.52664"
+         y="-290.12558"
+         style="font-size:16px">#</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.5395px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+       x="352.91583"
+       y="-337.13812"
+       id="text2361"
+       transform="scale(1.15545,0.86546367)"><tspan
+         sodipodi:role="line"
+         id="tspan2359"
+         x="352.91583"
+         y="-337.13812"
+         style="font-size:11.5395px;stroke-width:1">$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="457.98718"
+       y="-290.12558"
+       id="text2365"><tspan
+         sodipodi:role="line"
+         id="tspan2363"
+         x="457.98718"
+         y="-290.12558"
+         style="font-size:16px">%</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="620.32538"
+       y="-288.56445"
+       id="text2369"><tspan
+         sodipodi:role="line"
+         id="tspan2367"
+         x="620.32538"
+         y="-288.56445"
+         style="font-size:16px">@</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="678.08337"
+       y="-289.6611"
+       id="text2373"><tspan
+         sodipodi:role="line"
+         id="tspan2371"
+         x="678.08337"
+         y="-289.6611"
+         style="font-size:16px">(</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="733.49902"
+       y="-289.905"
+       id="text2377"><tspan
+         sodipodi:role="line"
+         id="tspan2375"
+         x="733.49902"
+         y="-289.905"
+         style="font-size:16px">)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="785.76886"
+       y="-294.0831"
+       id="text2381"><tspan
+         sodipodi:role="line"
+         id="tspan2379"
+         x="785.76886"
+         y="-294.0831">Clear</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="837.79962"
+       y="-294.15341"
+       id="text2385"><tspan
+         sodipodi:role="line"
+         id="tspan2383"
+         x="837.79962"
+         y="-294.15341">Insert</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="890.96729"
+       y="-294.15341"
+       id="text2389"><tspan
+         id="tspan2387"
+         sodipodi:role="line"
+         x="890.96729"
+         y="-294.15341">Delete</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="514.45685"
+       y="-289.86627"
+       id="text2393"><tspan
+         sodipodi:role="line"
+         id="tspan2391"
+         x="514.45685"
+         y="-289.86627"
+         style="font-size:16px">&amp;</tspan></text>
+    <flowRoot
+       transform="translate(163.89287,-323.88353)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2401"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2397"><rect
+           y="30.162268"
+           x="730.09888"
+           height="22.827688"
+           width="21.459984"
+           id="rect2395" /></flowRegion><flowPara
+         id="flowPara2399" /></flowRoot>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.90025"
+       x="175.17299"
+       y="-578.69958"
+       id="text2405"
+       transform="matrix(0.5454183,0.76561687,-0.7991885,0.71161493,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan2403"
+         x="175.17299"
+         y="-578.69958"
+         style="font-size:21.3333px;fill:#000000;fill-opacity:1;stroke-width:1.90025" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="242.06122"
+       y="-267.27856"
+       id="text2411"><tspan
+         sodipodi:role="line"
+         id="tspan2409"
+         x="242.06122"
+         y="-267.27856"
+         style="font-size:18.6667px">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="297.92413"
+       y="-267.29788"
+       id="text2415"><tspan
+         sodipodi:role="line"
+         id="tspan2413"
+         x="297.92413"
+         y="-267.29788"
+         style="font-size:18.6667px">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="352.79745"
+       y="-267.29788"
+       id="text2419"><tspan
+         sodipodi:role="line"
+         id="tspan2417"
+         x="352.79745"
+         y="-267.29788"
+         style="font-size:18.6667px">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="406.55133"
+       y="-267.29788"
+       id="text2423"><tspan
+         sodipodi:role="line"
+         id="tspan2421"
+         x="406.55133"
+         y="-267.29788"
+         style="font-size:18.6667px">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="459.86868"
+       y="-267.29788"
+       id="text2427"><tspan
+         sodipodi:role="line"
+         id="tspan2425"
+         x="459.86868"
+         y="-267.29788"
+         style="font-size:18.6667px">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="514.83966"
+       y="-267.29788"
+       id="text2431"><tspan
+         sodipodi:role="line"
+         id="tspan2429"
+         x="514.83966"
+         y="-267.29788"
+         style="font-size:18.6667px">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="568.54926"
+       y="-267.29788"
+       id="text2435"><tspan
+         sodipodi:role="line"
+         id="tspan2433"
+         x="568.54926"
+         y="-267.29788"
+         style="font-size:18.6667px">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="623.43213"
+       y="-267.41196"
+       id="text2439"><tspan
+         sodipodi:role="line"
+         id="tspan2437"
+         x="623.43213"
+         y="-267.41196"
+         style="font-size:18.6667px">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="675.77478"
+       y="-267.61398"
+       id="text2443"><tspan
+         sodipodi:role="line"
+         id="tspan2441"
+         x="675.77478"
+         y="-267.61398"
+         style="font-size:18.6667px">9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="733.677"
+       y="-274.89355"
+       id="text2445" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="839.3772"
+       y="-269.34146"
+       id="text2449"><tspan
+         sodipodi:role="line"
+         id="tspan2447"
+         x="839.3772"
+         y="-269.34146">&gt;</tspan></text>
+    <text
+       id="text2457"
+       y="-270.61389"
+       x="892.72363"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-270.61389"
+         x="892.72363"
+         id="tspan2455"
+         sodipodi:role="line">Bk Sp</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="785.30939"
+       y="-269.57965"
+       id="text2461"><tspan
+         sodipodi:role="line"
+         id="tspan2459"
+         x="785.30939"
+         y="-269.57965">&lt;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="731.22687"
+       y="-267.78622"
+       id="text2465"><tspan
+         sodipodi:role="line"
+         id="tspan2463"
+         x="731.22687"
+         y="-267.78622"
+         style="font-size:18.6667px">0</tspan></text>
+    <text
+       id="text2469"
+       y="-294.15341"
+       x="945.21313"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-294.15341"
+         x="945.21313"
+         id="tspan2467"
+         sodipodi:role="line">Break</tspan></text>
+    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2479"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2475"><rect
+           y="22.196585"
+           x="93.125702"
+           height="29.66226"
+           width="7.5880198"
+           id="rect2473" /></flowRegion><flowPara
+         id="flowPara2477" /></flowRoot>
+    <use
+       id="use2507"
+       style="fill:#000000;stroke:#000000"
+       xlink:href="#UpArrow_Inv"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.25,0,0,0.25,808.07535,-247.94501)" />
+    <use
+       id="use2509"
+       style="fill:#000000;stroke:#000000"
+       xlink:href="#DownArrow_Inv"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.25,0,0,0.25,861.95341,-247.94501)" />
+    <use
+       id="use2511"
+       style="fill:#000000;stroke:#000000"
+       xlink:href="#LeftArrow_Inv"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.25,0,0,0.25,821.45341,-193.67057)" />
+    <use
+       id="use2513"
+       style="fill:#000000;stroke:#000000"
+       xlink:href="#RightArrow_Inv"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.25,0,0,0.25,875.54479,-193.8353)" />
+    <text
+       id="text2519"
+       y="-183.22752"
+       x="770.32446"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:16px"
+         y="-183.22752"
+         x="770.32446"
+         id="tspan2515"
+         sodipodi:role="line">:</tspan><tspan
+         style="font-size:16px"
+         id="tspan2517"
+         y="-163.22752"
+         x="770.32446"
+         sodipodi:role="line">;</tspan></text>
+    <text
+       id="text2525"
+       y="-126.11575"
+       x="802.88263"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan2523"
+         style="font-size:16px;text-align:center;text-anchor:middle"
+         y="-126.11575"
+         x="802.88263"
+         sodipodi:role="line">?</tspan></text>
+    <text
+       id="text2531"
+       y="-128.11575"
+       x="743.42682"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:16px"
+         id="tspan2527"
+         y="-128.11575"
+         x="743.42682"
+         sodipodi:role="line">]</tspan><tspan
+         id="tspan2529"
+         style="font-size:16px"
+         y="-108.11575"
+         x="743.42682"
+         sodipodi:role="line">.</tspan></text>
+    <text
+       id="text2537"
+       y="-128.12469"
+       x="688.05585"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:16px"
+         id="tspan2533"
+         y="-128.12469"
+         x="688.05585"
+         sodipodi:role="line">[</tspan><tspan
+         id="tspan2535"
+         style="font-size:16px"
+         y="-108.12469"
+         x="688.05585"
+         sodipodi:role="line">,</tspan></text>
+    <text
+       id="text2541"
+       y="-127.30309"
+       x="189.12099"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-127.30309"
+         x="189.12099"
+         id="tspan2539"
+         sodipodi:role="line">Shift</tspan></text>
+    <text
+       id="text2545"
+       y="-128.6026"
+       x="850.25415"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-128.6026"
+         x="850.25415"
+         id="tspan2543"
+         sodipodi:role="line">Shift</tspan></text>
+    <text
+       id="text2549"
+       y="-237.64546"
+       x="918.39294"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.3288px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.924658"
+       xml:space="preserve"><tspan
+         style="font-size:12.3288px;stroke-width:0.924658"
+         y="-237.64546"
+         x="918.39294"
+         id="tspan2547"
+         sodipodi:role="line">Return</tspan></text>
+    <text
+       id="text2555"
+       y="-184.03418"
+       x="945.53076"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-184.03418"
+         x="945.53076"
+         sodipodi:role="line"
+         style="font-size:12px;text-align:center;text-anchor:middle"
+         id="tspan2553">Caps</tspan></text>
+    <text
+       id="text2557"
+       y="-162.0909"
+       x="934.42877"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve" />
+    <text
+       id="text2561"
+       y="-382.62357"
+       x="296.66284"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2559"
+         x="296.66284"
+         y="-382.62357"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial">F1</tspan></text>
+    <text
+       id="text2565"
+       y="-382.62357"
+       x="376.09225"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2563"
+         x="376.09225"
+         y="-382.62357"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial">F2</tspan></text>
+    <text
+       id="text2569"
+       y="-382.62357"
+       x="454.37726"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2567"
+         x="454.37726"
+         y="-382.62357"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial">F3</tspan></text>
+    <text
+       id="text2573"
+       y="-382.66263"
+       x="533.0224"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2571"
+         x="533.0224"
+         y="-382.66263"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial">F4</tspan></text>
+    <text
+       id="text2577"
+       y="-382.34714"
+       x="618.94373"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-382.34714"
+         x="618.94373"
+         id="tspan2575"
+         sodipodi:role="line">Help</tspan></text>
+    <text
+       id="text2581"
+       y="-382.18439"
+       x="698.61798"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-382.18439"
+         x="698.61798"
+         id="tspan2579"
+         sodipodi:role="line">Start</tspan></text>
+    <text
+       id="text2585"
+       y="-382.18439"
+       x="780.29218"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-382.18439"
+         x="780.29218"
+         id="tspan2583"
+         sodipodi:role="line">Select</tspan></text>
+    <text
+       id="text2589"
+       y="-382.17789"
+       x="861.41547"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-382.17789"
+         x="861.41547"
+         id="tspan2587"
+         sodipodi:role="line">Option</tspan></text>
+    <text
+       id="text2593"
+       y="-382.34714"
+       x="941.50403"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-382.34714"
+         x="941.50403"
+         id="tspan2591"
+         sodipodi:role="line">Reset</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb"
+       x="314.46048"
+       y="-549.6626"
+       id="text4068"
+       transform="rotate(33.411766)"><tspan
+         sodipodi:role="line"
+         id="tspan4066"
+         x="314.46048"
+         y="-549.6626"
+         style="font-size:21.3333px">'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;line-height:0;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb"
+       x="224.41357"
+       y="-235.21364"
+       id="text4089"><tspan
+         sodipodi:role="line"
+         id="tspan4087"
+         x="224.41357"
+         y="-235.21364">Set</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;line-height:0;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb"
+       x="190.32297"
+       y="-215.48259"
+       id="text4093"><tspan
+         sodipodi:role="line"
+         id="tspan4091"
+         x="190.32297"
+         y="-215.48259">Tab</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.377953"
+       id="rect4983"
+       width="20.584549"
+       height="14.970427"
+       x="189.18549"
+       y="-247.47098"
+       ry="1.4062405"
+       rx="1.4062405" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb"
+       x="189.81633"
+       y="-235.21364"
+       id="text4085"><tspan
+         sodipodi:role="line"
+         id="tspan4083"
+         x="189.81633"
+         y="-235.21364"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff">Clr</tspan></text>
+    <g
+       id="g5466"
+       transform="translate(0,18)">
+      <g
+         id="g5473"
+         transform="translate(0,-18)">
+        <rect
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.377953"
+           id="rect4983-3"
+           width="46.763672"
+           height="14.970427"
+           x="189.20058"
+           y="-192.51936"
+           ry="1.4062405"
+           rx="1.4062403" />
+        <g
+           id="g2489"
+           transform="matrix(0.96671913,0,0,1,163.30517,-327.75839)"
+           style="stroke-width:1.01707">
+          <g
+             id="g4073"
+             transform="translate(-2,-6)"
+             style="stroke-width:1.01707">
+            <text
+               transform="scale(0.98849639,1.0116375)"
+               id="text2485"
+               y="151.50336"
+               x="30.30636"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.18px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00537"
+               xml:space="preserve"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.18px;font-family:Arial;-inkscape-font-specification:Arial;fill:#f9f9f9;stroke-width:1.00537"
+                 y="151.50336"
+                 x="30.30636"
+                 id="tspan2483"
+                 sodipodi:role="line">Control</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5021"
+       transform="matrix(0.68711987,0,0,0.92385898,296.96957,-10.578166)"
+       style="stroke-width:1.25511">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.474372"
+         id="rect5009"
+         width="22.677166"
+         height="11.338583"
+         x="946.86346"
+         y="-138.34862"
+         rx="0"
+         ry="0" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.47437"
+         id="rect5011"
+         width="22.303316"
+         height="11.004989"
+         x="947.05023"
+         y="-138.14934" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.376532;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 947.06217,-127.2114 22.3019,-10.90395"
+         id="path5013" />
+      <path
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.376532;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 875.67135,326.43007 v -5.23909 l 10.71098,7.5e-4 10.71097,7.5e-4 -0.0801,0.0417 c -0.0848,0.0442 -21.28764,10.41272 -21.32185,10.42676 -0.016,0.007 -0.02,-1.04589 -0.02,-5.23086 z"
+         id="path5015"
+         transform="translate(71.571184,-459.14653)" />
+    </g>
+    <text
+       id="text766-3-9"
+       y="-428.95358"
+       x="196.51328"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="-428.95358"
+         x="196.51328"
+         id="tspan764-6-2"
+         sodipodi:role="line">ATARI XE series Keycap Set</tspan></text>
+    <text
+       id="text766-0-7-0"
+       y="7.1602058"
+       x="191.49799"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="7.1602058"
+         x="191.49799"
+         id="tspan764-7-5-2"
+         sodipodi:role="line"
+         style="font-size:26.6667px">Using Arial Standard font as Original Version</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="CutContour"
+     style="display:none"
+     transform="translate(206.93683,112.72778)"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714"
+       width="45.25433"
+       height="45.25433"
+       x="-108.61912"
+       y="-57.163483"
+       rx="1.4062401"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3"
+       width="56.592915"
+       height="45.25433"
+       x="-119.9577"
+       y="-1.2413435"
+       rx="1.4062402"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3-7"
+       width="67.931496"
+       height="45.25433"
+       x="-131.29628"
+       y="54.680794"
+       rx="1.4062403"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3-7-5"
+       width="79.270081"
+       height="45.25433"
+       x="-142.63487"
+       y="110.60294"
+       rx="1.4062403"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3-7-5-9"
+       width="90.608658"
+       height="45.25433"
+       x="-153.97345"
+       y="166.52507"
+       rx="1.4062403"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3-7-5-9-2"
+       width="101.94724"
+       height="45.25433"
+       x="-165.31203"
+       y="222.4472"
+       rx="1.4062403"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3-7-5-9-2-2"
+       width="113.28583"
+       height="45.25433"
+       x="-176.65062"
+       y="278.36935"
+       rx="1.4062403"
+       ry="1.40624" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-3-7-5-9-2-2-8"
+       width="124.62441"
+       height="45.25433"
+       x="-187.9892"
+       y="334.29147"
+       rx="1.4062405"
+       ry="1.40624" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.278389"
+       y="-17.335438"
+       id="text5858"><tspan
+         sodipodi:role="line"
+         id="tspan5856"
+         x="-59.278389"
+         y="-17.335438">1.00u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.278389"
+       y="39.033756"
+       id="text5858-9"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7"
+         x="-59.278389"
+         y="39.033756">1.25u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.278389"
+       y="95.402946"
+       id="text5858-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7-6"
+         x="-59.278389"
+         y="95.402946">1.50u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.278389"
+       y="151.77214"
+       id="text5858-9-3-1"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7-6-2"
+         x="-59.278389"
+         y="151.77214">1.75u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.274605"
+       y="208.14134"
+       id="text5858-9-3-1-9"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7-6-2-3"
+         x="-59.274605"
+         y="208.14134">2.00u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.274605"
+       y="264.51056"
+       id="text5858-9-3-1-9-1"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7-6-2-3-9"
+         x="-59.274605"
+         y="264.51056">2.25u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.274605"
+       y="320.87973"
+       id="text5858-9-3-1-9-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7-6-2-3-9-7"
+         x="-59.274605"
+         y="320.87973">2.50u</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-59.274605"
+       y="377.24893"
+       id="text5858-9-3-1-9-1-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan5856-7-6-2-3-9-7-4"
+         x="-59.274605"
+         y="377.24893">2.75u</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5714-0"
+       width="22.577166"
+       height="22.577166"
+       x="-86.55687"
+       y="-93.780144"
+       rx="1.4062401"
+       ry="1.40624" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#ff0000"
+       x="-58.940948"
+       y="-72.348915"
+       id="text5858-1"><tspan
+         sodipodi:role="line"
+         id="tspan5856-0"
+         x="-58.940948"
+         y="-72.348915">0.5u</tspan></text>
   </g>
   <style
      type="text/css"
