@@ -36,20 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1048"
+     inkscape:window-width="2560"
+     inkscape:window-height="1412"
      id="namedview1368"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
-     inkscape:zoom="1.15106"
-     inkscape:cx="756.8315"
+     inkscape:zoom="6.5113786"
+     inkscape:cx="1000.4943"
      inkscape:cy="321.87632"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="g2340"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-global="false"
@@ -5671,7 +5671,7 @@
        id="text5078"
        y="37.946743"
        x="-269.14218"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="37.946743"
          x="-269.14218"
@@ -5682,7 +5682,7 @@
        id="text5094"
        y="108.59856"
        x="-270.01694"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="108.59856"
          x="-270.01694"
@@ -5693,7 +5693,7 @@
        id="text5098"
        y="181.60545"
        x="-271.6767"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="181.60545"
          x="-271.6767"
@@ -5704,7 +5704,7 @@
        id="text5102"
        y="258.53745"
        x="-271.26172"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="258.53745"
          x="-271.26172"
@@ -5715,7 +5715,7 @@
        id="text5106"
        y="333.11435"
        x="-269.13095"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="333.11435"
          x="-269.13095"
@@ -5723,7 +5723,7 @@
          sodipodi:role="line"
          style="stroke-width:1.385">R1</tspan></text>
     <flowRoot
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;text-align:justify;text-anchor:start;word-spacing:0px"
        id="flowRoot5217"
        xml:space="preserve"><flowRegion
          style="text-align:justify;text-anchor:start"
@@ -5736,7 +5736,7 @@
            id="rect5221" /></flowRegion><flowPara
          id="flowPara5223" /></flowRoot>
     <flowRoot
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
        id="flowRoot12175"
        xml:space="preserve"><flowRegion
          id="flowRegion12177"><rect
@@ -5750,19 +5750,19 @@
        id="text12238"
        y="-129.87418"
        x="545.33398"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
        xml:space="preserve" />
     <text
        id="text12316"
        y="282.70004"
        x="1243.3892"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
        xml:space="preserve" />
     <text
        id="text5078-3"
        y="-77.892914"
        x="-266.10754"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="-77.892914"
          x="-266.10754"
@@ -5773,7 +5773,7 @@
        id="text5078-6"
        y="42.935352"
        x="1164.0143"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="42.935352"
          x="1164.0143"
@@ -5784,7 +5784,7 @@
        id="text5094-8"
        y="113.58717"
        x="1163.1395"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="113.58717"
          x="1163.1395"
@@ -5795,7 +5795,7 @@
        id="text5098-2"
        y="186.59406"
        x="1161.4799"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="186.59406"
          x="1161.4799"
@@ -5806,7 +5806,7 @@
        id="text5102-4"
        y="263.52603"
        x="1161.8947"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="263.52603"
          x="1161.8947"
@@ -5817,7 +5817,7 @@
        id="text5106-7"
        y="338.10297"
        x="1164.0255"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="338.10297"
          x="1164.0255"
@@ -5828,7 +5828,7 @@
        id="text5078-3-4"
        y="-72.904312"
        x="1167.049"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#00ff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="-72.904312"
          x="1167.049"
@@ -5846,7 +5846,7 @@
        id="text5117"
        y="123.87676"
        x="-67.904648"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="123.87676"
@@ -5857,7 +5857,7 @@
        id="text5117-9"
        y="199.17177"
        x="-49.306931"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="199.17177"
@@ -5868,7 +5868,7 @@
        id="text5117-6"
        y="273.259"
        x="-24.399666"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="273.259"
@@ -5879,7 +5879,7 @@
        id="text5117-18"
        y="340.40973"
        x="696.93042"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="340.40973"
@@ -5890,7 +5890,7 @@
        id="text5117-7"
        y="341.19476"
        x="612.6424"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="341.19476"
@@ -5901,7 +5901,7 @@
        id="text5117-91"
        y="340.82468"
        x="102.19098"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="340.82468"
@@ -5912,7 +5912,7 @@
        id="text5117-36"
        y="271.93384"
        x="867.63708"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="271.93384"
@@ -5923,13 +5923,13 @@
        id="text5117-66"
        y="175.10548"
        x="800.41174"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
        xml:space="preserve" />
     <text
        id="text5117-2"
        y="121.55577"
        x="938.3233"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="121.55577"
@@ -5940,7 +5940,7 @@
        id="text5117-36-6"
        y="198.50357"
        x="940.95239"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="198.50357"
@@ -5951,7 +5951,7 @@
        id="text5117-94"
        y="48.091686"
        x="-104.56833"
-       style="font-style:normal;font-weight:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="display:inline;fill:#ffff00;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-style:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:14.7733px;fill:#ffff00;fill-opacity:1;stroke-width:1.385"
          y="48.091686"
@@ -5969,7 +5969,7 @@
        id="text5228"
        y="21.839676"
        x="-138.46132"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55.4px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:55.4px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:18.4667px;fill:#ffffff;fill-opacity:1;stroke-width:1.385"
          y="21.839676"
@@ -5981,7 +5981,7 @@
        id="text5232-4"
        y="-87.493011"
        x="222.22531"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
        xml:space="preserve" />
     <g
        id="g5442"
@@ -5989,7 +5989,7 @@
        transform="matrix(1.385,0,0,1.385,-168.85816,-38.59382)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="115.89474"
          y="99.838058"
          id="text5232"><tspan
@@ -6000,7 +6000,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">Q</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="168.58969"
          y="99.818733"
          id="text5232-3"><tspan
@@ -6011,7 +6011,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">W</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="224.13625"
          y="99.818733"
          id="text5232-3-7"><tspan
@@ -6022,7 +6022,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">E</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="278.13623"
          y="99.818733"
          id="text5232-3-7-3"><tspan
@@ -6033,7 +6033,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">R</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="332.13623"
          y="99.818733"
          id="text5232-3-7-3-7"><tspan
@@ -6044,7 +6044,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">T</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="386.13623"
          y="99.818733"
          id="text5232-3-7-3-7-2"><tspan
@@ -6055,7 +6055,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">Y</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="440.13623"
          y="99.818733"
          id="text5232-3-7-3-7-2-9"><tspan
@@ -6066,7 +6066,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">U</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="499.367"
          y="99.551529"
          id="text5232-3-7-3-7-2-9-6"><tspan
@@ -6077,7 +6077,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">I</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="547.367"
          y="99.551529"
          id="text5232-3-7-3-7-2-9-6-2"><tspan
@@ -6088,7 +6088,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">O</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="603.367"
          y="99.551529"
          id="text5232-3-7-3-7-2-9-6-2-4"><tspan
@@ -6099,7 +6099,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">P</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="665.37347"
          y="88.732834"
          id="text5232-3-7-3-7-2-9-6-2-4-8"><tspan
@@ -6110,7 +6110,7 @@
            style="font-size:26.6667px;fill:#ffffff;fill-opacity:1">_</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="716.72449"
          y="88.92083"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1"><tspan
@@ -6121,7 +6121,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1"> |</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.1283px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.903209"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:36.1283px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:0.903209;word-spacing:0px"
          x="672.8327"
          y="143.22961"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1-8"
@@ -6133,7 +6133,7 @@
            style="font-size:19.2684px;fill:#ffffff;fill-opacity:1;stroke-width:0.903209"> \</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="736.44733"
          y="145.53105"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-0"><tspan
@@ -6144,7 +6144,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">^</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="670.86798"
          y="163.95528"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05"><tspan
@@ -6155,7 +6155,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">+</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="724.19098"
          y="170.43823"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05-5"><tspan
@@ -6166,7 +6166,7 @@
            style="font-size:26.6667px;fill:#ffffff;fill-opacity:1">*</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="711.65515"
          y="111.13767"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05-5-8"><tspan
@@ -6177,7 +6177,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">=</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="656.6825"
          y="112.70474"
          id="text5232-3-7-3-7-2-9-6-2-4-8-1-8-05-5-8-2"><tspan
@@ -6193,7 +6193,7 @@
        style="fill:#ffffff;fill-opacity:1">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="115.89474"
          y="101.83806"
          id="text5232-8"><tspan
@@ -6204,7 +6204,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">A</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="170.58969"
          y="101.81873"
          id="text5232-3-3"><tspan
@@ -6215,7 +6215,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">S</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="222.13625"
          y="101.81873"
          id="text5232-3-7-2"><tspan
@@ -6226,7 +6226,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">D</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="278.13623"
          y="101.81873"
          id="text5232-3-7-3-3"><tspan
@@ -6237,7 +6237,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">F</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="330.13623"
          y="101.81873"
          id="text5232-3-7-3-7-6"><tspan
@@ -6248,7 +6248,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">G</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="384.13623"
          y="101.81873"
          id="text5232-3-7-3-7-2-8"><tspan
@@ -6259,7 +6259,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">H</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="440.13623"
          y="101.81873"
          id="text5232-3-7-3-7-2-9-1"><tspan
@@ -6270,7 +6270,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">J</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="493.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-6"><tspan
@@ -6281,7 +6281,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">K</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="547.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-2-3"><tspan
@@ -6292,7 +6292,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">L</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="601.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-2-4-3" />
@@ -6303,7 +6303,7 @@
        style="fill:#ffffff;fill-opacity:1">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="115.89474"
          y="101.83806"
          id="text5232-8-9"><tspan
@@ -6314,7 +6314,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">Z</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="170.58969"
          y="101.81873"
          id="text5232-3-3-6"><tspan
@@ -6325,7 +6325,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">X</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="224.13625"
          y="101.81873"
          id="text5232-3-7-2-4"><tspan
@@ -6336,7 +6336,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">C</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="278.13623"
          y="101.81873"
          id="text5232-3-7-3-3-0"><tspan
@@ -6347,7 +6347,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">V</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="332.13623"
          y="101.81873"
          id="text5232-3-7-3-7-6-4"><tspan
@@ -6358,7 +6358,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">B</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="386.13623"
          y="101.81873"
          id="text5232-3-7-3-7-2-8-0"><tspan
@@ -6369,7 +6369,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">N</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="438.13623"
          y="101.81873"
          id="text5232-3-7-3-7-2-9-1-1"><tspan
@@ -6380,19 +6380,19 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">M</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="497.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-6-8" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="547.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-2-3-5" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="601.367"
          y="101.55153"
          id="text5232-3-7-3-7-2-9-6-2-4-3-1" />
@@ -6403,7 +6403,7 @@
        style="fill:#ffffff;fill-opacity:1">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="113.89474"
          y="101.83806"
          id="text5232-36"><tspan
@@ -6414,7 +6414,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">!</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="166.44154"
          y="101.81873"
          id="text5232-3-37"><tspan
@@ -6425,7 +6425,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">&quot;</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="220.13625"
          y="97.818733"
          id="text5232-3-7-0"><tspan
@@ -6436,7 +6436,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">#</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="274.13623"
          y="99.818733"
          id="text5232-3-7-3-2"><tspan
@@ -6447,7 +6447,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">$</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="324.13623"
          y="97.818733"
          id="text5232-3-7-3-7-5"><tspan
@@ -6458,7 +6458,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">%</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.0098px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.90025"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:76.0098px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.90025;word-spacing:0px"
          x="380.69058"
          y="-256.96381"
          id="text5232-3-7-3-7-2-85"
@@ -6470,7 +6470,7 @@
            style="font-size:45.6059px;fill:#ffffff;fill-opacity:1;stroke-width:1.90025">'</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="486.4744"
          y="99.379852"
          id="text5232-3-7-3-7-2-9-2"><tspan
@@ -6481,7 +6481,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">@</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:16px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="543.51019"
          y="98.283203"
          id="text5232-3-7-3-7-2-9-6-0"><tspan
@@ -6492,7 +6492,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">(</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="598.43976"
          y="98.039307"
          id="text5232-3-7-3-7-2-9-6-2-2"><tspan
@@ -6503,7 +6503,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">)</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="639.367"
          y="96.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9"><tspan
@@ -6514,7 +6514,7 @@
            style="font-size:9.33333px;fill:#ffffff;fill-opacity:1">CLEAR</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="692.74146"
          y="96.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5"><tspan
@@ -6525,13 +6525,13 @@
            style="font-size:9.33333px;fill:#ffffff;fill-opacity:1">INSERT</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="750.14081"
          y="94.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-7" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="380.6059"
          y="98.078049"
          id="text5232-3-7-3-7-5-2"><tspan
@@ -6542,7 +6542,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">&amp;</tspan></text>
       <flowRoot
          transform="translate(20.041911,64.060792)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          id="flowRoot5970"
          xml:space="preserve"><flowRegion
            style="fill:#ffffff;fill-opacity:1"
@@ -6556,7 +6556,7 @@
            id="flowPara5976" /></flowRoot>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:0;stroke:none;text-align:center;text-anchor:middle;word-spacing:0px"
          x="763.98877"
          y="93.278748"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-1"><tspan
@@ -6582,7 +6582,7 @@
        style="fill:#ffffff;fill-opacity:1">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="115.58844"
          y="101.83806"
          id="text5232-36-1"><tspan
@@ -6593,7 +6593,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">1</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="166.10147"
          y="101.81873"
          id="text5232-3-37-8"><tspan
@@ -6604,7 +6604,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">2</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="220.13625"
          y="101.81873"
          id="text5232-3-7-0-5"><tspan
@@ -6615,7 +6615,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">3</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="274.13623"
          y="101.81873"
          id="text5232-3-7-3-2-0"><tspan
@@ -6626,7 +6626,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">4</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="326.13623"
          y="101.81873"
          id="text5232-3-7-3-7-5-7"><tspan
@@ -6637,7 +6637,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">5</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="380.96664"
          y="101.81873"
          id="text5232-3-7-3-7-2-85-9"><tspan
@@ -6648,7 +6648,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">6</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="434.23923"
          y="101.81873"
          id="text5232-3-7-3-7-2-9-2-0"><tspan
@@ -6659,7 +6659,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">7</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="489.11282"
          y="101.70467"
          id="text5232-3-7-3-7-2-9-6-0-0"><tspan
@@ -6670,7 +6670,7 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">8</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="543.46478"
          y="101.50263"
          id="text5232-3-7-3-7-2-9-6-2-2-8"><tspan
@@ -6681,13 +6681,13 @@
            style="font-size:18.6667px;fill:#ffffff;fill-opacity:1">9</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="589.367"
          y="94.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-6" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="705.0672"
          y="99.775154"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-0"><tspan
@@ -6698,7 +6698,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">&gt;</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="752.14081"
          y="98.223061"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-7-5" />
@@ -6706,11 +6706,11 @@
          id="text5818"
          y="86.502731"
          x="754.41364"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:8px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          xml:space="preserve" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="650.99939"
          y="99.536964"
          id="text5232-3-7-3-7-2-9-6-2-4-9-5-0-3"><tspan
@@ -6721,7 +6721,7 @@
            style="font-size:21.3333px;fill:#ffffff;fill-opacity:1">&lt;</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:40px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="596.52704"
          y="101.33041"
          id="text5232-3-7-3-7-2-9-6-2-2-8-7"><tspan
@@ -6734,7 +6734,7 @@
          id="text5818-2"
          y="86.358612"
          x="800.90314"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:8px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          xml:space="preserve"><tspan
            style="font-size:10.6667px;fill:#ffffff;fill-opacity:1"
            y="86.358612"
@@ -6743,7 +6743,7 @@
            sodipodi:role="line">BREAK</tspan></text>
     </g>
     <flowRoot
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
        id="flowRoot12107"
        xml:space="preserve"><flowRegion
          id="flowRegion12109"><rect
@@ -6757,7 +6757,7 @@
        id="text5894-7-6-7-1"
        y="243.23639"
        x="-94.288986"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4667px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:18.4667px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="243.23639"
          x="-94.288986"
@@ -6768,7 +6768,7 @@
        id="text5894"
        y="96.040497"
        x="883.46625"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.0753px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.28065"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:17.0753px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.28065;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:17.0753px;fill:#ffffff;fill-opacity:1;stroke-width:1.28065"
          y="96.040497"
@@ -6780,7 +6780,7 @@
        transform="matrix(1.385,0,0,1.385,-159.48862,-40.190687)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="784.8208"
          y="141.67867"
          id="text5894-7"><tspan
@@ -6799,7 +6799,7 @@
        id="text5894-7-6-7"
        y="243.23645"
        x="811.50787"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4667px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#ffffff;fill-opacity:1;font-family:Gorton Digital;font-size:18.4667px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        xml:space="preserve"><tspan
          y="243.23645"
          x="811.50787"
@@ -6823,7 +6823,7 @@
         <text
            transform="scale(0.95675706,1.0451974)"
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4665px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00999"
+           style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:13.4665px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.00999;word-spacing:0px"
            x="52.096188"
            y="142.77058"
            id="text5815"><tspan
@@ -6831,7 +6831,7 @@
              id="tspan5813"
              x="52.096188"
              y="142.77058"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.62696px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold';fill:#1a1a1a;stroke-width:1.00999">CONTROL</tspan></text>
+             style="-inkscape-font-specification:Gorton Digital;fill:#1a1a1a;font-family:Gorton Digital;font-size:9.62696px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;stroke-width:1.00999">CONTROL</tspan></text>
       </g>
     </g>
     <g
@@ -6851,7 +6851,7 @@
         <text
            transform="scale(0.95354882,1.048714)"
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.714px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.953549"
+           style="-inkscape-font-specification:Gorton Digital;fill:#1a1a1a;fill-opacity:1;font-family:Gorton Digital;font-size:12.714px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:0.953549;word-spacing:0px"
            x="56.955387"
            y="86.078827"
            id="text5823"><tspan
@@ -6859,13 +6859,13 @@
              x="56.955387"
              y="86.078827"
              id="tspan5821"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62696px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.953549"><tspan
+             style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;font-family:Gorton Digital;font-size:9.62696px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;stroke-width:0.953549;text-align:center;text-anchor:middle"><tspan
    id="tspan7517"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.62696px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital Bold';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.953549">CLR    </tspan>SET</tspan><tspan
+   style="-inkscape-font-specification:Gorton Digital;fill:#1a1a1a;font-family:Gorton Digital;font-size:9.62696px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;stroke-width:0.953549;text-align:center;text-anchor:middle">CLR    </tspan>SET</tspan><tspan
              sodipodi:role="line"
              x="56.955387"
              y="101.97131"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62696px;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.953549"
+             style="-inkscape-font-specification:Gorton Digital;fill:#ffffff;font-family:Gorton Digital;font-size:9.62696px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;stroke-width:0.953549;text-align:center;text-anchor:middle"
              id="tspan7521">TAB</tspan></text>
       </g>
     </g>
@@ -6874,7 +6874,7 @@
        id="g2340">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#f2f2f2;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="677.33301"
          y="131.8894"
          id="text11926"
@@ -6891,7 +6891,7 @@
            style="font-size:16px;fill:#ffffff;fill-opacity:1">;</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#f2f2f2;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="649.0423"
          y="195.80621"
          id="text11926-0"><tspan
@@ -6907,7 +6907,7 @@
            id="tspan12005">/</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#f2f2f2;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="592.35522"
          y="197.07454"
          id="text11926-0-1"><tspan
@@ -6923,7 +6923,7 @@
            id="tspan11999">.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none"
+         style="-inkscape-font-specification:Gorton Digital;fill:#f2f2f2;fill-opacity:1;font-family:Gorton Digital;font-size:13.3333px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;word-spacing:0px"
          x="538.17584"
          y="197.22856"
          id="text11926-0-1-0"><tspan
@@ -7032,7 +7032,7 @@
        id="text2647-7"
        y="241.82857"
        x="1106.9167"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.7733px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:14.7733px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;text-align:center;text-anchor:middle;word-spacing:0px"
        xml:space="preserve"><tspan
          id="tspan2649-8"
          y="241.82857"
@@ -7043,7 +7043,7 @@
        id="text2647-1"
        y="317.22354"
        x="1107.2817"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.7733px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:14.7733px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;text-align:center;text-anchor:middle;word-spacing:0px"
        xml:space="preserve"><tspan
          id="tspan2649-1"
          y="317.22354"
@@ -7054,7 +7054,7 @@
        id="text2647-6"
        y="168.43726"
        x="1106.8268"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.7733px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:14.7733px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;text-align:center;text-anchor:middle;word-spacing:0px"
        xml:space="preserve"><tspan
          id="tspan2649-85"
          y="168.43726"
@@ -7065,7 +7065,7 @@
        id="text2647-01"
        y="95.107635"
        x="1104.1755"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.7733px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:14.7733px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;text-align:center;text-anchor:middle;word-spacing:0px"
        xml:space="preserve"><tspan
          id="tspan2649-9"
          y="95.107635"
@@ -7076,7 +7076,7 @@
        id="text2647-027"
        y="19.034023"
        x="1106.7183"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.7733px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:14.7733px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;text-align:center;text-anchor:middle;word-spacing:0px"
        xml:space="preserve"><tspan
          id="tspan2649-81"
          y="19.034023"
@@ -7087,7 +7087,7 @@
        id="text5894-77"
        y="-93.200584"
        x="-138.59419"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.0753px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.28065"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:17.0753px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.28065;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:17.0753px;fill:#000000;fill-opacity:1;stroke-width:1.28065"
          y="-93.200584"
@@ -7098,7 +7098,7 @@
        id="text5894-77-2"
        y="-93.182793"
        x="-64.802879"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.0753px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.28065"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:17.0753px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.28065;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:17.0753px;fill:#000000;fill-opacity:1;stroke-width:1.28065"
          y="-93.182793"
@@ -7109,7 +7109,7 @@
        id="text5894-77-24"
        y="-93.182793"
        x="9.9785233"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.0753px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.28065"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:17.0753px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.28065;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:17.0753px;fill:#000000;fill-opacity:1;stroke-width:1.28065"
          y="-93.182793"
@@ -7120,7 +7120,7 @@
        id="text5894-77-7"
        y="-93.009666"
        x="85.417633"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.0753px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.28065"
+       style="-inkscape-font-specification:Gorton Digital;display:inline;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:17.0753px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.28065;word-spacing:0px"
        xml:space="preserve"><tspan
          style="font-size:17.0753px;fill:#000000;fill-opacity:1;stroke-width:1.28065"
          y="-93.009666"
@@ -7147,7 +7147,7 @@
      transform="translate(210.06268,83.59409)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:22.16px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        x="191.31665"
        y="-44.564655"
        id="text2640"><tspan
@@ -7158,7 +7158,7 @@
          style="font-size:51.7067px;stroke-width:1.385">ATARI XL series Keycap Set</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.16px;line-height:1.25;font-family:'Gorton Digital';-inkscape-font-specification:'Gorton Digital';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.385"
+       style="-inkscape-font-specification:Gorton Digital;fill:#000000;fill-opacity:1;font-family:Gorton Digital;font-size:22.16px;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:0px;line-height:1.25;stroke:none;stroke-width:1.385;word-spacing:0px"
        x="-135.33081"
        y="541.38641"
        id="text2640-3"><tspan
