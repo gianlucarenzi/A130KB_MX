@@ -202,10 +202,14 @@
     "RETURN",
     {
       "x": 3.5,
-      "a": 4
+      "a": 4,
+      "f": 4
     },
     "4\n←",
     "5",
+    {
+      "f": 4
+    },
     "6\n→"
   ],
   [
@@ -392,7 +396,11 @@
     {
       "f": 2
     },
-    "DELETE\nSPACE\n\n\n\n\nBACK"
+    "DELETE\nSPACE\n\n\n\n\nBACK",
+    {
+      "f": 4
+    },
+    "¬\n`"
   ],
   [
     {
@@ -474,9 +482,19 @@
     {
       "c": "#333333",
       "t": "#cccccc",
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
       "w": 1.5
     },
-    "<i class='kb kb-Line-End'></i>\n<i class='kb kb-Line-Start'></i>\n\n\n\n\n\nTab",
+    "<i class='kb kb-Line-End'></i>\n<i class='kb kb-Line-Start'></i>\n\n\n\n\n\nTAB",
     {
       "c": "#A86B2C",
       "t": "#000000",
@@ -623,11 +641,28 @@
     {
       "c": "#333333",
       "t": "#cccccc",
+      "a": 4,
       "f": 4
     },
     "00",
-    "0\n\n\n\nINS",
     {
+      "fa": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "0\nINS",
+    {
+      "a": 7,
       "f": 2
     },
     "ALT",
@@ -658,9 +693,13 @@
     },
     "HELP",
     {
-      "x": 4,
       "c": "#cfa338",
-      "f": 3
+      "f": 3,
+      "w": 1.5
+    },
+    "HELP",
+    {
+      "x": 2.5
     },
     "LEFT",
     "DOWN",
