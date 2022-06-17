@@ -342,6 +342,22 @@
     "F1",
     "F2",
     "F3",
+    "F4",
+    {
+      "w": 1.5
+    },
+    "F1",
+    {
+      "w": 1.5
+    },
+    "F2",
+    {
+      "w": 1.5
+    },
+    "F3",
+    {
+      "w": 1.5
+    },
     "F4"
   ],
   [
@@ -474,24 +490,14 @@
         0,
         0,
         0,
-        3
+        4
       ],
       "w": 1.5
     },
-    "<i class='kb kb-Line-End'></i>\n<i class='kb kb-Line-Start'></i>\n\n\n\n\n\nTab",
+    "<i class='kb kb-Line-End'></i>\n<i class='kb kb-Line-Start'></i>\n\n\n\n\n\nTAB",
     {
       "c": "#333333",
       "t": "#cccccc",
-      "fa": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        4
-      ],
       "w": 1.5
     },
     "<i class='kb kb-Line-End'></i>\n<i class='kb kb-Line-Start'></i>\n\n\n\n\n\nTAB",
@@ -646,19 +652,7 @@
     },
     "00",
     {
-      "fa": [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "f2": 1
     },
     "0\nINS",
     {
