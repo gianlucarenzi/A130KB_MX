@@ -1,4 +1,4 @@
-(module SW_Kailh_1.50u_Atari_Fn_PCB_noSwitch (layer F.Cu) (tedit 62177660)
+(module SW_Kailh_1.50u_Atari_Fn_PCB_noSwitch (layer F.Cu) (tedit 630A2A25)
   (descr "Modified 1.5 footprint for Kailh Box mounted Atari XE function keys https://www.kailhswitch.com/uploads/201815927/CPG1511F01S02-BOX_White.pdf")
   (tags "Atari Function Key Kailh Box")
   (fp_text reference REF** (at 9.54 -6.58) (layer Cmts.User) hide
@@ -50,7 +50,7 @@
   (pad "" np_thru_hole circle (at 0.01 -0.01) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.55 -5.09) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask))
   (model ${KILIBPATH}/RetroBitLab.3dshapes/ATARI-1.5u-XE-Function-Key.step
-    (offset (xyz 0 0.5 18.5))
+    (offset (xyz 0 -1.5 18.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
