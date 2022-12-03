@@ -71,6 +71,7 @@ void keyboard_task(void)
 	static matrix_row_t matrix_ghost[MATRIX_ROWS];
 	#endif
 	static uint8_t led_status = 0;
+	uint8_t host_keyboard_leds_status = 0;
 	matrix_row_t matrix_row = 0;
 	matrix_row_t matrix_change = 0;
 
@@ -127,8 +128,9 @@ void keyboard_task(void)
 	hook_keyboard_loop();
 
 	// update LED
-	if (led_status != host_keyboard_leds()) {
-		led_status = host_keyboard_leds();
+	host_keyboard_leds_status = host_keyboard_leds();
+	if (led_status != host_keyboard_leds_status) {
+		led_status = host_keyboard_leds_status;
 		if (debug_keyboard) {
 			DBG_I("LED: %02X\n\r", led_status);
 		}
