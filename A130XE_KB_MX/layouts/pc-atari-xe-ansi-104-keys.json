@@ -1,7 +1,7 @@
 [
   {
     "backcolor": "#ffffff",
-    "name": "PC ATARI XE ANSI 104 KEYS",
+    "name": "PC ATARI XE ANSI/ISO 104 KEYS",
     "radii": "10px",
     "switchMount": "cherry",
     "switchBrand": "cherry",
@@ -691,11 +691,17 @@
     },
     "LEFT",
     "DOWN",
-    "RIGHT"
+    "RIGHT",
+    {
+      "c": "#F0F0F0",
+      "f": 2,
+      "w": 1.5
+    },
+    "ALT"
   ],
   [
     {
-      "f": 2,
+      "c": "#cfa338",
       "w": 1.25
     },
     "CTRL",

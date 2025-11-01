@@ -74,7 +74,7 @@
     (comp (ref LOGO1)
       (value LOGO)
       (footprint RetroBitLab:atari_ready_8mm_rev)
-      (libsource (lib AmigaComponents) (part LOGO) (description "Any valid LOGO Images can be placed here"))
+      (libsource (lib RetroBitLab) (part LOGO) (description "Any valid LOGO Images can be placed here"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61A9B360))
     (comp (ref J2)
@@ -176,7 +176,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 61C162DA)))
   (libparts
-    (libpart (lib AmigaComponents) (part LOGO)
+    (libpart (lib RetroBitLab) (part LOGO)
       (description "Any valid LOGO Images can be placed here")
       (fields
         (field (name Reference) L)
@@ -408,8 +408,8 @@
         (field (name Reference) H)
         (field (name Value) MountingHole))))
   (libraries
-    (library (logical AmigaComponents)
-      (uri /home/debian/Progetti/RetroBitLab-Library/AmigaComponents.lib))
+    (library (logical RetroBitLab)
+      (uri /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.lib))
     (library (logical Connector_Generic)
       (uri /usr/share/kicad/library/Connector_Generic.lib))
     (library (logical Device)

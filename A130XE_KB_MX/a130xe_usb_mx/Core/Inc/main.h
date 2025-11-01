@@ -97,16 +97,16 @@ void Error_Handler(void);
 #define COL15_Pin GPIO_PIN_15
 #define COL15_GPIO_Port GPIOD
 
-#define DEBUG_TX_Pin GPIO_PIN_9
+#define DEBUG_TX_Pin GPIO_PIN_2
 #define DEBUG_TX_GPIO_Port GPIOA
-#define DEBUG_RX_Pin GPIO_PIN_10
+#define DEBUG_RX_Pin GPIO_PIN_3
 #define DEBUG_RX_GPIO_Port GPIOA
 
 #define KB_RST_Pin GPIO_PIN_0
 #define KB_RST_GPIO_Port GPIOA
-#define KB_CLK_Pin GPIO_PIN_1
+#define KB_CLK_Pin GPIO_PIN_10
 #define KB_CLK_GPIO_Port GPIOA
-#define KB_DAT_Pin GPIO_PIN_2
+#define KB_DAT_Pin GPIO_PIN_11
 #define KB_DAT_GPIO_Port GPIOA
 
 /**
@@ -117,7 +117,7 @@ void Error_Handler(void);
  * D3: Compose
  * D4: Kana
  **/
-#define LED_NUM_LOCK_Pin GPIO_PIN_3
+#define LED_NUM_LOCK_Pin GPIO_PIN_13
 #define LED_NUM_LOCK_Port GPIOA
 #define LED_CAPS_LOCK_Pin GPIO_PIN_6
 #define LED_CAPS_LOCK_Port GPIOA

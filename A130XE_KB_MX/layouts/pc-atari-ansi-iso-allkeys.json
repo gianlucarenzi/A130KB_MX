@@ -1,7 +1,7 @@
 [
   {
     "backcolor": "#c9ba9b",
-    "name": "PC ATARI ANSI 104 KEYS",
+    "name": "PC ATARI 800 ANSI/ISO 104 KEYS",
     "radii": "10px",
     "switchMount": "cherry",
     "switchBrand": "cherry",
@@ -705,11 +705,19 @@
     },
     "LEFT",
     "DOWN",
-    "RIGHT"
+    "RIGHT",
+    {
+      "c": "#333333",
+      "t": "#cccccc",
+      "f": 2,
+      "w": 1.5
+    },
+    "ALT"
   ],
   [
     {
-      "f": 2,
+      "c": "#cfa338",
+      "t": "#000000",
       "w": 1.25
     },
     "CTRL",

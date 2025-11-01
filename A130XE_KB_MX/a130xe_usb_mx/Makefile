@@ -99,7 +99,8 @@ C_SOURCES += \
 
 # ASM sources
 ASM_SOURCES =  \
-	startup_stm32f407xx.s
+	startup_stm32f401xc.s
+#	startup_stm32f407xx.s
 
 
 ifeq ($(PLATFORM),AMIGA)
@@ -158,7 +159,8 @@ AS_DEFS =
 # C defines
 C_DEFS +=  \
 	-DUSE_HAL_DRIVER \
-	-DSTM32F407xx
+	-DSTM32F401xC \
+#	-DSTM32F407xx 
 
 
 # AS includes
@@ -194,7 +196,9 @@ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 # LDFLAGS
 #######################################
 # link script
-LDSCRIPT = STM32F407VGTx_FLASH.ld
+LDSCRIPT = \
+	stm32f401rctx_flash.ld
+#	STM32F407VGTx_FLASH.ld
 
 # libraries
 LIBS = -lc -lm -lnosys 

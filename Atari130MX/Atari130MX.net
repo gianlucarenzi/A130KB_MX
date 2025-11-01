@@ -839,7 +839,7 @@
     (library (logical Mechanical)
       (uri /usr/share/kicad/library/Mechanical.lib))
     (library (logical RetroBitLab)
-      (uri ${KILIBPATH}/AmigaComponents.lib))
+      (uri ${KILIBPATH}/RetroBitLab.lib))
     (library (logical Switch)
       (uri /usr/share/kicad/library/Switch.lib)))
   (nets
